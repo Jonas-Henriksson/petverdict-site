@@ -1,0 +1,132 @@
+---
+export interface Props {
+  name: string;
+  slug: string;
+  title: string;
+  niche: string;
+  yearsExperience: number;
+  initials?: string;
+}
+
+const { name, slug, title, niche, yearsExperience, initials } = Astro.props;
+const displayInitials = initials || name.split(' ').map(n => n[0]).join('');
+---
+
+<div class="author-bio">
+  <a href={`/author/${slug}`} class="author-avatar" aria-label={`Read more about ${name}`}>
+    <span class="avatar-initials">{displayInitials}</span>
+  </a>
+  <div class="author-info">
+    <a href={`/author/${slug}`} class="author-name">{name}</a>
+    <span class="author-title">{title}</span>
+    <span class="author-experience">{yearsExperience} years testing {niche}</span>
+  </div>
+  <a href="/how-we-test" class="how-we-test-link">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+      <path d="M7 1v8M4 6l3 3 3-3M2 12h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    How We Test
+  </a>
+</div>
+
+<style>
+  .author-bio {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--surface-raised, #f8f9fa);
+    border: 1px solid var(--ink-100, #e5e7eb);
+    border-radius: var(--border-radius-lg, 10px);
+    margin-bottom: var(--space-lg, 1.5rem);
+  }
+
+  .author-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--ink-950, #111);
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    flex-shrink: 0;
+    transition: transform 0.15s ease-out;
+  }
+
+  .author-avatar:hover {
+    transform: scale(1.05);
+  }
+
+  .avatar-initials {
+    line-height: 1;
+  }
+
+  .author-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    min-width: 0;
+    flex: 1;
+  }
+
+  .author-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--ink-950, #111);
+    text-decoration: none;
+    line-height: 1.2;
+  }
+
+  .author-name:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .author-title {
+    font-size: 0.75rem;
+    color: var(--ink-500, #6b7280);
+    line-height: 1.3;
+  }
+
+  .author-experience {
+    font-size: 0.7rem;
+    color: var(--ink-400, #9ca3af);
+    line-height: 1.3;
+  }
+
+  .how-we-test-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--ink-500, #6b7280);
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 0.35rem 0.6rem;
+    border: 1px solid var(--ink-200, #d1d5db);
+    border-radius: 6px;
+    transition: all 0.15s ease-out;
+    flex-shrink: 0;
+  }
+
+  .how-we-test-link:hover {
+    color: var(--ink-950, #111);
+    border-color: var(--ink-950, #111);
+    background: var(--surface, #fff);
+  }
+
+  @media (max-width: 640px) {
+    .author-bio {
+      flex-wrap: wrap;
+    }
+    .how-we-test-link {
+      margin-left: auto;
+    }
+  }
+</style>

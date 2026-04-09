@@ -1,0 +1,341 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+import siteConfig from '../../../site.config';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles', ({ data }) => !data.draft);
+  const categories = [...new Set(articles.map((a) => a.data.category).filter(Boolean))];
+  return categories.map((cat) => ({
+    params: { category: cat.toLowerCase().replace(/\s+/g, '-') },
+    props: { categoryName: cat },
+  }));
+}
+
+const { categoryName } = Astro.props;
+const allArticles = await getCollection('articles', ({ data }) => !data.draft);
+const articles = allArticles.filter(a => a.data.category === categoryName);
+const sorted = articles.sort((a, b) => (b.data.score || 0) - (a.data.score || 0));
+
+// Stats
+const avgScore = sorted.length > 0
+  ? (sorted.reduce((sum, a) => sum + (a.data.score || 0), 0) / sorted.filter(a => a.data.score).length).toFixed(1)
+  : 'N/A';
+const topPick = sorted[0];
+const latestReview = [...articles].sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())[0];
+const allCategories = [...new Set(allArticles.map(a => a.data.category).filter(Boolean))].filter(c => c !== categoryName);
+const catSlug = categoryName.toLowerCase().replace(/\s+/g, '-');
+
+const pageTitle = `${categoryName} Reviews & Rankings 2026 — ${siteConfig.siteName}`;
+const pageDesc = `Browse all ${categoryName} reviews on ${siteConfig.siteName}. ${sorted.length} expert reviews with average score ${avgScore}/10. In-depth comparisons and honest verdicts.`;
+
+const itemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: pageTitle,
+  description: pageDesc,
+  url: `${siteConfig.domain}/category/${catSlug}`,
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: sorted.length,
+    itemListElement: sorted.map((article, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: article.data.title,
+      url: `${siteConfig.domain}/${article.slug}`,
+    })),
+  },
+};
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDesc}
+  schema={itemListSchema}
+>
+  <div class="category-hub">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span class="sep">/</span>
+      <a href="/#categories">Categories</a>
+      <span class="sep">/</span>
+      <span class="current">{categoryName}</span>
+    </nav>
+
+    <header class="page-header">
+      <span class="page-label">{sorted.length} {sorted.length === 1 ? 'review' : 'reviews'}</span>
+      <h1>{categoryName}</h1>
+      <p class="page-subtitle">Expert reviews, scores, and honest verdicts. Updated for 2026.</p>
+      <div class="header-rule"></div>
+    </header>
+
+    <!-- Stats bar -->
+    <div class="stats-bar">
+      <div class="stat">
+        <span class="stat-value">{sorted.length}</span>
+        <span class="stat-label">Reviews</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value">{avgScore}</span>
+        <span class="stat-label">Avg Score</span>
+      </div>
+      {topPick && (
+        <div class="stat stat--wide">
+          <span class="stat-value">{topPick.data.winner || topPick.data.title.slice(0, 30)}</span>
+          <span class="stat-label">Top Pick</span>
+        </div>
+      )}
+      {latestReview && (
+        <div class="stat">
+          <span class="stat-value">{new Date(latestReview.data.date).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}</span>
+          <span class="stat-label">Latest</span>
+        </div>
+      )}
+    </div>
+
+    <!-- Top pick highlight -->
+    {topPick && (
+      <section class="top-pick">
+        <div class="top-pick-label">Top Rated in {categoryName}</div>
+        <ArticleCard
+          title={topPick.data.title}
+          description={topPick.data.description}
+          date={topPick.data.date}
+          author={topPick.data.author}
+          image={topPick.data.image}
+          category={topPick.data.category}
+          slug={topPick.slug}
+          score={topPick.data.score}
+          badge={topPick.data.badge}
+          rank={1}
+        />
+      </section>
+    )}
+
+    <!-- All reviews -->
+    {sorted.length > 1 && (
+      <section class="all-reviews">
+        <h2>All {categoryName} Reviews</h2>
+        <div class="articles-grid">
+          {sorted.slice(1).map((article, i) => (
+            <div class="article-animate" style={`animation-delay: ${i * 60}ms`}>
+              <ArticleCard
+                title={article.data.title}
+                description={article.data.description}
+                date={article.data.date}
+                author={article.data.author}
+                image={article.data.image}
+                category={article.data.category}
+                slug={article.slug}
+                score={article.data.score}
+                badge={article.data.badge}
+                rank={i + 2}
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Other categories -->
+    {allCategories.length > 0 && (
+      <section class="other-categories">
+        <h2>Explore Other Categories</h2>
+        <div class="link-grid">
+          {allCategories.map(cat => (
+            <a href={`/category/${cat.toLowerCase().replace(/\s+/g, '-')}`} class="cat-link">
+              {cat}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</BaseLayout>
+
+<style>
+  .category-hub {
+    max-width: var(--max-width-wide);
+    margin: 0 auto;
+  }
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--ink-400);
+    margin-bottom: var(--space-xl);
+  }
+
+  .breadcrumb a {
+    color: var(--ink-500);
+    text-decoration: none;
+  }
+
+  .breadcrumb a:hover { color: var(--ink-950); }
+  .sep { color: var(--ink-300); }
+  .current { color: var(--ink-400); }
+
+  .page-header {
+    margin-bottom: var(--space-xl);
+  }
+
+  .page-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-400);
+  }
+
+  .page-header h1 {
+    margin-top: var(--space-sm);
+    margin-bottom: var(--space-sm);
+    animation: fadeInUp var(--duration-slow) var(--ease-out) both;
+  }
+
+  .page-subtitle {
+    font-size: 1rem;
+    color: var(--ink-500);
+    margin-bottom: var(--space-md);
+  }
+
+  .header-rule {
+    height: 2px;
+    width: 48px;
+    background: var(--ink-950);
+  }
+
+  /* Stats bar */
+  .stats-bar {
+    display: flex;
+    gap: var(--space-md);
+    padding: var(--space-lg);
+    background: var(--ink-50);
+    border: 1px solid var(--ink-100);
+    border-radius: var(--border-radius-lg);
+    margin-bottom: var(--space-2xl);
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 80px;
+    flex: 1;
+  }
+
+  .stat--wide {
+    flex: 2;
+  }
+
+  .stat-value {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
+    color: var(--ink-950);
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .stat-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-400);
+    margin-top: 0.25rem;
+  }
+
+  /* Top pick */
+  .top-pick {
+    margin-bottom: var(--space-2xl);
+  }
+
+  .top-pick-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-400);
+    margin-bottom: var(--space-md);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .top-pick-label::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: var(--ink-950);
+    border-radius: 50%;
+  }
+
+  /* All reviews */
+  .all-reviews {
+    margin-bottom: var(--space-2xl);
+  }
+
+  .all-reviews h2 {
+    font-size: 1.25rem;
+    margin-bottom: var(--space-lg);
+  }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--space-lg);
+  }
+
+  .article-animate {
+    animation: fadeInUp var(--duration-slow) var(--ease-out) both;
+  }
+
+  /* Other categories */
+  .other-categories {
+    margin-top: var(--space-2xl);
+    padding-top: var(--space-2xl);
+    border-top: 1px solid var(--ink-100);
+  }
+
+  .other-categories h2 {
+    font-size: 1.25rem;
+    margin-bottom: var(--space-lg);
+  }
+
+  .link-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+  }
+
+  .cat-link {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--ink-600);
+    background: var(--ink-50);
+    border: 1px solid var(--ink-100);
+    border-radius: var(--border-radius-md);
+    text-decoration: none;
+    transition: all var(--duration-fast) var(--ease-out);
+  }
+
+  .cat-link:hover {
+    background: var(--ink-950);
+    color: white;
+    border-color: var(--ink-950);
+  }
+
+  @media (max-width: 768px) {
+    .articles-grid { grid-template-columns: 1fr; }
+    .stats-bar { gap: var(--space-sm); }
+    .stat-value { font-size: 1.2rem; }
+  }
+</style>

@@ -1,0 +1,234 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+import siteConfig from '../../../site.config';
+
+export async function getStaticPaths() {
+  return [
+    { params: { slug: 'pet-products-for-dogs' }, props: { useCase: 'dogs', useCaseDisplay: 'Dogs' } },
+    { params: { slug: 'pet-products-for-cats' }, props: { useCase: 'cats', useCaseDisplay: 'Cats' } },
+    { params: { slug: 'pet-products-for-puppies' }, props: { useCase: 'puppies', useCaseDisplay: 'Puppies' } },
+    { params: { slug: 'pet-products-for-senior-dogs' }, props: { useCase: 'senior-dogs', useCaseDisplay: 'Senior Dogs' } },
+    { params: { slug: 'pet-products-for-large-breeds' }, props: { useCase: 'large-breeds', useCaseDisplay: 'Large Breeds' } },
+    { params: { slug: 'pet-products-for-small-breeds' }, props: { useCase: 'small-breeds', useCaseDisplay: 'Small Breeds' } },
+    { params: { slug: 'pet-products-for-sensitive-stomachs' }, props: { useCase: 'sensitive-stomachs', useCaseDisplay: 'Sensitive Stomachs' } },
+    { params: { slug: 'pet-products-for-budget' }, props: { useCase: 'budget', useCaseDisplay: 'Budget' } },
+    { params: { slug: 'pet-products-for-premium' }, props: { useCase: 'premium', useCaseDisplay: 'Premium' } },
+    { params: { slug: 'pet-products-for-tech-savvy-owners' }, props: { useCase: 'tech-savvy-owners', useCaseDisplay: 'Tech Savvy Owners' } },
+    { params: { slug: 'pet-products-for-multi-pet-households' }, props: { useCase: 'multi-pet-households', useCaseDisplay: 'Multi Pet Households' } },
+    { params: { slug: 'pet-products-for-allergies' }, props: { useCase: 'allergies', useCaseDisplay: 'Allergies' } },
+    { params: { slug: 'pet-products-for-weight-management' }, props: { useCase: 'weight-management', useCaseDisplay: 'Weight Management' } }
+  ];
+}
+
+const { useCase, useCaseDisplay } = Astro.props;
+const allArticles = await getCollection('articles', ({ data }) => !data.draft);
+
+const useCaseWords = useCase.replace(/-/g, ' ').toLowerCase().split(' ');
+
+// Match articles relevant to this use case
+const matchingArticles = allArticles.filter((a) => {
+  const searchable = [
+    a.data.title || '',
+    a.data.description || '',
+    a.data.category || '',
+    ...(a.data.keywords || []),
+    ...(a.data.tags || []),
+  ].join(' ').toLowerCase();
+  return useCaseWords.some((w) => searchable.includes(w));
+});
+
+// Fallback to all articles if no specific matches
+const articles = matchingArticles.length > 0 ? matchingArticles : allArticles;
+const sorted = [...articles].sort((a, b) => (b.data.score || 0) - (a.data.score || 0));
+const isThinContent = matchingArticles.length > 0 && matchingArticles.length < 3;
+
+const nicheDisplay = 'Pet Products';
+const pageTitle = `Best ${nicheDisplay} for ${useCaseDisplay} 2026 — ${siteConfig.siteName}`;
+const pageDesc = `Discover the best pet products for ${useCase.replace(/-/g, ' ')} in 2026. Expert-tested rankings with scores, pros, cons, and honest verdicts.`;
+
+// Schema markup
+const itemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: pageTitle,
+  description: pageDesc,
+  url: `${siteConfig.domain}/best/pet-products-for-${useCase}`,
+  numberOfItems: sorted.length,
+  itemListElement: sorted.slice(0, 10).map((article, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: article.data.title,
+    url: `${siteConfig.domain}/${article.slug}`,
+  })),
+};
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDesc}
+  schema={itemListSchema}
+>
+  {isThinContent && <meta name="robots" content="noindex, follow" slot="head" />}
+  <div class="best-for-page">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span class="sep">/</span>
+      <a href="/best/">Best-For Guides</a>
+      <span class="sep">/</span>
+      <span class="current">Best for {useCaseDisplay}</span>
+    </nav>
+
+    <header class="page-header">
+      <span class="page-label">{sorted.length} {sorted.length === 1 ? 'review' : 'reviews'} ranked</span>
+      <h1>Best {nicheDisplay} for {useCaseDisplay}</h1>
+      <p class="page-subtitle">Expert-tested and ranked for 2026. Updated {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}.</p>
+      <div class="header-rule"></div>
+    </header>
+
+    {sorted.length === 0 ? (
+      <p class="empty">No matching reviews found.</p>
+    ) : (
+      <div class="articles-grid">
+        {sorted.map((article, i) => (
+          <div class="article-animate" style={`animation-delay: ${i * 60}ms`}>
+            <ArticleCard
+              title={article.data.title}
+              description={article.data.description}
+              date={article.data.date}
+              author={article.data.author}
+              image={article.data.image}
+              category={article.data.category}
+              slug={article.slug}
+              score={article.data.score}
+              badge={article.data.badge}
+              rank={i + 1}
+            />
+          </div>
+        ))}
+      </div>
+    )}
+
+    <section class="related-links">
+      <h2>More Best-For Guides</h2>
+      <div class="link-grid">
+        <a href="/best/" class="cat-link">View All Guides</a>
+        {[...new Set(sorted.map(a => a.data.category).filter(Boolean))].map(cat => (
+          <a href={`/category/${cat.toLowerCase().replace(/\s+/g, '-')}`} class="cat-link">
+            {cat}
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .best-for-page {
+    max-width: var(--max-width-wide);
+    margin: 0 auto;
+  }
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--ink-400);
+    margin-bottom: var(--space-xl);
+  }
+
+  .breadcrumb a { color: var(--ink-500); text-decoration: none; }
+  .breadcrumb a:hover { color: var(--ink-950); }
+  .sep { color: var(--ink-300); }
+  .current { color: var(--ink-400); }
+
+  .page-header { margin-bottom: var(--space-2xl); }
+
+  .page-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-400);
+  }
+
+  .page-header h1 {
+    margin-top: var(--space-sm);
+    margin-bottom: var(--space-sm);
+    animation: fadeInUp var(--duration-slow) var(--ease-out) both;
+  }
+
+  .page-subtitle {
+    font-size: 1rem;
+    color: var(--ink-500);
+    margin-bottom: var(--space-md);
+    line-height: 1.5;
+  }
+
+  .header-rule {
+    height: 2px;
+    width: 48px;
+    background: var(--ink-950);
+  }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--space-lg);
+    margin-bottom: var(--space-3xl);
+  }
+
+  .article-animate {
+    animation: fadeInUp var(--duration-slow) var(--ease-out) both;
+  }
+
+  .empty {
+    text-align: center;
+    padding: var(--space-3xl);
+    color: var(--ink-400);
+    border: 1px dashed var(--ink-200);
+    border-radius: var(--border-radius-lg);
+  }
+
+  .related-links {
+    margin-top: var(--space-2xl);
+    padding-top: var(--space-2xl);
+    border-top: 1px solid var(--ink-100);
+  }
+
+  .related-links h2 {
+    font-size: 1.25rem;
+    margin-bottom: var(--space-lg);
+  }
+
+  .link-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+  }
+
+  .cat-link {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--ink-600);
+    background: var(--ink-50);
+    border: 1px solid var(--ink-100);
+    border-radius: var(--border-radius-md);
+    text-decoration: none;
+    transition: all var(--duration-fast) var(--ease-out);
+  }
+
+  .cat-link:hover {
+    background: var(--ink-950);
+    color: white;
+    border-color: var(--ink-950);
+  }
+
+  @media (max-width: 768px) {
+    .articles-grid { grid-template-columns: 1fr; }
+  }
+</style>

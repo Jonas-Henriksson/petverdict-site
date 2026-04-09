@@ -1,0 +1,398 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
+import VerdictBanner from '../components/VerdictBanner.astro';
+import siteConfig from '../../site.config';
+import ExitIntentCapture from '../components/ExitIntentCapture.astro';
+import LeadMagnetCTA from '../components/LeadMagnetCTA.astro';
+import EzoicAds from '../components/EzoicAds.astro';
+import AuthorBio from '../components/AuthorBio.astro';
+import { authors, getAuthorByName } from '../authors';
+export interface Props { title: string; description: string; date: Date; author?: string; image?: string; category?: string; keywords?: string[]; affiliateDisclosure?: boolean; schema?: any; headings?: any[]; faqPairs?: Array<{ question: string; answer: string }>; score?: number; badge?: string; verdict?: string; winner?: string; }
+const { title, description, date, author = siteConfig.defaultAuthor.name, image, category, keywords = [], affiliateDisclosure = true, schema, headings = [], faqPairs = [], score, badge, verdict, winner } = Astro.props as Props;
+const publishedDate = new Date(date);
+const formattedDate = publishedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+// Author persona lookup
+const authorData = getAuthorByName(author);
+const authorSlug = authorData?.slug || '';
+const authorTitle = authorData?.title || '';
+const authorInitials = authorData?.initials || '';
+const authorYears = authorData?.years || 0;
+const articleSchema = { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: title, description, image: image || `${siteConfig.domain}/og-default.jpg`, datePublished: publishedDate.toISOString(), dateModified: publishedDate.toISOString(), author: authorData ? { '@type': 'Person', name: authorData.name, jobTitle: authorData.title, url: `/author/${authorData.slug}` } : { '@type': 'Person', name: author }, publisher: { '@type': 'Organization', name: siteConfig.siteName, logo: { '@type': 'ImageObject', url: `${siteConfig.domain}/logo.png` } }, mainEntityOfPage: { '@type': 'WebPage', '@id': Astro.url.href }, ...(keywords.length > 0 && { keywords: keywords.join(', ') }) };
+const faqSchema = faqPairs.length > 0 ? { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqPairs.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })) } : null;
+const canonical = Astro.url.href;
+
+const badgeLabels: Record<string, string> = {
+  'editors-pick': "Editor's Pick",
+  'best-value': 'Best Value',
+  'top-rated': 'Top Rated',
+  'tested': 'Tested',
+};
+
+---
+
+<BaseLayout title={title} description={description} image={image} canonical={canonical} ogType="article" schemaType="BlogPosting" schema={schema || articleSchema}>
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+
+  <article class="article">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span class="breadcrumb-sep">/</span>
+      {category && (
+        <>
+          <a href={`/category/${category.toLowerCase().replace(/\s+/g, '-')}`}>{category}</a>
+          <span class="breadcrumb-sep">/</span>
+        </>
+      )}
+      <span class="breadcrumb-current">Review</span>
+    </nav>
+
+    <!-- Article Header -->
+    <header class="article-header">
+      <div class="header-top-row">
+        <div class="header-labels">
+          {category && <span class="article-category">{category}</span>}
+          {badge && (
+            <span class:list={['header-badge', `header-badge--${badge}`]}>
+              {badge === 'editors-pick' && <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M5 0l1.5 3.1L10 3.6 7.5 6l.6 3.5L5 7.8 1.9 9.5l.6-3.5L0 3.6l3.5-.5L5 0z" fill="currentColor"/></svg>}
+              {badgeLabels[badge] || badge}
+            </span>
+          )}
+        </div>
+        {score && (
+          <div class="header-score">
+            <span class="header-score-value">{score.toFixed(1)}</span>
+            <span class="header-score-max">/10</span>
+          </div>
+        )}
+      </div>
+      <h1>{title}</h1>
+      <p class="article-lede">{description}</p>
+      <div class="article-meta">
+        <div class="meta-left">
+          <span class="meta-author">{author}</span>
+          <span class="meta-sep">&middot;</span>
+          <time datetime={publishedDate.toISOString()}>{formattedDate}</time>
+        </div>
+      </div>
+      <div class="header-rule"></div>
+    </header>
+
+    <!-- Author Bio -->
+    {authorData && (
+      <AuthorBio
+        name={authorData.name}
+        slug={authorData.slug}
+        title={authorData.title}
+        niche="pet products"
+        yearsExperience={authorData.years}
+        initials={authorData.initials}
+      />
+    )}
+
+    <!-- Verdict Banner -->
+    <VerdictBanner score={score} verdict={verdict} winner={winner} badge={badge} />
+
+    <!-- FTC Affiliate Disclosure -->
+    {affiliateDisclosure && (
+      <p class="affiliate-disclosure">
+        This article contains affiliate links. We may earn a commission at no extra cost to you.
+        <a href="/disclosure">Full disclosure</a>
+      </p>
+    )}
+
+    <!-- Content Layout -->
+    <div class="article-body">
+      {headings.length > 0 && (
+        <aside class="article-sidebar">
+          <TableOfContents headings={headings} />
+          <EzoicAds placement="sidebar" />
+        </aside>
+      )}
+      <div class="article-content">
+        <slot />
+                <EzoicAds placement="mid-article" />
+<LeadMagnetCTA siteId="petverdict" siteName="PetVerdict" niche="pet-care" />
+      </div>
+    </div>
+
+    <!-- Newsletter -->
+        <EzoicAds placement="bottom" />
+    <NewsletterSignup variant="inline" />
+
+    <!-- Disclosure -->
+    {affiliateDisclosure && (
+      <aside class="disclosure-box">
+        <div class="disclosure-icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path d="M10 18a8 8 0 100-16 8 8 0 000 16zM10 6v4m0 4h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="disclosure-content">
+          <h4>Affiliate Disclosure</h4>
+          <p>{siteConfig.siteName} earns commissions from affiliate links. This supports our independent testing at no cost to you. <a href="/disclosure">Full methodology &rarr;</a></p>
+        </div>
+      </aside>
+    )}
+      <ExitIntentCapture siteId="petverdict" siteName="PetVerdict" niche="pet-care" />
+  </article>
+</BaseLayout>
+
+<style>
+  .article {
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+
+  /* ── Breadcrumb ──────────────────────────────────── */
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--ink-400);
+    margin-bottom: var(--space-xl);
+  }
+
+  .breadcrumb a { color: var(--ink-500); text-decoration: none; }
+  .breadcrumb a:hover { color: var(--ink-950); }
+  .breadcrumb-sep { color: var(--ink-300); }
+  .breadcrumb-current { color: var(--ink-400); }
+
+  /* ── Article Header ──────────────────────────────── */
+  .article-header {
+    margin-bottom: var(--space-xl);
+    animation: fadeInUp var(--duration-slow) var(--ease-out) both;
+  }
+
+  .header-top-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--space-md);
+    margin-bottom: var(--space-md);
+  }
+
+  .header-labels {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .article-category {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--electric);
+  }
+
+  .header-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+  }
+
+  .header-badge--editors-pick { background: var(--amber-light); color: var(--amber); }
+  .header-badge--top-rated { background: var(--electric-light); color: var(--electric); }
+  .header-badge--best-value { background: var(--emerald-light); color: var(--emerald); }
+  .header-badge--tested { background: var(--ink-50); color: var(--ink-500); }
+
+  .header-score {
+    display: flex;
+    align-items: baseline;
+    gap: 2px;
+    flex-shrink: 0;
+  }
+
+  .header-score-value {
+    font-family: var(--font-display);
+    font-size: 2.25rem;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: var(--ink-950);
+  }
+
+  .header-score-max {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--ink-400);
+  }
+
+  .article-header h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.1;
+    margin-bottom: var(--space-md);
+  }
+
+  .article-lede {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 1.5;
+    color: var(--ink-500);
+    margin-bottom: var(--space-lg);
+    max-width: 600px;
+  }
+
+  .article-meta {
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    color: var(--ink-500);
+    margin-bottom: var(--space-lg);
+  }
+
+  .meta-left { display: flex; align-items: center; gap: 0.5rem; }
+  .meta-author { font-weight: 600; color: var(--ink-700); }
+  .meta-sep { color: var(--ink-300); }
+
+  .header-rule { height: 2px; background: var(--electric); width: 48px; }
+
+  /* ── Affiliate Disclosure (top) ───────────────────── */
+  .affiliate-disclosure {
+    font-size: 0.75rem;
+    color: var(--ink-400, #6b7280);
+    margin: 0.5rem 0 1.5rem;
+    padding: 0;
+    line-height: 1.4;
+  }
+  .affiliate-disclosure a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  /* ── Content Body ────────────────────────────────── */
+  .article-body { position: relative; }
+
+  .article-sidebar {
+    position: sticky;
+    top: calc(var(--nav-height) + var(--space-xl));
+    float: right;
+    width: 220px;
+    margin-left: var(--space-2xl);
+    margin-bottom: var(--space-xl);
+  }
+
+  .article-content {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    overflow: hidden;
+  }
+
+  .article-content :global(h2) {
+    font-size: clamp(1.5rem, 3vw, 1.875rem);
+    margin-top: var(--space-3xl);
+    margin-bottom: var(--space-md);
+    padding-top: var(--space-xl);
+    border-top: 1px solid var(--ink-100);
+  }
+
+  .article-content :global(h2:first-child) {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .article-content :global(h3) {
+    font-size: 1.25rem;
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-sm);
+  }
+
+  .article-content :global(p) { margin-bottom: var(--space-lg); color: var(--ink-800); }
+  .article-content :global(ul), .article-content :global(ol) { margin-bottom: var(--space-lg); padding-left: 1.75rem; }
+  .article-content :global(li) { margin-bottom: var(--space-sm); color: var(--ink-800); }
+  .article-content :global(strong) { color: var(--ink-950); font-weight: 600; }
+
+  .article-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--space-xl) 0;
+    font-size: 0.925rem;
+    border: 1px solid var(--ink-100);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+  }
+
+  .article-content :global(thead) { background: var(--ink-950); color: white; }
+  .article-content :global(th) { padding: 0.75rem var(--space-md); text-align: left; font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; border: none; }
+  .article-content :global(td) { padding: 0.75rem var(--space-md); border-bottom: 1px solid var(--ink-100); }
+  .article-content :global(tbody tr:last-child td) { border-bottom: none; }
+  .article-content :global(tbody tr:hover) { background: var(--ink-50); }
+
+  .article-content :global(blockquote) {
+    border-left: 3px solid var(--electric);
+    padding: var(--space-md) var(--space-lg);
+    margin: var(--space-xl) 0;
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--ink-600);
+    background: var(--surface-raised);
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+  }
+
+  /* ── Disclosure Box ──────────────────────────────── */
+  .disclosure-box {
+    display: flex;
+    gap: var(--space-md);
+    padding: var(--space-lg);
+    border: 1px solid var(--ink-100);
+    border-radius: var(--border-radius-lg);
+    background: var(--ink-50);
+    margin-top: var(--space-2xl);
+  }
+
+  .disclosure-icon { flex-shrink: 0; color: var(--ink-400); margin-top: 2px; }
+
+  .disclosure-content h4 {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--ink-700);
+    margin-bottom: var(--space-xs);
+  }
+
+  .disclosure-content p {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: var(--ink-500);
+    margin: 0;
+  }
+
+  .disclosure-content a {
+    color: var(--ink-600);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  /* ── Responsive ──────────────────────────────────── */
+  @media (max-width: 900px) {
+    .article-sidebar {
+      float: none;
+      width: 100%;
+      margin-left: 0;
+      position: relative;
+      top: 0;
+      margin-bottom: var(--space-xl);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .article-header h1 { font-size: 1.75rem; }
+    .article-lede { font-size: 1.05rem; }
+    .header-score-value { font-size: 1.75rem; }
+    .disclosure-box { flex-direction: column; gap: var(--space-sm); }
+  }
+</style>

@@ -1,0 +1,240 @@
+---
+interface Props {
+  variant?: 'sidebar' | 'inline';
+}
+const { variant = 'inline' } = Astro.props;
+const API_URL = '/api/subscribe';
+const SITE_ID = 'petverdict';
+---
+
+<div class={`newsletter newsletter--${variant}`} id="newsletter">
+  <div class="newsletter-inner">
+    {variant === 'sidebar' ? (
+      <h3 class="newsletter-title">The Weekly Brief</h3>
+    ) : (
+      <>
+        <span class="newsletter-label">Newsletter</span>
+        <h2 class="newsletter-title">Pet Pulse Weekly.</h2>
+      </>
+    )}
+    <p class="newsletter-desc">
+      One email per week. The best pet product deals, care tips, and honest reviews. No noise.
+    </p>
+    <form class="newsletter-form" id="newsletter-form">
+      <div class="newsletter-input-row">
+        <input
+          type="email"
+          name="email"
+          placeholder="you@email.com"
+          required
+          autocomplete="email"
+          class="newsletter-input"
+          id="newsletter-email"
+        />
+        <button type="submit" class="newsletter-btn" id="newsletter-btn">
+          Subscribe
+        </button>
+      </div>
+      <p class="newsletter-status" id="newsletter-status"></p>
+    </form>
+    <p class="newsletter-privacy">No spam. Unsubscribe anytime. <a href="/disclosure">Privacy</a></p>
+  </div>
+</div>
+
+<script define:vars={{ API_URL, SITE_ID }}>
+  const form = document.getElementById('newsletter-form');
+  const emailInput = document.getElementById('newsletter-email');
+  const btn = document.getElementById('newsletter-btn');
+  const status = document.getElementById('newsletter-status');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const email = emailInput.value.trim();
+    if (!email) return;
+
+    btn.disabled = true;
+    btn.textContent = 'Subscribing...';
+    status.textContent = '';
+    status.className = 'newsletter-status';
+
+    try {
+      const resp = await fetch(API_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, site: SITE_ID }),
+      });
+      const data = await resp.json();
+      if (resp.ok) {
+        status.textContent = "You're in. Check your inbox.";
+        status.className = 'newsletter-status newsletter-status--success';
+        emailInput.value = '';
+      } else {
+        status.textContent = data.error || 'Something went wrong.';
+        status.className = 'newsletter-status newsletter-status--error';
+      }
+    } catch {
+      status.textContent = 'Connection error. Try again.';
+      status.className = 'newsletter-status newsletter-status--error';
+    }
+
+    btn.disabled = false;
+    btn.textContent = 'Subscribe';
+  });
+</script>
+
+<style>
+  .newsletter {
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+  }
+
+  .newsletter--inline {
+    background: var(--ink-950);
+    color: white;
+    padding: var(--space-2xl) var(--space-2xl);
+    margin: var(--space-3xl) 0;
+    text-align: left;
+  }
+
+  .newsletter--inline .newsletter-inner { max-width: 480px; }
+
+  .newsletter-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-400);
+    display: block;
+    margin-bottom: var(--space-sm);
+  }
+
+  .newsletter--inline .newsletter-title {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 1.75rem;
+    color: white;
+    margin: 0 0 var(--space-sm) 0;
+    letter-spacing: -0.02em;
+  }
+
+  .newsletter--inline .newsletter-desc {
+    font-size: 0.9rem;
+    color: var(--ink-400);
+    line-height: 1.6;
+    margin-bottom: var(--space-lg);
+  }
+
+  .newsletter--sidebar {
+    background: var(--ink-50);
+    border: 1px solid var(--ink-100);
+    padding: var(--space-lg);
+    margin-bottom: var(--space-xl);
+  }
+
+  .newsletter--sidebar .newsletter-title {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0 0 var(--space-xs) 0;
+    color: var(--ink-950);
+  }
+
+  .newsletter--sidebar .newsletter-desc {
+    font-size: 0.85rem;
+    color: var(--ink-500);
+    line-height: 1.5;
+    margin-bottom: var(--space-md);
+  }
+
+  .newsletter-input-row { display: flex; gap: 0.5rem; }
+  .newsletter--sidebar .newsletter-input-row { flex-direction: column; }
+
+  .newsletter-input {
+    flex: 1;
+    padding: 0.7rem 0.875rem;
+    border: 1px solid var(--ink-700);
+    border-radius: var(--border-radius);
+    background: rgba(255, 255, 255, 0.06);
+    color: white;
+    font-size: 0.9rem;
+    font-family: inherit;
+    outline: none;
+    transition: border-color var(--duration-fast) var(--ease-out);
+  }
+
+  .newsletter-input::placeholder { color: var(--ink-500); }
+  .newsletter-input:focus { border-color: var(--electric); }
+
+  .newsletter--sidebar .newsletter-input {
+    background: white;
+    border-color: var(--ink-200);
+    color: var(--ink-900);
+  }
+
+  .newsletter--sidebar .newsletter-input::placeholder { color: var(--ink-400); }
+
+  .newsletter-btn {
+    padding: 0.7rem 1.5rem;
+    background: var(--electric);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    font-size: 0.875rem;
+    font-family: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color var(--duration-fast) var(--ease-out),
+                transform var(--duration-fast) var(--ease-out);
+  }
+
+  .newsletter-btn:hover {
+    background: var(--electric-hover);
+    transform: translateY(-1px);
+  }
+
+  .newsletter-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  .newsletter--sidebar .newsletter-btn {
+    background: var(--ink-950);
+    color: white;
+  }
+
+  .newsletter--sidebar .newsletter-btn:hover { background: var(--ink-800); }
+
+  .newsletter-status {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    min-height: 1.2em;
+  }
+
+  .newsletter-status--success { color: var(--emerald); }
+  .newsletter--inline .newsletter-status--success { color: #6ee7b7; }
+  .newsletter-status--error { color: var(--coral); }
+  .newsletter--inline .newsletter-status--error { color: #fca5a5; }
+
+  .newsletter-privacy {
+    font-size: 0.7rem;
+    color: var(--ink-500);
+    margin-top: var(--space-sm);
+    margin-bottom: 0;
+  }
+
+  .newsletter--inline .newsletter-privacy { color: var(--ink-600); }
+
+  .newsletter-privacy a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  @media (max-width: 640px) {
+    .newsletter--inline { padding: var(--space-xl) var(--space-lg); }
+    .newsletter--inline .newsletter-input-row { flex-direction: column; }
+    .newsletter--inline .newsletter-title { font-size: 1.5rem; }
+  }
+</style>

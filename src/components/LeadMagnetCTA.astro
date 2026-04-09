@@ -1,0 +1,290 @@
+---
+interface Props {
+  siteId: string;
+  siteName: string;
+  niche: string;
+}
+const { siteId, siteName, niche } = Astro.props;
+const API_URL = '/api/subscribe';
+
+const nicheLeadMagnets: Record<string, { title: string; desc: string; btnText: string }> = {
+  'ai-tools': {
+    title: 'Our Top 10 AI Tools for 2026',
+    desc: 'The tools our editors actually use daily -- ranked by value, not hype. Free PDF guide.',
+    btnText: 'Get the free guide',
+  },
+  'vpn': {
+    title: 'Top 10 VPNs -- Speed & Security Ranked',
+    desc: 'Real speed tests from 8 countries. See which VPNs actually deliver. Free report.',
+    btnText: 'Get the free report',
+  },
+  'sleep-mattress': {
+    title: 'Top 10 Mattresses for Every Sleeper Type',
+    desc: 'Side, back, stomach, combo -- our picks for each. Plus exclusive discount codes.',
+    btnText: 'Get the free guide',
+  },
+  'outdoor-hiking': {
+    title: 'Top 10 Trail-Tested Gear Picks',
+    desc: 'Boots, packs, and layers that survived 500+ miles. Our editors\' loadout list.',
+    btnText: 'Get the free list',
+  },
+  'pet-care': {
+    title: 'Top 10 Vet-Approved Products',
+    desc: 'Food, supplements, and tech our testers trust with their own pets.',
+    btnText: 'Get the free guide',
+  },
+  'home-security': {
+    title: 'Top 10 Home Security Systems Ranked',
+    desc: 'Lab-tested for detection speed, app quality, and false alarm rates.',
+    btnText: 'Get the free scorecard',
+  },
+  'solar-energy': {
+    title: 'Top 10 Solar Panels by ROI',
+    desc: 'Efficiency, warranty, and payback period compared. Real installation data.',
+    btnText: 'Get the free report',
+  },
+  'electric-vehicles': {
+    title: 'Top 10 EVs by Total Cost of Ownership',
+    desc: 'Purchase price is just the start. See the real 5-year numbers.',
+    btnText: 'Get the free report',
+  },
+  'web-hosting': {
+    title: 'Top 10 Web Hosts -- Uptime & Speed Tested',
+    desc: '90 days of monitoring data. See who actually delivers 99.9%+ uptime.',
+    btnText: 'Get the free benchmark',
+  },
+  'small-business-software': {
+    title: 'Top 10 Business Tools That Save Hours',
+    desc: 'The stack our editors recommend for teams under 50. CRM, invoicing, HR.',
+    btnText: 'Get the free stack guide',
+  },
+};
+
+const magnet = nicheLeadMagnets[niche] || nicheLeadMagnets['ai-tools'];
+---
+
+<div class="lead-magnet" id="lead-magnet">
+  <div class="lead-magnet-inner">
+    <div class="lead-magnet-icon">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="#fbbf24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div class="lead-magnet-body">
+      <h3 class="lead-magnet-title">{magnet.title}</h3>
+      <p class="lead-magnet-desc">{magnet.desc}</p>
+      <form class="lead-magnet-form" id="lead-magnet-form">
+        <div class="lead-magnet-row">
+          <input
+            type="email"
+            name="email"
+            placeholder="you@email.com"
+            required
+            autocomplete="email"
+            class="lead-magnet-input"
+            id="lead-magnet-email"
+          />
+          <button type="submit" class="lead-magnet-btn" id="lead-magnet-btn">
+            {magnet.btnText}
+          </button>
+        </div>
+        <p class="lead-magnet-status" id="lead-magnet-status"></p>
+      </form>
+      <p class="lead-magnet-fine">Free. No spam. Unsubscribe anytime.</p>
+    </div>
+  </div>
+</div>
+
+<script define:vars={{ API_URL, siteId }}>
+  (function() {
+    const form = document.getElementById('lead-magnet-form');
+    const emailInput = document.getElementById('lead-magnet-email');
+    const btn = document.getElementById('lead-magnet-btn');
+    const status = document.getElementById('lead-magnet-status');
+    const originalBtnText = btn.textContent;
+
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const email = emailInput.value.trim();
+      if (!email) return;
+
+      btn.disabled = true;
+      btn.textContent = 'Sending...';
+      status.textContent = '';
+      status.className = 'lead-magnet-status';
+
+      try {
+        const resp = await fetch(API_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: email, site: siteId, source: 'lead-magnet' }),
+        });
+        const data = await resp.json();
+        if (resp.ok) {
+          status.textContent = "Check your inbox -- it's on the way!";
+          status.className = 'lead-magnet-status lead-magnet-status--success';
+          emailInput.value = '';
+        } else {
+          status.textContent = data.error || 'Something went wrong.';
+          status.className = 'lead-magnet-status lead-magnet-status--error';
+        }
+      } catch(err) {
+        status.textContent = 'Connection error. Try again.';
+        status.className = 'lead-magnet-status lead-magnet-status--error';
+      }
+
+      btn.disabled = false;
+      btn.textContent = originalBtnText;
+    });
+  })();
+</script>
+
+<style>
+  .lead-magnet {
+    background: linear-gradient(135deg, #0f172a 0%, #1a2332 100%);
+    border: 1px solid rgba(251, 191, 36, 0.2);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .lead-magnet::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #f59e0b, transparent);
+  }
+
+  .lead-magnet-inner {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .lead-magnet-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(251, 191, 36, 0.1);
+    border-radius: 8px;
+    margin-top: 2px;
+  }
+
+  .lead-magnet-body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .lead-magnet-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #f8fafc;
+    margin: 0 0 0.35rem 0;
+    line-height: 1.3;
+  }
+
+  .lead-magnet-desc {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    line-height: 1.5;
+    margin: 0 0 0.75rem 0;
+  }
+
+  .lead-magnet-row {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .lead-magnet-input {
+    flex: 1;
+    padding: 0.55rem 0.75rem;
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.06);
+    color: #f1f5f9;
+    font-size: 0.85rem;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+
+  .lead-magnet-input::placeholder {
+    color: #64748b;
+  }
+
+  .lead-magnet-input:focus {
+    border-color: #fbbf24;
+  }
+
+  .lead-magnet-btn {
+    padding: 0.55rem 1rem;
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: #0f172a;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    font-family: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+
+  .lead-magnet-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 10px rgba(245, 158, 11, 0.3);
+  }
+
+  .lead-magnet-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  .lead-magnet-status {
+    font-size: 0.75rem;
+    margin-top: 0.35rem;
+    min-height: 1em;
+  }
+
+  .lead-magnet-status--success { color: #6ee7b7; }
+  .lead-magnet-status--error { color: #fca5a5; }
+
+  .lead-magnet-fine {
+    font-size: 0.65rem;
+    color: #475569;
+    margin: 0.5rem 0 0 0;
+  }
+
+  @media (max-width: 640px) {
+    .lead-magnet {
+      padding: 1rem 1.25rem;
+    }
+
+    .lead-magnet-inner {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .lead-magnet-icon {
+      width: 32px;
+      height: 32px;
+    }
+
+    .lead-magnet-row {
+      flex-direction: column;
+    }
+
+    .lead-magnet-title {
+      font-size: 0.95rem;
+    }
+  }
+</style>

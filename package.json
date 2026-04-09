@@ -1,0 +1,21 @@
+{
+  "name": "petverdict-site",
+  "version": "1.0.0",
+  "description": "Pet Care Product Reviews - High CPC niche for affiliate revenue",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "new-article": "bash scripts/new-article.sh"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^2.0.0",
+    "@astrojs/sitemap": "^3.1.6",
+    "astro": "^4.5.0",
+    "astro-seo": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  }
+}

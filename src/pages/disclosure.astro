@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import siteConfig from '../../site.config';
+---
+
+<BaseLayout title="Methodology & Disclosure — PetVerdict">
+  <article class="disclosure">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span class="sep">/</span>
+      <span class="current">Methodology</span>
+    </nav>
+
+    <header class="page-header">
+      <span class="page-label">Transparency</span>
+      <h1>How we test.<br/><em>How we earn.</em></h1>
+      <div class="header-rule"></div>
+    </header>
+
+    <div class="content">
+      <section>
+        <h2>Affiliate Disclosure</h2>
+        <p>{siteConfig.siteName} earns commissions when you click affiliate links to pet products we review. These relationships fund our independent testing at no cost to you.</p>
+        <p>Affiliate links are marked with a small arrow icon for full transparency. When you see a button or styled link to a product, assume it may be an affiliate link.</p>
+        <p><strong>As an Amazon Associate, PetVerdict earns from qualifying purchases.</strong></p>
+        <p>We also participate in affiliate programs from Chewy, Petco, and other pet retailers. Product links to these retailers may earn us a commission on qualifying purchases.</p>
+      </section>
+
+      <section>
+        <h2>Our Testing Process</h2>
+        <p>Every product on this site has been evaluated by our editorial team with real pets over extended testing periods. We assess:</p>
+        <ul>
+          <li>Ingredient quality, nutritional completeness, and AAFCO compliance (food products)</li>
+          <li>Build quality, durability, and material safety</li>
+          <li>Ease of use and setup time</li>
+          <li>Value for money across size/weight categories</li>
+          <li>Coverage comprehensiveness and claim processing (insurance)</li>
+          <li>Technology reliability, battery life, and app quality (pet tech)</li>
+          <li>Pet acceptance and comfort level during real-world use</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Editorial Independence</h2>
+        <p>Brands cannot pay for higher rankings or more favorable reviews. We include both strengths and weaknesses for every product. All recommendations come from our editorial team based on real testing and veterinary consultation, not affiliate potential.</p>
+      </section>
+
+      <section class="contact">
+        <h2>Questions?</h2>
+        <p>Reach us at <a href="mailto:hello@petverdict.net">hello@petverdict.net</a></p>
+      </section>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .disclosure { max-width: var(--max-width); margin: 0 auto; }
+
+  .breadcrumb { display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; color: var(--ink-400); margin-bottom: var(--space-xl); }
+  .breadcrumb a { color: var(--ink-500); text-decoration: none; }
+  .breadcrumb a:hover { color: var(--ink-950); }
+  .sep { color: var(--ink-300); }
+  .current { color: var(--ink-400); }
+
+  .page-header { margin-bottom: var(--space-2xl); animation: fadeInUp var(--duration-slow) var(--ease-out) both; }
+  .page-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-400); }
+  .page-header h1 { margin-top: var(--space-sm); margin-bottom: var(--space-md); }
+  .page-header h1 em { font-style: italic; color: var(--electric); }
+  .header-rule { height: 2px; width: 48px; background: var(--electric); }
+
+  .content section { margin-bottom: var(--space-2xl); }
+  .content h2 { margin-top: 0; margin-bottom: var(--space-md); padding-top: var(--space-xl); border-top: 1px solid var(--ink-100); }
+  .content section:first-child h2 { border-top: none; padding-top: 0; }
+  .content p { color: var(--ink-700); line-height: 1.75; }
+  .content ul { color: var(--ink-700); }
+  .content li { line-height: 1.75; }
+  .contact a { font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+</style>

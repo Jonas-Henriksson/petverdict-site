@@ -1,0 +1,190 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+}
+const { title = 'Get Personalized Pet Product Picks', description = 'Tell us about your pet and we will send you custom product recommendations based on our testing.' } = Astro.props;
+const API_URL = '/api/subscribe';
+const SITE_ID = 'petverdict';
+---
+
+<div class="lead-capture" id="lead-capture">
+  <div class="lead-inner">
+    <div class="lead-icon">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10.5 4.5c.28-.14.58-.26.89-.35a5 5 0 0 1 5.22 1.46 5 5 0 0 1 .89 5.22c-.09.31-.21.61-.35.89"/>
+        <path d="M13.5 19.5c-.28.14-.58.26-.89.35a5 5 0 0 1-5.22-1.46 5 5 0 0 1-.89-5.22c.09-.31.21-.61.35-.89"/>
+        <circle cx="12" cy="12" r="3"/>
+      </svg>
+    </div>
+    <h3 class="lead-title">{title}</h3>
+    <p class="lead-desc">{description}</p>
+    <form class="lead-form" id="lead-form">
+      <select class="lead-select" id="lead-pet-type" required>
+        <option value="" disabled selected>Pet type</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="both">Both</option>
+        <option value="other">Other</option>
+      </select>
+      <input
+        type="email"
+        name="email"
+        placeholder="your@email.com"
+        required
+        autocomplete="email"
+        class="lead-input"
+        id="lead-email"
+      />
+      <button type="submit" class="lead-btn" id="lead-btn">
+        Get Picks
+      </button>
+    </form>
+    <p class="lead-status" id="lead-status"></p>
+    <p class="lead-privacy">Free, no spam. We respect your inbox.</p>
+  </div>
+</div>
+
+<script define:vars={{ API_URL, SITE_ID }}>
+  const form = document.getElementById('lead-form');
+  const emailInput = document.getElementById('lead-email');
+  const petType = document.getElementById('lead-pet-type');
+  const btn = document.getElementById('lead-btn');
+  const status = document.getElementById('lead-status');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const email = emailInput.value.trim();
+    const pet = petType.value;
+    if (!email || !pet) return;
+
+    btn.disabled = true;
+    btn.textContent = 'Sending...';
+    status.textContent = '';
+
+    try {
+      const resp = await fetch(API_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, site: SITE_ID, tags: [`pet-${pet}`, 'lead-capture'] }),
+      });
+      const data = await resp.json();
+      if (resp.ok) {
+        status.textContent = 'Check your inbox for personalized picks!';
+        status.className = 'lead-status lead-status--success';
+        emailInput.value = '';
+      } else {
+        status.textContent = data.error || 'Something went wrong.';
+        status.className = 'lead-status lead-status--error';
+      }
+    } catch {
+      status.textContent = 'Connection error. Try again.';
+      status.className = 'lead-status lead-status--error';
+    }
+
+    btn.disabled = false;
+    btn.textContent = 'Get Picks';
+  });
+</script>
+
+<style>
+  .lead-capture {
+    border: 2px solid var(--electric);
+    border-radius: var(--border-radius-lg);
+    padding: var(--space-xl);
+    margin: var(--space-2xl) 0;
+    background: var(--electric-light);
+  }
+
+  .lead-inner { max-width: 480px; }
+
+  .lead-icon {
+    color: var(--electric);
+    margin-bottom: var(--space-sm);
+  }
+
+  .lead-title {
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--ink-950);
+    margin: 0 0 var(--space-xs) 0;
+  }
+
+  .lead-desc {
+    font-size: 0.875rem;
+    color: var(--ink-600);
+    line-height: 1.5;
+    margin-bottom: var(--space-lg);
+  }
+
+  .lead-form {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .lead-select {
+    padding: 0.6rem 0.75rem;
+    border: 1px solid var(--ink-200);
+    border-radius: var(--border-radius);
+    font-size: 0.85rem;
+    font-family: inherit;
+    background: white;
+    color: var(--ink-700);
+    min-width: 120px;
+  }
+
+  .lead-input {
+    flex: 1;
+    min-width: 180px;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid var(--ink-200);
+    border-radius: var(--border-radius);
+    font-size: 0.85rem;
+    font-family: inherit;
+    background: white;
+    color: var(--ink-900);
+    outline: none;
+  }
+
+  .lead-input:focus { border-color: var(--electric); }
+
+  .lead-btn {
+    padding: 0.6rem 1.25rem;
+    background: var(--electric);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    font-size: 0.85rem;
+    font-family: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background var(--duration-fast) var(--ease-out);
+  }
+
+  .lead-btn:hover { background: var(--electric-hover); }
+  .lead-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+  .lead-status {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    min-height: 1.2em;
+  }
+
+  .lead-status--success { color: var(--emerald); }
+  .lead-status--error { color: var(--coral); }
+
+  .lead-privacy {
+    font-size: 0.7rem;
+    color: var(--ink-400);
+    margin-top: var(--space-sm);
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 640px) {
+    .lead-form { flex-direction: column; }
+    .lead-select { min-width: unset; }
+  }
+</style>

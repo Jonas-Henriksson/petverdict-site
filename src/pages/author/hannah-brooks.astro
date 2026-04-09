@@ -1,0 +1,235 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import siteConfig from '../../../site.config';
+import { getCollection } from 'astro:content';
+import { authors } from '../../authors';
+import ArticleCard from '../../components/ArticleCard.astro';
+
+const author = authors['hannah-brooks'];
+if (!author) return Astro.redirect('/404');
+
+const allArticles = await getCollection('articles');
+const authorArticles = allArticles
+  .filter(article => !article.data.draft && article.data.author === author.name)
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+const authorSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: author.name,
+  jobTitle: author.title,
+  description: author.bio,
+  knowsAbout: author.expertise,
+  worksFor: {
+    '@type': 'Organization',
+    name: siteConfig.siteName,
+  },
+};
+---
+
+<BaseLayout title={`${author.name} — ${author.title}`} description={author.bio} structuredData={authorSchema}>
+  <div class="author-page">
+    <div class="author-hero">
+      <div class="author-avatar">
+        <span class="avatar-initials">{author.initials}</span>
+      </div>
+      <div class="author-header">
+        <h1>{author.name}</h1>
+        <p class="author-title-text">{author.title}</p>
+        <p class="author-credentials">{author.credentials}</p>
+      </div>
+    </div>
+
+    <div class="author-content">
+      <section class="author-about">
+        <h2>About</h2>
+        <p>{author.bio}</p>
+        <p class="author-experience">{author.years} years of experience in pet care products.</p>
+      </section>
+
+      <section class="author-expertise">
+        <h2>Expertise</h2>
+        <ul class="expertise-list">
+          {author.expertise.map((skill: string) => (
+            <li>{skill}</li>
+          ))}
+        </ul>
+      </section>
+
+      {authorArticles.length > 0 && (
+        <section class="author-articles">
+          <h2>Articles by {author.name}</h2>
+          <div class="articles-grid">
+            {authorArticles.map(article => (
+              <ArticleCard
+                title={article.data.title}
+                description={article.data.description}
+                date={article.data.date}
+                category={article.data.category}
+                slug={article.slug}
+                score={article.data.score}
+                badge={article.data.badge}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+    </div>
+
+    <aside class="author-methodology">
+      <h3>Our Testing Standards</h3>
+      <p>All articles published by {author.name} follow our rigorous <a href="/how-we-test">testing methodology</a>. We purchase products independently and never accept vendor-supplied review units.</p>
+    </aside>
+  </div>
+</BaseLayout>
+
+<style>
+  .author-page {
+    max-width: var(--max-width, 720px);
+    margin: 0 auto;
+  }
+
+  .author-hero {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--ink-950, #111);
+  }
+
+  .author-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: var(--ink-950, #111);
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.04em;
+    flex-shrink: 0;
+  }
+
+  .author-header h1 {
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+    line-height: 1.1;
+    margin-bottom: 0.25rem;
+  }
+
+  .author-title-text {
+    font-size: 1rem;
+    color: var(--ink-600, #4b5563);
+    margin-bottom: 0.25rem;
+  }
+
+  .author-credentials {
+    font-size: 0.85rem;
+    color: var(--ink-400, #9ca3af);
+    font-style: italic;
+  }
+
+  .author-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .author-about h2,
+  .author-expertise h2,
+  .author-articles h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--ink-100, #e5e7eb);
+  }
+
+  .author-about p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--ink-800, #1f2937);
+    margin-bottom: 0.75rem;
+  }
+
+  .author-experience {
+    font-weight: 600;
+    color: var(--ink-950, #111);
+  }
+
+  .expertise-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  .expertise-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: var(--surface-raised, #f8f9fa);
+    border: 1px solid var(--ink-100, #e5e7eb);
+    border-radius: 6px;
+    font-size: 0.875rem;
+    color: var(--ink-700, #374151);
+  }
+
+  .expertise-list li::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--ink-950, #111);
+    flex-shrink: 0;
+  }
+
+  .articles-grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .author-methodology {
+    padding: 1.5rem;
+    background: var(--surface-raised, #f8f9fa);
+    border: 1px solid var(--ink-100, #e5e7eb);
+    border-radius: var(--border-radius-lg, 10px);
+  }
+
+  .author-methodology h3 {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-500, #6b7280);
+    margin-bottom: 0.5rem;
+  }
+
+  .author-methodology p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--ink-600, #4b5563);
+    margin: 0;
+  }
+
+  .author-methodology a {
+    color: var(--ink-950, #111);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  @media (max-width: 640px) {
+    .author-hero {
+      flex-direction: column;
+      text-align: center;
+    }
+    .expertise-list {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

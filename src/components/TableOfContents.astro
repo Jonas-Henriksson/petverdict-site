@@ -1,0 +1,68 @@
+---
+export interface Props { headings: any[]; }
+const { headings } = Astro.props;
+---
+
+<nav class="toc" aria-label="Table of contents">
+  <div class="toc-header">
+    <span class="toc-label">In this review</span>
+  </div>
+  <ol class="toc-list">
+    {headings.map((heading) => (
+      <li class={`toc-item toc-depth-${heading.depth}`}>
+        <a href={`#${heading.slug}`} class="toc-link">{heading.text}</a>
+      </li>
+    ))}
+  </ol>
+</nav>
+
+<style>
+  .toc {
+    font-size: 0.825rem;
+    background: var(--surface);
+    border: 1px solid var(--ink-100);
+    border-radius: var(--border-radius-lg);
+    padding: var(--space-lg);
+  }
+
+  .toc-header {
+    margin-bottom: var(--space-md);
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--ink-100);
+  }
+
+  .toc-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-400);
+  }
+
+  .toc-list { list-style: none; padding: 0; margin: 0; counter-reset: toc; }
+  .toc-item { margin-bottom: 0; }
+
+  .toc-link {
+    display: block;
+    padding: 0.35rem 0;
+    color: var(--ink-600);
+    text-decoration: none;
+    line-height: 1.4;
+    transition: color var(--duration-fast) var(--ease-out);
+    border-left: 2px solid transparent;
+    padding-left: 0.75rem;
+    margin-left: -1px;
+  }
+
+  .toc-link:hover {
+    color: var(--ink-950);
+    border-left-color: var(--electric);
+  }
+
+  .toc-depth-3 .toc-link { padding-left: 1.5rem; font-size: 0.8rem; color: var(--ink-400); }
+  .toc-depth-4 .toc-link { padding-left: 2.25rem; font-size: 0.775rem; color: var(--ink-400); }
+
+  @media (max-width: 900px) {
+    .toc { border: none; background: var(--ink-50); border-radius: var(--border-radius-lg); }
+  }
+</style>

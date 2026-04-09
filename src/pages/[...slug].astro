@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content';
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map((article) => ({ params: { slug: article.slug }, props: article }));
+}
+const article = Astro.props;
+const { Content, headings } = await article.render();
+
+// Extract FAQ pairs from raw markdown for schema
+const faqPairs: Array<{ question: string; answer: string }> = [];
+const rawBody = article.body || '';
+const faqMatch = rawBody.match(/##\s*FAQ[\s\S]*$/im);
+if (faqMatch) {
+  const faqSection = faqMatch[0];
+  const qaParts = faqSection.split(/###\s+/).slice(1);
+  for (const part of qaParts) {
+    const lines = part.trim().split('\n');
+    const question = lines[0].replace(/\??\s*$/, '?').trim();
+    const answer = lines.slice(1).join(' ').trim();
+    if (question && answer) {
+      faqPairs.push({ question, answer });
+    }
+  }
+}
+---
+<ArticleLayout
+  title={article.data.title}
+  description={article.data.description}
+  date={article.data.date}
+  author={article.data.author}
+  image={article.data.image}
+  category={article.data.category}
+  keywords={article.data.keywords}
+  affiliateDisclosure={article.data.affiliateDisclosure !== false}
+  headings={article.data.tableOfContents !== false ? headings : []}
+  faqPairs={faqPairs}
+  score={article.data.score}
+  badge={article.data.badge}
+  verdict={article.data.verdict}
+  winner={article.data.winner}
+>
+  <Content />
+</ArticleLayout>

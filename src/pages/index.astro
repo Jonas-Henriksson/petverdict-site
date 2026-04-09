@@ -1,0 +1,352 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import NewsletterSignup from '../components/NewsletterSignup.astro';
+import LeadCapture from '../components/LeadCapture.astro';
+import { getCollection } from 'astro:content';
+import siteConfig from '../../site.config';
+const allArticles = await getCollection('articles', ({ data }) => !data.draft);
+const sortedArticles = allArticles.sort((a, b) => {
+  const scoreA = a.data.score || 0;
+  const scoreB = b.data.score || 0;
+  if (scoreB !== scoreA) return scoreB - scoreA;
+  return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
+});
+const categories = [...new Set(allArticles.map((a) => a.data.category).filter(Boolean))];
+const featuredArticle = sortedArticles[0];
+const rankedArticles = sortedArticles.slice(1, 7);
+const remainingArticles = sortedArticles.slice(7);
+---
+
+<BaseLayout title={`${siteConfig.siteName} — ${siteConfig.tagline}`}>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-label">
+        <span class="hero-dot"></span>
+        Independent Reviews
+      </div>
+      <h1 class="hero-title">
+        The pet product testing lab.<br/>
+        <em>Tested. Scored. Tail-approved.</em>
+      </h1>
+      <p class="hero-description">
+        Rigorous, hands-on testing of the best dog food, cat food, pet insurance, pet tech, and grooming tools. Real scores, honest verdicts, clear winners. No hype.
+      </p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">{allArticles.length}+</span>
+          <span class="stat-label">Reviews</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">{categories.length}</span>
+          <span class="stat-label">Categories</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Independent</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured / #1 -->
+  {featuredArticle && (
+    <section class="featured">
+      <div class="section-header">
+        <span class="section-label">Top Rated</span>
+        <div class="section-line"></div>
+      </div>
+      <a href={`/${featuredArticle.slug}`} class="featured-card">
+        <div class="featured-rank">#1</div>
+        <div class="featured-content">
+          <div class="featured-top">
+            {featuredArticle.data.category && (
+              <span class="featured-category">{featuredArticle.data.category}</span>
+            )}
+            {featuredArticle.data.badge && (
+              <span class:list={['featured-badge', `featured-badge--${featuredArticle.data.badge}`]}>
+                {featuredArticle.data.badge === 'editors-pick' && '★ '}
+                {featuredArticle.data.badge === 'editors-pick' ? "Editor's Pick" :
+                 featuredArticle.data.badge === 'top-rated' ? 'Top Rated' :
+                 featuredArticle.data.badge === 'best-value' ? 'Best Value' : 'Tested'}
+              </span>
+            )}
+          </div>
+          <h2 class="featured-title">{featuredArticle.data.title}</h2>
+          <p class="featured-description">{featuredArticle.data.description}</p>
+          <div class="featured-meta">
+            <time datetime={new Date(featuredArticle.data.date).toISOString()}>
+              {new Date(featuredArticle.data.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+            </time>
+            {featuredArticle.data.winner && (
+              <span class="featured-winner">Winner: <strong>{featuredArticle.data.winner}</strong></span>
+            )}
+            <span class="read-indicator">Read review &rarr;</span>
+          </div>
+        </div>
+        {featuredArticle.data.score && (
+          <div class="featured-score">
+            <span class="featured-score-value">{featuredArticle.data.score.toFixed(1)}</span>
+            <span class="featured-score-max">/10</span>
+          </div>
+        )}
+        <div class="featured-accent"></div>
+      </a>
+    </section>
+  )}
+
+  <!-- Categories -->
+  {categories.length > 0 && (
+    <section class="categories" id="categories">
+      <div class="section-header">
+        <span class="section-label">Categories</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="category-strip">
+        {categories.map((cat) => {
+          const count = allArticles.filter((a) => a.data.category === cat).length;
+          return (
+            <a href={`/category/${cat.toLowerCase().replace(/\s+/g, '-')}`} class="category-chip">
+              <span class="category-chip-name">{cat}</span>
+              <span class="category-chip-count">{count}</span>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  )}
+
+  <!-- Ranked Reviews -->
+  <section class="rankings" id="latest">
+    <div class="section-header">
+      <span class="section-label">Rankings</span>
+      <div class="section-line"></div>
+    </div>
+    <div class="rankings-grid">
+      {rankedArticles.map((article, i) => (
+        <div class="article-animate" style={`animation-delay: ${i * 60}ms`}>
+          <ArticleCard
+            title={article.data.title}
+            description={article.data.description}
+            date={article.data.date}
+            author={article.data.author}
+            image={article.data.image}
+            category={article.data.category}
+            slug={article.slug}
+            score={article.data.score}
+            badge={article.data.badge}
+            rank={i + 2}
+          />
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Lead Capture -->
+  <LeadCapture />
+
+  <!-- More Reviews -->
+  {remainingArticles.length > 0 && (
+    <section class="more-reviews">
+      <div class="section-header">
+        <span class="section-label">More Reviews</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="more-grid">
+        {remainingArticles.map((article, i) => (
+          <div class="article-animate" style={`animation-delay: ${i * 60}ms`}>
+            <ArticleCard
+              title={article.data.title}
+              description={article.data.description}
+              date={article.data.date}
+              author={article.data.author}
+              image={article.data.image}
+              category={article.data.category}
+              slug={article.slug}
+              score={article.data.score}
+              badge={article.data.badge}
+            />
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Newsletter -->
+  <NewsletterSignup variant="inline" />
+
+  <!-- Methodology CTA -->
+  <section class="methodology-cta">
+    <div class="methodology-inner">
+      <span class="methodology-label">Our Promise</span>
+      <h2>Every score is earned,<br/><em>never paid for.</em></h2>
+      <p>
+        We test every pet product hands-on before publishing a score. Affiliate commissions fund our testing
+        but never influence rankings. Brands cannot pay for placement.
+      </p>
+      <a href="/disclosure" class="methodology-link">Read our full methodology &rarr;</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding: var(--space-4xl) 0 var(--space-3xl);
+    border-bottom: 1px solid var(--ink-100);
+    margin-bottom: var(--space-3xl);
+  }
+
+  .hero-inner { max-width: var(--max-width); margin: 0 auto; }
+
+  .hero-label {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    font-size: 0.8rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.08em; color: var(--ink-500); margin-bottom: var(--space-lg);
+    animation: fadeInUp var(--duration-slow) var(--ease-out) both;
+  }
+
+  .hero-dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--electric);
+    animation: pulse 2s var(--ease-in-out) infinite;
+  }
+
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+  .hero-title {
+    font-size: clamp(2.75rem, 6vw, 4rem); line-height: 1.05;
+    letter-spacing: -0.035em; margin-bottom: var(--space-lg);
+    animation: fadeInUp var(--duration-slow) var(--ease-out) 80ms both;
+  }
+
+  .hero-title em { font-style: italic; color: var(--electric); }
+
+  .hero-description {
+    font-size: 1.125rem; line-height: 1.65; color: var(--ink-500);
+    max-width: 520px; margin-bottom: var(--space-2xl);
+    animation: fadeInUp var(--duration-slow) var(--ease-out) 160ms both;
+  }
+
+  .hero-stats {
+    display: flex; align-items: center; gap: var(--space-xl);
+    animation: fadeInUp var(--duration-slow) var(--ease-out) 240ms both;
+  }
+
+  .stat { display: flex; flex-direction: column; }
+  .stat-number { font-family: var(--font-display); font-size: 1.75rem; letter-spacing: -0.02em; color: var(--ink-950); }
+  .stat-label { font-size: 0.75rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-400); margin-top: 2px; }
+  .stat-divider { width: 1px; height: 32px; background: var(--ink-200); }
+
+  .section-header { display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-xl); }
+  .section-label { font-family: var(--font-body); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-400); white-space: nowrap; }
+  .section-line { flex: 1; height: 1px; background: var(--ink-100); }
+
+  .featured { margin-bottom: var(--space-3xl); }
+
+  .featured-card {
+    display: flex; align-items: stretch; position: relative;
+    background: var(--ink-950); border-radius: var(--border-radius-lg);
+    text-decoration: none; color: white; overflow: hidden;
+    transition: transform var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out);
+  }
+
+  .featured-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-xl); color: white; }
+
+  .featured-rank {
+    display: flex; align-items: center; justify-content: center;
+    min-width: 72px; font-family: var(--font-display); font-size: 2rem;
+    color: var(--ink-700); border-right: 1px solid var(--ink-800); flex-shrink: 0;
+  }
+
+  .featured-card:hover .featured-rank { color: var(--electric); }
+
+  .featured-accent {
+    position: absolute; top: 0; right: 0; width: 30%; height: 100%;
+    background: linear-gradient(135deg, transparent 0%, rgba(249, 115, 22, 0.06) 50%, rgba(249, 115, 22, 0.12) 100%);
+    pointer-events: none;
+  }
+
+  .featured-content { position: relative; z-index: 1; padding: var(--space-xl) var(--space-2xl); flex: 1; min-width: 0; }
+  .featured-top { display: flex; align-items: center; gap: 0.5rem; margin-bottom: var(--space-sm); }
+  .featured-category { font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-400); }
+
+  .featured-badge { font-size: 0.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 0.15rem 0.5rem; border-radius: 3px; }
+  .featured-badge--editors-pick { background: rgba(217, 119, 6, 0.2); color: #fbbf24; }
+  .featured-badge--top-rated { background: rgba(249, 115, 22, 0.2); color: #fb923c; }
+  .featured-badge--best-value { background: rgba(5, 150, 105, 0.2); color: #6ee7b7; }
+  .featured-badge--tested { background: rgba(255, 255, 255, 0.08); color: var(--ink-400); }
+
+  .featured-title { font-size: clamp(1.5rem, 3vw, 2rem); color: white; margin-top: 0; margin-bottom: var(--space-sm); line-height: 1.2; }
+  .featured-description { font-size: 0.925rem; line-height: 1.55; color: var(--ink-400); margin-bottom: var(--space-md); max-width: 540px; }
+
+  .featured-meta { display: flex; align-items: center; gap: var(--space-md); font-size: 0.8rem; color: var(--ink-500); flex-wrap: wrap; }
+  .featured-winner { color: var(--ink-400); }
+  .featured-winner strong { color: white; font-weight: 600; }
+  .read-indicator { color: var(--electric); font-weight: 500; margin-left: auto; }
+
+  .featured-score { display: flex; align-items: center; gap: 3px; padding: 0 var(--space-2xl); position: relative; z-index: 1; flex-shrink: 0; }
+  .featured-score-value { font-family: var(--font-display); font-size: 3.5rem; line-height: 1; letter-spacing: -0.03em; color: white; }
+  .featured-score-max { font-size: 1rem; color: var(--ink-500); align-self: flex-end; margin-bottom: 0.5rem; }
+
+  .categories { margin-bottom: var(--space-3xl); }
+  .category-strip { display: flex; flex-wrap: wrap; gap: 0.625rem; }
+
+  .category-chip {
+    display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem;
+    border: 1px solid var(--ink-200); border-radius: 999px; font-size: 0.85rem;
+    font-weight: 500; color: var(--ink-700); text-decoration: none;
+    transition: all var(--duration-fast) var(--ease-out); background: var(--surface);
+  }
+
+  .category-chip:hover { border-color: var(--electric); color: var(--electric); background: var(--electric-light); }
+
+  .category-chip-count {
+    font-size: 0.7rem; font-weight: 600; color: var(--ink-400);
+    background: var(--ink-100); padding: 0.125rem 0.5rem; border-radius: 999px; min-width: 1.5rem; text-align: center;
+  }
+
+  .rankings { margin-bottom: var(--space-3xl); }
+  .rankings-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: var(--space-lg); }
+  .article-animate { animation: fadeInUp var(--duration-slow) var(--ease-out) both; }
+
+  .more-reviews { margin-bottom: var(--space-3xl); }
+  .more-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: var(--space-lg); }
+
+  .methodology-cta { margin: var(--space-3xl) 0; }
+  .methodology-inner { max-width: var(--max-width); margin: 0 auto; padding: var(--space-3xl) 0; border-top: 2px solid var(--electric); }
+  .methodology-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-400); }
+  .methodology-inner h2 { margin-top: var(--space-md); margin-bottom: var(--space-md); }
+  .methodology-inner h2 em { font-style: italic; color: var(--electric); }
+  .methodology-inner p { color: var(--ink-500); max-width: 540px; line-height: 1.7; }
+
+  .methodology-link {
+    display: inline-block; font-size: 0.9rem; font-weight: 600; color: var(--ink-950);
+    text-decoration: none; border-bottom: 1.5px solid var(--ink-950); padding-bottom: 2px;
+    transition: opacity var(--duration-fast) var(--ease-out);
+  }
+
+  .methodology-link:hover { opacity: 0.7; color: var(--ink-950); }
+
+  @media (max-width: 768px) {
+    .hero { padding: var(--space-2xl) 0 var(--space-xl); }
+    .hero-title { font-size: clamp(2rem, 8vw, 3rem); }
+    .hero-stats { gap: var(--space-md); }
+    .featured-card { flex-direction: column; }
+    .featured-rank { min-width: unset; min-height: 48px; border-right: none; border-bottom: 1px solid var(--ink-800); }
+    .featured-content { padding: var(--space-lg); }
+    .featured-score { padding: 0 var(--space-lg) var(--space-lg); }
+    .featured-accent { display: none; }
+    .rankings-grid, .more-grid { grid-template-columns: 1fr; }
+    .category-strip { overflow-x: auto; flex-wrap: nowrap; padding-bottom: var(--space-sm); -webkit-overflow-scrolling: touch; }
+    .category-chip { white-space: nowrap; }
+  }
+
+  @media (max-width: 480px) {
+    .stat-number { font-size: 1.5rem; }
+    .hero-description { font-size: 1rem; }
+    .featured-score-value { font-size: 2.5rem; }
+  }
+</style>

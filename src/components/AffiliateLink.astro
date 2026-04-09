@@ -1,0 +1,57 @@
+---
+export interface Props {
+  href: string;
+  children: string;
+  network?: string;
+  sponsored?: boolean;
+  nofollow?: boolean;
+}
+const { href, children, network = 'affiliate', sponsored = true, nofollow = true } = Astro.props;
+const relParts = [];
+if (nofollow) relParts.push('nofollow');
+if (sponsored) relParts.push('sponsored');
+relParts.push('external');
+const rel = relParts.join(' ');
+---
+
+<a href={href} rel={rel} target="_blank" class="aff-link" data-network={network}>
+  <span class="aff-text">{children}</span>
+  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" class="aff-icon" aria-hidden="true">
+    <path d="M1 11L11 1M11 1H5M11 1V7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</a>
+
+<style>
+  .aff-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--ink-950);
+    background: var(--surface);
+    border: 1.5px solid var(--electric);
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    transition: all var(--duration-fast) var(--ease-out);
+  }
+
+  .aff-link:hover {
+    background: var(--electric);
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .aff-icon {
+    opacity: 0.6;
+    transition: opacity var(--duration-fast) var(--ease-out),
+                transform var(--duration-fast) var(--ease-out);
+  }
+
+  .aff-link:hover .aff-icon {
+    opacity: 1;
+    transform: translate(1px, -1px);
+  }
+</style>
