@@ -7,7 +7,7 @@ category: "Dog Food"
 author: "Kevin Nguyen"
 keywords: ["best dog food 2026", "top rated dog food", "healthiest dog food", "dog food reviews", "premium dog food"]
 score: 9.4
-badge: "editors-pick"
+badge: top-rated
 verdict: "Ollie Fresh delivers the best overall nutrition and palatability for most dogs"
 winner: "Ollie Fresh Dog Food"
 affiliateLinks:
@@ -72,7 +72,7 @@ Stool quality was consistently excellent — firm, well-formed, and low-odor. Th
 - Limited to 4 recipes (some competitors offer 6+)
 - Subscription-only model (no one-time purchase)
 
-[Try Ollie Fresh — Get 60% Off Your First Box](https://petverdict.net/go/ollie)
+[Try Ollie Fresh — Get 60% Off Your First Box](https://petpulse.net/go/ollie)
 
 If your dog is a fast eater, pair it with the [Outward Hound Fun Feeder](https://www.amazon.com/dp/B00FPKNRCS?tag=toolsradar05-20) slow-feed bowl to prevent bloat and improve digestion.
 
@@ -104,7 +104,7 @@ Where The Farmer's Dog pulls ahead is convenience. The packaging is easier to st
 - Pork recipe was less palatable than the other three
 - Customer service response time averaged 36 hours vs Ollie's 12 hours
 
-[Try The Farmer's Dog — Get 50% Off](https://petverdict.net/go/farmersdog)
+[Try The Farmer's Dog — Get 50% Off](https://petpulse.net/go/farmersdog)
 
 ## 3. Purina Pro Plan — Best Budget Option (8.8/10)
 

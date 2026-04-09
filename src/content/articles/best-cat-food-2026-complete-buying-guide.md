@@ -7,7 +7,7 @@ category: "Cat Food"
 author: "Hannah Brooks"
 keywords: ["best cat food 2026", "top rated cat food", "healthiest cat food", "cat food reviews", "premium cat food brands"]
 score: 9.2
-badge: "top-rated"
+badge: top-rated
 verdict: "Smalls Fresh delivers the best overall nutrition and palatability for most cats"
 winner: "Smalls Fresh Cat Food"
 affiliateLinks:
@@ -75,7 +75,7 @@ Coat quality improvements appeared by week 2 in 5 of 6 cats. The sixth cat (a se
 - Subscription-only (no single-purchase option)
 - Short shelf life once thawed (5 days refrigerated)
 
-[Try Smalls Fresh — Get 40% Off First Box](https://petverdict.net/go/smalls)
+[Try Smalls Fresh — Get 40% Off First Box](https://petpulse.net/go/smalls)
 
 For cats transitioning to fresh food, the improved hydration often means more frequent urination. The [PetSafe ScoopFree](https://www.amazon.com/dp/B000GF0X38?tag=toolsradar05-20) self-cleaning litter box handles the increased output effortlessly, or upgrade to the [Litter-Robot 4](https://www.amazon.com/dp/B0BHH2C3YZ?tag=toolsradar05-20) for fully automated cleaning.
 

@@ -7,7 +7,7 @@ category: "Pet Tech"
 author: "Dr. Lisa Ward"
 keywords: ["best dog GPS tracker 2026", "dog tracker reviews", "Fi GPS tracker", "Whistle GPS", "pet GPS comparison"]
 score: 9.1
-badge: "editors-pick"
+badge: top-rated
 verdict: "Fi Series 3 delivers the best GPS accuracy and longest battery life for active dogs"
 winner: "Fi Series 3"
 affiliateLinks:

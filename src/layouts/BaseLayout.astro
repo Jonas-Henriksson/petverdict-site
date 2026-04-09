@@ -11,6 +11,7 @@ const navLinks = [
   { label: 'Reviews', href: '/#latest' },
   { label: 'Categories', href: '/#categories' },
   { label: 'Methodology', href: '/disclosure' },
+  { label: 'About', href: '/about' },
 ];
 ---
 <!DOCTYPE html>
@@ -31,8 +32,8 @@ const navLinks = [
       openGraph={{ basic: { title, type: ogType, image, url: canonical }, image: { url: image, width: 1200, height: 630, type: 'image/jpeg' } }}
       twitter={{ creator: '@petverdictnet', card: 'summary_large_image' }} />
     <script type="application/ld+json" set:html={JSON.stringify(finalSchema)} />
-    <!-- Plausible Analytics (placeholder — update when analytics.petverdict.net is configured) -->
-    <script defer data-domain="petverdict.net" src="https://analytics.petverdict.net/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
+    <!-- Plausible Analytics -->
+    <script defer data-domain="petverdict.net" src="https://analytics.toolsradar.net/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
     <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
   
     <!-- Ezoic Ad Runtime -->
@@ -100,6 +101,7 @@ const navLinks = [
             </div>
             <div class="footer-col">
               <h4>About</h4>
+              <a href="/about">About Us</a>
               <a href="/how-we-test">How We Test</a>
             <a href="/disclosure">Methodology</a>
               <a href="/disclosure">Affiliate Disclosure</a>

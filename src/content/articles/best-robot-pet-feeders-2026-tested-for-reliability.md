@@ -7,7 +7,7 @@ category: "Pet Tech"
 author: "Dr. Lisa Ward"
 keywords: ["best automatic pet feeder 2026", "robot pet feeder reviews", "smart pet feeder", "automatic cat feeder", "automatic dog feeder"]
 score: 8.9
-badge: "tested"
+badge: tested
 verdict: "PetSafe Smart Feed delivers the best combination of reliability, portion accuracy, and app quality"
 winner: "PetSafe Smart Feed"
 affiliateLinks:

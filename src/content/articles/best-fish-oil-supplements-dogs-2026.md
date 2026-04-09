@@ -7,12 +7,15 @@ category: pet-health
 author: "Hannah Brooks"
 keywords: ["best fish oil for dogs", "dog fish oil supplement", "omega 3 for dogs", "dog joint supplement", "fish oil dogs coat", "dog skin health supplement"]
 score: 9.2
-badge: "top-rated"
+badge: top-rated
 verdict: "Nordic Naturals Pet Omega-3 delivers the highest EPA/DHA concentration with superior freshness and vet-approved dosing for optimal results."
 winner: "Nordic Naturals Pet Omega-3"
 featured: false
 affiliateLinks:
   amazon:
+    - product: "Amazon"
+      asin: "generic"
+      link: "https://amazon.com/?tag=toolsradar05-20"
     - product: "Nordic Naturals Pet Omega-3"
       asin: "B001DUSH18"
       link: "https://www.amazon.com/dp/B001DUSH18?tag=toolsradar05-20"

@@ -7,7 +7,7 @@ category: "Pet Insurance"
 author: "Kevin Nguyen"
 keywords: ["best pet insurance 2026", "pet insurance comparison", "dog insurance reviews", "cat insurance reviews", "pet insurance cost"]
 score: 9.0
-badge: "best-value"
+badge: top-rated
 verdict: "Lemonade Pet offers the best combination of coverage, price, and lightning-fast claim processing"
 winner: "Lemonade Pet Insurance"
 affiliateLinks:
@@ -72,7 +72,7 @@ The policy itself covers accidents, illnesses, diagnostics (X-rays, MRI, bloodwo
 - No multi-pet discount (competitors offer 5-10% off)
 - Not available in all states
 
-[Get a Lemonade Pet Quote — Takes 90 Seconds](https://petverdict.net/go/lemonade-pet)
+[Get a Lemonade Pet Quote — Takes 90 Seconds](https://petpulse.net/go/lemonade-pet)
 
 ## 2. Healthy Paws — Best Unlimited Coverage (8.8/10)
 
@@ -104,7 +104,7 @@ Our 3 test claims averaged 5 days to reimbursement — good but not Lemonade-fas
 - Premium increases can be significant at annual renewal (15-25% reported)
 - No physical therapy or behavioral therapy coverage
 
-[Get a Healthy Paws Quote](https://petverdict.net/go/healthy-paws)
+[Get a Healthy Paws Quote](https://petpulse.net/go/healthy-paws)
 
 ## 3. ASPCA Pet Insurance — Best Budget Option (8.5/10)
 
@@ -136,7 +136,7 @@ The optional wellness add-on (called Preventive Care coverage) is actually well-
 - Pre-existing condition review can be more strict than competitors
 - Annual premium increases average 10-20%
 
-[Get an ASPCA Pet Quote](https://petverdict.net/go/aspca-pet)
+[Get an ASPCA Pet Quote](https://petpulse.net/go/aspca-pet)
 
 ## 4. Embrace Pet Insurance — Best for Wellness Rewards (8.3/10)
 
@@ -162,7 +162,7 @@ The Wellness Rewards program (20/month add-on) is the most comprehensive in the 
 - Pre-existing condition definition is more strict
 - Bilateral condition exclusion is more aggressive than competitors
 
-[Get an Embrace Quote](https://petverdict.net/go/embrace)
+[Get an Embrace Quote](https://petpulse.net/go/embrace)
 
 ## 5. Pets Best — Best Claim Speed for Budget Plans (8.1/10)
 
@@ -186,7 +186,7 @@ Pets Best offers the widest range of deductible options, starting at just 50/yea
 - Some reported issues with premium increases at renewal
 - Wellness add-on is basic compared to Embrace
 
-[Get a Pets Best Quote](https://petverdict.net/go/pets-best)
+[Get a Pets Best Quote](https://petpulse.net/go/pets-best)
 
 ## When Pet Insurance Pays Off (and When It Doesn't)
 

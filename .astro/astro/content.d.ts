@@ -151,6 +151,13 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"articles": {
+"best-automatic-litter-box-2026-litter-robot-scoopfree-petsafe.md": {
+	id: "best-automatic-litter-box-2026-litter-robot-scoopfree-petsafe.md";
+  slug: "best-automatic-litter-box-2026-litter-robot-scoopfree-petsafe";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
 "best-cat-food-2026-complete-buying-guide.md": {
 	id: "best-cat-food-2026-complete-buying-guide.md";
   slug: "best-cat-food-2026-complete-buying-guide";
@@ -179,9 +186,37 @@ declare module 'astro:content' {
   collection: "articles";
   data: InferEntrySchema<"articles">
 } & { render(): Render[".md"] };
+"best-flea-tick-prevention-2026-oral-topical-collar.md": {
+	id: "best-flea-tick-prevention-2026-oral-topical-collar.md";
+  slug: "best-flea-tick-prevention-2026-oral-topical-collar";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
+"best-no-pull-dog-harness-2026-training.md": {
+	id: "best-no-pull-dog-harness-2026-training.md";
+  slug: "best-no-pull-dog-harness-2026-training";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
+"best-pet-camera-2026-furbo-petcube-wyze-tested.md": {
+	id: "best-pet-camera-2026-furbo-petcube-wyze-tested.md";
+  slug: "best-pet-camera-2026-furbo-petcube-wyze-tested";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
 "best-pet-insurance-2026-coverage-compared.md": {
 	id: "best-pet-insurance-2026-coverage-compared.md";
   slug: "best-pet-insurance-2026-coverage-compared";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
+"best-puppy-food-large-breeds-2026-growth-optimized.md": {
+	id: "best-puppy-food-large-breeds-2026-growth-optimized.md";
+  slug: "best-puppy-food-large-breeds-2026-growth-optimized";
   body: string;
   collection: "articles";
   data: InferEntrySchema<"articles">
