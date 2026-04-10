@@ -19,6 +19,7 @@ const navLinks = [
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
     <meta name="theme-color" content="#0a0a0b" />
     <link rel="canonical" href={canonical} />
 
@@ -49,6 +50,8 @@ const navLinks = [
       window.ezstandalone = window.ezstandalone || {};
       ezstandalone.cmd = ezstandalone.cmd || [];
     </script>
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8237291568873305" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- Navigation -->
@@ -397,6 +400,26 @@ const navLinks = [
   @media (max-width: 480px) {
     .footer-links-grid {
       grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  /* ── Dark Mode Overrides ──────────────────────────── */
+  @media (prefers-color-scheme: dark) {
+    .brand-mark { background: #e8ecf1; color: #0a0a0b; }
+    .site-header {
+      background: rgba(10, 10, 11, 0.92);
+      border-bottom-color: #1c1c21;
+    }
+    .mobile-menu {
+      background: #0a0a0b;
+      border-bottom-color: #1c1c21;
+    }
+    .site-footer {
+      background: #0f1219;
+      border-top-color: #1c1c21;
+    }
+    .footer-top {
+      border-bottom-color: #1f2535;
     }
   }
 </style>

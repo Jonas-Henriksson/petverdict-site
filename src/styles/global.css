@@ -284,3 +284,57 @@ main { min-height: 60vh; padding: var(--space-xl) 0; }
   html { font-size: 15px; }
   .container { padding: 0 var(--space-md); }
 }
+
+/* ── Dark Mode ────────────────────────────────────── */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink-950: #e8ecf1;
+    --ink-900: #d1d5db;
+    --ink-800: #b0b6c2;
+    --ink-700: #9098a8;
+    --ink-600: #767e8e;
+    --ink-500: #6b7280;
+    --ink-400: #4b5264;
+    --ink-300: #333a4a;
+    --ink-200: #1f2535;
+    --ink-100: #161b26;
+    --ink-50: #0f1219;
+
+    --surface: #0a0a0b;
+    --surface-raised: #111318;
+    --surface-overlay: rgba(255, 255, 255, 0.04);
+    /* Badge & status light backgrounds — darken for dark mode */
+    --electric-light: rgba(14, 165, 233, 0.15);
+    --electric-subtle: rgba(14, 165, 233, 0.07);
+    --emerald-light: rgba(5, 150, 105, 0.15);
+    --coral-light: rgba(220, 38, 38, 0.15);
+    --amber-light: rgba(217, 119, 6, 0.15);
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.4);
+    --shadow-xl: 0 24px 60px rgba(0, 0, 0, 0.5);
+  }
+
+  body { background-color: #0a0a0b; }
+
+  /* Pre/code blocks: keep dark background legible */
+  pre { background: #111318; border: 1px solid #1c1c21; }
+  code { background: #161b26; border-color: #1f2535; }
+  pre code { background: none; border: none; }
+
+  /* Tables */
+  thead { border-bottom-color: #333a4a; }
+  td { border-bottom-color: #1c1c21; }
+  tbody tr:hover { background-color: #111318; }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar-track { background: #0a0a0b; }
+  ::-webkit-scrollbar-thumb { background: #333a4a; }
+  ::-webkit-scrollbar-thumb:hover { background: #4b5264; }
+
+  /* Image brightness adjustment */
+  img { opacity: 0.92; }
+  img:hover { opacity: 1; }
+}

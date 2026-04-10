@@ -22,6 +22,7 @@ affiliateLinks:
     - product: "PetSafe ScoopFree"
       asin: "B000GF0X38"
       link: "https://www.amazon.com/dp/B000GF0X38?tag=toolsradar05-20"
+ogImage: "/og/best-automatic-litter-box-2026-litter-robot-scoopfree-petsafe.jpg"
 ---
 
 Automatic litter boxes promise to eliminate the daily chore of scooping waste while keeping your home odor-free. After testing five top models with 12 cats across different households for six months, we found significant differences in reliability, odor control, and value.

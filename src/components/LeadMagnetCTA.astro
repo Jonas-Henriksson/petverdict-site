@@ -10,17 +10,17 @@ const API_URL = '/api/subscribe';
 const nicheLeadMagnets: Record<string, { title: string; desc: string; btnText: string }> = {
   'ai-tools': {
     title: 'Our Top 10 AI Tools for 2026',
-    desc: 'The tools our editors actually use daily -- ranked by value, not hype. Free PDF guide.',
+    desc: 'The tools our editors actually use daily — ranked by value, not hype. Free PDF guide.',
     btnText: 'Get the free guide',
   },
   'vpn': {
-    title: 'Top 10 VPNs -- Speed & Security Ranked',
+    title: 'Top 10 VPNs — Speed & Security Ranked',
     desc: 'Real speed tests from 8 countries. See which VPNs actually deliver. Free report.',
     btnText: 'Get the free report',
   },
   'sleep-mattress': {
     title: 'Top 10 Mattresses for Every Sleeper Type',
-    desc: 'Side, back, stomach, combo -- our picks for each. Plus exclusive discount codes.',
+    desc: 'Side, back, stomach, combo — our picks for each. Plus exclusive discount codes.',
     btnText: 'Get the free guide',
   },
   'outdoor-hiking': {
@@ -49,7 +49,7 @@ const nicheLeadMagnets: Record<string, { title: string; desc: string; btnText: s
     btnText: 'Get the free report',
   },
   'web-hosting': {
-    title: 'Top 10 Web Hosts -- Uptime & Speed Tested',
+    title: 'Top 10 Web Hosts — Uptime & Speed Tested',
     desc: '90 days of monitoring data. See who actually delivers 99.9%+ uptime.',
     btnText: 'Get the free benchmark',
   },
@@ -121,7 +121,7 @@ const magnet = nicheLeadMagnets[niche] || nicheLeadMagnets['ai-tools'];
         });
         const data = await resp.json();
         if (resp.ok) {
-          status.textContent = "Check your inbox -- it's on the way!";
+          status.textContent = "Check your inbox — it's on the way!";
           status.className = 'lead-magnet-status lead-magnet-status--success';
           emailInput.value = '';
         } else {
@@ -285,6 +285,12 @@ const magnet = nicheLeadMagnets[niche] || nicheLeadMagnets['ai-tools'];
 
     .lead-magnet-title {
       font-size: 0.95rem;
+    }
+  }
+  @media (prefers-color-scheme: dark) {
+    .newsletter--inline, .lead-magnet, .exit-overlay .exit-modal {
+      background: #0a0a0b !important;
+      color: white;
     }
   }
 </style>

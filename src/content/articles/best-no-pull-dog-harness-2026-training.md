@@ -37,6 +37,7 @@ affiliateLinks:
     - product: "ICEFANG Tactical Harness"
       asin: "B073W8FQXJ"
       link: "https://www.amazon.com/dp/B073W8FQXJ?tag=toolsradar05-20"
+ogImage: "/og/best-no-pull-dog-harness-2026-training.jpg"
 ---
 
 # Best No-Pull Dog Harness 2026: 8 Expert-Tested Training Harnesses

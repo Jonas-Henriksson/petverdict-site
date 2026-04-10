@@ -21,6 +21,7 @@ affiliateLinks:
     - product: "Outward Hound Fun Feeder"
       asin: "B00FPKNRCS"
       link: "https://www.amazon.com/dp/B00FPKNRCS?tag=toolsradar05-20"
+ogImage: "/og/best-robot-pet-feeders-2026-tested-for-reliability.jpg"
 ---
 
 ## The Best Automatic Pet Feeders of 2026, Ranked

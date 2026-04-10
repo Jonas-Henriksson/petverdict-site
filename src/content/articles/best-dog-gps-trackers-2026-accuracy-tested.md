@@ -21,6 +21,7 @@ affiliateLinks:
     - product: "KONG Classic Dog Toy"
       asin: "B0002AR0I8"
       link: "https://www.amazon.com/dp/B0002AR0I8?tag=toolsradar05-20"
+ogImage: "/og/best-dog-gps-trackers-2026-accuracy-tested.jpg"
 ---
 
 ## The Best Dog GPS Trackers of 2026, Tested

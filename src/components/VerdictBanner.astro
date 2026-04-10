@@ -127,4 +127,16 @@ const badgeLabel = badge ? badgeLabels[badge] || badge : null;
     .verdict-score-value { font-size: 2.5rem; }
     .verdict-score-ring { display: none; }
   }
+  @media (prefers-color-scheme: dark) {
+    .verdict-banner {
+      background: #111318;
+      color: white;
+    }
+    .verdict-text { color: #ababb7; }
+    .verdict-winner-label { color: #5c5c6a; }
+    .verdict-winner-name { color: white; }
+    .verdict-score-value { color: white; }
+    .verdict-score-max { color: #858594; }
+    .verdict-score-label { color: #5c5c6a; }
+  }
 </style>

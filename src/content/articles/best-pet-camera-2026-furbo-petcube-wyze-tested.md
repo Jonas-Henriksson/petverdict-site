@@ -31,6 +31,7 @@ affiliateLinks:
     - product: "Skymee Owl Robot"
       asin: "B07YBF8N2J"
       link: "https://www.amazon.com/dp/B07YBF8N2J?tag=toolsradar05-20"
+ogImage: "/og/best-pet-camera-2026-furbo-petcube-wyze-tested.jpg"
 ---
 
 Pet cameras have evolved far beyond basic video monitoring. Today's smart pet cameras offer two-way audio, treat dispensing, bark detection, and even automated playtime features that keep your furry friends engaged while you're away.

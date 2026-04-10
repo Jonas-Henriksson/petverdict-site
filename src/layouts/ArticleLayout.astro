@@ -395,4 +395,29 @@ const badgeLabels: Record<string, string> = {
     .header-score-value { font-size: 1.75rem; }
     .disclosure-box { flex-direction: column; gap: var(--space-sm); }
   }
+
+  /* ── Dark Mode Overrides ──────────────────────────── */
+  @media (prefers-color-scheme: dark) {
+    .article-content :global(thead) { background: #111318; }
+    .article-content :global(table) { border-color: #1c1c21; }
+    .article-content :global(td) { border-bottom-color: #1c1c21; }
+    .article-content :global(tbody tr:hover) { background: #161b26; }
+    .article-content :global(blockquote) { background: #111318; border-left-color: #e8ecf1; }
+    .article-content :global(h2) { border-top-color: #1c1c21; }
+    .disclosure-box { background: #111318; border-color: #1c1c21; }
+    .where-to-buy { background: #111318; border-color: #1c1c21; }
+    .wtb-card { background: #0a0a0b; border-color: #1c1c21; }
+    .header-rule { background: #e8ecf1; }
+    a.affiliate-link,
+    .article-content :global(a.affiliate-link) {
+      background: #0a0a0b;
+      border-color: #333a4a;
+      color: #e8ecf1;
+    }
+    a.affiliate-link:hover,
+    .article-content :global(a.affiliate-link:hover) {
+      background: #e8ecf1;
+      color: #0a0a0b;
+    }
+  }
 </style>

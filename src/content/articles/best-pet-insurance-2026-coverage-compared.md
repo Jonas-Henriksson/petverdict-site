@@ -15,6 +15,7 @@ affiliateLinks:
     - product: "Furbo Dog Camera"
       asin: "B0884JN9GN"
       link: "https://www.amazon.com/dp/B0884JN9GN?tag=toolsradar05-20"
+ogImage: "/og/best-pet-insurance-2026-coverage-compared.jpg"
 ---
 
 ## The Best Pet Insurance of 2026, Compared

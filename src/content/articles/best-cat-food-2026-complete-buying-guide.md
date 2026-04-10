@@ -18,6 +18,7 @@ affiliateLinks:
     - product: "Litter-Robot 4"
       asin: "B0BHH2C3YZ"
       link: "https://www.amazon.com/dp/B0BHH2C3YZ?tag=toolsradar05-20"
+ogImage: "/og/best-cat-food-2026-complete-buying-guide.jpg"
 ---
 
 ## The Best Cat Foods of 2026, Ranked

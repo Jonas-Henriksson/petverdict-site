@@ -28,6 +28,7 @@ affiliateLinks:
     - product: "Capstar Tablets"
       asin: "B00028ZMHO"
       link: "https://www.amazon.com/dp/B00028ZMHO?tag=toolsradar05-20"
+ogImage: "/og/best-flea-tick-prevention-2026-oral-topical-collar.jpg"
 ---
 
 Flea and tick prevention is crucial for your pet's health, preventing diseases like Lyme disease, Rocky Mountain spotted fever, and flea allergy dermatitis. With parasite-borne diseases affecting over 40% of dogs annually, choosing the right prevention method can save you thousands in veterinary bills.

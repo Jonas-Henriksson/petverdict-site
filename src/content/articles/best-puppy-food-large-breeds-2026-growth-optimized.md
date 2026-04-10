@@ -19,6 +19,7 @@ affiliateLinks:
     - product: "KONG Classic Dog Toy"
       asin: "B0002AR0I8"
       link: "https://www.amazon.com/dp/B0002AR0I8?tag=toolsradar05-20"
+ogImage: "/og/best-puppy-food-large-breeds-2026-growth-optimized.jpg"
 ---
 
 Large breed puppies face unique nutritional challenges that standard puppy food simply can't address. These gentle giants need precisely controlled calcium levels, optimal protein ratios, and specialized nutrients to support healthy bone development without triggering rapid growth spurts that can cause skeletal problems.

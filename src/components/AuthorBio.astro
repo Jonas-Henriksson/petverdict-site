@@ -129,4 +129,18 @@ const displayInitials = initials || name.split(' ').map(n => n[0]).join('');
       margin-left: auto;
     }
   }
+  @media (prefers-color-scheme: dark) {
+    .author-bio {
+      background: #111318 !important;
+      border-color: #1c1c21 !important;
+    }
+    .author-avatar {
+      background: #0a0a0b !important;
+    }
+    .author-bio .methodology-link {
+      background: #0a0a0b !important;
+      border-color: #333a4a !important;
+      color: #d1d5db !important;
+    }
+  }
 </style>

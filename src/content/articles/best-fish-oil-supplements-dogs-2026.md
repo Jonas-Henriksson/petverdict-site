@@ -31,6 +31,7 @@ affiliateLinks:
     - product: "Nutramax Welactin"
       asin: "B0013TKW8W"
       link: "https://www.amazon.com/dp/B0013TKW8W?tag=toolsradar05-20"
+ogImage: "/og/best-fish-oil-supplements-dogs-2026.jpg"
 ---
 
 Your dog's health starts with proper nutrition, and fish oil supplements provide essential omega-3 fatty acids that support everything from joint mobility to a shiny coat. After testing seven top-rated fish oil supplements with three veterinary nutritionists and monitoring 45 dogs over 12 weeks, we've identified the products that deliver real results.
