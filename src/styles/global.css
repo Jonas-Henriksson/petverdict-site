@@ -31,6 +31,8 @@
   --surface: #ffffff;
   --surface-raised: #fafafa;
   --surface-overlay: rgba(10, 10, 11, 0.04);
+  --surface-inverse: var(--ink-950);
+  --text-on-inverse: #ffffff;
 
   /* Legacy compat */
   --color-text: var(--ink-900);
@@ -303,6 +305,8 @@ main { min-height: 60vh; padding: var(--space-xl) 0; }
 
     --surface: #0a0a0b;
     --surface-raised: #111318;
+    --surface-inverse: #111318;
+    --text-on-inverse: #e8ecf1;
     --surface-overlay: rgba(255, 255, 255, 0.04);
     /* Badge & status light backgrounds — darken for dark mode */
     --electric-light: rgba(14, 165, 233, 0.15);
