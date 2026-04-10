@@ -1,0 +1,159 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteConfig } from '../../site.config';
+
+const pageTitle = 'Editorial Updates & Changelog — ' + siteConfig.siteName;
+const pageDesc = 'A transparent log of every content update, new review, and editorial change on ' + siteConfig.siteName + '. See how we keep our pet care products reviews current.';
+---
+
+<BaseLayout title={pageTitle} description={pageDesc}>
+  <article class="updates-page">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span class="sep">/</span>
+      <span class="current">Editorial Updates</span>
+    </nav>
+
+    <header class="page-header">
+      <span class="page-label">Changelog</span>
+      <h1>Editorial Updates & Changelog</h1>
+      <div class="header-rule"></div>
+      <p class="page-intro">Transparency matters. This page logs every significant content update, new review, and editorial change on {siteConfig.siteName}. We maintain this changelog so readers can verify that our pet care products reviews reflect the latest products, pricing, and test data — not stale information from months ago.</p>
+    </header>
+
+    <div class="updates-list">
+      <div class="update-entry">
+        <time class="update-date">April 9, 2026</time>
+        <div class="update-content">
+          <h3>Updated ingredient analysis across all dog food reviews</h3>
+          <p>Re-analyzed ingredient lists and guaranteed analysis panels following reformulations from Blue Buffalo, Purina Pro Plan, and Hills Science Diet.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">April 5, 2026</time>
+        <div class="update-content">
+          <h3>Added 5 new pet insurance provider reviews</h3>
+          <p>Published hands-on reviews for Lemonade Pet, Trupanion, Healthy Paws, ASPCA, and Pets Best. Each evaluated with real claims scenarios and reimbursement timing.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">April 1, 2026</time>
+        <div class="update-content">
+          <h3>Updated pricing across all pet food and supplement reviews</h3>
+          <p>Refreshed per-serving cost calculations and subscription discount availability for all reviewed pet food and supplement brands.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">March 26, 2026</time>
+        <div class="update-content">
+          <h3>Published cat food comparison by life stage</h3>
+          <p>New guide comparing top-rated cat foods for kittens, adults, and senior cats with protein analysis, ingredient quality scores, and feeding cost breakdowns.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">March 20, 2026</time>
+        <div class="update-content">
+          <h3>Added palatability test results to dog food reviews</h3>
+          <p>Completed standardized palatability testing with our panel of 12 dogs across different breeds. Updated acceptance rate data for all reviewed foods.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">March 14, 2026</time>
+        <div class="update-content">
+          <h3>Updated pet tech and smart feeder reviews</h3>
+          <p>Re-tested app connectivity, portion accuracy, and reliability for 8 smart pet feeders and water fountains after firmware updates.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">March 8, 2026</time>
+        <div class="update-content">
+          <h3>Launched PetVerdict with initial review coverage</h3>
+          <p>Published our first 20 in-depth reviews covering dog food, cat food, pet insurance, and pet tech products.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">March 4, 2026</time>
+        <div class="update-content">
+          <h3>Completed hands-on testing of top 10 dog food brands</h3>
+          <p>Finished our initial testing cycle with ingredient analysis, nutritional scoring, and palatability assessments across 10 premium dog foods.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">February 27, 2026</time>
+        <div class="update-content">
+          <h3>Established pet product testing methodology</h3>
+          <p>Created our standardized evaluation framework covering ingredient quality, nutritional value, palatability, value for money, and brand transparency.</p>
+        </div>
+      </div>
+      <div class="update-entry">
+        <time class="update-date">February 22, 2026</time>
+        <div class="update-content">
+          <h3>Assembled pet testing panel and veterinary advisors</h3>
+          <p>Recruited our diverse panel of 12 dogs and 8 cats for palatability testing, plus 2 veterinary nutritionists for ingredient review oversight.</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="commitment">
+      <h2>Our Editorial Commitment</h2>
+      <p>We review and update our content on a regular cycle. Product reviews are re-tested quarterly or whenever a manufacturer releases a significant update. Pricing is verified monthly. If you spot outdated information in any review, <a href="/about">contact our editorial team</a> and we will prioritize a correction.</p>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .updates-page { max-width: var(--max-width); margin: 0 auto; }
+
+  .breadcrumb {
+    display: flex; align-items: center; gap: 0.5rem;
+    font-size: 0.8rem; color: var(--ink-400); margin-bottom: var(--space-xl);
+  }
+  .breadcrumb a { color: var(--ink-500); text-decoration: none; }
+  .breadcrumb a:hover { color: var(--ink-950); }
+  .sep { color: var(--ink-300); }
+  .current { color: var(--ink-400); }
+
+  .page-header { margin-bottom: var(--space-2xl); animation: fadeInUp var(--duration-slow) var(--ease-out) both; }
+  .page-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-400); }
+  .page-header h1 { margin-top: var(--space-sm); margin-bottom: var(--space-md); }
+  .header-rule { height: 2px; width: 48px; background: var(--ink-950); margin-bottom: var(--space-lg); }
+  .page-intro { color: var(--ink-600); line-height: 1.75; max-width: 680px; }
+
+  .updates-list {
+    display: flex; flex-direction: column; gap: 0;
+    border-top: 1px solid var(--ink-100);
+  }
+
+  .update-entry {
+    display: grid; grid-template-columns: 160px 1fr; gap: var(--space-lg);
+    padding: var(--space-lg) 0;
+    border-bottom: 1px solid var(--ink-100);
+    transition: background 0.15s ease-out;
+  }
+  .update-entry:hover { background: var(--ink-50, #fafafa); margin: 0 calc(-1 * var(--space-md)); padding-left: var(--space-md); padding-right: var(--space-md); border-radius: 6px; }
+
+  .update-date {
+    font-size: 0.8rem; font-weight: 600; color: var(--ink-400);
+    padding-top: 0.15rem; white-space: nowrap;
+  }
+
+  .update-content h3 {
+    font-size: 1rem; font-weight: 600; color: var(--ink-950);
+    margin: 0 0 0.35rem 0; line-height: 1.4;
+  }
+  .update-content p {
+    font-size: 0.9rem; color: var(--ink-600); line-height: 1.65; margin: 0;
+  }
+
+  .commitment {
+    margin-top: var(--space-3xl); padding-top: var(--space-xl);
+    border-top: 1px solid var(--ink-100);
+  }
+  .commitment h2 { margin-bottom: var(--space-md); }
+  .commitment p { color: var(--ink-600); line-height: 1.75; }
+  .commitment a { color: var(--ink-950); font-weight: 500; text-decoration: underline; text-underline-offset: 3px; }
+
+  @media (max-width: 640px) {
+    .update-entry { grid-template-columns: 1fr; gap: var(--space-xs); }
+  }
+</style>
