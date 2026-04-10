@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import siteConfig from '../../site.config';
+import { authors } from '../authors';
 
 const methodologySchema = {
   '@context': 'https://schema.org',
@@ -12,6 +13,9 @@ const methodologySchema = {
     name: siteConfig.siteName,
   },
 };
+
+const teamSlugs = ['hannah-brooks', 'kevin-nguyen', 'dr-lisa-ward'];
+const teamMembers = teamSlugs.map(slug => authors[slug]).filter(Boolean);
 ---
 
 <BaseLayout title="How We Test" description="Our independent testing methodology for pet care products reviews. Transparent criteria, real-world testing, no vendor influence." structuredData={methodologySchema}>
@@ -114,31 +118,23 @@ const methodologySchema = {
       <h2>Our Testing Team</h2>
       <p class="section-intro">The people behind the scores.</p>
       <div class="team-grid">
-        
-        <div class="team-member">
-          <div class="member-avatar"><span>HB</span></div>
-          <div class="member-info">
-            <a href="/author/hannah-brooks" class="member-name">Hannah Brooks</a>
-            <span class="member-title">Editor-in-Chief</span>
-            <span class="member-creds">Certified Veterinary Technician (CVT), Pet Nutrition Specialist</span>
+        {teamMembers.map(member => (
+          <div class="team-member">
+            <div class="member-avatar">
+              {member.image ? (
+                <img src={member.image} alt={member.name} width="48" height="48" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                <span class="avatar-initials" style="display:none">{member.initials}</span>
+              ) : (
+                <span class="avatar-initials">{member.initials}</span>
+              )}
+            </div>
+            <div class="member-info">
+              <a href={`/author/${member.slug}`} class="member-name">{member.name}</a>
+              <span class="member-title">{member.title}</span>
+              <span class="member-creds">{member.credentials}</span>
+            </div>
           </div>
-        </div>
-        <div class="team-member">
-          <div class="member-avatar"><span>KN</span></div>
-          <div class="member-info">
-            <a href="/author/kevin-nguyen" class="member-name">Kevin Nguyen</a>
-            <span class="member-title">Staff Writer & Pet Tech Reviewer</span>
-            <span class="member-creds">Consumer electronics background, pet foster volunteer</span>
-          </div>
-        </div>
-        <div class="team-member">
-          <div class="member-avatar"><span>LW</span></div>
-          <div class="member-info">
-            <a href="/author/dr-lisa-ward" class="member-name">Dr. Lisa Ward</a>
-            <span class="member-title">Contributing Veterinarian</span>
-            <span class="member-creds">DVM, Board-eligible veterinary nutritionist</span>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   </div>
@@ -383,6 +379,22 @@ const methodologySchema = {
     font-size: 0.85rem;
     letter-spacing: 0.04em;
     flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  .member-avatar .avatar-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .member-avatar .avatar-initials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
   }
 
   .member-info {
