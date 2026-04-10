@@ -6,15 +6,29 @@ export interface Props {
   niche: string;
   yearsExperience: number;
   initials?: string;
+  image?: string;
 }
 
-const { name, slug, title, niche, yearsExperience, initials } = Astro.props;
+const { name, slug, title, niche, yearsExperience, initials, image } = Astro.props;
 const displayInitials = initials || name.split(' ').map(n => n[0]).join('');
 ---
 
 <div class="author-bio">
   <a href={`/author/${slug}`} class="author-avatar" aria-label={`Read more about ${name}`}>
-    <span class="avatar-initials">{displayInitials}</span>
+    {image ? (
+      <img
+        src={image}
+        alt={name}
+        width="44"
+        height="44"
+        class="avatar-img"
+        loading="lazy"
+        onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+      />
+      <span class="avatar-initials" style="display:none">{displayInitials}</span>
+    ) : (
+      <span class="avatar-initials">{displayInitials}</span>
+    )}
   </a>
   <div class="author-info">
     <a href={`/author/${slug}`} class="author-name">{name}</a>
@@ -56,14 +70,27 @@ const displayInitials = initials || name.split(' ').map(n => n[0]).join('');
     text-decoration: none;
     flex-shrink: 0;
     transition: transform 0.15s ease-out;
+    overflow: hidden;
   }
 
   .author-avatar:hover {
     transform: scale(1.05);
   }
 
+  .avatar-img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
   .avatar-initials {
     line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
   }
 
   .author-info {
