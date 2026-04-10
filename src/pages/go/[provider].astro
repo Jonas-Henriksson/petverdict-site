@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export function getStaticPaths() {
+  const providers = [
+    { provider: 'amazon', name: 'Amazon', url: 'https://www.amazon.com/?tag=toolsradar05-20' },
+    { provider: 'chewy', name: 'Chewy', url: 'https://chewy.com' },
+    { provider: 'petco', name: 'Petco', url: 'https://petco.com' },
+  ];
+  return providers.map((p) => ({
+    params: { provider: p.provider },
+    props: { name: p.name, url: p.url },
+  }));
+}
+
+const { name, url } = Astro.props;
+---
+
+<BaseLayout title={`Visit ${name}`} description={`Redirecting to ${name} - recommended by PetVerdict`}>
+  <div class="redirect-page">
+    <h1>Redirecting to {name}...</h1>
+    <p>You're being redirected to {name}. If you're not redirected automatically, <a href={url} rel="nofollow sponsored">click here</a>.</p>
+    <p class="disclosure">PetVerdict may earn a commission if you sign up through this link. This doesn't affect our reviews or recommendations.</p>
+  </div>
+</BaseLayout>
+
+<script define:vars={{ url }}>
+  setTimeout(() => { window.location.href = url; }, 1500);
+</script>
+
+<style>
+  .redirect-page {
+    text-align: center;
+    padding: 6rem 1rem;
+  }
+
+  .redirect-page h1 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+
+  .redirect-page p {
+    color: #a8b3bf;
+    margin-bottom: 1rem;
+  }
+
+  .disclosure {
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-top: 2rem;
+  }
+</style>
