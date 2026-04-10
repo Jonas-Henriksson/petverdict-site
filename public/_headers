@@ -1,0 +1,54 @@
+# ===========================================
+# Cloudflare Pages Custom Headers
+# More specific paths override Cache-Control from /*
+# Security headers from /* are added to all responses
+# ===========================================
+
+# Global security headers (applied to all paths)
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# HTML pages - 1 hour cache
+/
+  Cache-Control: public, max-age=3600, must-revalidate
+/*/
+  Cache-Control: public, max-age=3600, must-revalidate
+
+# Astro hashed assets - 1 year immutable
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Images - 1 year
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+/og/*
+  Cache-Control: public, max-age=31536000, immutable
+/*.png
+  Cache-Control: public, max-age=31536000, immutable
+/*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/*.jpeg
+  Cache-Control: public, max-age=31536000, immutable
+/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+/*.avif
+  Cache-Control: public, max-age=31536000, immutable
+/*.svg
+  Cache-Control: public, max-age=31536000, immutable
+/*.ico
+  Cache-Control: public, max-age=31536000, immutable
+
+# Fonts - 1 year
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+/*.woff
+  Cache-Control: public, max-age=31536000, immutable
+
+# Sitemap and robots - 1 day
+/sitemap*.xml
+  Cache-Control: public, max-age=86400
+/robots.txt
+  Cache-Control: public, max-age=86400
