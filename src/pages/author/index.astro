@@ -1,0 +1,160 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import siteConfig from '../../../site.config';
+import { authors } from '../../authors';
+
+const authorList = Object.values(authors);
+---
+
+<BaseLayout title={`Our Authors — ${siteConfig.siteName}`} description={`Meet the expert writers and reviewers behind ${siteConfig.siteName}.`}>
+  <div class="authors-page">
+    <h1>Our Authors</h1>
+    <p class="authors-intro">Meet the expert writers and researchers behind {siteConfig.siteName}.</p>
+
+    <div class="authors-grid">
+      {authorList.map((author) => (
+        <a href={`/author/${author.slug}/`} class="author-card">
+          <div class="author-avatar">
+            {author.image ? (
+              <img
+                src={author.image}
+                alt={author.name}
+                width="80"
+                height="80"
+                class="avatar-img"
+                loading="lazy"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+              />
+              <span class="avatar-initials" style="display:none">{author.initials}</span>
+            ) : (
+              <span class="avatar-initials">{author.initials}</span>
+            )}
+          </div>
+          <div class="author-info">
+            <h2>{author.name}</h2>
+            <p class="author-title-text">{author.title}</p>
+            <p class="author-bio">{author.bio.slice(0, 160)}...</p>
+            <ul class="expertise-tags">
+              {author.expertise.slice(0, 3).map((skill: string) => (
+                <li>{skill}</li>
+              ))}
+            </ul>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .authors-page {
+    max-width: var(--max-width, 720px);
+    margin: 0 auto;
+  }
+
+  .authors-page h1 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    margin-bottom: 0.5rem;
+  }
+
+  .authors-intro {
+    font-size: 1.1rem;
+    color: var(--ink-600, #4b5563);
+    margin-bottom: 2.5rem;
+  }
+
+  .authors-grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .author-card {
+    display: flex;
+    gap: 1.25rem;
+    padding: 1.5rem;
+    border: 1px solid var(--ink-100, #e5e7eb);
+    border-radius: var(--border-radius-lg, 10px);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .author-card:hover {
+    border-color: var(--ink-300, #d1d5db);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+
+  .author-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: var(--ink-950, #111);
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  .avatar-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .avatar-initials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .author-info h2 {
+    font-size: 1.15rem;
+    margin-bottom: 0.15rem;
+  }
+
+  .author-title-text {
+    font-size: 0.9rem;
+    color: var(--ink-500, #6b7280);
+    margin-bottom: 0.5rem;
+  }
+
+  .author-bio {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--ink-700, #374151);
+    margin-bottom: 0.75rem;
+  }
+
+  .expertise-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .expertise-tags li {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    background: var(--surface-raised, #f8f9fa);
+    border: 1px solid var(--ink-100, #e5e7eb);
+    border-radius: 4px;
+    color: var(--ink-600, #4b5563);
+  }
+
+  @media (max-width: 640px) {
+    .author-card {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+</style>
