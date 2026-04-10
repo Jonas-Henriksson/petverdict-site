@@ -7,29 +7,31 @@ category: cat-food
 author: PetVerdict Team
 keywords: ["best cat litter", "cat litter reviews", "clumping cat litter", "odor control litter", "dust free cat litter"]
 score: 9.2
-badge: "Best Overall"
+badge: "editors-pick"
 verdict: "World's Best Cat Litter Multiple Cat Clumping Formula delivers superior odor control and tight clumping at a reasonable price point."
 winner: "World's Best Cat Litter Multiple Cat Clumping Formula"
 featured: false
 affiliateLinks:
-  - brand: Amazon
-    url: https://amazon.com/?tag=toolsradar05-20
-amazon:
-  - product: "World's Best Cat Litter Multiple Cat Clumping Formula"
-    asin: "B000084E58"
-    link: "https://www.amazon.com/dp/B000084E58?tag=toolsradar05-20"
-  - product: "Dr. Elsey's Ultra Premium Clumping Cat Litter"
-    asin: "B0009X29WK"
-    link: "https://www.amazon.com/dp/B0009X29WK?tag=toolsradar05-20"
-  - product: "Tidy Cats 24/7 Performance Clumping Litter"
-    asin: "B01MXGX7T1"
-    link: "https://www.amazon.com/dp/B01MXGX7T1?tag=toolsradar05-20"
-  - product: "Arm & Hammer Clump & Seal Platinum"
-    asin: "B00Y2Z2FZA"
-    link: "https://www.amazon.com/dp/B00Y2Z2FZA?tag=toolsradar05-20"
-  - product: "Fresh Step Outstretch Clumping Litter"
-    asin: "B07FNQVQB7"
-    link: "https://www.amazon.com/dp/B07FNQVQB7?tag=toolsradar05-20"
+  custom:
+    - name: Amazon
+      url: https://amazon.com/?tag=toolsradar05-20
+      network: direct
+  amazon:
+    - product: "World's Best Cat Litter Multiple Cat Clumping Formula"
+      asin: "B000084E58"
+      link: "https://www.amazon.com/dp/B000084E58?tag=toolsradar05-20"
+    - product: "Dr. Elsey's Ultra Premium Clumping Cat Litter"
+      asin: "B0009X29WK"
+      link: "https://www.amazon.com/dp/B0009X29WK?tag=toolsradar05-20"
+    - product: "Tidy Cats 24/7 Performance Clumping Litter"
+      asin: "B01MXGX7T1"
+      link: "https://www.amazon.com/dp/B01MXGX7T1?tag=toolsradar05-20"
+    - product: "Arm & Hammer Clump & Seal Platinum"
+      asin: "B00Y2Z2FZA"
+      link: "https://www.amazon.com/dp/B00Y2Z2FZA?tag=toolsradar05-20"
+    - product: "Fresh Step Outstretch Clumping Litter"
+      asin: "B07FNQVQB7"
+      link: "https://www.amazon.com/dp/B07FNQVQB7?tag=toolsradar05-20"
 ---
 
 Finding the right cat litter can transform your daily routine from a dreaded chore into a quick, odor-free task. After testing 15 top cat litters over 6 months with 12 cats of varying ages and dietary habits, we've identified the clear winners across different budgets and needs.

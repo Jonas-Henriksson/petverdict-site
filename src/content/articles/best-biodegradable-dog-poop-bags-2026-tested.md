@@ -7,29 +7,31 @@ category: pet-health
 author: PetVerdict Team
 keywords: ["best dog poop bags", "biodegradable dog poop bags", "eco-friendly dog waste bags", "dog waste bags 2026", "biodegradable poop bags"]
 score: 9.2
-badge: "Best Overall"
+badge: "editors-pick"
 verdict: "Earth Rated's PoopBags Extra Thick delivers unmatched durability in leak-proof testing while meeting ASTM D6400 biodegradable standards."
 winner: "Earth Rated PoopBags Extra Thick"
 featured: false
 affiliateLinks:
-  - brand: Amazon
-    url: https://amazon.com/?tag=toolsradar05-20
-amazon:
-  - product: "Earth Rated PoopBags Extra Thick"
-    asin: "B01M4NWQHV"
-    link: "https://www.amazon.com/dp/B01M4NWQHV?tag=toolsradar05-20"
-  - product: "Doggy Do Good Biodegradable Bags"
-    asin: "B07FKQX5QZ"
-    link: "https://www.amazon.com/dp/B07FKQX5QZ?tag=toolsradar05-20"
-  - product: "BioBag Dog Waste Bags"
-    asin: "B0019MCKZG"
-    link: "https://www.amazon.com/dp/B0019MCKZG?tag=toolsradar05-20"
-  - product: "Pogi's Biodegradable Poop Bags"
-    asin: "B01LY05HDG"
-    link: "https://www.amazon.com/dp/B01LY05HDG?tag=toolsradar05-20"
-  - product: "PoopBags Biodegradable Dog Waste Bags"
-    asin: "B07CWZMFN7"
-    link: "https://www.amazon.com/dp/B07CWZMFN7?tag=toolsradar05-20"
+  custom:
+    - name: Amazon
+      url: https://amazon.com/?tag=toolsradar05-20
+      network: direct
+  amazon:
+    - product: "Earth Rated PoopBags Extra Thick"
+      asin: "B01M4NWQHV"
+      link: "https://www.amazon.com/dp/B01M4NWQHV?tag=toolsradar05-20"
+    - product: "Doggy Do Good Biodegradable Bags"
+      asin: "B07FKQX5QZ"
+      link: "https://www.amazon.com/dp/B07FKQX5QZ?tag=toolsradar05-20"
+    - product: "BioBag Dog Waste Bags"
+      asin: "B0019MCKZG"
+      link: "https://www.amazon.com/dp/B0019MCKZG?tag=toolsradar05-20"
+    - product: "Pogi's Biodegradable Poop Bags"
+      asin: "B01LY05HDG"
+      link: "https://www.amazon.com/dp/B01LY05HDG?tag=toolsradar05-20"
+    - product: "PoopBags Biodegradable Dog Waste Bags"
+      asin: "B07CWZMFN7"
+      link: "https://www.amazon.com/dp/B07CWZMFN7?tag=toolsradar05-20"
 ---
 
 You pick up after your dog multiple times daily, generating thousands of plastic waste bags annually that persist in landfills for centuries. Biodegradable dog poop bags offer an eco-conscious solution without sacrificing the leak-proof protection you need during those messy cleanup moments.

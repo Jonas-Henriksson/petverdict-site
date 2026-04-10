@@ -33,7 +33,7 @@ export const authors: Record<string, Author> = {
     years: 3,
     bio: `Kevin was a consumer electronics journalist at Tom's Hardware who adopted a pandemic puppy in 2021 and immediately realized that pet tech was the wild west of product reviews — every GPS tracker was 'the best,' every automatic feeder was 'smart,' and nobody was actually testing battery life past day three. He now runs long-term tests with his 3 dogs and 2 cats, which means his house looks like a QA lab and his neighbors think he's eccentric. Every GPS tracker gets tested on actual off-leash hikes with cellular coverage logging, every smart feeder runs for 30+ days tracking portion accuracy, and every pet camera gets evaluated at night in actual low-light conditions, not a staged demo room. His 'worst pet tech' listicle gets more traffic than his best-of lists, which says something about the industry.`,
     expertise: ["Pet GPS trackers", "Smart feeders", "Pet cameras", "Grooming tools"],
-    credentials: 'Former Tom's Hardware editor, 3+ years long-term pet tech testing, foster volunteer',
+    credentials: "Former Tom's Hardware editor, 3+ years long-term pet tech testing, foster volunteer",
     image: 'https://randomuser.me/api/portraits/men/17.jpg',
   },
   'dr-lisa-ward': {

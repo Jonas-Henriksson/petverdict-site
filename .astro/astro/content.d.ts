@@ -158,9 +158,37 @@ declare module 'astro:content' {
   collection: "articles";
   data: InferEntrySchema<"articles">
 } & { render(): Render[".md"] };
+"best-automatic-pet-feeders-2026-tested-reliability.md": {
+	id: "best-automatic-pet-feeders-2026-tested-reliability.md";
+  slug: "best-automatic-pet-feeders-2026-tested-reliability";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
+"best-biodegradable-dog-poop-bags-2026-tested.md": {
+	id: "best-biodegradable-dog-poop-bags-2026-tested.md";
+  slug: "best-biodegradable-dog-poop-bags-2026-tested";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
 "best-cat-food-2026-complete-buying-guide.md": {
 	id: "best-cat-food-2026-complete-buying-guide.md";
   slug: "best-cat-food-2026-complete-buying-guide";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
+"best-cat-litter-2026-tested-odor-control-clumping.md": {
+	id: "best-cat-litter-2026-tested-odor-control-clumping.md";
+  slug: "best-cat-litter-2026-tested-odor-control-clumping";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
+"best-dog-anxiety-vest-2026-thundershirt-alternatives.md": {
+	id: "best-dog-anxiety-vest-2026-thundershirt-alternatives.md";
+  slug: "best-dog-anxiety-vest-2026-thundershirt-alternatives";
   body: string;
   collection: "articles";
   data: InferEntrySchema<"articles">
@@ -175,6 +203,13 @@ declare module 'astro:content' {
 "best-dog-gps-trackers-2026-accuracy-tested.md": {
 	id: "best-dog-gps-trackers-2026-accuracy-tested.md";
   slug: "best-dog-gps-trackers-2026-accuracy-tested";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
+"best-dog-harness-for-pulling-2026-tested.md": {
+	id: "best-dog-harness-for-pulling-2026-tested.md";
+  slug: "best-dog-harness-for-pulling-2026-tested";
   body: string;
   collection: "articles";
   data: InferEntrySchema<"articles">

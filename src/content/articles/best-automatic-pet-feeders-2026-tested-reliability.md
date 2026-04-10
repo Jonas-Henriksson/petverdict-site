@@ -7,29 +7,31 @@ category: pet-tech
 author: PetVerdict Team
 keywords: ["automatic pet feeder", "smart pet feeder", "automatic dog feeder", "pet feeder reviews", "best pet feeder 2026"]
 score: 9.2
-badge: "Most Reliable"
+badge: "top-rated"
 verdict: "The PetSafe Smart Feed Automatic Pet Feeder delivers the most reliable feeding performance with smartphone control and customizable portions."
 winner: "PetSafe Smart Feed Automatic Pet Feeder"
 featured: false
 affiliateLinks:
-  - brand: Amazon
-    url: https://amazon.com/?tag=toolsradar05-20
-amazon:
-  - product: "PetSafe Smart Feed Automatic Pet Feeder"
-    asin: "B072FJY4M2"
-    link: "https://www.amazon.com/dp/B072FJY4M2?tag=toolsradar05-20"
-  - product: "SureFlap SureFeed Microchip Pet Feeder"
-    asin: "B00O0UIPTY"
-    link: "https://www.amazon.com/dp/B00O0UIPTY?tag=toolsradar05-20"
-  - product: "Petnet SmartFeeder Gen 2"
-    asin: "B01NAVM4GV"
-    link: "https://www.amazon.com/dp/B01NAVM4GV?tag=toolsradar05-20"
-  - product: "PETLIBRO Automatic Cat Feeder A36"
-    asin: "B0926PZTLX"
-    link: "https://www.amazon.com/dp/B0926PZTLX?tag=toolsradar05-20"
-  - product: "WOPET Smart Pet Feeder"
-    asin: "B08FQTQJZD"
-    link: "https://www.amazon.com/dp/B08FQTQJZD?tag=toolsradar05-20"
+  custom:
+    - name: Amazon
+      url: https://amazon.com/?tag=toolsradar05-20
+      network: direct
+  amazon:
+    - product: "PetSafe Smart Feed Automatic Pet Feeder"
+      asin: "B072FJY4M2"
+      link: "https://www.amazon.com/dp/B072FJY4M2?tag=toolsradar05-20"
+    - product: "SureFlup SureFeed Microchip Pet Feeder"
+      asin: "B00O0UIPTY"
+      link: "https://www.amazon.com/dp/B00O0UIPTY?tag=toolsradar05-20"
+    - product: "Petnet SmartFeeder Gen 2"
+      asin: "B01NAVM4GV"
+      link: "https://www.amazon.com/dp/B01NAVM4GV?tag=toolsradar05-20"
+    - product: "PETLIBRO Automatic Cat Feeder A36"
+      asin: "B0926PZTLX"
+      link: "https://www.amazon.com/dp/B0926PZTLX?tag=toolsradar05-20"
+    - product: "WOPET Smart Pet Feeder"
+      asin: "B08FQTQJZD"
+      link: "https://www.amazon.com/dp/B08FQTQJZD?tag=toolsradar05-20"
 ---
 
 Automatic pet feeders promise to solve meal scheduling headaches, but many fail when you need them most. After testing 12 automatic feeders across 6 months with 45 dogs and cats, we've identified the models that actually deliver consistent, reliable feeding.

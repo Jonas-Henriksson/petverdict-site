@@ -7,29 +7,31 @@ category: pet-tech
 author: PetVerdict Team
 keywords: ["best dog harness for pulling", "no pull dog harness", "heavy duty dog harness", "strong dog harness", "dog pulling harness"]
 score: 9.2
-badge: "Best Overall"
+badge: "editors-pick"
 verdict: "The Ruffwear Front Range Harness delivers unmatched control and comfort for powerful pullers, with reinforced stitching that survived 6 months of testing with 12 strong dogs."
 winner: "Ruffwear Front Range Harness"
 featured: false
 affiliateLinks:
-  - brand: Amazon
-    url: https://amazon.com/?tag=toolsradar05-20
-amazon:
-  - product: "Ruffwear Front Range Harness"
-    asin: "B01G8WLU8S"
-    link: "https://www.amazon.com/dp/B01G8WLU8S?tag=toolsradar05-20"
-  - product: "Julius-K9 IDC Powerharness"
-    asin: "B004R1QLMU"
-    link: "https://www.amazon.com/dp/B004R1QLMU?tag=toolsradar05-20"
-  - product: "PetSafe Easy Walk Harness"
-    asin: "B0009ZBKG4"
-    link: "https://www.amazon.com/dp/B0009ZBKG4?tag=toolsradar05-20"
-  - product: "Kurgo Tru-Fit Smart Harness"
-    asin: "B00CHZBLRQ"
-    link: "https://www.amazon.com/dp/B00CHZBLRQ?tag=toolsradar05-20"
-  - product: "Rabbitgoo No-Pull Dog Harness"
-    asin: "B01LW9MFR3"
-    link: "https://www.amazon.com/dp/B01LW9MFR3?tag=toolsradar05-20"
+  custom:
+    - name: Amazon
+      url: https://amazon.com/?tag=toolsradar05-20
+      network: direct
+  amazon:
+    - product: "Ruffwear Front Range Harness"
+      asin: "B01G8WLU8S"
+      link: "https://www.amazon.com/dp/B01G8WLU8S?tag=toolsradar05-20"
+    - product: "Julius-K9 IDC Powerharness"
+      asin: "B004R1QLMU"
+      link: "https://www.amazon.com/dp/B004R1QLMU?tag=toolsradar05-20"
+    - product: "PetSafe Easy Walk Harness"
+      asin: "B0009ZBKG4"
+      link: "https://www.amazon.com/dp/B0009ZBKG4?tag=toolsradar05-20"
+    - product: "Kurgo Tru-Fit Smart Harness"
+      asin: "B00CHZBLRQ"
+      link: "https://www.amazon.com/dp/B00CHZBLRQ?tag=toolsradar05-20"
+    - product: "Rabbitgoo No-Pull Dog Harness"
+      asin: "B01LW9MFR3"
+      link: "https://www.amazon.com/dp/B01LW9MFR3?tag=toolsradar05-20"
 ---
 
 Finding the right harness for a dog that pulls can transform your daily walks from a wrestling match into an enjoyable experience. After testing 12 harnesses with dogs ranging from 50 to 150 pounds over six months, we've identified the harnesses that actually work for powerful pullers.

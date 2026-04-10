@@ -7,26 +7,28 @@ category: pet-health
 author: PetVerdict Team
 keywords: ["dog anxiety vest", "thundershirt alternatives", "calming vest dogs", "anxiety wrap", "thunder phobia dogs"]
 score: 8.7
-badge: "Best Overall"
+badge: "editors-pick"
 verdict: "The AKC Anti Anxiety and Stress Relief Calming Coat delivers superior pressure distribution and 78% effectiveness across anxiety triggers."
 winner: "AKC Anti Anxiety and Stress Relief Calming Coat"
 featured: false
 affiliateLinks:
-  - brand: Amazon
-    url: https://amazon.com/?tag=toolsradar05-20
-amazon:
-  - product: "Whistle GO Explore"
-    asin: "B07RKBGKB2"
-    link: "https://www.amazon.com/dp/B07RKBGKB2?tag=toolsradar05-20"
-  - product: "Furbo Dog Camera"
-    asin: "B0884JN9GN"
-    link: "https://www.amazon.com/dp/B0884JN9GN?tag=toolsradar05-20"
-  - product: "PetSafe Smart Feed"
-    asin: "B072FJY4M2"
-    link: "https://www.amazon.com/dp/B072FJY4M2?tag=toolsradar05-20"
-  - product: "KONG Classic Dog Toy"
-    asin: "B0002AR0I8"
-    link: "https://www.amazon.com/dp/B0002AR0I8?tag=toolsradar05-20"
+  custom:
+    - name: Amazon
+      url: https://amazon.com/?tag=toolsradar05-20
+      network: direct
+  amazon:
+    - product: "Whistle GO Explore"
+      asin: "B07RKBGKB2"
+      link: "https://www.amazon.com/dp/B07RKBGKB2?tag=toolsradar05-20"
+    - product: "Furbo Dog Camera"
+      asin: "B0884JN9GN"
+      link: "https://www.amazon.com/dp/B0884JN9GN?tag=toolsradar05-20"
+    - product: "PetSafe Smart Feed"
+      asin: "B072FJY4M2"
+      link: "https://www.amazon.com/dp/B072FJY4M2?tag=toolsradar05-20"
+    - product: "KONG Classic Dog Toy"
+      asin: "B0002AR0I8"
+      link: "https://www.amazon.com/dp/B0002AR0I8?tag=toolsradar05-20"
 ---
 
 Your dog's trembling during thunderstorms or destructive behavior when you leave isn't just bad behavior—it's genuine anxiety that affects 40% of dogs according to veterinary behaviorist research. Dog anxiety vests use gentle pressure therapy, similar to weighted blankets for humans, to activate your dog's natural calming response through deep touch pressure stimulation.
