@@ -12,6 +12,9 @@ export function rehypeAffiliateLinks() {
           href.includes('awin1.com') ||
           href.includes('awin.com/cread') ||
           href.includes('siteground.com/index.htm?afcode') ||
+          (href.includes('kinsta.com') && href.includes('kaid=')) ||
+          href.includes('cloudways.com') && href.includes('id=') ||
+          href.includes('bluehost.sjv.io') ||
           href.includes('chewy.com') ||
           href.includes('petco.com') ||
           href.includes('anrdoezrs.net') ||
