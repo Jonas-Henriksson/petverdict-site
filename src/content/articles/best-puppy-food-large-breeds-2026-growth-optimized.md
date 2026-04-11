@@ -97,7 +97,7 @@ Testing showed **exceptional palatability scores of 9.2/10** among Great Danes, 
 - Some owners report loose stools during transition period
 - Not suitable for large breeds under 100-pound adult weight target
 
-[Order Royal Canin Giant Puppy](https://petpulse.net/go/farmersdog) or [find it on Amazon](https://www.amazon.com/dp/B0XXXXX?tag=toolsradar05-20) with Prime shipping.
+[Order Royal Canin Giant Puppy](https://petpulse.net/go/farmersdog) or [find it on Amazon](https://www.amazon.com/dp/B00JMKJCES?tag=toolsradar05-20) with Prime shipping.
 
 ## Purina Pro Plan Large Breed Puppy Food
 
@@ -123,7 +123,7 @@ Our testing revealed **92% digestibility** and solid palatability scores of 8.1/
 - Kibble size could be larger for some giant breed puppies
 - Contains corn and wheat, which some owners prefer to avoid
 
-[Shop Purina Pro Plan Large Breed](https://petpulse.net/go/farmersdog) or [get it delivered from Amazon](https://www.amazon.com/dp/B0XXXXX?tag=toolsradar05-20).
+[Shop Purina Pro Plan Large Breed](https://petpulse.net/go/farmersdog) or [get it delivered from Amazon](https://www.amazon.com/dp/B003CRNALE?tag=toolsradar05-20).
 
 ## Blue Buffalo Life Protection Large Breed Puppy
 
@@ -149,7 +149,7 @@ Testing showed **excellent ingredient quality** with whole food sources dominati
 - More expensive than conventional brands
 - Calcium levels at upper end of recommended range (1.0%)
 
-[Try Blue Buffalo Life Protection](https://petpulse.net/go/farmersdog) or [order from Amazon](https://www.amazon.com/dp/B0XXXXX?tag=toolsradar05-20) for fast shipping.
+[Try Blue Buffalo Life Protection](https://petpulse.net/go/farmersdog) or [order from Amazon](https://www.amazon.com/dp/B000W5SLE4?tag=toolsradar05-20) for fast shipping.
 
 ## Wellness CORE Large Breed Puppy
 
@@ -175,7 +175,7 @@ Our testing revealed **outstanding protein digestibility (96%)** and excellent b
 - Grain-free diet requires veterinary consultation
 - Limited long-term studies on grain-free diets for large breeds
 
-[Shop Wellness CORE Large Breed](https://petpulse.net/go/farmersdog) or [check Amazon availability](https://www.amazon.com/dp/B0XXXXX?tag=toolsradar05-20).
+[Shop Wellness CORE Large Breed](https://petpulse.net/go/farmersdog) or [check Amazon availability](https://www.amazon.com/dp/B074ZCYHPS?tag=toolsradar05-20).
 
 ## Use Case Recommendations
 
