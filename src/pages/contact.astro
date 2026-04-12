@@ -1,0 +1,264 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteConfig } from '../../site.config';
+
+const contactSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name: 'Contact ' + siteConfig.siteName,
+  description: 'Get in touch with the ' + siteConfig.siteName + ' team.',
+  publisher: {
+    '@type': 'Organization',
+    name: siteConfig.siteName,
+    url: siteConfig.domain,
+  },
+};
+
+const contactEmail = 'hello@' + siteConfig.domain.replace(/^https?:\/\//, '').replace(/^www\./, '');
+const editorialEmail = 'editorial@' + siteConfig.domain.replace(/^https?:\/\//, '').replace(/^www\./, '');
+const partnershipsEmail = 'partnerships@' + siteConfig.domain.replace(/^https?:\/\//, '').replace(/^www\./, '');
+const privacyEmail = 'privacy@' + siteConfig.domain.replace(/^https?:\/\//, '').replace(/^www\./, '');
+---
+
+<BaseLayout
+  title={`Contact ${siteConfig.siteName}`}
+  description={`Get in touch with the ${siteConfig.siteName} editorial team. Email us for editorial feedback, corrections, partnerships, or press inquiries.`}
+  schema={contactSchema}
+>
+  <article class="contact-page">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span class="sep">/</span>
+      <span class="current">Contact</span>
+    </nav>
+
+    <header class="page-header">
+      <span class="page-label">Contact</span>
+      <h1>Get in touch<br/><em>with the {siteConfig.siteName} team.</em></h1>
+      <div class="header-rule"></div>
+    </header>
+
+    <div class="content">
+      <section>
+        <h2>How to reach us</h2>
+        <p>
+          We read every message. Whether you've spotted a factual error, want to
+          suggest a product for review, or are interested in working together,
+          pick the right address below and we'll get back to you within a few
+          business days.
+        </p>
+      </section>
+
+      <section>
+        <h2>Email us</h2>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Editorial &amp; corrections</h3>
+            <p>
+              Spotted a mistake? Have feedback on a review? Want to suggest a
+              product we should test? This is the right address.
+            </p>
+            <a class="contact-email" href={`mailto:${editorialEmail}`}>{editorialEmail}</a>
+          </div>
+
+          <div class="contact-card">
+            <h3>Partnerships &amp; press</h3>
+            <p>
+              Brand partnerships, media requests, guest contributions, and
+              advertising inquiries. Please note that sponsored content is
+              clearly labeled and does not affect our editorial rankings.
+            </p>
+            <a class="contact-email" href={`mailto:${partnershipsEmail}`}>{partnershipsEmail}</a>
+          </div>
+
+          <div class="contact-card">
+            <h3>Privacy &amp; data requests</h3>
+            <p>
+              Questions about our privacy policy, data requests, or account
+              deletion. We respond to all privacy requests within 30 days as
+              required by applicable law.
+            </p>
+            <a class="contact-email" href={`mailto:${privacyEmail}`}>{privacyEmail}</a>
+          </div>
+
+          <div class="contact-card">
+            <h3>General inquiries</h3>
+            <p>
+              Anything that doesn't fit the categories above. We'll route your
+              message to the right person on the team.
+            </p>
+            <a class="contact-email" href={`mailto:${contactEmail}`}>{contactEmail}</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Before you email us</h2>
+        <p>
+          You'll probably get a faster answer if you check these first:
+        </p>
+        <ul>
+          <li>
+            <strong>About {siteConfig.siteName}:</strong> our mission, team, and
+            how we work — see our <a href="/about">About page</a>.
+          </li>
+          <li>
+            <strong>How we test:</strong> our testing methodology and scoring
+            criteria are documented on the <a href="/how-we-test">How We Test page</a>.
+          </li>
+          <li>
+            <strong>Affiliate disclosure:</strong> how we make money and why you
+            can trust our rankings — see our <a href="/disclosure">Disclosure page</a>.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>What we can't help with</h2>
+        <p>
+          We're a small editorial team, not a customer support channel for the
+          products we review. If you're having a technical issue with a
+          specific tool or service, please contact that company directly — they
+          will always be able to help you faster than we can.
+        </p>
+      </section>
+
+      <section>
+        <h2>Response times</h2>
+        <p>
+          We aim to reply to every message within <strong>3–5 business days</strong>.
+          Partnership and press inquiries may take a little longer during busy
+          periods. Thank you for your patience.
+        </p>
+      </section>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .contact-page {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  .breadcrumb {
+    font-size: 0.875rem;
+    color: var(--color-muted, #6b7280);
+    margin-bottom: 2rem;
+  }
+
+  .breadcrumb a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .breadcrumb a:hover {
+    color: var(--color-accent, #0ea5e9);
+  }
+
+  .breadcrumb .sep {
+    margin: 0 0.5rem;
+    opacity: 0.5;
+  }
+
+  .page-header {
+    margin-bottom: 3rem;
+  }
+
+  .page-label {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-accent, #0ea5e9);
+    margin-bottom: 1rem;
+  }
+
+  .page-header h1 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.1;
+    margin: 0 0 1.5rem;
+    font-weight: 700;
+  }
+
+  .page-header h1 em {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--color-muted, #6b7280);
+  }
+
+  .header-rule {
+    height: 2px;
+    width: 80px;
+    background: var(--color-accent, #0ea5e9);
+    margin-top: 1rem;
+  }
+
+  .content section {
+    margin-bottom: 3rem;
+  }
+
+  .content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+    letter-spacing: -0.01em;
+  }
+
+  .content h3 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+  }
+
+  .content p {
+    line-height: 1.7;
+    margin: 0 0 1rem;
+    color: var(--color-text, #1f2937);
+  }
+
+  .content ul {
+    line-height: 1.8;
+    padding-left: 1.25rem;
+  }
+
+  .content ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  .content a {
+    color: var(--color-accent, #0ea5e9);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .contact-card {
+    padding: 1.5rem;
+    border: 1px solid var(--color-border, #e5e7eb);
+    border-radius: 8px;
+    background: var(--color-surface, #ffffff);
+  }
+
+  .contact-card p {
+    font-size: 0.9375rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact-email {
+    display: inline-block;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.875rem;
+    font-weight: 600;
+    word-break: break-all;
+  }
+</style>
