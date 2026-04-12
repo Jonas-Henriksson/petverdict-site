@@ -144,7 +144,7 @@ const privacyEmail = 'privacy@' + siteConfig.domain.replace(/^https?:\/\//, '').
 
   .breadcrumb {
     font-size: 0.875rem;
-    color: var(--color-muted, #6b7280);
+    color: var(--ink-500, #6b7280);
     margin-bottom: 2rem;
   }
 
@@ -154,7 +154,7 @@ const privacyEmail = 'privacy@' + siteConfig.domain.replace(/^https?:\/\//, '').
   }
 
   .breadcrumb a:hover {
-    color: var(--color-accent, #0ea5e9);
+    color: var(--ink-950, #0a0a0b);
   }
 
   .breadcrumb .sep {
@@ -172,7 +172,7 @@ const privacyEmail = 'privacy@' + siteConfig.domain.replace(/^https?:\/\//, '').
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--color-accent, #0ea5e9);
+    color: var(--ink-500, #6b7280);
     margin-bottom: 1rem;
   }
 
@@ -181,18 +181,19 @@ const privacyEmail = 'privacy@' + siteConfig.domain.replace(/^https?:\/\//, '').
     line-height: 1.1;
     margin: 0 0 1.5rem;
     font-weight: 700;
+    color: var(--ink-950, #0a0a0b);
   }
 
   .page-header h1 em {
     font-style: italic;
     font-weight: 400;
-    color: var(--color-muted, #6b7280);
+    color: var(--ink-500, #6b7280);
   }
 
   .header-rule {
     height: 2px;
     width: 80px;
-    background: var(--color-accent, #0ea5e9);
+    background: var(--surface-inverse, #0a0a0b);
     margin-top: 1rem;
   }
 
@@ -205,23 +206,26 @@ const privacyEmail = 'privacy@' + siteConfig.domain.replace(/^https?:\/\//, '').
     font-weight: 700;
     margin: 0 0 1rem;
     letter-spacing: -0.01em;
+    color: var(--ink-950, #0a0a0b);
   }
 
   .content h3 {
     font-size: 1.125rem;
     font-weight: 700;
     margin: 0 0 0.5rem;
+    color: var(--ink-950, #0a0a0b);
   }
 
   .content p {
     line-height: 1.7;
     margin: 0 0 1rem;
-    color: var(--color-text, #1f2937);
+    color: var(--ink-800, #1c1c21);
   }
 
   .content ul {
     line-height: 1.8;
     padding-left: 1.25rem;
+    color: var(--ink-800, #1c1c21);
   }
 
   .content ul li {
@@ -229,7 +233,7 @@ const privacyEmail = 'privacy@' + siteConfig.domain.replace(/^https?:\/\//, '').
   }
 
   .content a {
-    color: var(--color-accent, #0ea5e9);
+    color: var(--ink-950, #0a0a0b);
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;
@@ -244,14 +248,24 @@ const privacyEmail = 'privacy@' + siteConfig.domain.replace(/^https?:\/\//, '').
 
   .contact-card {
     padding: 1.5rem;
-    border: 1px solid var(--color-border, #e5e7eb);
+    border: 1px solid var(--ink-100, #ebebef);
     border-radius: 8px;
-    background: var(--color-surface, #ffffff);
+    background: var(--surface-raised, var(--surface, #fafafa));
+    transition: border-color 0.15s ease-out;
+  }
+
+  .contact-card:hover {
+    border-color: var(--ink-300, #ababb7);
+  }
+
+  .contact-card h3 {
+    color: var(--ink-950, #0a0a0b);
   }
 
   .contact-card p {
     font-size: 0.9375rem;
     margin-bottom: 1rem;
+    color: var(--ink-700, #2a2a31);
   }
 
   .contact-email {
@@ -260,5 +274,6 @@ const privacyEmail = 'privacy@' + siteConfig.domain.replace(/^https?:\/\//, '').
     font-size: 0.875rem;
     font-weight: 600;
     word-break: break-all;
+    color: var(--ink-950, #0a0a0b);
   }
 </style>
