@@ -8,7 +8,7 @@ category: "buyer-guides"
 author: "Emma Lindqvist"
 keywords: ["best dog coat winter 2026", "waterproof dog jacket", "Ruffwear Vert jacket", "Hurtta Expedition Parka", "dog winter coat review"]
 score: 9.2
-badge: "Best Overall"
+badge: "editors-pick"
 verdict: "The Ruffwear Vert Jacket wins for 2026 with its 10,000 mm waterproof shell, 120g recycled insulation, and extended hip-to-thigh coverage that no competing coat at this price point matches."
 winner: "Ruffwear Vert Jacket"
 affiliateLinks:

@@ -7,7 +7,7 @@ category: buyer-guides
 author: Emma Lindqvist
 keywords: ["best dog poop bags 2026", "biodegradable dog poop bags", "compostable dog waste bags", "ASTM D6400 poop bags", "eco-friendly poop bags ranked"]
 score: 8.6
-badge: "Best Overall"
+badge: "editors-pick"
 verdict: "Earth Rated Extra Thick is the most reliable daily-use bag at the lowest per-bag cost — but only the compostable-labeled SKU backs up its eco claims."
 winner: "Earth Rated PoopBags Extra Thick (Compostable Line)"
 featured: false
