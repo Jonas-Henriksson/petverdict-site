@@ -20,6 +20,7 @@ export const siteConfig = {
     chewy: { enabled: true, baseUrl: 'https://chewy.com', trackingId: process.env.CHEWY_AFFILIATE_ID || '' },
     petco: { enabled: true, baseUrl: 'https://petco.com', trackingId: process.env.PETCO_AFFILIATE_ID || '' },
     custom: { enabled: true, baseUrl: process.env.CUSTOM_AFFILIATE_BASE || 'https://petverdict.net/go/' },
+      'canada-pet-care': { name: 'Canada Pet Care', affiliateUrl: 'https://petverdict.net/go/canada-pet-care', program: 'CJ', commission: '10.00%' },
   },
   social: { twitter: 'https://twitter.com/petverdictnet', linkedin: '', instagram: '', facebook: '' },
   content: { postsPerPage: 12, featuredPostsCount: 3, relatedPostsCount: 3 },
