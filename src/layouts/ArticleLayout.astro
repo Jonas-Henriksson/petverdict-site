@@ -12,6 +12,7 @@ import AuthorBio from '../components/AuthorBio.astro';
 import { authors, getAuthorByName } from '../authors';
 export interface Props { title: string; description: string; date: Date; author?: string; image?: string; category?: string; keywords?: string[]; affiliateDisclosure?: boolean; schema?: any; headings?: any[]; faqPairs?: Array<{ question: string; answer: string }>; score?: number; badge?: string; verdict?: string; winner?: string; }
 const { title, description, date, author = siteConfig.defaultAuthor.name, image, category, keywords = [], affiliateDisclosure = true, schema, headings = [], faqPairs = [], score, badge, verdict, winner } = Astro.props as Props;
+const renderVisualHero = !!image && image.startsWith('/');
 const publishedDate = new Date(date);
 const formattedDate = publishedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 // Author persona lookup
@@ -59,6 +60,14 @@ const badgeLabels: Record<string, string> = {
       )}
       <span class="breadcrumb-current">Review</span>
     </nav>
+
+
+    <!-- Visual hero (only for locally-hosted hero images; legacy external URLs are OG-only) -->
+    {renderVisualHero && (
+      <figure class="article-hero">
+        <img src={image} alt={title} loading="eager" decoding="async" width="1200" height="675" />
+      </figure>
+    )}
 
     <!-- Article Header -->
     <header class="article-header">
@@ -433,4 +442,20 @@ const badgeLabels: Record<string, string> = {
       color: #0a0a0b;
     }
   }
+
+  .article-hero {
+    margin: 0 0 var(--space-xl, 2rem);
+    border-radius: var(--border-radius, 6px);
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    background: var(--ink-900, #0a0a0b);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  .article-hero img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
 </style>
