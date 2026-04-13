@@ -61,7 +61,7 @@ What we liked: both of our test dogs ate it enthusiastically, and the senior ter
 
 **The real weakness** is that Ollie's AAFCO statement is based on formulation, not feeding trials. That means a nutritionist designed the recipe to meet AAFCO nutrient profiles on paper, but the food hasn't been fed to a cohort of dogs in a controlled setting to verify outcomes. Feeding trials are more rigorous, and very few fresh food brands run them because they're expensive. It doesn't make Ollie unsafe, but if feeding-trial validation matters to you, this is a real limitation.
 
-The other hit against Ollie: the price is brutal for large dogs. A 70-pound Lab is looking at $12–14/day, which works out to $400+/month. For most households that's not sustainable, and Ollie knows this — their marketing leans heavily on the smaller-dog demographic.
+The other hit against Ollie: the price is brutal for large dogs. A 70-pound Lab is looking at $12–$14/day, which works out to $400+/month. For most households that's not sustainable, and Ollie knows this — their marketing leans heavily on the smaller-dog demographic.
 
 **Pros:**
 - Clean, recognizable ingredient panel with whole muscle meats listed first

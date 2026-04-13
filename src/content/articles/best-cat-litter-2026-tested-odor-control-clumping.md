@@ -146,11 +146,11 @@ If you're thinking of automating cleaning entirely, our guide to the [Best Autom
 
 These numbers assume one cat, daily scooping, and a full change every 3–4 weeks. Multi-cat households should roughly double these for two cats and triple for three — it's not quite linear, but close enough for budgeting.
 
-- **World's Best**: $17–20/month
-- **Dr. Elsey's**: $14–18/month
-- **Tidy Cats 24/7**: $8–11/month
-- **Arm & Hammer Clump & Seal**: $11–14/month
-- **Fresh Step Outstretch**: $10–13/month
+- **World's Best**: $17–$20/month
+- **Dr. Elsey's**: $14–$18/month
+- **Tidy Cats 24/7**: $8–$11/month
+- **Arm & Hammer Clump & Seal**: $11–$14/month
+- **Fresh Step Outstretch**: $10–$13/month
 
 Bulk bags consistently save 15–25%, but only buy the big bag once you've confirmed your cat actually uses the litter without complaint. A 40-pound bag your cat hates is a $35 mistake.
 

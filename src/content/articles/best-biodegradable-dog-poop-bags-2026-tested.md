@@ -86,7 +86,7 @@ This is the bag I reach for on every walk. Not because it has the most rigorous 
 
 **Important SKU note**: Earth Rated sells multiple distinct products under similar packaging. The **standard "Earth Rated" bags** use EPI additive technology and are not ASTM D6400 certified compostable. The **compostable-labeled SKU** (green bag packaging) carries legitimate ASTM D6400 certification verified in the BPI database. The Extra Thick variant I tested is the compostable SKU — but verify the specific listing before purchasing. The brand has been criticized for making this distinction too subtle on Amazon listings.
 
-Pricing: 270 bags for ~19 (approximately 0.07/bag). The compostable SKU runs about 25–30% more than the standard SKU.
+Pricing: 270 bags for ~19 (approximately $0.07/bag). The compostable SKU runs about 25–30% more than the standard SKU.
 
 In cold-weather testing (34°F, wet trail conditions), Earth Rated's bags separated from the roll consistently and cleanly across 25 consecutive pulls without a single stick or tear. That sounds minor until you've spent 45 seconds picking at a stuck perforation with cold fingers while your dog circles impatiently.
 
@@ -121,7 +121,7 @@ BioBag is the most credible environmental option in this roundup and the one I r
 
 That said, the real-world case for BioBag still depends on your disposal pathway. I'll explain the limits in the cons section.
 
-Pricing: 50 bags for approximately 10 (0.20/bag), which is the highest per-bag cost I tested.
+Pricing: 50 bags for approximately 10 ($0.20/bag), which is the highest per-bag cost I tested.
 
 The bags are made from Mater-Bi, a starch-polymer blend that BioBag has been manufacturing for decades. The material feels different from polyethylene — slightly tackier in the hand, a bit less "slippery," and more sensitive to temperature extremes. During summer testing in a warm car (90°F), bags left in a closed vehicle for about an hour became noticeably tackier and somewhat harder to separate cleanly from the roll. In winter testing below 35°F, they got mildly brittle. Neither was a dealbreaker, but both are genuine use constraints.
 
@@ -137,7 +137,7 @@ I had one puncture failure with BioBag over four weeks with Maple. For Biscuit, 
 - The only product tested that can legitimately be used in a home pet-waste composter with full confidence
 
 **Cons:**
-- Most expensive option at 0.20/bag — 3x the cost of Earth Rated at comparable volume
+- Most expensive option at $0.20/bag — 3x the cost of Earth Rated at comparable volume
 - Temperature sensitive: avoid storing in hot vehicles (>80°F) or extremely cold conditions
 - 15-micron thickness is borderline for large dogs; not recommended for Biscuit-sized dogs without extra care
 - **The critical real-world caveat**: ASTM D6400 and EN 13432 certification describes breakdown in *industrial composting conditions*. In a household trash bag headed to landfill — which is where most dog waste ends up — a BioBag breaks down only marginally faster than conventional plastic. The TÜV OK compost HOME cert unlocks home composting *for pet-waste-safe digesters*, but standard backyard bins shouldn't receive dog waste due to pathogen risk (giardia, roundworm, parvovirus). Verify your disposal pathway before paying the premium.
@@ -155,7 +155,7 @@ Pogi's makes the thickest bag I tested at 22 microns, and that thickness is the 
 
 The bags are also wider than standard at 9 × 13 inches vs. the Earth Rated standard of 9 × 12 inches. For large breeds, the extra inch of length matters.
 
-Pricing: 300 bags for approximately 18 (0.06/bag). Subscribe & Save on Amazon brings this down to roughly 0.054/bag.
+Pricing: 300 bags for approximately 18 ($0.06/bag). Subscribe & Save on Amazon brings this down to roughly $0.054/bag.
 
 Now, I have to be direct about the eco-claims, because they don't hold up and I won't pretend otherwise. Pogi's uses **EPI additive technology**, sometimes marketed as "oxo-degradable." The certification on their bags references ASTM D6954, which is a standard for how plastics *fragment under UV and oxygen exposure* — it is not a compostability standard. When an EPI-additive bag degrades, it breaks into **smaller pieces of polyethylene**, not into water and CO₂. The EU banned oxo-degradable plastics in 2021 for exactly this reason. Pogi's "biodegradable" claim is not accurate in any meaningful sense that matters to the environment.
 
@@ -185,9 +185,9 @@ If you're buying Pogi's because they're thick, reliable bags at a low per-bag co
 
 **Best for: Budget-conscious owners with small-to-medium dogs who want verified certification**
 
-Doggy Do Good earns its place in this roundup because it's **BPI certified** at the lowest per-bag cost among genuinely certified products (~0.10/bag). BPI certification means a third party has verified the composting claim against ASTM D6400 — not just the manufacturer's marketing department.
+Doggy Do Good earns its place in this roundup because it's **BPI certified** at the lowest per-bag cost among genuinely certified products (~$0.10/bag). BPI certification means a third party has verified the composting claim against ASTM D6400 — not just the manufacturer's marketing department.
 
-Pricing: 120 bags for approximately 12 (0.10/bag). A 240-count version brings this to roughly 0.085/bag.
+Pricing: 120 bags for approximately 12 ($0.10/bag). A 240-count version brings this to roughly $0.085/bag.
 
 Performance is honest rather than exceptional. Over four weeks with Maple (64 lbs), I had one clean pickup failure and one minor separation issue dispensing from the roll in 33°F weather. The separation issue was user-recoverable — the bag tore at the perforation rather than completely — but it wasted a bag and cost me a full minute in the cold.
 
@@ -222,7 +222,7 @@ The premise: pick up, walk upstairs, flush the whole bag. No smell sitting in th
 
 Flush Puppies are made from PVA (polyvinyl alcohol), a water-soluble material that dissolves in water without fragmenting into microplastics. They're certified to the INDA flushable standard — the nonwovens industry association has tested them and they pass plumbing compatibility testing for municipal sewer systems.
 
-Pricing: 45 bags for approximately 13 (0.29/bag), which is the highest per-bag cost I tested. For a single dog walked twice daily, that's roughly 210/year — versus 50/year with Earth Rated.
+Pricing: 45 bags for approximately 13 ($0.29/bag), which is the highest per-bag cost I tested. For a single dog walked twice daily, that's roughly $210/year — versus $50/year with Earth Rated.
 
 I tested these for two weeks when building maintenance disrupted my usual outdoor trash routine. They work as described. The seal holds well enough for a 15-minute apartment-floor commute. The dissolution time in a toilet with two flushes was complete.
 
@@ -239,7 +239,7 @@ The thin 12-micron material requires care. For Maple's typical deposits, Flush P
 - INDA flushable standard is a real certification, not marketing
 
 **Cons:**
-- 0.29/bag — nearly 5x the cost of Earth Rated; unsustainable for high-volume daily use
+- $0.29/bag — nearly 5x the cost of Earth Rated; unsustainable for high-volume daily use
 - 12-micron thickness inadequate for large breeds or loose stool pickups
 - Cannot be used with septic systems
 - Dog waste pathogens not universally handled by all municipal treatment — verify with your utility
@@ -255,7 +255,7 @@ The thin 12-micron material requires care. For Maple's typical deposits, Flush P
 
 PoopBags.com sells multiple formulations under nearly identical branding — conventional plastic, "biodegradable" (EPI additive), and genuinely BPI-certified compostable. The problem is that distinguishing between them at point of purchase on Amazon requires careful SKU-level reading that most buyers won't do.
 
-Pricing: approximately 0.065/bag at 200-count.
+Pricing: approximately $0.065/bag at 200-count.
 
 Performance is acceptable — similar to Doggy Do Good, with comparable thickness and cold-weather handling. The certified compostable SKUs are legitimately BPI registered. The "biodegradable" SKUs use the same oxo-degradable EPI additive approach as Pogi's.
 
@@ -314,11 +314,11 @@ For the majority of dog owners who drop bags into household trash that goes to l
 
 **You have a large breed (65+ lbs) or a dog with frequent digestive irregularity**: Pogi's 300-count, accepting that the eco-claims are weak. The 22-micron thickness matters when it matters. Supplement with Earth Rated for normal-stool days.
 
-**You live in an apartment and can't stand trash odor**: Flush Puppies for municipal sewer, but verify your building's plumbing and your local utility's guidance. Budget ~210/year per dog.
+**You live in an apartment and can't stand trash odor**: Flush Puppies for municipal sewer, but verify your building's plumbing and your local utility's guidance. Budget ~$210/year per dog.
 
-**You have access to municipal organic composting or a pet-waste digester**: BioBag is the right environmental choice. Budget approximately 145/year per dog. You're paying for real credentials.
+**You have access to municipal organic composting or a pet-waste digester**: BioBag is the right environmental choice. Budget approximately $145/year per dog. You're paying for real credentials.
 
-**Budget is the primary constraint**: Doggy Do Good at 0.10/bag is the lowest-cost option with a verifiable certification. Fine for small-to-medium dogs.
+**Budget is the primary constraint**: Doggy Do Good at $0.10/bag is the lowest-cost option with a verifiable certification. Fine for small-to-medium dogs.
 
 If you're thinking about the rest of your dog's gear alongside responsible waste management, our [Best Dog GPS Trackers 2026](/best-dog-gps-trackers-2026-accuracy-tested) review is worth reading for safety on trails and off-leash areas.
 
@@ -337,15 +337,15 @@ If you're thinking about the rest of your dog's gear alongside responsible waste
 
 *Based on two walks/day with one pickup per walk, standard retail pricing. Subscribe & Save or bulk pricing can reduce most by 5–15%.*
 
-For a two-dog household like mine, this adds up. Switching from Pogi's to BioBag for both dogs represents approximately 200/year extra — a real cost that some owners will absorb for the environmental credentials and others reasonably won't.
+For a two-dog household like mine, this adds up. Switching from Pogi's to BioBag for both dogs represents approximately $200/year extra — a real cost that some owners will absorb for the environmental credentials and others reasonably won't.
 
 ---
 
 ## What We Rejected and Why
 
-**Generic unbranded Amazon bundles** — I tested two unbranded 200-count sets with sub-0.04/bag pricing. Both had material so thin (estimated under 10 microns) that bag failures were common enough to render the cost savings illusory. Neither carried any certifiable certification. The actual cost per clean pickup with both products was higher than Earth Rated once failures were accounted for.
+**Generic unbranded Amazon bundles** — I tested two unbranded 200-count sets with sub-$0.04/bag pricing. Both had material so thin (estimated under 10 microns) that bag failures were common enough to render the cost savings illusory. Neither carried any certifiable certification. The actual cost per clean pickup with both products was higher than Earth Rated once failures were accounted for.
 
-**Mutt Mitt fold-over gloves** — These work well for the "hands clean through the whole process" use case in public park dispensers and as a backup option. At approximately 0.45/bag they're not practical for daily home use. The fold-over design is also meaningfully harder to execute with cold, stiff hands in winter. No certification advantage over certified bag alternatives.
+**Mutt Mitt fold-over gloves** — These work well for the "hands clean through the whole process" use case in public park dispensers and as a backup option. At approximately $0.45/bag they're not practical for daily home use. The fold-over design is also meaningfully harder to execute with cold, stiff hands in winter. No certification advantage over certified bag alternatives.
 
 **Biodegradable bags with "plant-based" labeling only** — Several brands in the 10–15/60-bag price range used "plant-based" and "breaks down naturally" language prominently without citing any third-party standard or certifying body. Absent that, the claim is unverifiable. I don't review products I can't independently check claims for.
 

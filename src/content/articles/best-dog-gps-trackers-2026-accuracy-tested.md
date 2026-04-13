@@ -48,9 +48,9 @@ None of this is a clean-room benchmark. It's what you'd learn by actually using 
 
 | Tracker | Upfront | Subscription | Battery (real use) | GPS in open sky | Alert speed | Waterproof |
 |---|---|---|---|---|---|---|
-| Fi Series 3 | ~$150 | $8–12/mo | Weeks, not days | Consistently close to reference | Fast — seconds | IP68 |
-| Whistle GO Explore | ~$130 | $10–13/mo | Couple of weeks | Usually close, occasional drift | Noticeably slower than Fi | IP67 |
-| Tractive GPS | ~$50 | $5–13/mo | Days | Loose — gets you to the block, not the yard | Slowest of the dedicated trackers | IP67 |
+| Fi Series 3 | ~$150 | $8–$12/mo | Weeks, not days | Consistently close to reference | Fast — seconds | IP68 |
+| Whistle GO Explore | ~$130 | $10–$13/mo | Couple of weeks | Usually close, occasional drift | Noticeably slower than Fi | IP67 |
+| Tractive GPS | ~$50 | $5–$13/mo | Days | Loose — gets you to the block, not the yard | Slowest of the dedicated trackers | IP67 |
 | Apple AirTag | ~$29 | Free | ~1 year (coin cell) | Not GPS — depends on nearby iPhones | No real-time alerts | IP67 |
 | Samsung SmartTag2 | ~$30 | Free | ~1.5 years | Not GPS — depends on Galaxy density | No real-time alerts | IP67 |
 
@@ -92,7 +92,7 @@ The collar itself is well-made — woven nylon with a built-in LED strip that's 
 
 **Best for:** owners of senior dogs, dogs with chronic conditions, or anyone who wants a behavioral baseline more than a bleeding-edge tracker.
 
-**Upfront:** ~$130 • **Subscription:** $10–13/mo • **Battery:** a couple of weeks in practice • **Connectivity:** LTE-M • **Waterproof:** IP67 • **Fit:** clip-on, works with any collar • [Check price on Amazon](https://www.amazon.com/dp/B07RKBGKB2?tag=petverdict-20)
+**Upfront:** ~$130 • **Subscription:** $10–$13/mo • **Battery:** a couple of weeks in practice • **Connectivity:** LTE-M • **Waterproof:** IP67 • **Fit:** clip-on, works with any collar • [Check price on Amazon](https://www.amazon.com/dp/B07RKBGKB2?tag=petverdict-20)
 
 Whistle takes the opposite philosophy from Fi. The tracker clips onto whatever collar your dog already wears, and it spends most of its computational energy on behavioral monitoring — tracking licking, scratching, sleep disturbance, eating duration, and activity patterns, then flagging deviations from your dog's baseline.
 

@@ -29,7 +29,7 @@ Cats are obligate carnivores. That single fact should drive every food decision 
 
 ## Quick Verdict
 
-> **Top Pick:** Smalls Fresh — Human-grade fresh cat food with 44% protein and near-perfect palatability. **Runner-Up:** Tiki Cat After Dark — High-protein wet food at a fraction of the fresh food price. **Budget Pick:** Purina Pro Plan (Wet) — Vet-recommended wet food at 1.20/day.
+> **Top Pick:** Smalls Fresh — Human-grade fresh cat food with 44% protein and near-perfect palatability. **Runner-Up:** Tiki Cat After Dark — High-protein wet food at a fraction of the fresh food price. **Budget Pick:** Purina Pro Plan (Wet) — Vet-recommended wet food at $1.20/day.
 
 ## Testing Methodology
 
@@ -39,17 +39,17 @@ Our 60-day trial used 6 cats (2 kittens, 2 adults, 2 seniors) across 4 breeds. D
 
 | Cat Food | Best For | Price/Day | Protein % | Moisture | AAFCO | Rating |
 |---|---|---|---|---|---|---|
-| Smalls Fresh | Overall best | 5.50/day | 44% | 72% | Yes | 9.2/10 |
-| Tiki Cat After Dark | Wet food runner-up | 2.80/day | 40% | 78% | Yes | 9.0/10 |
-| Purina Pro Plan Wet | Budget wet food | 1.20/day | 36% | 75% | Yes | 8.7/10 |
-| Instinct Original | Raw-inspired kibble | 1.60/day | 42% | 10% | Yes | 8.3/10 |
-| Hill's Science Diet | Veterinary trusted | 1.40/day | 34% | 74% | Yes | 8.1/10 |
+| Smalls Fresh | Overall best | $5.50/day | 44% | 72% | Yes | 9.2/10 |
+| Tiki Cat After Dark | Wet food runner-up | $2.80/day | 40% | 78% | Yes | 9.0/10 |
+| Purina Pro Plan Wet | Budget wet food | $1.20/day | 36% | 75% | Yes | 8.7/10 |
+| Instinct Original | Raw-inspired kibble | $1.60/day | 42% | 10% | Yes | 8.3/10 |
+| Hill's Science Diet | Veterinary trusted | $1.40/day | 34% | 74% | Yes | 8.1/10 |
 
 ## 1. Smalls Fresh Cat Food — Best Overall (9.2/10)
 
 **Best for cats who deserve restaurant-quality meals (so, all cats)**
 
-**Price:** 5.50/day (3.50-7.50/day depending on weight) | **Protein:** 44% minimum | **Type:** Fresh, human-grade | **Moisture:** 72% | **AAFCO:** All Life Stages | **Delivery:** Every 2 or 4 weeks
+**Price:** $5.50/day (3.50-$7.50/day depending on weight) | **Protein:** 44% minimum | **Type:** Fresh, human-grade | **Moisture:** 72% | **AAFCO:** All Life Stages | **Delivery:** Every 2 or 4 weeks
 
 Smalls dominated our trial with a combination of exceptional nutrition and the highest palatability scores we've ever recorded. The fresh recipes arrive vacuum-sealed in pre-portioned packs. We tested the Bird (chicken), Other Bird (turkey), and Cow (beef) recipes.
 
@@ -70,7 +70,7 @@ Coat quality improvements appeared by week 2 in 5 of 6 cats. The sixth cat (a se
 - Visible coat improvements within 2 weeks
 
 **Cons:**
-- Most expensive option at 5.50/day
+- Most expensive option at $5.50/day
 - Requires refrigerator/freezer space
 - Only 3 protein sources available
 - Subscription-only (no single-purchase option)
@@ -84,7 +84,7 @@ For cats transitioning to fresh food, the improved hydration often means more fr
 
 **Best for owners who want premium wet food without fresh food prices**
 
-**Price:** 2.80/day (based on 5.3-oz cans, 2x/day) | **Protein:** 40% minimum | **Type:** Pate wet food | **Moisture:** 78% | **AAFCO:** All Life Stages | **Delivery:** Amazon, pet stores
+**Price:** $2.80/day (based on 5.3-oz cans, 2x/day) | **Protein:** 40% minimum | **Type:** Pate wet food | **Moisture:** 78% | **AAFCO:** All Life Stages | **Delivery:** Amazon, pet stores
 
 Tiki Cat After Dark is the wet food that most closely mimics what cats would eat in the wild. The recipes use whole, shredded meat — not meat "by-products" or vaguely labeled "poultry." When you open a can, you can identify the actual protein source. The Chicken recipe looks like shredded chicken because it IS shredded chicken.
 
@@ -97,7 +97,7 @@ Hydration markers improved significantly compared to kibble, as expected with 78
 **Pros:**
 - 40% protein from identifiable whole meat sources
 - 78% moisture — highest in our testing
-- Nearly half the price of Smalls at 2.80/day
+- Nearly half the price of Smalls at $2.80/day
 - Wide variety of protein sources (chicken, duck, beef, fish)
 - Available on Amazon and most pet stores
 - No carrageenan, artificial colors, or BPA in cans
@@ -115,16 +115,16 @@ Hydration markers improved significantly compared to kibble, as expected with 78
 
 **Best for multi-cat households watching their budget**
 
-**Price:** 1.20/day (based on 3-oz cans, 3x/day for a 10-lb cat) | **Protein:** 36% minimum | **Type:** Pate/shredded wet food | **Moisture:** 75% | **AAFCO:** All Life Stages | **Delivery:** Everywhere
+**Price:** $1.20/day (based on 3-oz cans, 3x/day for a 10-lb cat) | **Protein:** 36% minimum | **Type:** Pate/shredded wet food | **Moisture:** 75% | **AAFCO:** All Life Stages | **Delivery:** Everywhere
 
-Purina Pro Plan Wet punches well above its price point. At 1.20/day — less than half the cost of Tiki Cat and less than a quarter of Smalls — it delivers AAFCO-complete nutrition with adequate moisture content for kidney health. For multi-cat households (3+ cats), the monthly savings over premium options are substantial: 108/month vs 252/month for Tiki Cat or 495/month for Smalls (per cat).
+Purina Pro Plan Wet punches well above its price point. At $1.20/day — less than half the cost of Tiki Cat and less than a quarter of Smalls — it delivers AAFCO-complete nutrition with adequate moisture content for kidney health. For multi-cat households (3+ cats), the monthly savings over premium options are substantial: $108/month vs $252/month for Tiki Cat or $495/month for Smalls (per cat).
 
 **The nutrition profile is solid if not exceptional.** 36% protein from chicken and liver, 75% moisture. Taurine is present at adequate levels (0.11%). It contains some corn starch and wheat gluten — ingredients that premium brands avoid but that Purina's research shows are well-tolerated by the vast majority of cats.
 
 Palatability was good (4 of 6 enthusiastic, 2 of 6 moderate). Coat improvements appeared by week 3-4. Bloodwork at 60 days showed no deficiencies and stable health markers.
 
 **Pros:**
-- Dramatically cheaper than premium options (1.20/day)
+- Dramatically cheaper than premium options ($1.20/day)
 - Available literally everywhere — grocery stores, pet stores, Amazon
 - Backed by extensive feeding trials
 - 75% moisture supports hydration
@@ -144,7 +144,7 @@ Palatability was good (4 of 6 enthusiastic, 2 of 6 moderate). Coat improvements 
 
 **Best for owners who need the convenience of dry food**
 
-**Price:** 1.60/day (based on 11-lb bag for a 10-lb cat) | **Protein:** 42% minimum | **Type:** Dry kibble with raw-coated pieces | **Moisture:** 10% | **AAFCO:** All Life Stages
+**Price:** $1.60/day (based on 11-lb bag for a 10-lb cat) | **Protein:** 42% minimum | **Type:** Dry kibble with raw-coated pieces | **Moisture:** 10% | **AAFCO:** All Life Stages
 
 Instinct Original is the best dry food option, but we need to be clear: **we strongly recommend wet food over dry food for cats.** Cats on exclusively dry food diets have a 3.5x higher risk of developing lower urinary tract disease. That said, we recognize that some cats refuse wet food, and some owners need the convenience of kibble.
 
@@ -168,7 +168,7 @@ Instinct earns its spot with the highest protein percentage of any kibble we tes
 
 **Best for cats with specific health conditions requiring vet guidance**
 
-**Price:** 1.40/day (wet food, 5.5-oz cans, 2x/day) | **Protein:** 34% minimum | **Type:** Wet and dry options | **Moisture:** 74% (wet) | **AAFCO:** All Life Stages
+**Price:** $1.40/day (wet food, 5.5-oz cans, 2x/day) | **Protein:** 34% minimum | **Type:** Wet and dry options | **Moisture:** 74% (wet) | **AAFCO:** All Life Stages
 
 Hill's Science Diet is the food your veterinarian most likely recommends. It's formulated by PhD animal nutritionists and backed by more published feeding studies than any competitor. The brand also produces the Prescription Diet line, which requires a vet prescription for specific conditions (kidney disease, urinary health, weight management).
 
@@ -201,9 +201,9 @@ Our data backs this up. At day 60, cats on wet food (75-78% moisture) had urine 
 
 **Smalls Fresh Cat Food earns our top rating** for 2026. The combination of 44% protein, 72% moisture, human-grade ingredients, and perfect palatability makes it the gold standard. If your budget allows it, this is the food to feed.
 
-For most cat owners, **Tiki Cat After Dark** hits the sweet spot between premium nutrition and reasonable pricing. At 2.80/day, it delivers 90% of the nutrition benefits of fresh food at half the price.
+For most cat owners, **Tiki Cat After Dark** hits the sweet spot between premium nutrition and reasonable pricing. At $2.80/day, it delivers 90% of the nutrition benefits of fresh food at half the price.
 
-**Purina Pro Plan Wet** remains our budget pick for multi-cat households. At 1.20/day per cat, it's the most affordable way to feed wet food — which we believe is the single most important dietary choice for cat health.
+**Purina Pro Plan Wet** remains our budget pick for multi-cat households. At $1.20/day per cat, it's the most affordable way to feed wet food — which we believe is the single most important dietary choice for cat health.
 
 ## Frequently Asked Questions
 
