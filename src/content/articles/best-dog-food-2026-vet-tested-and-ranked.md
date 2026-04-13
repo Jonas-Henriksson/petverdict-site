@@ -14,10 +14,10 @@ affiliateLinks:
   amazon:
     - product: "Outward Hound Fun Feeder"
       asin: "B00FPKNRCS"
-      link: "https://www.amazon.com/dp/B00FPKNRCS?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B00FPKNRCS?tag=petverdict-20"
     - product: "KONG Classic Dog Toy"
       asin: "B0002AR0I8"
-      link: "https://www.amazon.com/dp/B0002AR0I8?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0002AR0I8?tag=petverdict-20"
 ogImage: "/og/best-dog-food-2026-vet-tested-and-ranked.jpg"
 ---
 
@@ -79,7 +79,7 @@ The other hit against Ollie: the price is brutal for large dogs. A 70-pound Lab 
 
 [Check Ollie Fresh](https://petpulse.net/go/ollie)
 
-A slow-feeder bowl like the [Outward Hound Fun Feeder](https://www.amazon.com/dp/B00FPKNRCS?tag=toolsradar05-20) is worth pairing with any fresh food — the softer texture means dogs inhale it faster, which isn't great for digestion or bloat risk in deep-chested breeds.
+A slow-feeder bowl like the [Outward Hound Fun Feeder](https://www.amazon.com/dp/B00FPKNRCS?tag=petverdict-20) is worth pairing with any fresh food — the softer texture means dogs inhale it faster, which isn't great for digestion or bloat risk in deep-chested breeds.
 
 ## 2. The Farmer's Dog — Fresh Food Runner-Up
 
@@ -132,7 +132,7 @@ The protein level on a dry matter basis is around 30%, which is solid for kibble
 - Lower palatability than fresh food, especially for picky dogs
 - The brand is deeply unsexy, which is apparently a con for some buyers
 
-[Check Purina Pro Plan on Amazon](https://www.amazon.com/dp/B001VJ0B0I?tag=toolsradar05-20)
+[Check Purina Pro Plan on Amazon](https://www.amazon.com/dp/B001VJ0B0I?tag=petverdict-20)
 
 ## 4. Royal Canin — Best for Specific Medical Needs
 
@@ -158,7 +158,7 @@ Where Royal Canin genuinely shines: if your vet prescribes a specific therapeuti
 - Marketing wildly overstates the breed-specificity benefit
 - Ingredient panel lags competitors at similar price points
 
-[Check Royal Canin on Amazon](https://www.amazon.com/dp/B00JMKM3E0?tag=toolsradar05-20)
+[Check Royal Canin on Amazon](https://www.amazon.com/dp/B00JMKM3E0?tag=petverdict-20)
 
 ## 5. Open Farm — Best for Ingredient Transparency, With Caveats
 
@@ -184,7 +184,7 @@ Also: Open Farm has revised its recipes more than once in the past few years, wh
 - Recipe revisions have been frequent
 - You're paying for the story as much as the food
 
-[Check Open Farm on Amazon](https://www.amazon.com/dp/B07V3GBQF8?tag=toolsradar05-20)
+[Check Open Farm on Amazon](https://www.amazon.com/dp/B07V3GBQF8?tag=petverdict-20)
 
 ## Use Case Recommendations
 
@@ -200,7 +200,7 @@ Also: Open Farm has revised its recipes more than once in the past few years, wh
 
 ## Transitioning Between Foods
 
-Switch over 7–10 days. Start at 25% new food, work up gradually. Watch stool quality — if things loosen up, slow the transition down. Dogs with chronic GI sensitivity may need two weeks or a probiotic bridge. A [KONG Classic](https://www.amazon.com/dp/B0002AR0I8?tag=toolsradar05-20) stuffed with the new food can help with dogs who resist change by reframing the food as enrichment.
+Switch over 7–10 days. Start at 25% new food, work up gradually. Watch stool quality — if things loosen up, slow the transition down. Dogs with chronic GI sensitivity may need two weeks or a probiotic bridge. A [KONG Classic](https://www.amazon.com/dp/B0002AR0I8?tag=petverdict-20) stuffed with the new food can help with dogs who resist change by reframing the food as enrichment.
 
 ## The Grain-Free and DCM Question
 

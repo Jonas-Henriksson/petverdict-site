@@ -15,13 +15,13 @@ affiliateLinks:
   amazon:
     - product: "Amazon"
       asin: "generic"
-      link: "https://amazon.com/?tag=toolsradar05-20"
+      link: "https://amazon.com/?tag=petverdict-20"
     - product: "Litter-Robot 4"
       asin: "B0BHH2C3YZ"
-      link: "https://www.amazon.com/dp/B0BHH2C3YZ?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0BHH2C3YZ?tag=petverdict-20"
     - product: "PetSafe ScoopFree"
       asin: "B000GF0X38"
-      link: "https://www.amazon.com/dp/B000GF0X38?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B000GF0X38?tag=petverdict-20"
 ogImage: "/og/best-automatic-litter-box-2026-litter-robot-scoopfree-petsafe.jpg"
 ---
 
@@ -76,7 +76,7 @@ The pinch-detection sensors are also a meaningful upgrade. Earlier Litter-Robot 
 - **The globe is enclosed.** Most cats adapted, but one senior cat in the test households never fully trusted it and continued to use a manual backup box maybe 30% of the time. If your cat is already anxious about enclosed spaces, don't assume they'll adapt.
 - **Setup is genuinely tedious.** The assembly isn't hard, but it takes the better part of an hour, and the waste drawer liner system is finicky until you've done it a few times.
 
-**[Check price on Amazon](https://www.amazon.com/dp/B0BHH2C3YZ?tag=toolsradar05-20)**
+**[Check price on Amazon](https://www.amazon.com/dp/B0BHH2C3YZ?tag=petverdict-20)**
 
 ## PetSafe ScoopFree Crystal Pro — Best Value, With a Catch
 
@@ -93,7 +93,7 @@ The health counter is rudimentary compared to the Litter-Robot's app, but it doe
 - **Crystal litter has a specific feel that some cats hate.** The texture is more like beach sand than traditional litter, and one cat in testing refused to use it for the first four days. She adapted, but not every cat will.
 - **Silica dust is a concern for some households.** Crystal litter is generally safe, but the dust during pour-outs isn't something I'd want around an asthmatic cat or a cat with known respiratory issues. If your vet has flagged bronchial sensitivity, go with clumping clay or a plant-based option on a different platform.
 
-**[Check price on Amazon](https://www.amazon.com/dp/B000GF0X38?tag=toolsradar05-20)**
+**[Check price on Amazon](https://www.amazon.com/dp/B000GF0X38?tag=petverdict-20)**
 
 ## Litter-Robot 3 Connect — Still a Great Choice for Large Cats
 

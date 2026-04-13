@@ -15,22 +15,22 @@ affiliateLinks:
   amazon:
     - product: "Amazon"
       asin: "generic"
-      link: "https://amazon.com/?tag=toolsradar05-20"
+      link: "https://amazon.com/?tag=petverdict-20"
     - product: "Nordic Naturals Pet Omega-3"
       asin: "B001DUSH18"
-      link: "https://www.amazon.com/dp/B001DUSH18?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B001DUSH18?tag=petverdict-20"
     - product: "Zesty Paws Pure Wild Alaskan Salmon Oil"
       asin: "B07D3GP5QM"
-      link: "https://www.amazon.com/dp/B07D3GP5QM?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B07D3GP5QM?tag=petverdict-20"
     - product: "Grizzly Pollock Oil"
       asin: "B000634G20"
-      link: "https://www.amazon.com/dp/B000634G20?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B000634G20?tag=petverdict-20"
     - product: "PetHonesty Omega-3 Fish Oil Soft Chews"
       asin: "B07QKJVP8J"
-      link: "https://www.amazon.com/dp/B07QKJVP8J?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B07QKJVP8J?tag=petverdict-20"
     - product: "Nutramax Welactin"
       asin: "B0013TKW8W"
-      link: "https://www.amazon.com/dp/B0013TKW8W?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0013TKW8W?tag=petverdict-20"
 ogImage: "/og/best-fish-oil-supplements-dogs-2026.jpg"
 ---
 
@@ -75,7 +75,7 @@ Nordic Naturals publishes their COAs, uses the triglyceride form, and has been a
 
 **Real weakness:** Cost. For a 70+ lb dog at a therapeutic dose, you're looking at a new bottle every 2–3 weeks, and the per-mg cost of EPA+DHA is roughly double what you pay for Grizzly or Zesty Paws. If you're supplementing a large dog for general coat health rather than a specific joint issue, you're paying a premium for documentation you may not strictly need. The lemon flavoring also turns off a subset of dogs — I've had one who happily ate Zesty Paws reject Nordic Naturals outright.
 
-[Check Nordic Naturals price on Amazon](https://www.amazon.com/dp/B001DUSH18?tag=toolsradar05-20)
+[Check Nordic Naturals price on Amazon](https://www.amazon.com/dp/B001DUSH18?tag=petverdict-20)
 
 ## Zesty Paws Pure Wild Alaskan Salmon Oil
 
@@ -87,7 +87,7 @@ This is the bottle I actually reach for most often at home. The pump is genuinel
 
 **Real weakness:** The plastic bottle is my biggest gripe. Fish oil oxidizes in contact with oxygen and light, and clear-ish plastic with an exposed pump headspace is not an ideal storage vessel, especially if you're a small-dog household taking six weeks to work through a 32 oz bottle. I'd rather see dark glass at this price point. Also, EPA/DHA concentration is meaningfully below Nordic Naturals and Welactin, so for a large dog with arthritis you'll end up pumping through the bottle fast enough that the economics look less attractive than the sticker suggests.
 
-[Check Zesty Paws price on Amazon](https://www.amazon.com/dp/B07D3GP5QM?tag=toolsradar05-20)
+[Check Zesty Paws price on Amazon](https://www.amazon.com/dp/B07D3GP5QM?tag=petverdict-20)
 
 ## Grizzly Pollock Oil
 
@@ -99,7 +99,7 @@ Pollock is a genuinely interesting choice. Alaska pollock is one of the more sus
 
 **Real weakness:** EPA/DHA concentration is noticeably lower than the competitive set — you're dosing roughly twice the volume to hit what Nordic Naturals delivers in a teaspoon, which partly erases the cost advantage. No flavor masking at all; if your dog is picky, this is the wrong bottle. And the pump mechanism on the bigger sizes is less consistent than Zesty Paws' — I've had one leak and one where the first pump of the day was a partial pour.
 
-[Check Grizzly Pollock Oil price on Amazon](https://www.amazon.com/dp/B000634G20?tag=toolsradar05-20)
+[Check Grizzly Pollock Oil price on Amazon](https://www.amazon.com/dp/B000634G20?tag=petverdict-20)
 
 ## PetHonesty Omega-3 Fish Oil Soft Chews
 
@@ -111,7 +111,7 @@ The soft chew format solves a real problem. If your dog refuses liquid fish oil 
 
 **Real weakness — and this one is substantive:** You are paying a meaningful premium for the format, and you're also ingesting a non-trivial ingredient list beyond fish oil. Glycerin, natural flavors, binders, and a meat-adjacent flavoring (the "bacon" part, which is not actual bacon in the AAFCO sense — it's a flavor). For a dog with food sensitivities, you're introducing variables that a plain oil doesn't have. The per-mg cost of EPA+DHA is also the highest in this lineup once you account for how many chews a 60 lb dog needs. If your dog will tolerate a liquid, a liquid is usually the better buy. Treat these as the solution to a specific problem — picky eater — not a default.
 
-[Check PetHonesty Omega-3 price on Amazon](https://www.amazon.com/dp/B07QKJVP8J?tag=toolsradar05-20)
+[Check PetHonesty Omega-3 price on Amazon](https://www.amazon.com/dp/B07QKJVP8J?tag=petverdict-20)
 
 ## Nutramax Welactin
 
@@ -123,7 +123,7 @@ Nutramax is the company behind Cosequin, and they've been in the veterinary supp
 
 **Real weakness:** The "veterinary recommended" framing makes it sound more differentiated than it is. Ingredient-wise, this is a competent fish oil, not a magic one — the EPA/DHA concentration is solid but not remarkable versus Nordic Naturals, and the price is in the same premium range. Also, buying it through a vet clinic often costs more than the online price, and some clinics push it as a default even for dogs who'd be fine on a cheaper bottle. Worth it if your vet is specifically managing a condition. For a generally healthy 4-year-old lab, you're paying for a reassurance margin.
 
-[Check Nutramax Welactin price on Amazon](https://www.amazon.com/dp/B0013TKW8W?tag=toolsradar05-20)
+[Check Nutramax Welactin price on Amazon](https://www.amazon.com/dp/B0013TKW8W?tag=petverdict-20)
 
 ## Amazing Nutritionals Pure Fish Oil — I Can't Recommend This
 

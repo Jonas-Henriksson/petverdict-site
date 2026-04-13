@@ -14,21 +14,21 @@ featured: false
 affiliateLinks:
   custom:
     - name: Amazon
-      url: https://amazon.com/?tag=toolsradar05-20
+      url: https://amazon.com/?tag=petverdict-20
       network: direct
   amazon:
     - product: "Whistle GO Explore"
       asin: "B07RKBGKB2"
-      link: "https://www.amazon.com/dp/B07RKBGKB2?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B07RKBGKB2?tag=petverdict-20"
     - product: "Furbo Dog Camera"
       asin: "B0884JN9GN"
-      link: "https://www.amazon.com/dp/B0884JN9GN?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0884JN9GN?tag=petverdict-20"
     - product: "PetSafe Smart Feed"
       asin: "B072FJY4M2"
-      link: "https://www.amazon.com/dp/B072FJY4M2?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B072FJY4M2?tag=petverdict-20"
     - product: "KONG Classic Dog Toy"
       asin: "B0002AR0I8"
-      link: "https://www.amazon.com/dp/B0002AR0I8?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0002AR0I8?tag=petverdict-20"
 ---
 
 Thunder cracks, the dog shakes uncontrollably, and you reach for whatever might help. Anxiety vests—compression garments that apply gentle, constant pressure around a dog's torso—have become one of the most common non-pharmaceutical interventions for canine anxiety. The mechanism is plausible: sustained deep-touch pressure appears to modulate the autonomic nervous system in both humans and other mammals, and Temple Grandin's "squeeze machine" research is the foundational reference most manufacturers lean on.
@@ -83,7 +83,7 @@ In our testing, most of the dogs settled noticeably during storms and car rides 
 - No chest strap means the vest can rotate slightly on very active dogs. Fine for indoor storm sessions; less reliable during fetch or walks.
 - "30-day money back guarantee" depends on the seller, not the brand—check before assuming.
 
-[Check price on Amazon](https://www.amazon.com/dp/B07RKBGKB2?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B07RKBGKB2?tag=petverdict-20)
 
 ## Comfort Zone Calming Vest
 
@@ -107,7 +107,7 @@ The breathable panels matter more than you'd expect. Thunderstorms in spring and
 
 For thunder and fireworks specifically, we think this vest is the honest best value on the market. If it doesn't help after a few storms, the problem likely isn't the vest brand.
 
-[Check price on Amazon](https://www.amazon.com/dp/B0884JN9GN?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B0884JN9GN?tag=petverdict-20)
 
 ## Mellow Shirt Dog Anxiety Calming Wrap
 
@@ -129,7 +129,7 @@ The Mellow Shirt is the only vest in our test built like it knows this. Reinforc
 - The fabric is less breathable than the Comfort Zone's mesh—fine in winter, sweaty in July.
 - "Lifetime replacement warranty" has documented claim-process friction based on review aggregation. Don't count on painless replacements.
 
-[Check price on Amazon](https://www.amazon.com/dp/B072FJY4M2?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B072FJY4M2?tag=petverdict-20)
 
 ## ZenPet ProCalm Vest
 
@@ -172,7 +172,7 @@ That said, we wouldn't buy it for a young, powerfully anxious dog. Mild compress
 - Velcro loses grip over months of use
 - Limited size range—no XL or XXL, which matters because gentle pressure would actually suit some older large-breed dogs best
 
-[Check price on Amazon](https://www.amazon.com/dp/B0002AR0I8?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B0002AR0I8?tag=petverdict-20)
 
 ## Picking the Right One for Your Dog
 

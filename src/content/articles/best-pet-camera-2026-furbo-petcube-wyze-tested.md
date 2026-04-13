@@ -15,22 +15,22 @@ affiliateLinks:
   amazon:
     - product: "Amazon"
       asin: "generic"
-      link: "https://amazon.com/?tag=toolsradar05-20"
+      link: "https://amazon.com/?tag=petverdict-20"
     - product: "Furbo Dog Camera 360°"
       asin: "B0884JN9GN"
-      link: "https://www.amazon.com/dp/B0884JN9GN?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0884JN9GN?tag=petverdict-20"
     - product: "Petcube Bites 2"
       asin: "B07JBH5QQW"
-      link: "https://www.amazon.com/dp/B07JBH5QQW?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B07JBH5QQW?tag=petverdict-20"
     - product: "Petcube Play 2"
       asin: "B07H9X6J8L"
-      link: "https://www.amazon.com/dp/B07H9X6J8L?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B07H9X6J8L?tag=petverdict-20"
     - product: "Wyze Cam Pan v3"
       asin: "B08R59YH7W"
-      link: "https://www.amazon.com/dp/B08R59YH7W?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B08R59YH7W?tag=petverdict-20"
     - product: "Skymee Owl Robot"
       asin: "B07YBF8N2J"
-      link: "https://www.amazon.com/dp/B07YBF8N2J?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B07YBF8N2J?tag=petverdict-20"
 ogImage: "/og/best-pet-camera-2026-furbo-petcube-wyze-tested.jpg"
 ---
 
@@ -84,7 +84,7 @@ Video is 1080p (marketing materials sometimes imply more — read the spec sheet
 
 Also: it's physically big. The 360° version has a wide base that wants a stable surface, not a cluttered shelf. A curious dog can knock it over, and it's top-heavy when the treat compartment is full.
 
-[Check the Furbo Dog Camera 360° on Amazon](https://www.amazon.com/dp/B0884JN9GN?tag=toolsradar05-20)
+[Check the Furbo Dog Camera 360° on Amazon](https://www.amazon.com/dp/B0884JN9GN?tag=petverdict-20)
 
 ## Petcube Bites 2
 
@@ -98,7 +98,7 @@ The throw distance is short. If your dog sits six feet from the camera, half the
 
 **The real weakness**: Petcube's subscription tier. You can use the camera without it, but meaningful video history is behind the paywall, and the free tier is stingy enough that it feels deliberately hobbled. If you're comparing total cost of ownership, Petcube and Furbo end up closer than the sticker prices suggest.
 
-[Check the Petcube Bites 2 on Amazon](https://www.amazon.com/dp/B07JBH5QQW?tag=toolsradar05-20)
+[Check the Petcube Bites 2 on Amazon](https://www.amazon.com/dp/B07JBH5QQW?tag=petverdict-20)
 
 ## Petcube Play 2
 
@@ -112,7 +112,7 @@ The 160° lens is useful for cats because they climb and hide — a wider field 
 
 **The real weakness**: no treat function and laser-only interaction means you're betting on one play modality. Also — and this is worth saying plainly — some behaviorists have concerns about laser-only play because there's no "kill" at the end of the hunt sequence, which can frustrate certain cats. If you use it, pair it with an occasional physical toy your cat can actually catch.
 
-[Check the Petcube Play 2 on Amazon](https://www.amazon.com/dp/B07H9X6J8L?tag=toolsradar05-20)
+[Check the Petcube Play 2 on Amazon](https://www.amazon.com/dp/B07H9X6J8L?tag=petverdict-20)
 
 ## Wyze Cam Pan v3
 
@@ -126,7 +126,7 @@ It's weatherproof, which none of the treat cameras are, so it doubles as a porch
 
 For basic "what is my pet doing right now and can I talk to them," it's excellent. For active remote interaction, it's the wrong tool.
 
-[Check the Wyze Cam Pan v3 on Amazon](https://www.amazon.com/dp/B08R59YH7W?tag=toolsradar05-20)
+[Check the Wyze Cam Pan v3 on Amazon](https://www.amazon.com/dp/B08R59YH7W?tag=petverdict-20)
 
 ## Skymee Owl Robot
 
@@ -140,7 +140,7 @@ The treat compartment is decent and the novelty factor is real — one of our do
 
 **The real weakness**: it scared two of the five dogs and one of the cats we tried it with. A loud, self-moving object approaching them at floor level is not universally fun. Please don't buy this for a nervous or reactive pet sight unseen.
 
-[Check the Skymee Owl Robot on Amazon](https://www.amazon.com/dp/B07YBF8N2J?tag=toolsradar05-20)
+[Check the Skymee Owl Robot on Amazon](https://www.amazon.com/dp/B07YBF8N2J?tag=petverdict-20)
 
 ## How to pick
 

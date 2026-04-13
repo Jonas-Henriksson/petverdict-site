@@ -14,24 +14,24 @@ featured: false
 affiliateLinks:
   custom:
     - name: Amazon
-      url: https://amazon.com/?tag=toolsradar05-20
+      url: https://amazon.com/?tag=petverdict-20
       network: direct
   amazon:
     - product: "Ruffwear Front Range Harness"
       asin: "B01G8WLU8S"
-      link: "https://www.amazon.com/dp/B01G8WLU8S?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B01G8WLU8S?tag=petverdict-20"
     - product: "Julius-K9 IDC Powerharness"
       asin: "B004R1QLMU"
-      link: "https://www.amazon.com/dp/B004R1QLMU?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B004R1QLMU?tag=petverdict-20"
     - product: "PetSafe Easy Walk Harness"
       asin: "B0009ZBKG4"
-      link: "https://www.amazon.com/dp/B0009ZBKG4?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0009ZBKG4?tag=petverdict-20"
     - product: "Kurgo Tru-Fit Smart Harness"
       asin: "B00CHZBLRQ"
-      link: "https://www.amazon.com/dp/B00CHZBLRQ?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B00CHZBLRQ?tag=petverdict-20"
     - product: "Rabbitgoo No-Pull Dog Harness"
       asin: "B01LW9MFR3"
-      link: "https://www.amazon.com/dp/B01LW9MFR3?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B01LW9MFR3?tag=petverdict-20"
 ---
 
 Dogs that pull hard on leash are a daily frustration for millions of owners, and the harness market is flooded with products that promise miracles and deliver mediocrity. Over roughly six months we walked twelve dogs ranging from a 52-pound Border Collie mix to a 148-pound Great Dane in a rotation of twelve different harnesses, on real sidewalks and trails rather than lab treadmills. Five made it into this detailed review — the others either broke, failed a basic fit test on multiple body types, or were indistinguishable from cheaper options already covered here. What follows is what actually held up, what failed, and which harnesses we'd skip entirely.
@@ -85,7 +85,7 @@ That said, the Front Range is not a magic solution. A determined 100-pound dog c
 - Fit adjustment takes patience the first time; we had to re-fit twice before one Shepherd stopped slipping sideways
 - The front clip is effective but not revolutionary — you still have to train
 
-[Check price on Amazon](https://www.amazon.com/dp/B01G8WLU8S?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B01G8WLU8S?tag=petverdict-20)
 
 ## Julius-K9 IDC Powerharness — Most Durable, But Read Carefully
 
@@ -108,7 +108,7 @@ With that said, nothing in our test set came close to the IDC's construction. Th
 - Sizing runs narrow; dogs with barrel chests often need to size up, which creates gapping at the neck
 - Heavier than alternatives, which matters for dogs with joint issues or older dogs
 
-[Check price on Amazon](https://www.amazon.com/dp/B004R1QLMU?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B004R1QLMU?tag=petverdict-20)
 
 ## PetSafe Easy Walk Harness — Best Value
 
@@ -132,7 +132,7 @@ But at $25–35, it's a tool that lets you try the front-clip approach without a
 - Thin padding isn't comfortable for extended wear
 - Webbing shows wear quickly, especially at friction points
 
-[Check price on Amazon](https://www.amazon.com/dp/B0009ZBKG4?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B0009ZBKG4?tag=petverdict-20)
 
 ## Kurgo Tru-Fit Smart Harness — Dual-Purpose Pick
 
@@ -155,7 +155,7 @@ As a pure walking harness for pullers, though, it's middle of the pack. The fron
 - Capped at 110 pounds, which excludes the largest breeds this category typically targets
 - The dual-purpose design means it's not the best at either job
 
-[Check price on Amazon](https://www.amazon.com/dp/B00CHZBLRQ?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B00CHZBLRQ?tag=petverdict-20)
 
 ## Rabbitgoo No-Pull Harness — The One We'd Skip
 
@@ -179,7 +179,7 @@ If your dog is small, doesn't pull hard, and you're buying a harness primarily f
 - Two of our test dogs learned to escape it, which is a safety issue
 - At this price, the PetSafe Easy Walk is better in every dimension that matters
 
-[Check price on Amazon](https://www.amazon.com/dp/B01LW9MFR3?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B01LW9MFR3?tag=petverdict-20)
 
 ## Matching Harness to Situation
 

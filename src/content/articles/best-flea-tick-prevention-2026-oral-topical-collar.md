@@ -15,19 +15,19 @@ affiliateLinks:
   amazon:
     - product: "Amazon"
       asin: "generic"
-      link: "https://amazon.com/?tag=toolsradar05-20"
+      link: "https://amazon.com/?tag=petverdict-20"
     - product: "Bravecto Chews"
       asin: "B01LYQL3Q4"
-      link: "https://www.amazon.com/dp/B01LYQL3Q4?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B01LYQL3Q4?tag=petverdict-20"
     - product: "Frontline Plus"
       asin: "B0002J1FOO"
-      link: "https://www.amazon.com/dp/B0002J1FOO?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0002J1FOO?tag=petverdict-20"
     - product: "Seresto Collar"
       asin: "B00B8CG7RY"
-      link: "https://www.amazon.com/dp/B00B8CG7RY?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B00B8CG7RY?tag=petverdict-20"
     - product: "Capstar Tablets"
       asin: "B00028ZMHO"
-      link: "https://www.amazon.com/dp/B00028ZMHO?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B00028ZMHO?tag=petverdict-20"
 ogImage: "/og/best-flea-tick-prevention-2026-oral-topical-collar.jpg"
 ---
 
@@ -75,7 +75,7 @@ Pricing typically runs $65–$90 per dose depending on weight, working out to ro
 
 Also: Bravecto doesn't cover heartworm, so you still need a separate heartworm preventive.
 
-[Check price on Amazon](https://www.amazon.com/dp/B01LYQL3Q4?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B01LYQL3Q4?tag=petverdict-20)
 
 ## Frontline Plus: Best Topical
 **Best for:** Owners who want to avoid isoxazolines, multi-pet households, dogs who can't take oral meds
@@ -86,7 +86,7 @@ Frontline Plus combines fipronil (adulticide) with S-methoprene (an insect growt
 
 Price is reasonable — typically $45–65 for a 3-pack depending on dog size — and the lack of prescription requirement makes it easy to source.
 
-[Check price on Amazon](https://www.amazon.com/dp/B0002J1FOO?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B0002J1FOO?tag=petverdict-20)
 
 ## Seresto Collar: Useful, But Read This First
 **Best for:** Low-to-moderate parasite pressure regions, owners who genuinely cannot manage a monthly schedule
@@ -97,7 +97,7 @@ The mechanism is clever: a polymer matrix slowly releases imidacloprid and flume
 
 A practical note: the collar's efficacy depends on contact with the skin. If it's too loose, it won't distribute the active ingredients properly. Two-finger fit under the collar is the right tension.
 
-[Check price on Amazon](https://www.amazon.com/dp/B00B8CG7RY?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B00B8CG7RY?tag=petverdict-20)
 
 ## NexGard: Monthly Oral Alternative
 **Best for:** Dogs who need the oral route but whose owners prefer shorter dosing intervals
@@ -117,7 +117,7 @@ This isn't a flaw, it's the product's design: Capstar is a knockdown tool, not a
 
 **Real weakness:** Owners routinely misuse this by buying it as their only flea strategy, repeatedly administering it to try to clear an environmental infestation. That doesn't work. Fleas in the environment — eggs, larvae, pupae in carpet and bedding — will keep emerging for weeks, and Capstar only kills what's currently on the dog. Without environmental control and a residual preventive, you'll churn through tablets indefinitely.
 
-[Check price on Amazon](https://www.amazon.com/dp/B00028ZMHO?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B00028ZMHO?tag=petverdict-20)
 
 ## Advantage II: The One We'd Skip
 **Best for:** Honestly, not many situations

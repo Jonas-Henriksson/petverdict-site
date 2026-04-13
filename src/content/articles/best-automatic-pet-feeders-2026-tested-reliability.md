@@ -14,24 +14,24 @@ featured: false
 affiliateLinks:
   custom:
     - name: Amazon
-      url: https://amazon.com/?tag=toolsradar05-20
+      url: https://amazon.com/?tag=petverdict-20
       network: direct
   amazon:
     - product: "PetSafe Smart Feed Automatic Pet Feeder"
       asin: "B072FJY4M2"
-      link: "https://www.amazon.com/dp/B072FJY4M2?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B072FJY4M2?tag=petverdict-20"
     - product: "SureFlup SureFeed Microchip Pet Feeder"
       asin: "B00O0UIPTY"
-      link: "https://www.amazon.com/dp/B00O0UIPTY?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B00O0UIPTY?tag=petverdict-20"
     - product: "Petnet SmartFeeder Gen 2"
       asin: "B01NAVM4GV"
-      link: "https://www.amazon.com/dp/B01NAVM4GV?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B01NAVM4GV?tag=petverdict-20"
     - product: "PETLIBRO Automatic Cat Feeder A36"
       asin: "B0926PZTLX"
-      link: "https://www.amazon.com/dp/B0926PZTLX?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0926PZTLX?tag=petverdict-20"
     - product: "WOPET Smart Pet Feeder"
       asin: "B08FQTQJZD"
-      link: "https://www.amazon.com/dp/B08FQTQJZD?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B08FQTQJZD?tag=petverdict-20"
 ---
 
 Automatic pet feeders promise to solve meal scheduling headaches, but the failure modes are ugly when they happen — a jammed hopper at hour 14 of a weekend away, an app that silently stops syncing, a portion dial that drifts 20% high over a month. We spent six months rotating twelve feeders through real households (friends, family, two foster networks, our own pets) to see which ones actually held up and which fell apart once the novelty wore off.
@@ -78,7 +78,7 @@ The 24-cup hopper is genuinely useful for weekend trips, and the stainless-steel
 
 **Real weakness**: the app is the weak link. The onboarding relies on a 2.4 GHz-only connection, which is a pain on mesh networks that auto-assign bands, and when the app loses connection it doesn't always tell you — we caught it silently failing to push schedule changes twice during testing. If you rely on remote schedule edits while traveling, that's a real problem. The scheduled feeds themselves kept running from local storage, which is the right failure mode, but don't trust the app as a live monitoring tool without verifying it's actually connected.
 
-[Check current price on Amazon](https://www.amazon.com/dp/B072FJY4M2?tag=toolsradar05-20)
+[Check current price on Amazon](https://www.amazon.com/dp/B072FJY4M2?tag=petverdict-20)
 
 ## SureFeed Microchip Pet Feeder
 
@@ -90,7 +90,7 @@ The sealed bowl is also the only feeder we tested that credibly handles wet food
 
 **Real weakness**: it's fundamentally a bowl with a lid, not a portion-controlled dispenser. You still have to physically fill it, and the 13.5-ounce capacity is small. It's not suitable for anyone needing scheduled dry-food dispensing while away from home — combine it with a second feeder for that. Also: at around $170 per pet, a two-cat household is north of $340 before you've bought any food. And if your pet lacks a microchip or has one at the edges of the supported frequency range, you're in for a headache.
 
-[Check current price on Amazon](https://www.amazon.com/dp/B00O0UIPTY?tag=toolsradar05-20)
+[Check current price on Amazon](https://www.amazon.com/dp/B00O0UIPTY?tag=petverdict-20)
 
 ## Petnet SmartFeeder Gen 2
 
@@ -100,7 +100,7 @@ The Petnet has nice hardware — metal construction, a built-in scale that track
 
 **Real weaknesses, plural**: first, Petnet's corporate history is rocky. The original company went through a service outage in 2020 that bricked thousands of feeders when cloud services went down, and while the hardware has been resurrected, we're wary of any smart feeder whose core functions require a living cloud backend. Second, the "veterinary-backed feeding recommendations" marketing is softer than it sounds — it's an algorithm based on breed/weight/activity inputs, not individualized veterinary guidance, and you should treat it as a starting point at best. Your own vet knows your pet; an app profile doesn't. Third, the subscription: premium features sit behind a recurring fee, and we don't love paying a monthly bill to use hardware we already bought. Do the math over three years before committing.
 
-[Check current price on Amazon](https://www.amazon.com/dp/B01NAVM4GV?tag=toolsradar05-20)
+[Check current price on Amazon](https://www.amazon.com/dp/B01NAVM4GV?tag=petverdict-20)
 
 ## PETLIBRO Automatic Cat Feeder A36
 
@@ -112,7 +112,7 @@ The voice-recording feature is a gimmick, but a harmless one — some cats come 
 
 **Real weakness**: we saw jams more often on the A36 than on the PetSafe, particularly with oddly shaped kibble. One household using a dental kibble with large, wedge-shaped pieces had the auger hang up multiple times in a month. If your cat eats a standard small-round kibble, you'll probably be fine. If they're on something unusually shaped or unusually sticky (think high-moisture-retention small-breed formulas), test it carefully before relying on it unsupervised. The app is functional but basic — don't expect sophisticated scheduling.
 
-[Check current price on Amazon](https://www.amazon.com/dp/B0926PZTLX?tag=toolsradar05-20)
+[Check current price on Amazon](https://www.amazon.com/dp/B0926PZTLX?tag=petverdict-20)
 
 ## WOPET Smart Pet Feeder
 
@@ -122,7 +122,7 @@ The 7-liter hopper and larger dispensing openings are the WOPET's pitch, and it'
 
 **Real weakness**: the software feels like it's from 2019. The app is clunky, the scheduling UI is dated, and we had more unexplained sync issues here than with any other unit. The hardware is workable; the software is the drag. There's also no backup battery, which matters more when you rely on a single feeder for a large dog's daily calories. If you're ok with the app feeling rough and your power is reliable, the value is decent for the capacity.
 
-[Check current price on Amazon](https://www.amazon.com/dp/B08FQTQJZD?tag=toolsradar05-20)
+[Check current price on Amazon](https://www.amazon.com/dp/B08FQTQJZD?tag=petverdict-20)
 
 ## Honorable Mention: Whiskers & Tails Smart Feeder
 

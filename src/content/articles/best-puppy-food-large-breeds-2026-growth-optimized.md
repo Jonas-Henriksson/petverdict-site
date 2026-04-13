@@ -15,10 +15,10 @@ affiliateLinks:
   amazon:
     - product: "Amazon"
       asin: "generic"
-      link: "https://amazon.com/?tag=toolsradar05-20"
+      link: "https://amazon.com/?tag=petverdict-20"
     - product: "KONG Classic Dog Toy"
       asin: "B0002AR0I8"
-      link: "https://www.amazon.com/dp/B0002AR0I8?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0002AR0I8?tag=petverdict-20"
 ogImage: "/og/best-puppy-food-large-breeds-2026-growth-optimized.jpg"
 ---
 
@@ -68,7 +68,7 @@ The calcium and phosphorus profile sits in the conservative zone for large breed
 
 **Where it falls short**: the ingredient list leans heavily on plant proteins and grains, and if you're ideologically opposed to soybean meal or corn, you will not be happy reading the deck regardless of the nutritional logic. The palatability is also only okay — most dogs eat it fine, but a picky puppy may need you to add a spoonful of wet food for the first week. And Hill's charges a premium for the brand and the veterinary channel; you are absolutely paying for research and the feeding trial, not for exotic ingredients.
 
-[Check pricing on Amazon](https://www.amazon.com/dp/B0002AR0I8?tag=toolsradar05-20).
+[Check pricing on Amazon](https://www.amazon.com/dp/B0002AR0I8?tag=petverdict-20).
 
 ## Royal Canin Giant Puppy
 
@@ -80,7 +80,7 @@ The ingredient deck is a mixed bag. You'll see chicken by-product meal high on t
 
 **Where it falls short**: this food is genuinely unnecessary if your dog is going to weigh 75 lb as an adult. A Lab or Golden will do fine on a standard large breed puppy formula for less money. Royal Canin also charges meaningfully more than equivalent foods, and in my conversations with owners, two mentioned their giant breed puppies got loose stools during the switch — not unusual with rich foods, but a real transition cost. Finally, several giant breed owners have moved away from Royal Canin because the calcium level, while within AAFCO's large-breed range, sits higher than some veterinary nutritionists prefer for truly giant dogs.
 
-[Check availability on Amazon](https://www.amazon.com/dp/B00JMKJCES?tag=toolsradar05-20).
+[Check availability on Amazon](https://www.amazon.com/dp/B00JMKJCES?tag=petverdict-20).
 
 ## Purina Pro Plan Large Breed Puppy
 
@@ -92,7 +92,7 @@ The protein level is on the higher side — around 29% on a dry matter basis —
 
 **Where it falls short**: the deck includes corn gluten meal and whole grain corn, which some owners won't accept regardless of the nutritional evidence that corn isn't actually a common canine allergen. You'll also see some ingredient splitting on the label (different rice forms listed separately), which can slightly obscure what's really the biggest component of the bag. And if you're someone who values boutique branding and a glossy bag, Pro Plan will feel industrial and unromantic.
 
-[Find it on Amazon](https://www.amazon.com/dp/B003CRNALE?tag=toolsradar05-20).
+[Find it on Amazon](https://www.amazon.com/dp/B003CRNALE?tag=petverdict-20).
 
 ## Blue Buffalo Life Protection Large Breed Puppy
 
@@ -106,7 +106,7 @@ Blue Buffalo's AAFCO statement is "formulated to meet," not feeding trial.
 
 **Where it falls short**: this is my biggest reservation on the list. Blue Buffalo has had multiple recalls over the years, and they've historically marketed against ingredients (by-product meals, corn) that aren't actually nutritionally problematic, which makes me skeptical of the brand's values as a whole. The calcium level is also on the higher side of the comfortable range for large breed growth. For the same money, Pro Plan gives you a feeding trial statement and a research backbone, and Hill's gives you both plus deeper clinical history. Blue Buffalo feels like you're paying for the ingredient panel and the branding rather than the nutritional rigor.
 
-[Order from Amazon](https://www.amazon.com/dp/B000W5SLE4?tag=toolsradar05-20).
+[Order from Amazon](https://www.amazon.com/dp/B000W5SLE4?tag=petverdict-20).
 
 ## Wellness CORE Large Breed Puppy
 
@@ -120,7 +120,7 @@ Also watch for ingredient splitting. When you see "peas, pea protein, pea fiber"
 
 **Where it falls short**: the DCM concern alone is enough for me to steer most owners away for a growing large breed puppy. Add the price premium, and I have a hard time recommending it over Hill's or Pro Plan unless you have a specific reason (a diagnosed grain sensitivity confirmed by a vet, for instance — and those are rarer than the internet thinks).
 
-[Check Amazon availability](https://www.amazon.com/dp/B074ZCYHPS?tag=toolsradar05-20).
+[Check Amazon availability](https://www.amazon.com/dp/B074ZCYHPS?tag=petverdict-20).
 
 ## Picking the Right Food for Your Breed
 

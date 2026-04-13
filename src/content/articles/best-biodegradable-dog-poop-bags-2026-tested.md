@@ -15,22 +15,22 @@ affiliateLinks:
   amazon:
     - product: "Earth Rated PoopBags Extra Thick"
       asin: "B01M4NWQHV"
-      link: "https://www.amazon.com/dp/B01M4NWQHV?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B01M4NWQHV?tag=petverdict-20"
     - product: "Pogi's Poop Bags"
       asin: "B01LY05HDG"
-      link: "https://www.amazon.com/dp/B01LY05HDG?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B01LY05HDG?tag=petverdict-20"
     - product: "BioBag Dog Waste Bags"
       asin: "B0019MCKZG"
-      link: "https://www.amazon.com/dp/B0019MCKZG?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0019MCKZG?tag=petverdict-20"
     - product: "Doggy Do Good Biodegradable Bags"
       asin: "B07FKQX5QZ"
-      link: "https://www.amazon.com/dp/B07FKQX5QZ?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B07FKQX5QZ?tag=petverdict-20"
     - product: "Flush Puppies Doodie Bags"
       asin: "B00BY84HZ0"
-      link: "https://www.amazon.com/dp/B00BY84HZ0?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B00BY84HZ0?tag=petverdict-20"
     - product: "PoopBags.com Biodegradable Bags"
       asin: "B07CWZMFN7"
-      link: "https://www.amazon.com/dp/B07CWZMFN7?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B07CWZMFN7?tag=petverdict-20"
 ogImage: "/og/best-biodegradable-dog-poop-bags-2026-tested.jpg"
 ---
 
@@ -97,7 +97,7 @@ The lavender scent masks odor effectively for about 4–5 minutes after sealing.
 
 Over eight weeks with Biscuit (72 lbs) and Maple, I had two puncture failures with Earth Rated — both on particularly loose deposits during a week when Biscuit's diet was in transition. That's a reasonable failure rate for this thickness.
 
-[Check price on Amazon](https://www.amazon.com/dp/B01M4NWQHV?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B01M4NWQHV?tag=petverdict-20)
 
 **Pros:**
 - Lowest cost-per-bag among compostable-certified options when purchased at volume
@@ -130,7 +130,7 @@ The bags are made from Mater-Bi, a starch-polymer blend that BioBag has been man
 
 I had one puncture failure with BioBag over four weeks with Maple. For Biscuit, BioBag's 15-micron thickness required careful handling — not hands-free. I'd call it adequate for dogs up to 60 lbs with typical stool consistency.
 
-[Check price on Amazon](https://www.amazon.com/dp/B0019MCKZG?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B0019MCKZG?tag=petverdict-20)
 
 **Pros:**
 - Most rigorous composting certifications available: EN 13432 + TÜV OK compost HOME
@@ -164,7 +164,7 @@ Now, I have to be direct about the eco-claims, because they don't hold up and I 
 
 If you're buying Pogi's because they're thick, reliable bags at a low per-bag cost — that's a defensible choice. If you're buying them because you believe they're genuinely eco-friendly, you're being misled. Some recent Pogi's SKUs have shifted marketing emphasis away from biodegradability claims, which suggests the brand is aware of the regulatory direction this category is heading.
 
-[Check price on Amazon](https://www.amazon.com/dp/B01LY05HDG?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B01LY05HDG?tag=petverdict-20)
 
 **Pros:**
 - 22-micron thickness — the thickest tested; zero failures across 8 weeks with a large dog
@@ -198,7 +198,7 @@ At 14 microns, Doggy Do Good is adequate for small-to-medium dogs with typical s
 
 The light lavender scent is actually my preference among the scented options — subtle rather than overpowering, and it doesn't trigger any dog-avoidance behavior I've observed with stronger-scented bags.
 
-[Check price on Amazon](https://www.amazon.com/dp/B07FKQX5QZ?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B07FKQX5QZ?tag=petverdict-20)
 
 **Pros:**
 - BPI certified — biodegradability claim is third-party verified
@@ -233,7 +233,7 @@ The thin 12-micron material requires care. For Maple's typical deposits, Flush P
 
 **Critical limitation the brand doesn't foreground prominently**: Do not use Flush Puppies if you're on a septic system. On municipal sewer, flush one at a time. Dog waste pathogens (giardia, roundworm) are not uniformly addressed by all municipal wastewater treatment facilities — the effectiveness depends on your local utility. If you're in a city with older secondary-treatment infrastructure, flushing dog waste may not be fully safe from a public health standpoint.
 
-[Check price on Amazon](https://www.amazon.com/dp/B00BY84HZ0?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B00BY84HZ0?tag=petverdict-20)
 
 **Pros:**
 - Genuinely water-soluble — dissolves in sewer without microplastic fragmentation
@@ -264,7 +264,7 @@ Performance is acceptable — similar to Doggy Do Good, with comparable thicknes
 
 The SKU confusion isn't incidental. In three separate test purchases, I received one order of certified compostable bags and two orders of additive-based bags despite selecting the same product listing. Amazon's commingled inventory for this brand is poorly differentiated. Until PoopBags.com resolves the product distinction issue, I can't recommend them when Earth Rated, Doggy Do Good, and BioBag all offer clearer purchasing options.
 
-[Check price on Amazon](https://www.amazon.com/dp/B07CWZMFN7?tag=toolsradar05-20)
+[Check price on Amazon](https://www.amazon.com/dp/B07CWZMFN7?tag=petverdict-20)
 
 **Pros:**
 - Certified compostable SKU is legitimately BPI registered

@@ -14,24 +14,24 @@ featured: false
 affiliateLinks:
   custom:
     - name: Amazon
-      url: https://amazon.com/?tag=toolsradar05-20
+      url: https://amazon.com/?tag=petverdict-20
       network: direct
   amazon:
     - product: "World's Best Cat Litter Multiple Cat Clumping Formula"
       asin: "B000084E58"
-      link: "https://www.amazon.com/dp/B000084E58?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B000084E58?tag=petverdict-20"
     - product: "Dr. Elsey's Ultra Premium Clumping Cat Litter"
       asin: "B0009X29WK"
-      link: "https://www.amazon.com/dp/B0009X29WK?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0009X29WK?tag=petverdict-20"
     - product: "Tidy Cats 24/7 Performance Clumping Litter"
       asin: "B01MXGX7T1"
-      link: "https://www.amazon.com/dp/B01MXGX7T1?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B01MXGX7T1?tag=petverdict-20"
     - product: "Arm & Hammer Clump & Seal Platinum"
       asin: "B00Y2Z2FZA"
-      link: "https://www.amazon.com/dp/B00Y2Z2FZA?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B00Y2Z2FZA?tag=petverdict-20"
     - product: "Fresh Step Outstretch Clumping Litter"
       asin: "B07FNQVQB7"
-      link: "https://www.amazon.com/dp/B07FNQVQB7?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B07FNQVQB7?tag=petverdict-20"
 ---
 
 Finding a cat litter that actually works is less about chasing premium labels and more about matching a formula to the specifics of your household — the number of cats, their respiratory sensitivity, your tolerance for tracking, and whether you're realistically going to scoop every single day. We rotated through 15 popular litters across several multi-cat and single-cat homes over about six months, and the honest conclusion is that no single litter wins on every axis. Here's what we found, including the tradeoffs the marketing copy tends to bury.
@@ -76,7 +76,7 @@ Dust is genuinely low — not zero, but low enough that one of our testers with 
 
 One more caveat: cats who are used to fragranced clay sometimes don't love the subtle corn scent, and it can take a week to transition without complaints. Mix it in gradually.
 
-[Check World's Best Cat Litter on Amazon](https://www.amazon.com/dp/B000084E58?tag=toolsradar05-20)
+[Check World's Best Cat Litter on Amazon](https://www.amazon.com/dp/B000084E58?tag=petverdict-20)
 
 ## Dr. Elsey's Ultra Premium Clumping Clay
 
@@ -90,7 +90,7 @@ Clumping is the firmest of anything we tested. The clumps come out as hard littl
 
 It's also heavy. A 40-pound bag is genuinely hard to lug up a flight of stairs, and clay is not an eco-friendly material — strip-mined bentonite has a real environmental footprint that no amount of "medical grade" marketing changes. If that matters to you, the plant-based options are a more honest choice.
 
-[Check Dr. Elsey's Ultra Premium on Amazon](https://www.amazon.com/dp/B0009X29WK?tag=toolsradar05-20)
+[Check Dr. Elsey's Ultra Premium on Amazon](https://www.amazon.com/dp/B0009X29WK?tag=petverdict-20)
 
 ## Tidy Cats 24/7 Performance
 
@@ -102,7 +102,7 @@ Tidy Cats does what it says on the tin and nothing more. The clay base is standa
 
 The fragrance is the real dealbreaker for some cats. It's a heavy perfumed scent designed to mask rather than neutralize, and in a small apartment it can overwhelm both cats and humans. If your cat suddenly starts avoiding the box after a Tidy Cats switch, fragrance is the most likely culprit. Tracking is also worse than the premium options because the granules are lighter and more irregular.
 
-[Check Tidy Cats 24/7 Performance on Amazon](https://www.amazon.com/dp/B01MXGX7T1?tag=toolsradar05-20)
+[Check Tidy Cats 24/7 Performance on Amazon](https://www.amazon.com/dp/B01MXGX7T1?tag=petverdict-20)
 
 ## Arm & Hammer Clump & Seal Platinum
 
@@ -114,7 +114,7 @@ If your litter box lives four feet from the couch, this is the one you want. The
 
 Dust is moderate — not as bad as basic Tidy Cats, but noticeably worse than Dr. Elsey's. Clumps occasionally bond to the bottom of the pan if your depth is too shallow, forcing you to scrape. And while baking soda is effective on ammonia, it doesn't do much for fecal odors, so in a multi-cat home the "7-day fresh" marketing is wildly optimistic.
 
-[Check Arm & Hammer Clump & Seal on Amazon](https://www.amazon.com/dp/B00Y2Z2FZA?tag=toolsradar05-20)
+[Check Arm & Hammer Clump & Seal on Amazon](https://www.amazon.com/dp/B00Y2Z2FZA?tag=petverdict-20)
 
 ## Fresh Step Outstretch
 
@@ -126,7 +126,7 @@ The Febreze-style fragrance is the dominant odor-control strategy, which means y
 
 **Where it's okay**: If you see it heavily discounted and want a single-cat placeholder between shipments of something better, it'll get you through a week or two. That's the most honest recommendation we can give.
 
-[Check Fresh Step Outstretch on Amazon](https://www.amazon.com/dp/B07FNQVQB7?tag=toolsradar05-20)
+[Check Fresh Step Outstretch on Amazon](https://www.amazon.com/dp/B07FNQVQB7?tag=petverdict-20)
 
 ## Choosing by Situation
 

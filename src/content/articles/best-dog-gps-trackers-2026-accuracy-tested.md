@@ -14,13 +14,13 @@ affiliateLinks:
   amazon:
     - product: "Fi Series 3 GPS Tracker"
       asin: "B0BH6J6RQW"
-      link: "https://www.amazon.com/dp/B0BH6J6RQW?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0BH6J6RQW?tag=petverdict-20"
     - product: "Whistle GO Explore"
       asin: "B07RKBGKB2"
-      link: "https://www.amazon.com/dp/B07RKBGKB2?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B07RKBGKB2?tag=petverdict-20"
     - product: "KONG Classic Dog Toy"
       asin: "B0002AR0I8"
-      link: "https://www.amazon.com/dp/B0002AR0I8?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0002AR0I8?tag=petverdict-20"
 ogImage: "/og/best-dog-gps-trackers-2026-accuracy-tested.jpg"
 ---
 
@@ -60,7 +60,7 @@ Battery, accuracy, and alert timing all vary dog-to-dog. Treat this as a shape, 
 
 **Best for:** active, escape-prone dogs in suburbs, rural areas, or anywhere cellular is decent.
 
-**Upfront:** ~$150 (collar included) • **Subscription:** $8/mo annual, ~$12/mo monthly • **Battery:** multi-week in normal use • **Connectivity:** LTE-M • **Waterproof:** IP68 • **Fit:** proprietary collar, sizes covering ~11.5"–34.5" necks • [Check price on Amazon](https://www.amazon.com/dp/B0BH6J6RQW?tag=toolsradar05-20)
+**Upfront:** ~$150 (collar included) • **Subscription:** $8/mo annual, ~$12/mo monthly • **Battery:** multi-week in normal use • **Connectivity:** LTE-M • **Waterproof:** IP68 • **Fit:** proprietary collar, sizes covering ~11.5"–34.5" necks • [Check price on Amazon](https://www.amazon.com/dp/B0BH6J6RQW?tag=petverdict-20)
 
 The Fi Series 3 was the only tracker that consistently kept up with the Garmin on our walks. In open parks and suburban streets its fix was tight enough that the breadcrumb trail matched the reference path turn-for-turn. In downtown canyons it drifted like everything else does — GPS multipath is physics, not a firmware problem — but it degraded more gracefully than the rest of the field.
 
@@ -86,13 +86,13 @@ The collar itself is well-made — woven nylon with a built-in LED strip that's 
 - No vitals monitoring (heart rate, temperature, respiration)
 - Upfront cost is the highest of the dedicated trackers
 
-[Buy Fi Series 3 on Amazon](https://www.amazon.com/dp/B0BH6J6RQW?tag=toolsradar05-20)
+[Buy Fi Series 3 on Amazon](https://www.amazon.com/dp/B0BH6J6RQW?tag=petverdict-20)
 
 ## 2. Whistle GO Explore — Pick It for the Health Data, Not the GPS
 
 **Best for:** owners of senior dogs, dogs with chronic conditions, or anyone who wants a behavioral baseline more than a bleeding-edge tracker.
 
-**Upfront:** ~$130 • **Subscription:** $10–13/mo • **Battery:** a couple of weeks in practice • **Connectivity:** LTE-M • **Waterproof:** IP67 • **Fit:** clip-on, works with any collar • [Check price on Amazon](https://www.amazon.com/dp/B07RKBGKB2?tag=toolsradar05-20)
+**Upfront:** ~$130 • **Subscription:** $10–13/mo • **Battery:** a couple of weeks in practice • **Connectivity:** LTE-M • **Waterproof:** IP67 • **Fit:** clip-on, works with any collar • [Check price on Amazon](https://www.amazon.com/dp/B07RKBGKB2?tag=petverdict-20)
 
 Whistle takes the opposite philosophy from Fi. The tracker clips onto whatever collar your dog already wears, and it spends most of its computational energy on behavioral monitoring — tracking licking, scratching, sleep disturbance, eating duration, and activity patterns, then flagging deviations from your dog's baseline.
 
@@ -120,7 +120,7 @@ Where Whistle earns its place is the behavioral baseline. One of our test dogs s
 - Heavier and bulkier than the Fi pod
 - No integrated light for night walks
 
-[Buy Whistle GO Explore on Amazon](https://www.amazon.com/dp/B07RKBGKB2?tag=toolsradar05-20)
+[Buy Whistle GO Explore on Amazon](https://www.amazon.com/dp/B07RKBGKB2?tag=petverdict-20)
 
 ## 3. Tractive GPS — Cheap, Global, and Clearly the Weakest of the Dedicated Trackers
 
@@ -149,7 +149,7 @@ Build quality is noticeably plasticky compared to Fi or Whistle. It's heavier, t
 - Heavier and less polished hardware
 - 2G fallback means slower updates where it's in use
 
-[Check Tractive GPS on Amazon](https://www.amazon.com/dp/B07RGZ2QVK?tag=toolsradar05-20)
+[Check Tractive GPS on Amazon](https://www.amazon.com/dp/B07RGZ2QVK?tag=petverdict-20)
 
 ## 4. Apple AirTag — Useful, If You're Honest About What It Is
 
@@ -178,7 +178,7 @@ There is no geofencing. There are no escape alerts. You find out your dog is mis
 - Needs a separate collar holder
 - Apple-only ecosystem
 
-[Check Apple AirTag on Amazon](https://www.amazon.com/dp/B0D54JZTHY?tag=toolsradar05-20)
+[Check Apple AirTag on Amazon](https://www.amazon.com/dp/B0D54JZTHY?tag=petverdict-20)
 
 ## GPS Tracker vs. AirTag: Stop Treating Them as the Same Category
 
@@ -196,7 +196,7 @@ They aren't the same category. One is a cellular-connected tracker that can acti
 - You want something for a stolen-pet scenario more than an escape scenario
 - You're not trying to solve a real-time alerting problem
 
-For escape-prone breeds — Huskies, Beagles, Labs, working breeds bred to range — the subscription on a real tracker is the cheapest insurance you'll ever buy. If boredom is part of the reason your dog bolts, enrichment matters too. Something like the [KONG Classic](https://www.amazon.com/dp/B0002AR0I8?tag=toolsradar05-20) stuffed with part of a meal is a tired-out-the-brain tool, not a training solution, but tired dogs push on fences less.
+For escape-prone breeds — Huskies, Beagles, Labs, working breeds bred to range — the subscription on a real tracker is the cheapest insurance you'll ever buy. If boredom is part of the reason your dog bolts, enrichment matters too. Something like the [KONG Classic](https://www.amazon.com/dp/B0002AR0I8?tag=petverdict-20) stuffed with part of a meal is a tired-out-the-brain tool, not a training solution, but tired dogs push on fences less.
 
 ## Final Verdict
 

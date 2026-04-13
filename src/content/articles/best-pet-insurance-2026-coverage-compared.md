@@ -14,7 +14,7 @@ affiliateLinks:
   amazon:
     - product: "Furbo Dog Camera"
       asin: "B0884JN9GN"
-      link: "https://www.amazon.com/dp/B0884JN9GN?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0884JN9GN?tag=petverdict-20"
 ogImage: "/og/best-pet-insurance-2026-coverage-compared.jpg"
 ---
 
@@ -147,7 +147,7 @@ Pet insurance is a financial hedge, not a moral obligation. Here's the math that
 
 **The thing insurance companies hope you don't notice:** pre-existing conditions are excluded permanently. That means the single most important decision you can make is enrolling your pet while they're young and healthy, before anything shows up in a vet note. Waiting until your dog starts limping is waiting too long.
 
-For spotting behavioral changes that can hint at health issues early — lethargy, changes in eating patterns, reduced mobility — a [Furbo Dog Camera](https://www.amazon.com/dp/B0884JN9GN?tag=toolsradar05-20) can help you catch things between vet visits. It's not a substitute for professional care, but trend-spotting at home has real value.
+For spotting behavioral changes that can hint at health issues early — lethargy, changes in eating patterns, reduced mobility — a [Furbo Dog Camera](https://www.amazon.com/dp/B0884JN9GN?tag=petverdict-20) can help you catch things between vet visits. It's not a substitute for professional care, but trend-spotting at home has real value.
 
 ## Final Verdict
 

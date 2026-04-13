@@ -14,10 +14,10 @@ affiliateLinks:
   amazon:
     - product: "PetSafe ScoopFree Self-Cleaning Litter Box"
       asin: "B000GF0X38"
-      link: "https://www.amazon.com/dp/B000GF0X38?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B000GF0X38?tag=petverdict-20"
     - product: "Litter-Robot 4"
       asin: "B0BHH2C3YZ"
-      link: "https://www.amazon.com/dp/B0BHH2C3YZ?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0BHH2C3YZ?tag=petverdict-20"
 ogImage: "/og/best-cat-food-2026-complete-buying-guide.jpg"
 ---
 
@@ -78,7 +78,7 @@ Coat quality improvements appeared by week 2 in 5 of 6 cats. The sixth cat (a se
 
 [Try Smalls Fresh — Get 40% Off First Box](https://petpulse.net/go/smalls)
 
-For cats transitioning to fresh food, the improved hydration often means more frequent urination. The [PetSafe ScoopFree](https://www.amazon.com/dp/B000GF0X38?tag=toolsradar05-20) self-cleaning litter box handles the increased output effortlessly, or upgrade to the [Litter-Robot 4](https://www.amazon.com/dp/B0BHH2C3YZ?tag=toolsradar05-20) for fully automated cleaning.
+For cats transitioning to fresh food, the improved hydration often means more frequent urination. The [PetSafe ScoopFree](https://www.amazon.com/dp/B000GF0X38?tag=petverdict-20) self-cleaning litter box handles the increased output effortlessly, or upgrade to the [Litter-Robot 4](https://www.amazon.com/dp/B0BHH2C3YZ?tag=petverdict-20) for fully automated cleaning.
 
 ## 2. Tiki Cat After Dark — Best Wet Food (9.0/10)
 
@@ -109,7 +109,7 @@ Hydration markers improved significantly compared to kibble, as expected with 78
 - Slight fish odor on the fish recipes (normal but notable)
 - Portions not customized to individual cat needs
 
-[Check Tiki Cat After Dark on Amazon](https://www.amazon.com/dp/B07QM1R9PT?tag=toolsradar05-20)
+[Check Tiki Cat After Dark on Amazon](https://www.amazon.com/dp/B07QM1R9PT?tag=petverdict-20)
 
 ## 3. Purina Pro Plan Wet — Best Budget Wet Food (8.7/10)
 
@@ -138,7 +138,7 @@ Palatability was good (4 of 6 enthusiastic, 2 of 6 moderate). Coat improvements 
 - Pate texture can be mushy
 - Palatability lower than premium options for picky cats
 
-[Check Purina Pro Plan Wet on Amazon](https://www.amazon.com/dp/B0018CLI2G?tag=toolsradar05-20)
+[Check Purina Pro Plan Wet on Amazon](https://www.amazon.com/dp/B0018CLI2G?tag=petverdict-20)
 
 ## 4. Instinct Original Grain-Free — Best Kibble Option (8.3/10)
 
@@ -162,7 +162,7 @@ Instinct earns its spot with the highest protein percentage of any kibble we tes
 - Grain-free formula may concern some vets (DCM link is canine, not feline, but worth noting)
 - Raw coating can be messy
 
-[Check Instinct Original on Amazon](https://www.amazon.com/dp/B00CBRCBDO?tag=toolsradar05-20)
+[Check Instinct Original on Amazon](https://www.amazon.com/dp/B00CBRCBDO?tag=petverdict-20)
 
 ## 5. Hill's Science Diet — Best Veterinary-Trusted (8.1/10)
 
@@ -185,7 +185,7 @@ Hill's Science Diet is the food your veterinarian most likely recommends. It's f
 - Premium price for non-premium ingredients
 - Palatability was average (3 of 6 cats enthusiastic)
 
-[Check Hill's Science Diet on Amazon](https://www.amazon.com/dp/B003LN2R7K?tag=toolsradar05-20)
+[Check Hill's Science Diet on Amazon](https://www.amazon.com/dp/B003LN2R7K?tag=petverdict-20)
 
 ## Wet Food vs. Dry Food: The Science
 

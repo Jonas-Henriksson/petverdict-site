@@ -15,28 +15,28 @@ affiliateLinks:
   amazon:
     - product: "Amazon"
       asin: "generic"
-      link: "https://amazon.com/?tag=toolsradar05-20"
+      link: "https://amazon.com/?tag=petverdict-20"
     - product: "Ruffwear Front Range"
       asin: "B01G8WBQX4"
-      link: "https://www.amazon.com/dp/B01G8WBQX4?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B01G8WBQX4?tag=petverdict-20"
     - product: "PetSafe Easy Walk"
       asin: "B0009ZBKG4"
-      link: "https://www.amazon.com/dp/B0009ZBKG4?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B0009ZBKG4?tag=petverdict-20"
     - product: "Kurgo Tru-Fit"
       asin: "B01NBQB6U4"
-      link: "https://www.amazon.com/dp/B01NBQB6U4?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B01NBQB6U4?tag=petverdict-20"
     - product: "Freedom No-Pull Harness"
       asin: "B00MU2F8ZC"
-      link: "https://www.amazon.com/dp/B00MU2F8ZC?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B00MU2F8ZC?tag=petverdict-20"
     - product: "Blue-9 Balance"
       asin: "B07JBQC8V3"
-      link: "https://www.amazon.com/dp/B07JBQC8V3?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B07JBQC8V3?tag=petverdict-20"
     - product: "Rabbitgoo Harness"
       asin: "B075ZYMD2R"
-      link: "https://www.amazon.com/dp/B075ZYMD2R?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B075ZYMD2R?tag=petverdict-20"
     - product: "ICEFANG Tactical Harness"
       asin: "B073W8FQXJ"
-      link: "https://www.amazon.com/dp/B073W8FQXJ?tag=toolsradar05-20"
+      link: "https://www.amazon.com/dp/B073W8FQXJ?tag=petverdict-20"
 ogImage: "/og/best-no-pull-dog-harness-2026-training.jpg"
 ---
 
@@ -94,7 +94,7 @@ Sizing runs from XX-Small (13" chest) up to XX-Large (42-50" chest). I've tried 
 - It's a horizontal chest strap design, not a true Y-front. Veterinary rehab folks generally prefer Y-front designs for shoulder biomechanics — the horizontal strap can sit across the shoulder joint and, in theory, restrict the front-reach of the gait. For casual walking this is probably fine; for dogs doing agility, canicross, or long daily runs, look at a dedicated Y-front harness instead.
 - Expensive. You're paying for the build quality and it shows, but if your dog is still growing or chews its gear, this is a painful purchase.
 
-[Check the Ruffwear Front Range on Amazon](https://www.amazon.com/dp/B01G8WBQX4?tag=toolsradar05-20)
+[Check the Ruffwear Front Range on Amazon](https://www.amazon.com/dp/B01G8WBQX4?tag=petverdict-20)
 
 ## PetSafe Easy Walk — Best Budget (With a Big Asterisk)
 
@@ -117,7 +117,7 @@ The chest strap on the Easy Walk sits across the front of the dog's shoulders, a
 
 My honest take: buy this if you're training a puppy and the harness is a short-term bridge to loose-leash walking. Don't buy it as a permanent solution for an 80-pound adult dog who's been pulling for years.
 
-[Check the PetSafe Easy Walk on Amazon](https://www.amazon.com/dp/B0009ZBKG4?tag=toolsradar05-20)
+[Check the PetSafe Easy Walk on Amazon](https://www.amazon.com/dp/B0009ZBKG4?tag=petverdict-20)
 
 ## Kurgo Tru-Fit Smart Harness — Best for Escape Artists
 
@@ -137,7 +137,7 @@ The Kurgo is the one I'd grab for a rescue dog who's flight risk. The five adjus
 - The front clip is fine but not a standout — if pull reduction is your number one goal rather than escape-proofing, the Blue-9 does it better.
 - Heavier than most harnesses in the lineup; small dogs will notice the weight.
 
-[Check the Kurgo Tru-Fit on Amazon](https://www.amazon.com/dp/B01NBQB6U4?tag=toolsradar05-20)
+[Check the Kurgo Tru-Fit on Amazon](https://www.amazon.com/dp/B01NBQB6U4?tag=petverdict-20)
 
 ## 2 Hounds Freedom No-Pull — Trainer's Pick
 
@@ -159,7 +159,7 @@ The velvet lining on the chest strap is the other thing that matters. It prevent
 - The front ring tends to migrate off-center during walks and needs occasional resetting.
 - Not a water-friendly harness — the velvet takes forever to dry after a beach walk or a muddy romp.
 
-[Check the Freedom No-Pull Harness on Amazon](https://www.amazon.com/dp/B00MU2F8ZC?tag=toolsradar05-20)
+[Check the Freedom No-Pull Harness on Amazon](https://www.amazon.com/dp/B00MU2F8ZC?tag=petverdict-20)
 
 ## Blue-9 Balance — Most Adjustable
 
@@ -179,7 +179,7 @@ Blue-9's Balance is the harness for dogs that don't fit standard sizing charts. 
 - Regional availability is spotty — easier to find online than in a physical store.
 - The color and pattern options are limited compared to fashion-forward brands. Minor but real for some buyers.
 
-[Check the Blue-9 Balance on Amazon](https://www.amazon.com/dp/B07JBQC8V3?tag=toolsradar05-20)
+[Check the Blue-9 Balance on Amazon](https://www.amazon.com/dp/B07JBQC8V3?tag=petverdict-20)
 
 ## Rabbitgoo — The One I'd Skip
 
@@ -200,7 +200,7 @@ I want to be direct: Rabbitgoo is what you buy when you see a $17 harness on Ama
 
 Save up for a PetSafe Easy Walk at minimum. If you truly can't, use this for a small, gentle dog and expect to replace it.
 
-[Check the Rabbitgoo Harness on Amazon](https://www.amazon.com/dp/B075ZYMD2R?tag=toolsradar05-20)
+[Check the Rabbitgoo Harness on Amazon](https://www.amazon.com/dp/B075ZYMD2R?tag=petverdict-20)
 
 ## ICEFANG Tactical — Niche Tool
 
@@ -220,7 +220,7 @@ The ICEFANG is not really a no-pull harness in the way the others on this list a
 - The tactical aesthetic is divisive, and more importantly, the Velcro panels are the part that wears out first.
 - Overbuilt for almost every pet-owner use case.
 
-[Check the ICEFANG Tactical Harness on Amazon](https://www.amazon.com/dp/B073W8FQXJ?tag=toolsradar05-20)
+[Check the ICEFANG Tactical Harness on Amazon](https://www.amazon.com/dp/B073W8FQXJ?tag=petverdict-20)
 
 ## Fit and the Thing Most People Get Wrong
 
