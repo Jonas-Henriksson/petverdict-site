@@ -33,9 +33,6 @@ affiliateLinks:
       link: "https://www.amazon.com/dp/B07CWZMFN7?tag=petverdict-20"
 ogImage: "/og/best-biodegradable-dog-poop-bags-2026-tested.jpg"
 ---
-
-# Best Dog Poop Bags 2026: Biodegradable Options Ranked and Tested
-
 If you walk a dog twice a day and pick up once per walk, you're going through somewhere between 700 and 750 bags per year. Per dog. That's a lot of plastic sitting in landfills — and it's also a lot of opportunity for bag brands to sell you on eco-credentials that may or may not hold up to scrutiny.
 
 I spent eight weeks testing six brands with my two golden retrievers, Biscuit (5 years, 72 lbs) and Maple (2 years, 64 lbs). I also checked every certification claim against the BPI (Biodegradable Products Institute) database and ASTM standards documentation, because "biodegradable" printed on a box and "biodegradable" with a verified third-party certification are genuinely different things, and most buyers can't tell them apart.
