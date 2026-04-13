@@ -16,7 +16,7 @@ export const siteConfig = {
     googleId: process.env.GOOGLE_ANALYTICS_ID || '',
   },
   affiliateNetworks: {
-    amazon: { enabled: true, baseUrl: 'https://amazon.com', trackingId: 'toolsradar05-20' },
+    amazon: { enabled: true, baseUrl: 'https://amazon.com', trackingId: 'petverdict-20' },
     chewy: { enabled: true, baseUrl: 'https://chewy.com', trackingId: process.env.CHEWY_AFFILIATE_ID || '' },
     petco: { enabled: true, baseUrl: 'https://petco.com', trackingId: process.env.PETCO_AFFILIATE_ID || '' },
     custom: { enabled: true, baseUrl: process.env.CUSTOM_AFFILIATE_BASE || 'https://petverdict.net/go/' },
