@@ -1,0 +1,324 @@
+---
+// InlineOurPick — primary conversion surface for Wirecutter-template articles.
+//
+// Lives INSIDE the prose column at ~250px scroll, right after the article
+// header and before the article body slot. This is the only persistent
+// affiliate CTA in the reading path; everything else (right-rail card, mid-
+// article banners, exit popups) was killed in the v3 redesign.
+//
+// Site-agnostic: uses `--accent` semantic var with fallbacks. Each site's
+// global.css aliases --accent to its brand color so this component is a
+// drop-in across the empire.
+//
+// Graceful degradation: when the winner has no affiliate match, we render
+// the box WITHOUT the CTA button — just product name, score, and verdict
+// as an editorial callout. The page never looks broken; it looks unbiased.
+export interface Props {
+  winner?: string;
+  score?: number;
+  verdict?: string;
+  badge?: string;
+  category?: string;
+  affiliateLinks?: {
+    amazon?: Array<{ product: string; asin: string; link: string }>;
+    custom?: Array<{ name: string; url: string; network: string }>;
+  };
+}
+
+const { winner, score, verdict, badge, category, affiliateLinks } = Astro.props;
+
+// CTA resolution: strict winner-name matching, slug guardrail (option E)
+const norm = (s: string): string => (s || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+type Row = { name: string; url: string };
+const allRows: Row[] = [];
+if (affiliateLinks?.custom?.length) {
+  for (const c of affiliateLinks.custom) if (c?.name && c?.url) allRows.push({ name: c.name, url: c.url });
+}
+if (affiliateLinks?.amazon?.length) {
+  for (const a of affiliateLinks.amazon) if (a?.product && a?.link) allRows.push({ name: a.product, url: a.link });
+}
+const winnerNorm = norm(winner || '');
+let matchedRow: Row | null = null;
+if (winnerNorm) {
+  for (const row of allRows) {
+    const rowNorm = norm(row.name);
+    if (!rowNorm) continue;
+    if (winnerNorm.includes(rowNorm) || rowNorm.includes(winnerNorm)) { matchedRow = row; break; }
+    const words = (row.name || '').toLowerCase().split(/\s+/).filter(w => w.length >= 4);
+    if (words.some(w => winnerNorm.includes(norm(w)))) { matchedRow = row; break; }
+  }
+}
+if (matchedRow && winnerNorm) {
+  const urlSlug = norm(matchedRow.url);
+  if (!urlSlug.includes(winnerNorm.slice(0, Math.min(5, winnerNorm.length)))) matchedRow = null;
+}
+
+// Extract a price hint from the verdict text if present
+const priceMatch = (verdict || '').match(/\$\s*\d+(?:[,.]\d+)*[KMB]?(?:\s*\/\s*[a-z]+(?:\s*\/\s*[a-z]+)*)?/i);
+const priceHint = priceMatch ? priceMatch[0].replace(/\s+/g, '') : null;
+
+// Truncate verdict for the box (the full verdict still appears at top of prose)
+const shortVerdict = verdict && verdict.length > 220
+  ? verdict.slice(0, 218).replace(/\s+\S*$/, '') + '…'
+  : verdict || '';
+
+const badgeLabels: Record<string, string> = {
+  'editors-pick': "Editor's Pick",
+  'best-value': 'Best Value',
+  'top-rated': 'Top Rated',
+  'tested': 'Tested',
+};
+const badgeText = badge ? (badgeLabels[badge] || badge) : 'Top Pick';
+
+// Build a brand initial for the thumbnail tile fallback
+const brandInitial = (winner || '?').trim().charAt(0).toUpperCase();
+
+// Logo pipeline (priority order):
+//   1. Local file from logo_prefetch.py  →  /logos/{provider}.ext  (instant, no external dep)
+//   2. Clearbit runtime fetch using brand domain from domains.json  (flickers in, graceful)
+//   3. Brand initial tile  (always works, looks clean)
+import { readFileSync, existsSync } from 'node:fs';
+import { join } from 'node:path';
+
+let logoUrl = '';
+let logoIsLocal = false;
+if (matchedRow) {
+  const provider = matchedRow.url.match(/\/go\/([^/?#\/]+)/)?.[1] ?? '';
+  if (provider) {
+    const manifestPath = join(process.cwd(), 'public', 'logos', 'manifest.json');
+    const domainsPath  = join(process.cwd(), 'public', 'logos', 'domains.json');
+    // 1. Try local logo
+    if (existsSync(manifestPath)) {
+      try {
+        const manifest = JSON.parse(readFileSync(manifestPath, 'utf-8'));
+        if (manifest[provider]) { logoUrl = manifest[provider]; logoIsLocal = true; }
+      } catch {}
+    }
+    // 2. Fall back to Clearbit using the real brand domain (not the /go/ redirect host)
+    if (!logoUrl && existsSync(domainsPath)) {
+      try {
+        const domains = JSON.parse(readFileSync(domainsPath, 'utf-8'));
+        if (domains[provider]) logoUrl = `https://logo.clearbit.com/${domains[provider]}`;
+      } catch {}
+    }
+  }
+}
+---
+
+{winner && (
+  <aside
+    class="iop"
+    aria-label="Editor's top pick"
+    data-iop-mark
+    data-iop-name={matchedRow ? matchedRow.name : winner}
+    data-iop-score={typeof score === 'number' ? score.toFixed(1) : ''}
+    data-iop-href={matchedRow ? matchedRow.url : ''}
+    data-iop-badge={badgeText}
+  >
+    <div class="iop-tile" aria-hidden="true" data-logo-src={logoUrl}>
+      {logoUrl && (
+        <img class="iop-logo" src={logoUrl} alt="" loading="lazy"
+          onerror="this.style.display='none';this.parentElement.classList.remove('iop-tile--logo')" />
+      )}
+      <span class="iop-initial">{brandInitial}</span>
+    </div>
+    <div class="iop-body">
+      <div class="iop-meta">
+        <span class="iop-label">{badgeText}</span>
+        {category && <span class="iop-cat">{category}</span>}
+      </div>
+      <h3 class="iop-name">{winner}</h3>
+      {(typeof score === 'number' || priceHint) && (
+        <div class="iop-stats">
+          {typeof score === 'number' && (
+            <span class="iop-score">
+              <span class="iop-score-num">{score.toFixed(1)}</span>
+              <span class="iop-score-max">/10</span>
+            </span>
+          )}
+          {priceHint && <span class="iop-price">{priceHint}</span>}
+        </div>
+      )}
+      {shortVerdict && <p class="iop-verdict">{shortVerdict}</p>}
+      {matchedRow && (
+        <a href={matchedRow.url} class="iop-cta" rel="sponsored noopener" target="_blank">
+          Visit {matchedRow.name}
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M5 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      )}
+    </div>
+  </aside>
+)}
+
+<script>
+  (() => {
+    const tile = document.querySelector('[data-logo-src]') as HTMLElement | null;
+    if (!tile) return;
+    const src = tile.dataset.logoSrc;
+    if (!src) return;
+    const img = tile.querySelector('.iop-logo') as HTMLImageElement | null;
+    if (!img) return;
+    // If the image loaded successfully (may already be from SSR src attr), apply logo mode
+    const applyLogo = () => tile.classList.add('iop-tile--logo');
+    if (img.complete && img.naturalWidth > 0) { applyLogo(); return; }
+    img.addEventListener('load', applyLogo);
+  })();
+</script>
+
+<style>
+  .iop {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 1.25rem;
+    align-items: stretch;
+    margin: 1.5rem 0 2rem 0;
+    padding: 1.25rem;
+    background: var(--surface, #fff);
+    border: 1px solid var(--ink-100);
+    border-left: 4px solid var(--accent, var(--electric, var(--violet, #2563eb)));
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  }
+
+  .iop-tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent, var(--electric, var(--violet, #2563eb)));
+    border-radius: 4px;
+    aspect-ratio: 1;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  /* Logo mode: white bg, logo image visible, initial hidden */
+  .iop-tile--logo {
+    background: #fff;
+    border: 1px solid var(--ink-100);
+    padding: 14%;
+  }
+  .iop-logo {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .iop-tile--logo .iop-logo { display: block; }
+  .iop-tile--logo .iop-initial { display: none; }
+
+  .iop-initial {
+    font-family: var(--font-display, Georgia, serif);
+    font-size: 4rem;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+
+  .iop-body {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .iop-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.4rem;
+  }
+  .iop-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent, var(--electric, #2563eb));
+  }
+  .iop-cat {
+    font-size: 0.65rem;
+    color: var(--ink-400);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .iop-name {
+    font-family: var(--font-display, Georgia, serif);
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.15;
+    color: var(--ink-950, #0a0a0b);
+    margin: 0 0 0.5rem 0;
+    letter-spacing: -0.015em;
+  }
+
+  .iop-stats {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.6rem;
+  }
+  .iop-score {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.15rem;
+  }
+  .iop-score-num {
+    font-family: var(--font-display, Georgia, serif);
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--ink-950);
+    letter-spacing: -0.02em;
+  }
+  .iop-score-max {
+    font-size: 0.75rem;
+    color: var(--ink-400);
+  }
+  .iop-price {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--accent, var(--electric, #2563eb));
+  }
+
+  .iop-verdict {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--ink-700, #3f3f46);
+    margin: 0 0 0.85rem 0;
+  }
+
+  .iop-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    align-self: flex-start;
+    padding: 0.7rem 1.25rem;
+    background: var(--accent, var(--electric, var(--violet, #2563eb)));
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: filter 0.15s ease, transform 0.15s ease;
+  }
+  .iop-cta:hover {
+    filter: brightness(0.92);
+    transform: translateY(-1px);
+  }
+  .iop-cta svg { transition: transform 0.15s ease; }
+  .iop-cta:hover svg { transform: translateX(2px); }
+
+  @media (max-width: 640px) {
+    .iop {
+      grid-template-columns: 1fr;
+      padding: 1rem;
+    }
+    .iop-tile {
+      width: 100px;
+      aspect-ratio: 1;
+    }
+    .iop-initial { font-size: 3rem; }
+    .iop-name { font-size: 1.4rem; }
+  }
+</style>

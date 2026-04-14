@@ -1,36 +1,46 @@
 ---
+// ArticleLayout — Wirecutter template (single column, no sidebar, no TOC).
+//
+// CCO+CMO converged design board, 2026-04-14:
+//   "One refactor, one template, one column, one winner, one CTA path."
+//
+// Inventory:
+//   KEEP — nav, breadcrumb, article-header (category + h1 + lede + byline),
+//          affiliate disclosure (one line under byline), prose body,
+//          NewsletterSignup (only footer block).
+//   ADD  — InlineOurPick (primary CTA, ~250px scroll), StickyBottomBuyBar
+//          (safety-net, appears after user passes the InlineOurPick),
+//          BottomRelatedGrid (3-up grid in article footer).
+//   KILL — VerdictBanner, hero figure, sidebar grid, StickyTopPick,
+//          VerdictContentsStrip, RelatedArticlesSidebar, ComparedBrands,
+//          mid-article EzoicAds, ProductBanner, ExitIntentCapture,
+//          inline LeadMagnetCTA (merged into newsletter footer).
+//
+// Moat: no right rail, no TOC, no popups. Reads like The Verge, not TechRadar.
 import BaseLayout from './BaseLayout.astro';
-import TableOfContents from '../components/TableOfContents.astro';
+import InlineOurPick from '../components/InlineOurPick.astro';
+import StickyBottomBuyBar from '../components/StickyBottomBuyBar.astro';
+import BottomRelatedGrid from '../components/BottomRelatedGrid.astro';
 import NewsletterSignup from '../components/NewsletterSignup.astro';
-import VerdictBanner from '../components/VerdictBanner.astro';
+import LeadCapture from '../components/LeadCapture.astro';
 import siteConfig from '../../site.config';
-import ExitIntentCapture from '../components/ExitIntentCapture.astro';
-import LeadMagnetCTA from '../components/LeadMagnetCTA.astro';
-import ProductBanner from '../components/ProductBanner.astro';
-import EzoicAds from '../components/EzoicAds.astro';
 import AuthorBio from '../components/AuthorBio.astro';
 import { authors, getAuthorByName } from '../authors';
-export interface Props { title: string; description: string; date: Date; author?: string; image?: string; category?: string; keywords?: string[]; affiliateDisclosure?: boolean; schema?: any; headings?: any[]; faqPairs?: Array<{ question: string; answer: string }>; score?: number; badge?: string; verdict?: string; winner?: string; }
-const { title, description, date, author = siteConfig.defaultAuthor.name, image, category, keywords = [], affiliateDisclosure = true, schema, headings = [], faqPairs = [], score, badge, verdict, winner } = Astro.props as Props;
-const renderVisualHero = !!image && image.startsWith('/');
+import ArticleNav from '../components/ArticleNav.astro';
+export interface Props { title: string; description: string; date: Date; author?: string; image?: string; category?: string; keywords?: string[]; affiliateDisclosure?: boolean; schema?: any; headings?: any[]; faqPairs?: Array<{ question: string; answer: string }>; score?: number; badge?: string; verdict?: string; winner?: string; leadCapture?: boolean; affiliateLinks?: { amazon?: Array<{ product: string; asin: string; link: string }>; custom?: Array<{ name: string; url: string; network: string }> }; currentSlug?: string; }
+const { title, description, date, author = siteConfig.defaultAuthor.name, image, category, keywords = [], affiliateDisclosure = true, schema, headings = [], faqPairs = [], score, badge, verdict, winner, leadCapture = false, affiliateLinks, currentSlug = '' } = Astro.props as Props;
 const publishedDate = new Date(date);
 const formattedDate = publishedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 // Author persona lookup
 const authorData = getAuthorByName(author);
-const authorSlug = authorData?.slug || '';
-const authorTitle = authorData?.title || '';
-const authorInitials = authorData?.initials || '';
-const authorYears = authorData?.years || 0;
 const articleSchema = { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: title, description, image: image || `${siteConfig.domain}/og-default.jpg`, datePublished: publishedDate.toISOString(), dateModified: publishedDate.toISOString(), author: authorData ? { '@type': 'Person', name: authorData.name, jobTitle: authorData.title, url: `/author/${authorData.slug}` } : { '@type': 'Person', name: author }, publisher: { '@type': 'Organization', name: siteConfig.siteName, logo: { '@type': 'ImageObject', url: `${siteConfig.domain}/logo.png` } }, mainEntityOfPage: { '@type': 'WebPage', '@id': Astro.url.href }, ...(keywords.length > 0 && { keywords: keywords.join(', ') }) };
 const faqSchema = faqPairs.length > 0 ? { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqPairs.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })) } : null;
 const canonical = Astro.url.href;
 
 // Product/Review schema for articles with scores (enables star ratings in Google)
 const starRating = score ? Math.round((score / 10) * 5 * 10) / 10 : null;
-// TODO: Refactor to use Article + ItemList schema for comparison/roundup articles (titles starting with 'best' or containing 'vs'). Product schema is only valid for individual product reviews. The title.replace regex also produces bad product names for roundups.
 const reviewSchema = score ? { '@context': 'https://schema.org', '@type': 'Product', name: title.replace(/best\s+/i, '').replace(/\s*\d{4}.*$/, '').trim() || title, description, image: image || `${siteConfig.domain}/og-default.jpg`, brand: { '@type': 'Brand', name: title.replace(/best\s+/i, '').replace(/\s*\d{4}.*$/, '').trim() || title }, offers: { '@type': 'Offer', availability: 'https://schema.org/OnlineOnly', price: '0', priceCurrency: 'USD', url: Astro.url.href, shippingDetails: { '@type': 'OfferShippingDetails', shippingRate: { '@type': 'MonetaryAmount', value: '0', currency: 'USD' }, shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'US' }, deliveryTime: { '@type': 'ShippingDeliveryTime', handlingTime: { '@type': 'QuantitativeValue', minValue: 0, maxValue: 1, unitCode: 'DAY' }, transitTime: { '@type': 'QuantitativeValue', minValue: 1, maxValue: 5, unitCode: 'DAY' } } }, hasMerchantReturnPolicy: { '@type': 'MerchantReturnPolicy', applicableCountry: 'US', returnPolicyCategory: 'https://schema.org/MerchantReturnNotPermitted' } }, review: { '@type': 'Review', reviewRating: { '@type': 'Rating', ratingValue: starRating, bestRating: 5, worstRating: 1 }, author: authorData ? { '@type': 'Person', name: authorData.name, jobTitle: authorData.title, url: `${siteConfig.domain}/author/${authorData.slug}` } : { '@type': 'Organization', name: siteConfig.siteName }, datePublished: publishedDate.toISOString(), reviewBody: verdict || description } } : null;
 
-// BreadcrumbList schema
 const breadcrumbSchema = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [ { '@type': 'ListItem', position: 1, name: 'Home', item: siteConfig.domain }, ...(category ? [{ '@type': 'ListItem', position: 2, name: category, item: `${siteConfig.domain}/category/${category.toLowerCase().replace(/\s+/g, '-')}` }] : []), { '@type': 'ListItem', position: category ? 3 : 2, name: title, item: Astro.url.href } ] };
 
 const badgeLabels: Record<string, string> = {
@@ -39,7 +49,6 @@ const badgeLabels: Record<string, string> = {
   'top-rated': 'Top Rated',
   'tested': 'Tested',
 };
-
 ---
 
 <BaseLayout title={title} description={description} image={image} canonical={canonical} ogType="article" schemaType="BlogPosting" schema={schema || articleSchema}>
@@ -61,114 +70,96 @@ const badgeLabels: Record<string, string> = {
       <span class="breadcrumb-current">Review</span>
     </nav>
 
-
-    <!-- Visual hero (only for locally-hosted hero images; legacy external URLs are OG-only) -->
-    {renderVisualHero && (
-      <figure class="article-hero">
-        <img src={image} alt={title} loading="eager" decoding="async" width="1200" height="675" />
-      </figure>
-    )}
-
     <!-- Article Header -->
     <header class="article-header">
-      <div class="header-top-row">
-        <div class="header-labels">
-          {category && <span class="article-category">{category}</span>}
-          {badge && (
-            <span class:list={['header-badge', `header-badge--${badge}`]}>
-              {badge === 'editors-pick' && <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M5 0l1.5 3.1L10 3.6 7.5 6l.6 3.5L5 7.8 1.9 9.5l.6-3.5L0 3.6l3.5-.5L5 0z" fill="currentColor"/></svg>}
-              {badgeLabels[badge] || badge}
-            </span>
-          )}
-        </div>
-        {score && (
-          <div class="header-score">
-            <span class="header-score-value">{score.toFixed(1)}</span>
-            <span class="header-score-max">/10</span>
-          </div>
+      <div class="header-labels">
+        {category && <span class="article-category">{category}</span>}
+        {badge && (
+          <span class:list={['header-badge', `header-badge--${badge}`]}>
+            {badgeLabels[badge] || badge}
+          </span>
         )}
       </div>
       <h1>{title}</h1>
       <p class="article-lede">{description}</p>
       <div class="article-meta">
-        <div class="meta-left">
-          <span class="meta-author">{author}</span>
-          <span class="meta-sep">&middot;</span>
-          <time datetime={publishedDate.toISOString()}>{formattedDate}</time>
-        </div>
+        <span class="meta-author">By {author}</span>
+        <span class="meta-sep">·</span>
+        <time datetime={publishedDate.toISOString()}>{formattedDate}</time>
+        {affiliateDisclosure && (
+          <>
+            <span class="meta-sep">·</span>
+            <a href="/disclosure" class="meta-disclosure">Affiliate links</a>
+          </>
+        )}
       </div>
-      <div class="header-rule"></div>
     </header>
 
-    <!-- Author Bio -->
-    {authorData && (
-      <AuthorBio
-        name={authorData.name}
-        slug={authorData.slug}
-        title={authorData.title}
-        niche="pet products"
-        yearsExperience={authorData.years}
-        initials={authorData.initials}
-        image={authorData.image}
-      />
-    )}
+    <!-- ArticleNav — H2-only jump list, reader orients before the hard sell.
+         Collapses beyond 5 items. No scrollspy. Placed ABOVE InlineOurPick
+         so the flow is: orient → convert → read. -->
+    <ArticleNav headings={headings} />
 
-    <!-- Verdict Banner -->
-    <VerdictBanner score={score} verdict={verdict} winner={winner} badge={badge} />
+    <!-- InlineOurPick — the ONE conversion surface in the reading path.
+         Renders after the nav, before the prose body. -->
+    <InlineOurPick
+      winner={winner}
+      score={score}
+      verdict={verdict}
+      badge={badge}
+      category={category}
+      affiliateLinks={affiliateLinks}
+    />
 
-    <!-- FTC Affiliate Disclosure -->
-    {affiliateDisclosure && (
-      <p class="affiliate-disclosure">
-        This article contains affiliate links. We may earn a commission at no extra cost to you.
-        <a href="/disclosure">Full disclosure</a>
-      </p>
-    )}
-
-    <!-- Content Layout -->
-    <div class="article-body">
-      {headings.length > 0 && (
-        <aside class="article-sidebar">
-          <TableOfContents headings={headings} />
-          <EzoicAds placement="sidebar" />
-        </aside>
-      )}
-      <div class="article-content">
-        <slot />
-                <EzoicAds placement="mid-article" />
-<ProductBanner />
-<LeadMagnetCTA siteId="petverdict" siteName="PetVerdict" niche="pet-care" />
-      </div>
+    <!-- Article body — single column prose, no chrome -->
+    <div class="article-content">
+      <slot />
     </div>
 
-    <!-- Newsletter -->
-        <EzoicAds placement="bottom" />
+    <!-- Author Bio (kept — adds editorial trust without chrome) -->
+    {authorData && (
+      <div class="author-bio-wrap">
+        <AuthorBio
+          name={authorData.name}
+          slug={authorData.slug}
+          title={authorData.title}
+          niche="pet products"
+          yearsExperience={authorData.years}
+          initials={authorData.initials}
+          image={authorData.image}
+        />
+      </div>
+    )}
+
+    <!-- Lead Capture (only on flagged articles) -->
+    {leadCapture && (
+      <LeadCapture sourceArticle={title} sourceUrl={Astro.url.href} category={category} />
+    )}
+
+    <!-- Newsletter — the ONE footer block (replaces multiple inline CTAs) -->
     <NewsletterSignup variant="inline" />
 
-    <!-- Disclosure -->
-    {affiliateDisclosure && (
-      <aside class="disclosure-box">
-        <div class="disclosure-icon">
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-            <path d="M10 18a8 8 0 100-16 8 8 0 000 16zM10 6v4m0 4h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <div class="disclosure-content">
-          <h4>Affiliate Disclosure</h4>
-          <p>{siteConfig.siteName} earns commissions from affiliate links. This supports our independent testing at no cost to you. <a href="/disclosure">Full methodology &rarr;</a></p>
-        </div>
-      </aside>
-    )}
-      <ExitIntentCapture siteId="petverdict" siteName="PetVerdict" niche="pet-care" />
+    <!-- Related — 3-up grid at the very bottom -->
+    <BottomRelatedGrid
+      currentSlug={currentSlug}
+      category={category}
+      maxArticles={3}
+    />
   </article>
+
+  <!-- Sticky bottom buy-bar — appears after the user scrolls past the
+       InlineOurPick. Hides near the footer. Dismissable for the session.
+       This is the conversion safety net; not a primary surface. -->
+  <StickyBottomBuyBar />
 </BaseLayout>
 
 <style>
   .article {
-    max-width: var(--max-width);
+    max-width: 680px;
     margin: 0 auto;
+    padding: 0 1rem;
   }
 
-  /* ── Breadcrumb ──────────────────────────────────── */
   .breadcrumb {
     display: flex;
     align-items: center;
@@ -177,41 +168,28 @@ const badgeLabels: Record<string, string> = {
     color: var(--ink-400);
     margin-bottom: var(--space-xl);
   }
-
   .breadcrumb a { color: var(--ink-500); text-decoration: none; }
   .breadcrumb a:hover { color: var(--ink-950); }
   .breadcrumb-sep { color: var(--ink-300); }
   .breadcrumb-current { color: var(--ink-400); }
 
-  /* ── Article Header ──────────────────────────────── */
   .article-header {
     margin-bottom: var(--space-xl);
-    animation: fadeInUp var(--duration-slow) var(--ease-out) both;
   }
-
-  .header-top-row {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: var(--space-md);
-    margin-bottom: var(--space-md);
-  }
-
   .header-labels {
     display: flex;
     align-items: center;
     gap: 0.5rem;
     flex-wrap: wrap;
+    margin-bottom: var(--space-md);
   }
-
   .article-category {
     font-size: 0.7rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: var(--electric);
+    color: var(--accent, var(--electric, #2563eb));
   }
-
   .header-badge {
     display: inline-flex;
     align-items: center;
@@ -223,247 +201,170 @@ const badgeLabels: Record<string, string> = {
     padding: 0.2rem 0.5rem;
     border-radius: 3px;
   }
-
   .header-badge--editors-pick { background: var(--amber-light); color: var(--amber); }
   .header-badge--top-rated { background: var(--electric-light); color: var(--electric); }
   .header-badge--best-value { background: var(--emerald-light); color: var(--emerald); }
   .header-badge--tested { background: var(--ink-50); color: var(--ink-500); }
 
-  .header-score {
-    display: flex;
-    align-items: baseline;
-    gap: 2px;
-    flex-shrink: 0;
-  }
-
-  .header-score-value {
-    font-family: var(--font-display);
-    font-size: 2.25rem;
-    line-height: 1;
+  .article-header h1 {
+    font-family: var(--font-display, Georgia, serif);
+    font-size: clamp(2rem, 4.5vw, 2.75rem);
+    font-weight: 500;
+    line-height: 1.1;
     letter-spacing: -0.02em;
+    margin: 0 0 var(--space-md) 0;
     color: var(--ink-950);
   }
-
-  .header-score-max {
-    font-size: 0.85rem;
-    font-weight: 500;
-    color: var(--ink-400);
-  }
-
-  .article-header h1 {
-    font-size: clamp(2rem, 5vw, 3rem);
-    line-height: 1.1;
-    margin-bottom: var(--space-md);
-  }
-
   .article-lede {
-    font-family: var(--font-display);
+    font-family: var(--font-display, Georgia, serif);
     font-size: 1.2rem;
     font-style: italic;
     line-height: 1.5;
     color: var(--ink-500);
-    margin-bottom: var(--space-lg);
-    max-width: 600px;
+    margin: 0 0 var(--space-lg) 0;
   }
-
   .article-meta {
     display: flex;
     align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
     font-size: 0.85rem;
     color: var(--ink-500);
-    margin-bottom: var(--space-lg);
   }
-
-  .meta-left { display: flex; align-items: center; gap: 0.5rem; }
   .meta-author { font-weight: 600; color: var(--ink-700); }
   .meta-sep { color: var(--ink-300); }
-
-  .header-rule { height: 2px; background: var(--electric); width: 48px; }
-
-  /* ── Affiliate Disclosure (top) ───────────────────── */
-  .affiliate-disclosure {
-    font-size: 0.75rem;
-    color: var(--ink-400, #6b7280);
-    margin: 0.5rem 0 1.5rem;
-    padding: 0;
-    line-height: 1.4;
-  }
-  .affiliate-disclosure a {
-    color: inherit;
+  .meta-disclosure {
+    color: var(--ink-500);
     text-decoration: underline;
     text-underline-offset: 2px;
   }
 
-  /* ── Content Body ────────────────────────────────── */
-  .article-body { position: relative; }
-
-  .article-sidebar {
-    position: sticky;
-    top: calc(var(--nav-height) + var(--space-xl));
-    float: right;
-    width: 220px;
-    margin-left: var(--space-2xl);
-    margin-bottom: var(--space-xl);
-  }
-
   .article-content {
-    font-size: 1.05rem;
-    line-height: 1.8;
-    overflow: hidden;
+    font-size: 1.075rem;
+    line-height: 1.75;
+    color: var(--ink-800);
   }
-
   .article-content :global(h2) {
+    font-family: var(--font-display, Georgia, serif);
     font-size: clamp(1.5rem, 3vw, 1.875rem);
-    margin-top: var(--space-3xl);
+    font-weight: 500;
+    margin-top: var(--space-3xl, 3rem);
     margin-bottom: var(--space-md);
     padding-top: var(--space-xl);
     border-top: 1px solid var(--ink-100);
+    color: var(--ink-950);
+    letter-spacing: -0.015em;
   }
-
   .article-content :global(h2:first-child) {
     border-top: none;
     padding-top: 0;
     margin-top: 0;
   }
-
+  /* Layout already renders the title from frontmatter — hide any leading H1
+     in the body. This rule has been in place since the duplicate-H1 cleanup. */
+  .article-content :global(> h1:first-child) { display: none; }
   .article-content :global(h3) {
-    font-size: 1.25rem;
+    font-family: var(--font-display, Georgia, serif);
+    font-size: 1.2rem;
+    font-weight: 500;
     margin-top: var(--space-xl);
     margin-bottom: var(--space-sm);
+    color: var(--ink-950);
   }
-
-  .article-content :global(p) { margin-bottom: var(--space-lg); color: var(--ink-800); }
-  .article-content :global(ul), .article-content :global(ol) { margin-bottom: var(--space-lg); padding-left: 1.75rem; }
-  .article-content :global(li) { margin-bottom: var(--space-sm); color: var(--ink-800); }
-  .article-content :global(strong) { color: var(--ink-950); font-weight: 600; }
-
+  .article-content :global(p) {
+    margin-bottom: var(--space-lg);
+    color: var(--ink-800);
+  }
+  .article-content :global(ul), .article-content :global(ol) {
+    margin-bottom: var(--space-lg);
+    padding-left: 1.75rem;
+  }
+  .article-content :global(li) {
+    margin-bottom: var(--space-sm);
+    color: var(--ink-800);
+  }
+  .article-content :global(strong) {
+    color: var(--ink-950);
+    font-weight: 600;
+  }
   .article-content :global(table) {
     width: 100%;
     border-collapse: collapse;
-    margin: var(--space-xl) 0;
-    font-size: 0.925rem;
-    border: 1px solid var(--ink-100);
-    border-radius: var(--border-radius);
-    overflow: hidden;
+    margin: var(--space-lg) 0;
+    font-size: 0.875rem;
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
-
-  .article-content :global(thead) { background: var(--ink-950); color: white; }
-  .article-content :global(th) { padding: 0.75rem var(--space-md); text-align: left; font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; border: none; }
-  .article-content :global(td) { padding: 0.75rem var(--space-md); border-bottom: 1px solid var(--ink-100); }
+  .article-content :global(thead) {
+    background: var(--ink-950);
+    color: white;
+  }
+  .article-content :global(th) {
+    padding: 0.75rem var(--space-md);
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border: none;
+  }
+  .article-content :global(td) {
+    padding: 0.75rem var(--space-md);
+    border-bottom: 1px solid var(--ink-100);
+  }
   .article-content :global(tbody tr:last-child td) { border-bottom: none; }
   .article-content :global(tbody tr:hover) { background: var(--ink-50); }
-
   .article-content :global(blockquote) {
-    border-left: 3px solid var(--electric);
-    padding: var(--space-md) var(--space-lg);
-    margin: var(--space-xl) 0;
-    font-family: var(--font-display);
-    font-size: 1.15rem;
-    font-style: italic;
-    color: var(--ink-600);
-    background: var(--surface-raised);
-    border-radius: 0 var(--border-radius) var(--border-radius) 0;
-  }
-
-  /* ── Disclosure Box ──────────────────────────────── */
-  .disclosure-box {
-    display: flex;
-    gap: var(--space-md);
-    padding: var(--space-lg);
-    border: 1px solid var(--ink-100);
-    border-radius: var(--border-radius-lg);
+    margin: var(--space-lg) 0;
+    padding: 1rem 1.25rem;
     background: var(--ink-50);
-    margin-top: var(--space-2xl);
-  }
-
-  .disclosure-icon { flex-shrink: 0; color: var(--ink-400); margin-top: 2px; }
-
-  .disclosure-content h4 {
-    font-family: var(--font-body);
-    font-weight: 600;
-    font-size: 0.85rem;
+    border-left: 4px solid var(--accent, var(--electric, #2563eb));
+    border-radius: 4px;
     color: var(--ink-700);
-    margin-bottom: var(--space-xs);
   }
-
-  .disclosure-content p {
-    font-size: 0.85rem;
-    line-height: 1.6;
-    color: var(--ink-500);
-    margin: 0;
+  .article-content :global(blockquote p:last-child) { margin-bottom: 0; }
+  .article-content :global(img) {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: var(--space-lg) 0;
   }
-
-  .disclosure-content a {
-    color: var(--ink-600);
+  .article-content :global(a) {
+    color: var(--accent, var(--electric, #2563eb));
     text-decoration: underline;
     text-underline-offset: 2px;
   }
+  .article-content :global(a:hover) {
+    text-decoration-thickness: 2px;
+  }
 
-  /* ── Responsive ──────────────────────────────────── */
-  @media (max-width: 900px) {
-    .article-sidebar {
-      float: none;
-      width: 100%;
-      margin-left: 0;
-      position: relative;
-      top: 0;
-      margin-bottom: var(--space-xl);
-    }
+  .author-bio-wrap {
+    margin-top: var(--space-3xl, 3rem);
+    padding-top: var(--space-xl);
+    border-top: 1px solid var(--ink-100);
+  }
+
+  /* Add space below the article so the sticky bottom bar doesn't overlap the
+     last paragraph when a reader is fully scrolled */
+  .article {
+    padding-bottom: 80px;
   }
 
   @media (max-width: 640px) {
     .article-header h1 { font-size: 1.75rem; }
     .article-lede { font-size: 1.05rem; }
-    .header-score-value { font-size: 1.75rem; }
-    .disclosure-box { flex-direction: column; gap: var(--space-sm); }
   }
 
-  /* ── Dark Mode Overrides ──────────────────────────── */
+  /* ── Dark Mode ──────────────────────────── */
   @media (prefers-color-scheme: dark) {
     .article-content :global(thead) { background: #111318; }
     .article-content :global(table) { border-color: #1c1c21; }
     .article-content :global(td) { border-bottom-color: #1c1c21; }
     .article-content :global(tbody tr:hover) { background: #161b26; }
-    .article-content :global(blockquote) { background: #111318; border-left-color: #e8ecf1; }
+    .article-content :global(blockquote) { background: #111318; }
     .article-content :global(h2) { border-top-color: #1c1c21; }
-    .disclosure-box { background: #111318; border-color: #1c1c21; }
-    .where-to-buy { background: #111318; border-color: #1c1c21; }
-    .wtb-card { background: #0a0a0b; border-color: #1c1c21; }
-    .header-rule { background: #e8ecf1; }
-    a.affiliate-link,
-    .article-content :global(a.affiliate-link) {
-      background: #0a0a0b;
-      border-color: #333a4a;
-      color: #e8ecf1;
-    }
-    a.affiliate-link:hover,
-    .article-content :global(a.affiliate-link:hover) {
-      background: #e8ecf1;
-      color: #0a0a0b;
-    }
   }
-
-  .article-hero {
-    margin: 0 0 var(--space-xl, 2rem);
-    border-radius: var(--border-radius, 6px);
-    overflow: hidden;
-    aspect-ratio: 16 / 9;
-    background: var(--ink-900, #0a0a0b);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-  }
-  .article-hero img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-
-  /* Generators emit the article title as a leading `# H1` in the body,
-     duplicating the layout's <h1>. Hide the body H1 — the layout already
-     renders the title from frontmatter. */
-  .article-content :global(> h1:first-child) {
-    display: none;
-  }
-
 </style>

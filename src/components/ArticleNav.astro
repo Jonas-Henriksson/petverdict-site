@@ -1,0 +1,143 @@
+---
+// ArticleNav — inline article navigation, placed ABOVE InlineOurPick.
+//
+// CCO+CMO board decision, 2026-04-14:
+//   • H2 headings only (no h3, no FAQ sub-items — those are noise)
+//   • Collapse threshold: first 5 shown; if >5 h2s, rest behind <details>/<summary>
+//   • Zero JS — <details> native collapse, no scrollspy (inline TOC + scrollspy = theater)
+//   • Renamed from ArticleTOC to signal it's navigation, not a document outline
+//   • Placement: reader orients → reader converts (IOP below this, not above)
+//
+// Renders nothing for articles with <3 h2 headings (short articles don't need nav).
+export interface Props {
+  headings: Array<{ depth: number; slug: string; text: string }>;
+}
+
+const { headings } = Astro.props;
+
+// H2 only — no h3, h4, FAQ sub-items
+const h2s = headings.filter(h => h.depth === 2);
+
+// Split at 5
+const visible = h2s.slice(0, 5);
+const overflow = h2s.slice(5);
+---
+
+{h2s.length >= 3 && (
+  <nav class="anav" aria-label="In this article">
+    <span class="anav-label">In this article</span>
+    <ol class="anav-list">
+      {visible.map(h => (
+        <li class="anav-item">
+          <a href={`#${h.slug}`} class="anav-link">{h.text}</a>
+        </li>
+      ))}
+    </ol>
+
+    {overflow.length > 0 && (
+      <details class="anav-overflow">
+        <summary class="anav-toggle">
+          <span class="anav-toggle-show">Show {overflow.length} more section{overflow.length > 1 ? 's' : ''}</span>
+          <span class="anav-toggle-hide">Show less</span>
+          <svg class="anav-chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+            <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </summary>
+        <ol class="anav-list anav-list--overflow">
+          {overflow.map(h => (
+            <li class="anav-item">
+              <a href={`#${h.slug}`} class="anav-link">{h.text}</a>
+            </li>
+          ))}
+        </ol>
+      </details>
+    )}
+  </nav>
+)}
+
+<style>
+  .anav {
+    margin: 0 0 1.75rem 0;
+    padding: 1rem 1.25rem;
+    background: var(--ink-50, #f9f9fb);
+    border: 1px solid var(--ink-100);
+    border-radius: 6px;
+    font-size: 0.875rem;
+  }
+
+  .anav-label {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-400);
+    margin-bottom: 0.6rem;
+  }
+
+  .anav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .anav-list--overflow {
+    margin-top: 0;
+  }
+
+  .anav-item { margin: 0; }
+
+  .anav-link {
+    display: block;
+    padding: 0.28rem 0 0.28rem 0.75rem;
+    border-left: 2px solid var(--ink-150, var(--ink-100));
+    color: var(--ink-600);
+    text-decoration: none;
+    line-height: 1.4;
+    transition: color 0.12s ease, border-color 0.12s ease;
+  }
+  .anav-link:hover {
+    color: var(--accent, var(--electric, #2563eb));
+    border-left-color: var(--accent, var(--electric, #2563eb));
+  }
+
+  /* overflow toggle */
+  .anav-overflow {
+    margin-top: 0.1rem;
+  }
+  .anav-overflow > .anav-list--overflow {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .anav-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.3rem 0 0.3rem 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent, var(--electric, #2563eb));
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+  .anav-toggle::-webkit-details-marker { display: none; }
+  .anav-toggle::marker { display: none; }
+
+  .anav-chevron {
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+  }
+  .anav-overflow[open] .anav-chevron {
+    transform: rotate(180deg);
+  }
+
+  /* Show/hide the two toggle label variants */
+  .anav-toggle-hide { display: none; }
+  .anav-overflow[open] .anav-toggle-show { display: none; }
+  .anav-overflow[open] .anav-toggle-hide { display: inline; }
+
+  @media (prefers-color-scheme: dark) {
+    .anav { background: #111318; border-color: #1c1c21; }
+  }
+</style>

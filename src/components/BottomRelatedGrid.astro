@@ -1,0 +1,148 @@
+---
+// BottomRelatedGrid — 3-up related-articles grid at the very bottom of the
+// article. Replaces the sidebar-positioned RelatedArticlesSidebar from the
+// previous redesign. Placed in the article footer per Wirecutter pattern.
+//
+// Same selection logic as the old sidebar variant: same-category first,
+// fall back to most-recent. Renders 3 cards in a horizontal grid that
+// collapses to 1-col on mobile.
+import { getCollection } from 'astro:content';
+
+export interface Props {
+  currentSlug: string;
+  category?: string;
+  maxArticles?: number;
+}
+
+const { currentSlug, category, maxArticles = 3 } = Astro.props;
+
+const allArticles = await getCollection('articles', ({ data }) => !data.draft);
+
+let related: any[] = [];
+if (category) {
+  related = allArticles
+    .filter((a: any) => a.slug !== currentSlug && a.data.category === category)
+    .sort((a: any, b: any) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+    .slice(0, maxArticles);
+}
+if (related.length < maxArticles) {
+  const remaining = allArticles
+    .filter((a: any) => a.slug !== currentSlug && !related.some((r: any) => r.slug === a.slug))
+    .sort((a: any, b: any) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+    .slice(0, maxArticles - related.length);
+  related = [...related, ...remaining];
+}
+---
+
+{related.length > 0 && (
+  <section class="bottom-related" aria-label="More reviews">
+    <h2 class="br-heading">More reviews</h2>
+    <div class="br-grid">
+      {related.map((article: any) => {
+        const formattedDate = new Date(article.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+        return (
+          <a href={`/${article.slug}`} class="br-card">
+            <div class="br-top">
+              {article.data.category && <span class="br-cat">{article.data.category}</span>}
+              {typeof article.data.score === 'number' && (
+                <span class="br-score">{article.data.score.toFixed(1)}</span>
+              )}
+            </div>
+            <h3 class="br-title">{article.data.title}</h3>
+            {article.data.description && <p class="br-desc">{article.data.description}</p>}
+            <time class="br-date">{formattedDate}</time>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+)}
+
+<style>
+  .bottom-related {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--ink-100);
+  }
+  .br-heading {
+    font-family: var(--font-display, Georgia, serif);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--ink-950);
+    margin: 0 0 1.5rem 0;
+    letter-spacing: -0.02em;
+  }
+  .br-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
+  .br-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    background: var(--surface, #fff);
+    border: 1px solid var(--ink-100);
+    border-radius: 6px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .br-card:hover {
+    border-color: var(--ink-300);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  .br-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  .br-cat {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-400);
+  }
+  .br-score {
+    font-family: var(--font-display, Georgia, serif);
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--ink-950);
+    line-height: 1;
+  }
+  .br-title {
+    font-family: var(--font-display, Georgia, serif);
+    font-size: 1.05rem;
+    font-weight: 400;
+    line-height: 1.3;
+    color: var(--ink-950);
+    margin: 0 0 0.5rem 0;
+    letter-spacing: -0.01em;
+  }
+  .br-card:hover .br-title { color: var(--accent, var(--electric, #2563eb)); }
+  .br-desc {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: var(--ink-500);
+    margin: 0 0 0.75rem 0;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .br-date {
+    font-size: 0.7rem;
+    color: var(--ink-400);
+  }
+  @media (max-width: 768px) {
+    .br-grid { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
+    .br-desc { -webkit-line-clamp: 1; }
+  }
+  @media (max-width: 400px) {
+    .br-grid { grid-template-columns: 1fr; }
+  }
+</style>
