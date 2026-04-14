@@ -24,7 +24,6 @@ import BottomRelatedGrid from '../components/BottomRelatedGrid.astro';
 import NewsletterSignup from '../components/NewsletterSignup.astro';
 import LeadCapture from '../components/LeadCapture.astro';
 import siteConfig from '../../site.config';
-import AuthorBio from '../components/AuthorBio.astro';
 import { authors, getAuthorByName, defaultAuthor } from '../authors';
 import ArticleNav from '../components/ArticleNav.astro';
 export interface Props { title: string; description: string; date: Date; author?: string; image?: string; category?: string; keywords?: string[]; affiliateDisclosure?: boolean; schema?: any; headings?: any[]; faqPairs?: Array<{ question: string; answer: string }>; score?: number; badge?: string; verdict?: string; winner?: string; leadCapture?: boolean; affiliateLinks?: { amazon?: Array<{ product: string; asin: string; link: string }>; custom?: Array<{ name: string; url: string; network: string }> }; currentSlug?: string; }
@@ -134,23 +133,6 @@ const badgeLabels: Record<string, string> = {
     <div class="article-content">
       <slot />
     </div>
-
-    <!-- Author Bio (kept — adds editorial trust without chrome) -->
-    {authorData && (
-      <div class="author-bio-wrap">
-        <AuthorBio
-          name={authorData.name}
-          slug={authorData.slug}
-          title={authorData.title}
-          niche="pet products"
-          yearsExperience={authorData.years}
-          initials={authorData.initials}
-          image={authorData.image}
-          bio={authorData.bio}
-          credentials={authorData.credentials}
-        />
-      </div>
-    )}
 
     <!-- Lead Capture (only on flagged articles) -->
     {leadCapture && (
