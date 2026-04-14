@@ -46,6 +46,10 @@ Finding a cat litter that actually works is less about chasing premium labels an
 
 ## How We Tested
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=How+We+Tested&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy How on Amazon</a>
+</div>
+
 We rotated the five top contenders (and ten others that didn't make this list) through live use across several households: two single-cat homes, two two-cat homes, and one three-cat home. Cats ranged from a six-month-old kitten to a 14-year-old senior with early-stage CKD, which matters because concentrated urine from older cats is a genuinely harder odor problem than anything a healthy adult cat produces.
 
 We didn't use calibrated particle counters or pretend to run a lab. What we did do: scoop daily, note how clumps behaved at 24, 48, and 72 hours, track how much litter ended up on floors and bedding, and watch for whether cats balked at the switch. Two of the owners have mild dust allergies themselves, which gave us a real-world read on airborne particulates that no spec sheet can capture.
@@ -53,6 +57,10 @@ We didn't use calibrated particle counters or pretend to run a lab. What we did 
 This is hands-on observation from real homes — not a controlled study. Take it as informed opinion, not science.
 
 ## At a Glance
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=At+a+Glance&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy At on Amazon</a>
+</div>
 
 | Litter | Type | Rough price/lb | Odor control | Clumping | Dust |
 |---|---|---|---|---|---|
@@ -80,6 +88,10 @@ One more caveat: cats who are used to fragranced clay sometimes don't love the s
 
 ## Dr. Elsey's Ultra Premium Clumping Clay
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Dr.+Elsey%27s+Ultra+Premium+Clumping+Clay&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Dr. on Amazon</a>
+</div>
+
 **Best for**: Cats with asthma, allergies, or post-surgical respiratory sensitivity. Also the right pick for owners who prioritize a clean scoop over aggressive odor masking.
 
 Dr. Elsey's is the clay litter veterinarians tend to reach for when a client calls about a cat with feline asthma — not because of any single clinical study, but because the dust profile is the lowest we've encountered in a standard clay litter, and the formula is unscented. For a cat with reactive airways, fragrance is often the bigger trigger than dust itself, and most "premium" litters load up on both.
@@ -93,6 +105,10 @@ It's also heavy. A 40-pound bag is genuinely hard to lug up a flight of stairs, 
 [Check Dr. Elsey's Ultra Premium on Amazon](https://www.amazon.com/dp/B0009X29WK?tag=petverdict-20)
 
 ## Tidy Cats 24/7 Performance
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Tidy+Cats+24%2F7+Performance&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Tidy on Amazon</a>
+</div>
 
 **Best for**: Single-cat households on a budget, where the owner is genuinely willing to scoop every day.
 
@@ -118,6 +134,10 @@ Dust is moderate — not as bad as basic Tidy Cats, but noticeably worse than Dr
 
 ## Fresh Step Outstretch
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Fresh+Step+Outstretch&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Fresh on Amazon</a>
+</div>
+
 **Best for**: Honestly, we struggled to name a clear best-for here, which is the main signal.
 
 Fresh Step Outstretch is the weakest pick of the five, and we're including it mainly because the marketing around "lasts 50% longer" deserves a reality check. That claim is built on a comparison to ordinary clay under ideal conditions, and in practice it did not meaningfully outlast its competitors in our homes. In multi-cat boxes it started smelling by day four or five like anything else, and clumping was inconsistent — sometimes firm, sometimes soft and crumbly in the same box on the same day.
@@ -129,6 +149,10 @@ The Febreze-style fragrance is the dominant odor-control strategy, which means y
 [Check Fresh Step Outstretch on Amazon](https://www.amazon.com/dp/B07FNQVQB7?tag=petverdict-20)
 
 ## Choosing by Situation
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Choosing+by+Situation&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Choosing on Amazon</a>
+</div>
 
 **Multi-cat household, odor is the problem**: World's Best Multiple Cat. Corn absorbs more uniformly, and the clumping holds up even when the box sees heavy traffic.
 
@@ -144,6 +168,10 @@ If you're thinking of automating cleaning entirely, our guide to the [Best Autom
 
 ## Rough Monthly Cost for One Cat
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Rough+Monthly+Cost+for+One+Cat&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Rough on Amazon</a>
+</div>
+
 These numbers assume one cat, daily scooping, and a full change every 3–4 weeks. Multi-cat households should roughly double these for two cats and triple for three — it's not quite linear, but close enough for budgeting.
 
 - **World's Best**: $17–$20/month
@@ -155,6 +183,10 @@ These numbers assume one cat, daily scooping, and a full change every 3–4 week
 Bulk bags consistently save 15–25%, but only buy the big bag once you've confirmed your cat actually uses the litter without complaint. A 40-pound bag your cat hates is a $35 mistake.
 
 ## What Actually Makes a Good Litter
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=What+Actually+Makes+a+Good+Litter&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy What on Amazon</a>
+</div>
 
 Forget the marketing buckets. Four things matter:
 
@@ -170,6 +202,10 @@ For broader guidance on feline nutrition and how diet affects urinary health, ou
 
 ## Setup Basics
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Setup+Basics&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Setup on Amazon</a>
+</div>
+
 **Depth**: Two to three inches of clumping litter. Less than two and clumps stick to the bottom; more than three wastes litter without improving performance.
 
 **Number of boxes**: The standard guidance is one per cat plus one extra. This reduces territorial tension in multi-cat homes and gives you a fallback when one box is being avoided for any reason.
@@ -182,6 +218,10 @@ For broader guidance on feline nutrition and how diet affects urinary health, ou
 
 ## Health Notes
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Health+Notes&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Health on Amazon</a>
+</div>
+
 **Respiratory**: Cats with asthma or chronic bronchitis need low-dust, unscented litters. Dr. Elsey's is the safest clay option; some vets specifically recommend Yesterday's News (paper pellets) for cats recovering from respiratory surgery.
 
 **Ingestion**: Cats swallow small amounts of litter during grooming. Clumping clay theoretically risks obstruction if consumed in large quantities — mainly a concern for kittens under eight weeks, which is why most vets recommend non-clumping pellet litter for kitten boxes until they're old enough to stop experimenting with it.
@@ -193,6 +233,10 @@ For broader guidance on feline nutrition and how diet affects urinary health, ou
 For coverage of unexpected vet costs tied to urinary and litter box issues, our [Best Pet Insurance 2026: Coverage Compared](/best-pet-insurance-2026-coverage-compared) guide breaks down what's typically covered.
 
 ## Troubleshooting
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Troubleshooting&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Troubleshooting on Amazon</a>
+</div>
 
 **Sudden avoidance**: Vet visit first. Then check for recent changes — new litter, new box, moved location, new scent in the room.
 

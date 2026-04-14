@@ -52,6 +52,10 @@ What follows is honest. Some of these harnesses are genuinely good. A couple are
 
 ## How I Actually Tested These
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=How+I+Actually+Tested+These&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy How on Amazon</a>
+</div>
+
 I want to be upfront: I did not strap calibrated force meters to my dogs or run statistically significant trials. Anyone claiming they measured "73% pull reduction" on a consumer blog is either inventing numbers or running a methodology that wouldn't survive peer review. Pull force varies wildly by dog, by leash length, by what squirrel is across the street, and by how bored the dog is with the exercise.
 
 What I did do: worn each harness on dogs of varying sizes for at least 10-12 real-world walks, swapped between them on the same dog to compare, and paid attention to the things that actually matter — does the dog resist wearing it, does it chafe, does it stay put, does the front clip actually redirect forward momentum, and does the hardware feel like it'll survive a year of use. I also asked the two trainers which harnesses they hand out to clients and, more importantly, which ones they've stopped recommending and why.
@@ -59,6 +63,10 @@ What I did do: worn each harness on dogs of varying sizes for at least 10-12 rea
 One thing I did not do is test these on brachycephalic breeds (bulldogs, pugs, frenchies). Those dogs have specific airway and chest-shape concerns that deserve their own review. If that's your dog, consult your vet before buying anything on this list.
 
 ## The Contenders
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=The+Contenders&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy The on Amazon</a>
+</div>
 
 | Harness | Approximate Price | Clip Style | Build Quality | My Take |
 |---------|-------------------|------------|---------------|---------|
@@ -73,6 +81,10 @@ One thing I did not do is test these on brachycephalic breeds (bulldogs, pugs, f
 Note that I've dropped the fake "pull reduction percentages" from the comparison. They were invented precision. What I can tell you is that front-clip harnesses, as a category, work by making forward pulling awkward — the dog pivots sideways when they lunge. All of these do this to some degree. The differences between them are mostly about fit, comfort, hardware quality, and how long they last.
 
 ## Ruffwear Front Range — Best Overall
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Ruffwear+Front+Range&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Ruffwear on Amazon</a>
+</div>
 
 **Best for**: Daily walks, dogs who wear the harness for hours at a time, owners who want something that lasts.
 
@@ -94,6 +106,10 @@ Sizing runs from XX-Small (13" chest) up to XX-Large (42-50" chest). I've tried 
 [Check the Ruffwear Front Range on Amazon](https://www.amazon.com/dp/B01G8WBQX4?tag=petverdict-20)
 
 ## PetSafe Easy Walk — Best Budget (With a Big Asterisk)
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=PetSafe+Easy+Walk&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
+</div>
 
 **Best for**: Mild to moderate pullers, short-term training tool, owners on a tight budget.
 
@@ -118,6 +134,10 @@ My honest take: buy this if you're training a puppy and the harness is a short-t
 
 ## Kurgo Tru-Fit Smart Harness — Best for Escape Artists
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Kurgo+Tru-Fit+Smart+Harness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Kurgo on Amazon</a>
+</div>
+
 **Best for**: Dogs that wriggle out of everything, car travel, dogs whose owners need belt-and-suspenders security.
 
 The Kurgo is the one I'd grab for a rescue dog who's flight risk. The five adjustment points mean you can genuinely dial in the fit, and unlike harnesses with two straps and some hope, this one doesn't let a determined dog reverse out of it. Kurgo also crash-tests the Tru-Fit to FMVSS 213 and 209 standards for use as a car restraint, which I verified on their website — this is one of the only harnesses on this list that's actually designed to do double duty as a seatbelt attachment.
@@ -137,6 +157,10 @@ The Kurgo is the one I'd grab for a rescue dog who's flight risk. The five adjus
 [Check the Kurgo Tru-Fit on Amazon](https://www.amazon.com/dp/B01NBQB6U4?tag=petverdict-20)
 
 ## 2 Hounds Freedom No-Pull — Trainer's Pick
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=2+Hounds+Freedom+No-Pull&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 2 on Amazon</a>
+</div>
 
 **Best for**: Active training, behavior modification, owners working with a professional trainer.
 
@@ -160,6 +184,10 @@ The velvet lining on the chest strap is the other thing that matters. It prevent
 
 ## Blue-9 Balance — Most Adjustable
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Blue-9+Balance&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Blue-9 on Amazon</a>
+</div>
+
 **Best for**: Oddly proportioned dogs, serious training, owners who want to nail the fit on a dog who falls between standard sizes.
 
 Blue-9's Balance is the harness for dogs that don't fit standard sizing charts. The six-point adjustment lets you independently tune the neck, chest, and girth, which matters a lot for deep-chested breeds (greyhounds, whippets, vizslas), barrel-chested breeds, and dogs that are just shaped weird. The Y-front design is biomechanically the friendliest on this list for dogs doing anything beyond walking.
@@ -179,6 +207,10 @@ Blue-9's Balance is the harness for dogs that don't fit standard sizing charts. 
 [Check the Blue-9 Balance on Amazon](https://www.amazon.com/dp/B07JBQC8V3?tag=petverdict-20)
 
 ## Rabbitgoo — The One I'd Skip
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Rabbitgoo&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Rabbitgoo on Amazon</a>
+</div>
 
 **Best for**: Honestly, I'm struggling to recommend this for anything beyond a small dog that barely pulls.
 
@@ -200,6 +232,10 @@ Save up for a PetSafe Easy Walk at minimum. If you truly can't, use this for a s
 [Check the Rabbitgoo Harness on Amazon](https://www.amazon.com/dp/B075ZYMD2R?tag=petverdict-20)
 
 ## ICEFANG Tactical — Niche Tool
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=ICEFANG+Tactical&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy ICEFANG on Amazon</a>
+</div>
 
 **Best for**: Large working dogs, handlers who need a grab handle, owners who actually have a use for MOLLE webbing.
 
@@ -229,11 +265,19 @@ For growing puppies, size up and buy a harness with lots of adjustment range (Bl
 
 ## Training Reality Check
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Training+Reality+Check&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Training on Amazon</a>
+</div>
+
 A harness is not training. A harness is a tool that makes training easier by making pulling less rewarding. Dogs pull because pulling works — they get to the sniff, the squirrel, the other dog. A front-clip harness interrupts that feedback loop by making pulling inefficient. But if you clip the harness on and then let the dog drag you to the fire hydrant anyway, you've taught the dog that pulling in a harness still works.
 
 Practical approach: short sessions, high-value treats for loose-leash moments, and consistency. Most dogs show meaningful improvement within a few weeks if the human side of the equation is consistent. If you're not seeing progress after a month of honest work, get a certified positive-reinforcement trainer involved — the issue is almost always something about the training approach, not the gear.
 
 ## Safety Notes Worth Taking Seriously
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Safety+Notes+Worth+Taking+Seriously&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Safety on Amazon</a>
+</div>
 
 Don't leave harnesses on unattended dogs. The padded ones especially can catch on crates, fence posts, and furniture. I know multiple people who've come home to a dog with a harness strap chewed half off or tangled in something.
 
@@ -242,6 +286,10 @@ Don't use front-clip harnesses for running, canicross, or any sport with sustain
 Inspect hardware and stitching every few weeks. Frayed webbing and bent rings are how harnesses fail, and they always fail at the worst moment.
 
 ## What I'd Actually Buy
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=What+I%27d+Actually+Buy&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy What on Amazon</a>
+</div>
 
 If you asked me which harness to buy for a typical adult dog that pulls on walks, I'd tell you the Ruffwear Front Range for most people and the 2 Hounds Freedom if you're working with a trainer and want dual-clip control. The Blue-9 Balance is the pick for oddly-shaped dogs or anyone who wants the most adjustable option. The Kurgo is the right call for escape artists and dog-in-car situations.
 

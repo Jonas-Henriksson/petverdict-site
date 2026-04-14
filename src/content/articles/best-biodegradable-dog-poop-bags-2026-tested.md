@@ -55,6 +55,10 @@ Here's what I found — including which brands are trading on greenwashing and w
 
 ## How I Evaluated
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=How+I+Evaluated&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy How on Amazon</a>
+</div>
+
 I ran an eight-week structured test across roughly 60–70 pickups per brand with Biscuit and Maple. I tracked bag failures (splits, punctures, tears at the dispenser), cold-weather separation behavior (I test in winter Pacific Northwest conditions, which get into the low 30s regularly), and scent masking effectiveness on a 10-minute timed carry-back.
 
 For biodegradability claims, I cross-referenced each brand against the BPI Certified Products database and checked for specific ASTM D6400 or EN 13432 certification numbers. A "biodegradable" claim without a verifiable third-party certification gets flagged as unsubstantiated. I also consulted with one of the environmental science researchers at the clinic's network to understand what ASTM D6400 actually certifies versus what it doesn't — the distinction matters enormously for how you evaluate these products.
@@ -79,6 +83,10 @@ I weighted criteria roughly as follows: **durability and puncture resistance** (
 ---
 
 ## Earth Rated PoopBags Extra Thick: Best Overall
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Earth+Rated+PoopBags+Extra+Thick&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Earth on Amazon</a>
+</div>
 
 **Best for: Most dog owners who want reliable daily bags and the option for legitimate eco credentials**
 
@@ -115,6 +123,10 @@ Over eight weeks with Biscuit (72 lbs) and Maple, I had two puncture failures wi
 
 ## BioBag Dog Waste Bags: Best Legitimately Compostable Option
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=BioBag+Dog+Waste+Bags&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy BioBag on Amazon</a>
+</div>
+
 **Best for: Dog owners in cities with organic waste programs that accept pet waste, or owners using dedicated pet-waste digesters**
 
 BioBag is the most credible environmental option in this roundup and the one I recommend when clients ask me to recommend something that actually does what it claims. It carries both **EN 13432** (European industrial composting standard) and **TÜV AUSTRIA OK compost HOME** certification — that second certification is the critical one, because it means the material is certified to break down in home composting conditions, not just industrial facilities running at 58°C.
@@ -148,6 +160,10 @@ I had one puncture failure with BioBag over four weeks with Maple. For Biscuit, 
 ---
 
 ## Pogi's Poop Bags: Best for Large Breeds
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Pogi%27s+Poop+Bags&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Pogi's on Amazon</a>
+</div>
 
 **Best for: Owners of large dogs (60+ lbs), especially dogs with frequent loose stools or digestive irregularity**
 
@@ -183,6 +199,10 @@ If you're buying Pogi's because they're thick, reliable bags at a low per-bag co
 
 ## Doggy Do Good Biodegradable: Best Budget with Legitimate Certification
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Doggy+Do+Good+Biodegradable&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Doggy on Amazon</a>
+</div>
+
 **Best for: Budget-conscious owners with small-to-medium dogs who want verified certification**
 
 Doggy Do Good earns its place in this roundup because it's **BPI certified** at the lowest per-bag cost among genuinely certified products (~$0.10/bag). BPI certification means a third party has verified the composting claim against ASTM D6400 — not just the manufacturer's marketing department.
@@ -215,6 +235,10 @@ The light lavender scent is actually my preference among the scented options —
 ---
 
 ## Flush Puppies Doodie Bags: Best for Urban Apartment Living
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Flush+Puppies+Doodie+Bags&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Flush on Amazon</a>
+</div>
 
 **Best for: Apartment dwellers without easy outdoor trash access, or urban walkers on long routes with no receptacles**
 
@@ -251,6 +275,10 @@ The thin 12-micron material requires care. For Maple's typical deposits, Flush P
 
 ## PoopBags.com Biodegradable: Most Confusing, Skip It
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=PoopBags.com+Biodegradable&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PoopBags.com on Amazon</a>
+</div>
+
 **Best for: No specific use case I can recommend**
 
 PoopBags.com sells multiple formulations under nearly identical branding — conventional plastic, "biodegradable" (EPI additive), and genuinely BPI-certified compostable. The problem is that distinguishing between them at point of purchase on Amazon requires careful SKU-level reading that most buyers won't do.
@@ -280,6 +308,10 @@ The SKU confusion isn't incidental. In three separate test purchases, I received
 
 ## The "Biodegradable" Problem: What Certifications Actually Mean
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=The+%22Biodegradable%22+Problem&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy The on Amazon</a>
+</div>
+
 This is the section I care most about, because the category is built on consumer confusion between several distinct claims.
 
 **ASTM D6400** is the North American standard for compostable plastics. It certifies that a product biodegrades, disintegrates, and shows no ecotoxicity in an **industrial composting facility** — typically operating at 55–58°C with controlled humidity and active microbial management — within approximately 180 days. If you see ASTM D6400 on packaging, that claim is verifiable against the BPI database at no cost.
@@ -298,6 +330,10 @@ This is the section I care most about, because the category is built on consumer
 
 ## The Inconvenient Reality About Landfills
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=The+Inconvenient+Reality+About+Landfills&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy The on Amazon</a>
+</div>
+
 I'm going to say something that deflates the eco-premium on most of these products, because it needs to be said.
 
 **Modern landfills are not composters.** They're engineered to minimize decomposition — lined, capped, deprived of oxygen to control methane production and groundwater contamination. In a sealed landfill, an ASTM D6400-certified compostable bag breaks down only marginally faster than conventional plastic. The heat, moisture, and microbial conditions that D6400 certification requires simply don't exist underground.
@@ -309,6 +345,10 @@ For the majority of dog owners who drop bags into household trash that goes to l
 ---
 
 ## Buying Advice: Matching the Bag to Your Situation
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Buying+Advice&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Buying on Amazon</a>
+</div>
 
 **You have one dog under 50 lbs walked twice daily**: Earth Rated compostable SKU at 270-count is the default recommendation. Reliable, affordable, genuine certification on the right product.
 
@@ -326,6 +366,10 @@ If you're thinking about the rest of your dog's gear alongside responsible waste
 
 ## Pricing Deep Dive: Annual Cost Per Dog
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Pricing+Deep+Dive&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Pricing on Amazon</a>
+</div>
+
 | Brand | Per-Bag Cost | Annual Cost (730 bags) | Annual Cost (1,460 bags, 2 dogs) |
 |---|---|---|---|
 | Earth Rated Extra Thick | 0.07 | ~51 | ~102 |
@@ -342,6 +386,10 @@ For a two-dog household like mine, this adds up. Switching from Pogi's to BioBag
 ---
 
 ## What We Rejected and Why
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=What+We+Rejected+and+Why&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy What on Amazon</a>
+</div>
 
 **Generic unbranded Amazon bundles** — I tested two unbranded 200-count sets with sub-$0.04/bag pricing. Both had material so thin (estimated under 10 microns) that bag failures were common enough to render the cost savings illusory. Neither carried any certifiable certification. The actual cost per clean pickup with both products was higher than Earth Rated once failures were accounted for.
 

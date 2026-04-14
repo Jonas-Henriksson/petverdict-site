@@ -47,6 +47,10 @@ Our 60-day trial used 6 cats (2 kittens, 2 adults, 2 seniors) across 4 breeds. D
 
 ## 1. Smalls Fresh Cat Food — Best Overall (9.2/10)
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=1.+Smalls+Fresh+Cat+Food&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 1. on Amazon</a>
+</div>
+
 **Best for cats who deserve restaurant-quality meals (so, all cats)**
 
 **Price:** $5.50/day (3.50-$7.50/day depending on weight) | **Protein:** 44% minimum | **Type:** Fresh, human-grade | **Moisture:** 72% | **AAFCO:** All Life Stages | **Delivery:** Every 2 or 4 weeks
@@ -82,6 +86,10 @@ For cats transitioning to fresh food, the improved hydration often means more fr
 
 ## 2. Tiki Cat After Dark — Best Wet Food (9.0/10)
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=2.+Tiki+Cat+After+Dark&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 2. on Amazon</a>
+</div>
+
 **Best for owners who want premium wet food without fresh food prices**
 
 **Price:** $2.80/day (based on 5.3-oz cans, 2x/day) | **Protein:** 40% minimum | **Type:** Pate wet food | **Moisture:** 78% | **AAFCO:** All Life Stages | **Delivery:** Amazon, pet stores
@@ -113,6 +121,10 @@ Hydration markers improved significantly compared to kibble, as expected with 78
 
 ## 3. Purina Pro Plan Wet — Best Budget Wet Food (8.7/10)
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=3.+Purina+Pro+Plan+Wet&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 3. on Amazon</a>
+</div>
+
 **Best for multi-cat households watching their budget**
 
 **Price:** $1.20/day (based on 3-oz cans, 3x/day for a 10-lb cat) | **Protein:** 36% minimum | **Type:** Pate/shredded wet food | **Moisture:** 75% | **AAFCO:** All Life Stages | **Delivery:** Everywhere
@@ -142,6 +154,10 @@ Palatability was good (4 of 6 enthusiastic, 2 of 6 moderate). Coat improvements 
 
 ## 4. Instinct Original Grain-Free — Best Kibble Option (8.3/10)
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=4.+Instinct+Original+Grain-Free&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 4. on Amazon</a>
+</div>
+
 **Best for owners who need the convenience of dry food**
 
 **Price:** $1.60/day (based on 11-lb bag for a 10-lb cat) | **Protein:** 42% minimum | **Type:** Dry kibble with raw-coated pieces | **Moisture:** 10% | **AAFCO:** All Life Stages
@@ -166,6 +182,10 @@ Instinct earns its spot with the highest protein percentage of any kibble we tes
 
 ## 5. Hill's Science Diet — Best Veterinary-Trusted (8.1/10)
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=5.+Hill%27s+Science+Diet&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 5. on Amazon</a>
+</div>
+
 **Best for cats with specific health conditions requiring vet guidance**
 
 **Price:** $1.40/day (wet food, 5.5-oz cans, 2x/day) | **Protein:** 34% minimum | **Type:** Wet and dry options | **Moisture:** 74% (wet) | **AAFCO:** All Life Stages
@@ -189,6 +209,10 @@ Hill's Science Diet is the food your veterinarian most likely recommends. It's f
 
 ## Wet Food vs. Dry Food: The Science
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Wet+Food+vs.+Dry+Food&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Wet on Amazon</a>
+</div>
+
 This is not a matter of opinion. The veterinary science is clear: **cats should eat primarily wet food.**
 
 Cats evolved in desert environments and get most of their water from prey. A wild cat's diet is approximately 70% moisture. Dry kibble is 10% moisture. Cats on dry food often don't drink enough water to compensate, leading to chronic dehydration that strains kidneys and promotes urinary crystal formation.
@@ -198,6 +222,10 @@ Our data backs this up. At day 60, cats on wet food (75-78% moisture) had urine 
 **Recommendation:** Feed wet food as the primary diet. If you must use kibble, add water or broth, and ensure your cat has a flowing water fountain to encourage drinking.
 
 ## Final Verdict
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Final+Verdict&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Final on Amazon</a>
+</div>
 
 **Smalls Fresh Cat Food earns our top rating** for 2026. The combination of 44% protein, 72% moisture, human-grade ingredients, and perfect palatability makes it the gold standard. If your budget allows it, this is the food to feed.
 

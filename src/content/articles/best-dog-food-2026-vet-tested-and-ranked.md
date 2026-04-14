@@ -33,6 +33,10 @@ Fair warning: we didn't love everything on this list. One of these foods made ou
 
 ## How We Evaluated These Foods
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=How+We+Evaluated+These+Foods&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy How on Amazon</a>
+</div>
+
 We're not a veterinary lab and we're not going to pretend otherwise. What we did: read every ingredient label line by line, calculate protein content on a dry matter basis so wet and dry foods could be compared fairly, verify each brand's AAFCO nutritional adequacy statement (and whether that compliance came from a feeding trial or a formulation spreadsheet), check for ingredient splitting that artificially demotes peas or legumes, note any use of artificial preservatives like BHA/BHT/ethoxyquin, and look at recall history over the past five years. We also fed rotations of these foods to two dogs in our household — a 55-pound mixed breed and a small senior terrier — and asked our vet for her honest take on each brand.
 
 One thing we want to be upfront about: "protein percentage" off a bag is misleading unless you're comparing on a dry matter basis. A fresh food at 12% as-fed protein can actually beat a kibble at 30% as-fed once you account for moisture. We converted everything below so the comparisons are apples-to-apples.
@@ -50,6 +54,10 @@ One thing we want to be upfront about: "protein percentage" off a bag is mislead
 Prices are estimates based on direct-to-consumer pricing in early 2026 and vary significantly by dog size, auto-ship discounts, and promotions.
 
 ## 1. Ollie Fresh Dog Food — Best Ingredient Panel
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=1.+Ollie+Fresh+Dog+Food&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 1. on Amazon</a>
+</div>
 
 **Price:** Roughly $8/day for a 40-lb dog | **Protein (DMB):** ~40% | **Type:** Fresh, refrigerated | **AAFCO:** All Life Stages (formulation-based)
 
@@ -83,6 +91,10 @@ A slow-feeder bowl like the [Outward Hound Fun Feeder](https://www.amazon.com/dp
 
 ## 2. The Farmer's Dog — Fresh Food Runner-Up
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=2.+The+Farmer%27s+Dog&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 2. on Amazon</a>
+</div>
+
 **Price:** Roughly $7/day for a 40-lb dog | **Protein (DMB):** ~38% | **Type:** Fresh, refrigerated | **AAFCO:** All Life Stages (formulation-based)
 
 The Farmer's Dog is very close to Ollie in ingredient quality and slightly cheaper. The recipes use named muscle meats, organ meats, vegetables, and a vitamin/mineral premix. The beef and turkey recipes are the strongest on the lineup — both read like something you'd cook yourself.
@@ -108,6 +120,10 @@ Like Ollie, The Farmer's Dog relies on formulation compliance rather than feedin
 [Check The Farmer's Dog](https://petpulse.net/go/farmersdog)
 
 ## 3. Purina Pro Plan — Best Budget Option and Most Vet-Respected
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=3.+Purina+Pro+Plan&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 3. on Amazon</a>
+</div>
 
 **Price:** Roughly $2/day for a 40-lb dog | **Protein (DMB):** ~30% | **Type:** Dry kibble | **AAFCO:** Feeding trial validated on most lines
 
@@ -136,6 +152,10 @@ The protein level on a dry matter basis is around 30%, which is solid for kibble
 
 ## 4. Royal Canin — Best for Specific Medical Needs
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=4.+Royal+Canin&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 4. on Amazon</a>
+</div>
+
 **Price:** Roughly $2.50/day for a 40-lb dog | **Protein (DMB):** ~28% | **Type:** Dry kibble | **AAFCO:** Feeding trial validated on most lines
 
 Royal Canin is the brand we most want to dismiss and can't. The marketing is ridiculous — the idea that a Yorkie needs a fundamentally different kibble shape than a Maltese is the kind of claim that belongs in a parody of pet food marketing. But Royal Canin's prescription and veterinary diets are genuinely useful, and for dogs with specific medical conditions (kidney disease, urinary crystals, severe allergies) their therapeutic lines are some of the only clinically-tested options available.
@@ -161,6 +181,10 @@ Where Royal Canin genuinely shines: if your vet prescribes a specific therapeuti
 [Check Royal Canin on Amazon](https://www.amazon.com/dp/B00JMKM3E0?tag=petverdict-20)
 
 ## 5. Open Farm — Best for Ingredient Transparency, With Caveats
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=5.+Open+Farm&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 5. on Amazon</a>
+</div>
 
 **Price:** Roughly $3/day for a 40-lb dog | **Protein (DMB):** ~32% | **Type:** Dry kibble | **AAFCO:** Formulation-based
 
@@ -188,6 +212,10 @@ Also: Open Farm has revised its recipes more than once in the past few years, wh
 
 ## Use Case Recommendations
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Use+Case+Recommendations&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Use on Amazon</a>
+</div>
+
 **For puppies:** Whatever food you pick needs an AAFCO statement for "Growth" or "All Life Stages," and for large-breed puppies it specifically needs to meet large-breed growth requirements (calcium levels are tightly regulated to prevent developmental orthopedic disease). Purina Pro Plan Large Breed Puppy is the cheapest food we'd trust here.
 
 **For senior dogs:** Protein restriction for healthy seniors is outdated advice. Unless your vet has diagnosed kidney disease, don't cut protein. The Farmer's Dog turkey recipe worked well for our senior terrier. Pro Plan Bright Mind is a reasonable kibble option.
@@ -200,15 +228,27 @@ Also: Open Farm has revised its recipes more than once in the past few years, wh
 
 ## Transitioning Between Foods
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Transitioning+Between+Foods&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Transitioning on Amazon</a>
+</div>
+
 Switch over 7–10 days. Start at 25% new food, work up gradually. Watch stool quality — if things loosen up, slow the transition down. Dogs with chronic GI sensitivity may need two weeks or a probiotic bridge. A [KONG Classic](https://www.amazon.com/dp/B0002AR0I8?tag=petverdict-20) stuffed with the new food can help with dogs who resist change by reframing the food as enrichment.
 
 ## The Grain-Free and DCM Question
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=The+Grain-Free+and+DCM+Question&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy The on Amazon</a>
+</div>
 
 Since 2018, the FDA has been investigating a possible link between grain-free diets — particularly those heavy in peas, lentils, and other legumes — and dilated cardiomyopathy (DCM) in dogs. The investigation is ongoing and the mechanism isn't fully understood. It may involve taurine bioavailability, it may involve something else entirely. What we know: boutique grain-free foods with legume-heavy ingredient decks have been disproportionately represented in DCM cases, and this pattern holds even in breeds without genetic predisposition to heart disease.
 
 None of our top picks are grain-free, and that's deliberate. Unless your dog has a diagnosed grain allergy (rare) or your vet specifically recommends it, there's no established benefit to going grain-free — and there's unresolved risk. If you're feeding grain-free currently and your dog is fine, we're not telling you to panic. But we wouldn't start a new dog on one.
 
 ## Final Verdict
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Final+Verdict&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Final on Amazon</a>
+</div>
 
 **Ollie Fresh** has the best ingredient panel, but the price is a real barrier and the formulation-only AAFCO compliance is a fair criticism. Worth it if you have a small or medium dog and can afford it.
 

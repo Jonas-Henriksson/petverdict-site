@@ -38,11 +38,19 @@ I spent several weeks comparing large breed puppy formulas the way I compare any
 
 ## How I Compared These Foods
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=How+I+Compared+These+Foods&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy How on Amazon</a>
+</div>
+
 I pulled the guaranteed analysis, full ingredient list, and AAFCO statement for each food directly from the manufacturer websites, then cross-referenced the protein, calcium, and phosphorus numbers on a dry matter basis so they could be compared fairly (you can't compare an "as fed" 22% protein kibble to a "dry matter" 26% number — you'll be off by ten percentage points). I checked whether each food carries an AAFCO feeding trial statement or the weaker "formulated to meet" statement, which matters more than most people realize. I read the first ten ingredients on each deck looking for ingredient splitting, and I noted where "chicken" appeared versus "chicken meal." I didn't run a lab panel. No one on the internet is actually running lab panels on puppy kibble, and you should be skeptical of anyone who claims they are.
 
 I have not personally fed all five of these foods to puppies in my household. I've fed Hill's and Purina Pro Plan to dogs I've raised, and I've talked to owners of German Shepherds, Labs, and a Great Dane currently on Royal Canin. That's the honest scope.
 
 ## Large Breed Puppy Foods Compared
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Large+Breed+Puppy+Foods+Compared&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Large on Amazon</a>
+</div>
 
 All values below are from manufacturer-published guaranteed analyses, converted to a dry matter basis where possible. Prices fluctuate; treat them as approximate as of spring 2026.
 
@@ -58,6 +66,10 @@ The calcium number is the one to watch. AAFCO's ceiling for large breed growth i
 
 ## Hill's Science Diet Large Breed Puppy
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Hill%27s+Science+Diet+Large+Breed+Puppy&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Hill's on Amazon</a>
+</div>
+
 **Best for: Owners who want the boring, well-studied option**
 
 Hill's is what my vet feeds her own dogs, and that tells you something. It isn't the fanciest deck you'll ever read — you'll see chicken meal, whole grain wheat, cracked pearled barley, whole grain sorghum, chicken fat, chicken, dried beet pulp, soybean meal. For an ingredient purist that reads like a disappointment. For someone who cares about nutritional outcomes in a growing large breed puppy, it reads like a food that understands what it's doing.
@@ -72,6 +84,10 @@ The calcium and phosphorus profile sits in the conservative zone for large breed
 
 ## Royal Canin Giant Puppy
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Royal+Canin+Giant+Puppy&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Royal on Amazon</a>
+</div>
+
 **Best for: Dogs with a projected adult weight over 100 lb**
 
 Royal Canin's breed-specific and size-specific marketing can feel over-engineered, but Giant Puppy is one of the few places where it's genuinely defensible. Giant breeds grow for longer than large breeds — a Great Dane isn't skeletally mature until 18-24 months — and they benefit from a puppy food formulated for a longer feeding window. The kibble is also designed to be physically larger, which slows down inhalers.
@@ -83,6 +99,10 @@ The ingredient deck is a mixed bag. You'll see chicken by-product meal high on t
 [Check availability on Amazon](https://www.amazon.com/dp/B00JMKJCES?tag=petverdict-20).
 
 ## Purina Pro Plan Large Breed Puppy
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Purina+Pro+Plan+Large+Breed+Puppy&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Purina on Amazon</a>
+</div>
 
 **Best for: Anyone who wants research-backed nutrition without paying the vet-channel markup**
 
@@ -109,6 +129,10 @@ Blue Buffalo's AAFCO statement is "formulated to meet," not feeding trial.
 [Order from Amazon](https://www.amazon.com/dp/B000W5SLE4?tag=petverdict-20).
 
 ## Wellness CORE Large Breed Puppy
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Wellness+CORE+Large+Breed+Puppy&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Wellness on Amazon</a>
+</div>
 
 **Best for: Owners specifically looking for high-protein, grain-free — with real caveats**
 
