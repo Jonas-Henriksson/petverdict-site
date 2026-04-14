@@ -25,14 +25,14 @@ import NewsletterSignup from '../components/NewsletterSignup.astro';
 import LeadCapture from '../components/LeadCapture.astro';
 import siteConfig from '../../site.config';
 import AuthorBio from '../components/AuthorBio.astro';
-import { authors, getAuthorByName } from '../authors';
+import { authors, getAuthorByName, defaultAuthor } from '../authors';
 import ArticleNav from '../components/ArticleNav.astro';
 export interface Props { title: string; description: string; date: Date; author?: string; image?: string; category?: string; keywords?: string[]; affiliateDisclosure?: boolean; schema?: any; headings?: any[]; faqPairs?: Array<{ question: string; answer: string }>; score?: number; badge?: string; verdict?: string; winner?: string; leadCapture?: boolean; affiliateLinks?: { amazon?: Array<{ product: string; asin: string; link: string }>; custom?: Array<{ name: string; url: string; network: string }> }; currentSlug?: string; }
 const { title, description, date, author = siteConfig.defaultAuthor.name, image, category, keywords = [], affiliateDisclosure = true, schema, headings = [], faqPairs = [], score, badge, verdict, winner, leadCapture = false, affiliateLinks, currentSlug = '' } = Astro.props as Props;
 const publishedDate = new Date(date);
 const formattedDate = publishedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 // Author persona lookup
-const authorData = getAuthorByName(author);
+const authorData = getAuthorByName(author) ?? defaultAuthor;
 const articleSchema = { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: title, description, image: image || `${siteConfig.domain}/og-default.jpg`, datePublished: publishedDate.toISOString(), dateModified: publishedDate.toISOString(), author: authorData ? { '@type': 'Person', name: authorData.name, jobTitle: authorData.title, url: `/author/${authorData.slug}` } : { '@type': 'Person', name: author }, publisher: { '@type': 'Organization', name: siteConfig.siteName, logo: { '@type': 'ImageObject', url: `${siteConfig.domain}/logo.png` } }, mainEntityOfPage: { '@type': 'WebPage', '@id': Astro.url.href }, ...(keywords.length > 0 && { keywords: keywords.join(', ') }) };
 const faqSchema = faqPairs.length > 0 ? { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqPairs.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })) } : null;
 const canonical = Astro.url.href;
