@@ -1,6 +1,7 @@
 ---
 title: "Best Pet First Aid Kit 2026: Six Kits Tested for the Emergencies That Actually Happen"
 description: "Find the best pet first aid kit in 2026: six kits tested across a real multi-species household. ARCA wins, plus trail, disaster, and budget picks ranked."
+image: "/images/articles/best-pet-first-aid-kit-2026/hero.png"
 date: 2026-04-14
 updated: 2026-04-14
 category: pet-health
@@ -36,6 +37,8 @@ What has changed in 2026 is that the market has matured past "bag of random band
 
 ## Quick Verdict
 
+![Quick Verdict](/images/articles/best-pet-first-aid-kit-2026/section-1.png)
+
 **Overall Winner:** ARCA Pet First Aid Kit — Most thorough 100-piece kit at a fair $36 price point. [Check price on Amazon](https://www.amazon.com/dp/B097PLDD92?tag=petverdict-20)
 
 **Best for Hiking:** Adventure Medical Kits Trail Dog — Under 1 lb, purpose-built for trail emergencies, trusted by outdoor gear reviewers at REI.
@@ -47,6 +50,8 @@ What has changed in 2026 is that the market has matured past "bag of random band
 **Best for Disaster Prep:** Rayco Pet First Aid Disaster Kit ($36.29) — Unique LED collar inclusion and writeable ID tag make this the standout choice if your primary concern is natural disasters and evacuations.
 
 ## How I Tested These Kits
+
+![How I Tested These Kits](/images/articles/best-pet-first-aid-kit-2026/section-2.png)
 
 I evaluated six pet first aid kits over a six-week window in a real multi-species household — two mixed-breed dogs (Bruno, 4 years, 55 lbs; and Mochi, 2 years, 22 lbs), three cats (Sable, Olive, and Kiki), and one Holland Lop rabbit named Chester. I didn't stage emergencies, but I did use several kits for real minor incidents: a paw pad abrasion on Bruno from a gravel trail, a small cut on Kiki's ear from what was probably a fence encounter, and one stress-related nail split on Mochi after a thunderstorm.
 
