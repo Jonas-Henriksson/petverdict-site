@@ -220,10 +220,6 @@ Also: Open Farm has revised its recipes more than once in the past few years, wh
 
 ## Transitioning Between Foods
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Transitioning+Between+Foods&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Transitioning on Amazon</a>
-</div>
-
 Switch over 7–10 days. Start at 25% new food, work up gradually. Watch stool quality — if things loosen up, slow the transition down. Dogs with chronic GI sensitivity may need two weeks or a probiotic bridge. A [KONG Classic](https://www.amazon.com/dp/B0002AR0I8?tag=petverdict-20) stuffed with the new food can help with dogs who resist change by reframing the food as enrichment.
 
 ## The Grain-Free and DCM Question
