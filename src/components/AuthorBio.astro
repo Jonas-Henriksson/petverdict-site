@@ -7,10 +7,20 @@ export interface Props {
   yearsExperience: number;
   initials?: string;
   image?: string;
+  bio?: string;
+  credentials?: string;
 }
 
-const { name, slug, title, niche, yearsExperience, initials, image } = Astro.props;
-const displayInitials = initials || name.split(' ').map(n => n[0]).join('');
+const { name, slug, title, niche, yearsExperience, initials, image, bio, credentials } = Astro.props;
+const displayInitials = initials || name.split(' ').map((n: string) => n[0]).join('');
+
+// Truncate bio to first 2 sentences for the card
+function twoSentences(text: string): string {
+  if (!text) return '';
+  const matches = text.match(/[^.!?]+[.!?]+/g) || [];
+  return matches.slice(0, 2).join(' ').trim();
+}
+const shortBio = bio ? twoSentences(bio) : '';
 ---
 
 <div class="author-bio">
@@ -31,24 +41,27 @@ const displayInitials = initials || name.split(' ').map(n => n[0]).join('');
     )}
   </a>
   <div class="author-info">
-    <a href={`/author/${slug}`} class="author-name">{name}</a>
-    <span class="author-title">{title}</span>
-    <span class="author-experience">{yearsExperience} years testing {niche}</span>
+    <div class="author-name-row">
+      <a href={`/author/${slug}`} class="author-name">{name}</a>
+      <a href="/how-we-test" class="how-we-test-link">
+        <svg width="12" height="12" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+          <path d="M7 1v8M4 6l3 3 3-3M2 12h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        How We Test
+      </a>
+    </div>
+    <span class="author-title">{title} · {yearsExperience} years testing {niche}</span>
+    {shortBio && <p class="author-bio-text">{shortBio}</p>}
+    {credentials && <span class="author-credentials">{credentials}</span>}
   </div>
-  <a href="/how-we-test" class="how-we-test-link">
-    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-      <path d="M7 1v8M4 6l3 3 3-3M2 12h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    How We Test
-  </a>
 </div>
 
 <style>
   .author-bio {
     display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    padding: 0.75rem 1rem;
+    align-items: flex-start;
+    gap: 0.85rem;
+    padding: 1.1rem 1.1rem 1rem;
     background: var(--surface-raised, #f8f9fa);
     border: 1px solid var(--ink-100, #e5e7eb);
     border-radius: var(--border-radius-lg, 10px);
@@ -59,27 +72,25 @@ const displayInitials = initials || name.split(' ').map(n => n[0]).join('');
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
     background: var(--ink-950, #111);
     color: white;
     font-weight: 700;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     letter-spacing: 0.04em;
     text-decoration: none;
     flex-shrink: 0;
     transition: transform 0.15s ease-out;
     overflow: hidden;
+    border: 2px solid var(--ink-100, #e5e7eb);
   }
-
-  .author-avatar:hover {
-    transform: scale(1.05);
-  }
+  .author-avatar:hover { transform: scale(1.04); }
 
   .avatar-img {
-    width: 44px;
-    height: 44px;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
     object-fit: cover;
   }
@@ -96,23 +107,26 @@ const displayInitials = initials || name.split(' ').map(n => n[0]).join('');
   .author-info {
     display: flex;
     flex-direction: column;
-    gap: 0.1rem;
+    gap: 0.25rem;
     min-width: 0;
     flex: 1;
   }
 
+  .author-name-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
   .author-name {
-    font-weight: 600;
-    font-size: 0.9rem;
+    font-weight: 700;
+    font-size: 0.95rem;
     color: var(--ink-950, #111);
     text-decoration: none;
     line-height: 1.2;
   }
-
-  .author-name:hover {
-    text-decoration: underline;
-    text-underline-offset: 2px;
-  }
+  .author-name:hover { text-decoration: underline; text-underline-offset: 2px; }
 
   .author-title {
     font-size: 0.75rem;
@@ -120,28 +134,35 @@ const displayInitials = initials || name.split(' ').map(n => n[0]).join('');
     line-height: 1.3;
   }
 
-  .author-experience {
+  .author-bio-text {
+    font-size: 0.82rem;
+    line-height: 1.55;
+    color: var(--ink-700, #374151);
+    margin: 0.2rem 0 0;
+  }
+
+  .author-credentials {
     font-size: 0.7rem;
     color: var(--ink-400, #9ca3af);
     line-height: 1.3;
+    font-style: italic;
   }
 
   .how-we-test-link {
     display: inline-flex;
     align-items: center;
-    gap: 0.35rem;
-    font-size: 0.75rem;
+    gap: 0.3rem;
+    font-size: 0.7rem;
     font-weight: 600;
     color: var(--ink-500, #6b7280);
     text-decoration: none;
     white-space: nowrap;
-    padding: 0.35rem 0.6rem;
+    padding: 0.25rem 0.5rem;
     border: 1px solid var(--ink-200, #d1d5db);
-    border-radius: 6px;
+    border-radius: 5px;
     transition: all 0.15s ease-out;
     flex-shrink: 0;
   }
-
   .how-we-test-link:hover {
     color: var(--ink-950, #111);
     border-color: var(--ink-950, #111);
@@ -149,25 +170,13 @@ const displayInitials = initials || name.split(' ').map(n => n[0]).join('');
   }
 
   @media (max-width: 640px) {
-    .author-bio {
-      flex-wrap: wrap;
-    }
-    .how-we-test-link {
-      margin-left: auto;
-    }
+    .author-bio { gap: 0.65rem; }
+    .author-avatar { width: 48px; height: 48px; }
+    .avatar-img { width: 48px; height: 48px; }
   }
   @media (prefers-color-scheme: dark) {
-    .author-bio {
-      background: #111318 !important;
-      border-color: #1c1c21 !important;
-    }
-    .author-avatar {
-      background: #0a0a0b !important;
-    }
-    .author-bio .methodology-link {
-      background: #0a0a0b !important;
-      border-color: #333a4a !important;
-      color: #d1d5db !important;
-    }
+    .author-bio { background: #111318 !important; border-color: #1c1c21 !important; }
+    .author-avatar { background: #0a0a0b !important; border-color: #1c1c21 !important; }
+    .author-bio-text { color: #c9cad6 !important; }
   }
 </style>

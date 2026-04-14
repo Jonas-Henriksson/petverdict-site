@@ -83,7 +83,21 @@ const badgeLabels: Record<string, string> = {
       <h1>{title}</h1>
       <p class="article-lede">{description}</p>
       <div class="article-meta">
-        <span class="meta-author">By {author}</span>
+        {authorData ? (
+          <a href={`/author/${authorData.slug}`} class="meta-author-link">
+            {authorData.image ? (
+              <img class="meta-avatar" src={authorData.image} alt={authorData.name}
+                width="28" height="28" loading="lazy"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='inline-flex'" />
+            ) : null}
+            <span class="meta-avatar-initials" style={authorData.image ? "display:none" : ""}>
+              {authorData.initials || authorData.name.split(' ').map((n: string) => n[0]).join('')}
+            </span>
+            <span class="meta-author-name">By {authorData.name}</span>
+          </a>
+        ) : (
+          <span class="meta-author">By {author}</span>
+        )}
         <span class="meta-sep">·</span>
         <time datetime={publishedDate.toISOString()}>{formattedDate}</time>
         {affiliateDisclosure && (
@@ -127,6 +141,8 @@ const badgeLabels: Record<string, string> = {
           yearsExperience={authorData.years}
           initials={authorData.initials}
           image={authorData.image}
+          bio={authorData.bio}
+          credentials={authorData.credentials}
         />
       </div>
     )}
@@ -232,6 +248,39 @@ const badgeLabels: Record<string, string> = {
     color: var(--ink-500);
   }
   .meta-author { font-weight: 600; color: var(--ink-700); }
+
+  /* Rich byline — avatar + name */
+  .meta-author-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    text-decoration: none;
+    color: var(--ink-700);
+  }
+  .meta-author-link:hover .meta-author-name { text-decoration: underline; text-underline-offset: 2px; }
+  .meta-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 1px solid var(--ink-100);
+  }
+  .meta-avatar-initials {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--ink-950);
+    color: #fff;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .meta-author-name { font-weight: 600; font-size: 0.85rem; }
   .meta-sep { color: var(--ink-300); }
   .meta-disclosure {
     color: var(--ink-500);
