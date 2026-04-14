@@ -48,19 +48,11 @@ A note on methodology before we start: we're experienced dog handlers, not certi
 
 ## How We Tested
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=How+We+Tested&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy How on Amazon</a>
-</div>
-
 Each harness went on a rotation of real walks with multiple dogs over roughly four weeks of heavy use per product, with overlap between harnesses so the same dog was never in the same gear two days running. Test dogs included two German Shepherds, a Rottweiler, a Labrador, a Husky mix, a Rhodesian Ridgeback mix, and several larger shelter dogs with known leash-pulling histories. We fit each harness according to manufacturer instructions, used them for 30–60 minute daily walks, and noted chafing, escape attempts, hardware wear, and handler control in varied conditions.
 
 We were specifically watching for three things: does the harness reduce pulling without hurting the dog, does the hardware show wear under real stress, and does it fit a range of body types without constant re-adjustment? We're skeptical of any claim that a harness "stops" pulling — no harness does that alone. The best ones give you leverage while you do the training.
 
 ## Comparison at a Glance
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Comparison+at+a+Glance&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Comparison on Amazon</a>
-</div>
 
 | Harness | Approx. Price | Weight Range | Front Clip | Build Quality | Pull Control |
 |---------|---------------|--------------|------------|---------------|--------------|
@@ -71,10 +63,6 @@ We were specifically watching for three things: does the harness reduce pulling 
 | Rabbitgoo No-Pull | $20–30 | 15–150 lbs | Yes | Poor | Fair initially, degrades |
 
 ## Ruffwear Front Range Harness — Best Overall
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Ruffwear+Front+Range+Harness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Ruffwear on Amazon</a>
-</div>
 
 **Best for: Medium-to-large dogs whose owners are committed to consistent leash training**
 
@@ -101,10 +89,6 @@ That said, the Front Range is not a magic solution. A determined 100-pound dog c
 
 ## Julius-K9 IDC Powerharness — Most Durable, But Read Carefully
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Julius-K9+IDC+Powerharness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Julius-K9 on Amazon</a>
-</div>
-
 **Best for: Working dogs, sport dogs, dogs who already walk nicely, owners who need bombproof hardware**
 
 We need to start with a blunt warning: the Julius-K9 is not a no-pull harness. It is a back-clip working harness designed to let a dog pull comfortably and safely. That's a feature for sled dogs, weight-pull sport, and service work. It is actively the wrong choice if your goal is to reduce pulling behavior.
@@ -127,10 +111,6 @@ With that said, nothing in our test set came close to the IDC's construction. Th
 [Check price on Amazon](https://www.amazon.com/dp/B004R1QLMU?tag=petverdict-20)
 
 ## PetSafe Easy Walk Harness — Best Value
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=PetSafe+Easy+Walk+Harness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
-</div>
 
 **Best for: Budget-conscious owners starting leash training**
 
@@ -156,10 +136,6 @@ But at $25–35, it's a tool that lets you try the front-clip approach without a
 
 ## Kurgo Tru-Fit Smart Harness — Dual-Purpose Pick
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Kurgo+Tru-Fit+Smart+Harness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Kurgo on Amazon</a>
-</div>
-
 **Best for: Dogs who ride in cars daily and need both walking and restraint**
 
 The Tru-Fit's selling point is that it's crash-tested by the Center for Pet Safety for in-vehicle use, with a dedicated seat-belt loop on the back. For owners who currently juggle a walking harness plus a separate car restraint, combining the two is genuinely useful. The front clip works for walking, and the reinforced chest plate and metal buckles give it legitimate safety credentials for car travel.
@@ -182,10 +158,6 @@ As a pure walking harness for pullers, though, it's middle of the pack. The fron
 [Check price on Amazon](https://www.amazon.com/dp/B00CHZBLRQ?tag=petverdict-20)
 
 ## Rabbitgoo No-Pull Harness — The One We'd Skip
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Rabbitgoo+No-Pull+Harness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Rabbitgoo on Amazon</a>
-</div>
 
 **Best for: Honestly, we struggled to identify who this is genuinely best for**
 
@@ -211,10 +183,6 @@ If your dog is small, doesn't pull hard, and you're buying a harness primarily f
 
 ## Matching Harness to Situation
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Matching+Harness+to+Situation&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Matching on Amazon</a>
-</div>
-
 **Large, strong pullers in active training**: Ruffwear Front Range. The leverage and build quality are worth the money when your dog can realistically hurt you.
 
 **Small-to-medium dogs, early training**: PetSafe Easy Walk. Cheap enough to experiment, effective enough to see if front-clip design works for your dog before spending more.
@@ -227,19 +195,11 @@ If your dog is small, doesn't pull hard, and you're buying a harness primarily f
 
 ## What Actually Reduces Pulling
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=What+Actually+Reduces+Pulling&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy What on Amazon</a>
-</div>
-
 Harness design matters, but it's the smaller part of the equation. The larger part is whether you consistently stop moving forward when your dog pulls and reward slack leash. Front-clip harnesses work because they give the dog physical feedback that pulling doesn't accomplish the goal — but only if you're also not accidentally rewarding the behavior by continuing to walk.
 
 Two things we saw repeatedly in testing: owners who fit the harness too loosely (the chest strap should sit snugly at the sternum, not flapping around), and owners who expected the harness to replace training entirely. Neither works. A well-fitted front-clip harness plus 10 minutes of focused training per walk will beat any "miracle" gadget on the market. The quality of your training treats matters more than most people realize, too — small, soft, high-value rewards that your dog can swallow quickly keep momentum up. Check the ingredient panel on whatever you use; a training treat listing "chicken" as the first ingredient is mostly water weight once cooked, while one listing "chicken meal" is a more concentrated protein source gram-for-gram.
 
 ## Fit and Safety Notes
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Fit+and+Safety+Notes&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Fit on Amazon</a>
-</div>
 
 Fit check: you should be able to slide two fingers between the straps and the dog's body, no more. The chest strap should sit at the widest point of the ribcage, not up against the throat. If the harness is riding up toward the neck, it's either too loose or the wrong shape for your dog's body.
 

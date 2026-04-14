@@ -30,10 +30,6 @@ This isn't a lab test. We didn't stage fake claims or run a methodology spreadsh
 
 ## How We Evaluated These Providers
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=How+We+Evaluated+These+Providers&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy How on Amazon</a>
-</div>
-
 We pulled real quotes from all eight providers using six representative pet profiles: a young Labrador, an adult French Bulldog, a senior Golden Retriever, a young domestic shorthair, an adult Maine Coon, and a senior Persian. All quotes used 80% reimbursement with a $500 annual deductible to keep them comparable.
 
 From there, we read each provider's sample policy document cover to cover, flagged exclusions that aren't obvious from the marketing page, and cross-referenced claim timelines and denial patterns using public complaint data (BBB, state insurance commissioner filings, subreddit megathreads). Claim speed figures in this article are approximate averages reported by subscribers, not hard internal benchmarks — treat them as directional, not precise.
@@ -52,10 +48,6 @@ We are not licensed insurance brokers, and coverage terms change frequently. Alw
 
 ## 1. Lemonade Pet — Best Overall for Most Pet Owners
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=1.+Lemonade+Pet&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 1. on Amazon</a>
-</div>
-
 **Best for:** Pet owners in supported states who value a modern claims experience and don't need coverage above $100K.
 
 **Monthly Premium:** $35–65 (dog), $22–38 (cat) | **Annual Limits:** $10,000–$100,000 | **Deductible:** $100–500 | **Reimbursement:** 70–90% | **Accident Waiting Period:** 2 days | **Illness Waiting Period:** 14 days
@@ -71,10 +63,6 @@ Other real limitations: Lemonade isn't licensed in every state, there's no multi
 [Get a Lemonade Pet Quote](https://petpulse.net/go/lemonade-pet)
 
 ## 2. Healthy Paws — Best for Breeds With Expensive Hereditary Risks
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=2.+Healthy+Paws&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 2. on Amazon</a>
-</div>
 
 **Best for:** Owners of breeds predisposed to cancer, hip dysplasia, or chronic conditions who want a policy without a ceiling.
 
@@ -92,10 +80,6 @@ Also worth noting: the 15-day waiting period applies to both accidents and illne
 
 ## 3. ASPCA Pet Insurance — Best Budget Option
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=3.+ASPCA+Pet+Insurance&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 3. on Amazon</a>
-</div>
-
 **Best for:** Cost-conscious owners who want to dial in coverage to match their risk tolerance.
 
 **Monthly Premium:** $28–52 (dog), $18–35 (cat) | **Annual Limits:** $5,000–Unlimited | **Deductible:** $100–500 | **Reimbursement:** 70–90% | **Waiting Period:** 14 days
@@ -112,10 +96,6 @@ Also: the advertised $5,000 base annual limit is too low for a serious orthopedi
 
 ## 4. Pets Best — Decent Middle-Ground Option
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=4.+Pets+Best&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 4. on Amazon</a>
-</div>
-
 **Best for:** Owners who want low deductibles and don't care about having a polished app.
 
 **Monthly Premium:** $32–58 (dog), $20–38 (cat) | **Annual Limits:** $5,000–Unlimited | **Deductible:** $50–1,000 | **Reimbursement:** 70–90% | **Waiting Period:** 14 days
@@ -129,10 +109,6 @@ Pets Best is the kind of provider that's fine if you've read the policy carefull
 [Get a Pets Best Quote](https://petpulse.net/go/pets-best)
 
 ## 5. Embrace Pet Insurance — Hard to Recommend
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=5.+Embrace+Pet+Insurance&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 5. on Amazon</a>
-</div>
 
 **Best for:** A narrow sliver of owners who enroll a puppy early and want the diminishing deductible perk.
 
@@ -174,10 +150,6 @@ Pet insurance is a financial hedge, not a moral obligation. Here's the math that
 For spotting behavioral changes that can hint at health issues early — lethargy, changes in eating patterns, reduced mobility — a [Furbo Dog Camera](https://www.amazon.com/dp/B0884JN9GN?tag=petverdict-20) can help you catch things between vet visits. It's not a substitute for professional care, but trend-spotting at home has real value.
 
 ## Final Verdict
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Final+Verdict&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Final on Amazon</a>
-</div>
 
 **Lemonade Pet** is the best fit for most owners: good coverage, transparent pricing, and a claims experience that feels modern — with the caveat that complex claims can stall out of the automated flow.
 

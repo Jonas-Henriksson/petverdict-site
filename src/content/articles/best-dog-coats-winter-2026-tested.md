@@ -66,10 +66,6 @@ I evaluated each coat across four criteria: waterproofing performance in active 
 
 ## Individual Product Reviews
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Individual+Product+Reviews&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Individual on Amazon</a>
-</div>
-
 ### Ruffwear Vert Jacket — Best Overall Dog Winter Coat 2026
 
 **Best for: dogs with active outdoor lifestyles in wet-cold or snow climates**
@@ -272,10 +268,6 @@ For a second dog, a foster dog, or a mild-climate owner, the value is real. For 
 
 ## Head-to-Head: Waterproofing Performance in Real Conditions
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Head-to-Head&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Head-to-Head on Amazon</a>
-</div>
-
 The single biggest performance differentiator between the coats we tested wasn't price — it was waterproofing specification. Here's what each coat actually does in precipitation:
 
 | Coat | Wet Snow | Rain | Time Before Saturation |
@@ -292,10 +284,6 @@ If you're in the Pacific Northwest, New England, or any climate with wet winters
 ---
 
 ## Buying Advice: Matching Coat to Dog and Climate
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Buying+Advice&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Buying on Amazon</a>
-</div>
 
 **For dogs in dry-cold climates (Mountain West, Upper Midwest when dry):** The Carhartt Chore Coat punches above its price for wind resistance. For extreme cold below 15°F, the Hurtta Expedition Parka is worth the size complexity.
 
@@ -315,10 +303,6 @@ For tracking dogs during off-leash winter adventures in limited-visibility condi
 
 ## What We Rejected and Why
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=What+We+Rejected+and+Why&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy What on Amazon</a>
-</div>
-
 **Gooby Stretch Jersey Dog Shirt:** Tested briefly before cutting. The jersey knit provides minimal insulation at sub-40°F temperatures, and the chest coverage left Fika's underbelly fully exposed in 32°F conditions. It's a transitional-weather garment sold alongside genuine winter coats. The Amazon volume-driven ratings don't reflect actual cold-weather performance — this coat appears in "best dog winter coats" roundups primarily because of review count, not function.
 
 **Ruffwear Cloud Chaser Softshell Jacket:** A solid fall and early-spring layer, but not a winter coat. The softshell construction provides meaningful wind resistance but no real insulation below 40°F. I'd recommend it as a shoulder-season layer for dogs that run hot, but it doesn't belong in a winter coat roundup. If you're evaluating Ruffwear's broader product line, check our [Best Dog Harness for Pulling 2026](/best-dog-harness-for-pulling-2026-tested) review — Ruffwear's harness engineering is strong and the Front Range is a consistent pick there.
@@ -328,10 +312,6 @@ For tracking dogs during off-leash winter adventures in limited-visibility condi
 ---
 
 ## Pricing Deep Dive
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Pricing+Deep+Dive&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Pricing on Amazon</a>
-</div>
 
 | Coat | Entry Price | Max Price (largest sizes) | Best Use Case for Price |
 |------|-------------|---------------------------|-------------------------|
@@ -349,10 +329,6 @@ If you're managing ongoing care costs for your dog and trying to allocate budget
 ---
 
 ## Final Recommendation
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Final+Recommendation&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Final on Amazon</a>
-</div>
 
 **The Ruffwear Vert Jacket is the best dog winter coat for 2026 for most owners.** The 10,000 mm waterproof shell, 120g recycled insulation, extended hip-and-thigh coverage, and harness portal combine into a package that handles genuine winter conditions across most US climates. It earned a 9.2/10 — the highest score across all six coats tested — and it's the coat I reach for when the conditions actually matter.
 

@@ -50,10 +50,6 @@ I've been running pet cameras in my own household and two others (one large-dog 
 
 ## How we tested
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=How+we+tested&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy How on Amazon</a>
-</div>
-
 There was no 500-dispense robotic test rig. What we did: installed each camera in a real home, used the app daily, and kept notes on what broke, what jammed, what scared the pets, and what the owners stopped using after week two. The dogs ranged from a small terrier mix to an 80-pound shepherd; the cats included one laser-obsessed tabby and one aggressively indifferent Persian.
 
 Treat-dispensing "accuracy" here means: did a treat actually come out when you pressed the button, did the dog get it, and how often did the camera jam or double-fire? I didn't count to four decimal places. If a camera jammed more than once a week with standard treats, I noted it.
@@ -74,10 +70,6 @@ Prices bounce around. Furbo in particular goes on sale often enough that paying 
 
 ## Furbo Dog Camera 360°
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Furbo+Dog+Camera+360%C2%B0&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Furbo on Amazon</a>
-</div>
-
 **Who it's for**: people with one or two dogs who actually want to interact remotely, not just watch.
 
 The Furbo is the camera in this group that most clearly earns its price, and it's also the one with the most annoying caveats. Let's do both.
@@ -96,10 +88,6 @@ Also: it's physically big. The 360° version has a wide base that wants a stable
 
 ## Petcube Bites 2
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Petcube+Bites+2&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Petcube on Amazon</a>
-</div>
-
 **Who it's for**: households that want a treat cam but don't need pan/tilt, and have larger or multiple dogs.
 
 The Bites 2 is the camera I'd recommend to someone who read about the Furbo and thought "I just want it to throw treats, I don't need robotics." The treat chamber is bigger and handles a wider variety of shapes than Furbo's, which matters if you use training treats larger than a pencil eraser. The 160° fixed lens covers most of a typical living room without needing to rotate.
@@ -113,10 +101,6 @@ The throw distance is short. If your dog sits six feet from the camera, half the
 [Check the Petcube Bites 2 on Amazon](https://www.amazon.com/dp/B07JBH5QQW?tag=petverdict-20)
 
 ## Petcube Play 2
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Petcube+Play+2&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Petcube on Amazon</a>
-</div>
 
 **Who it's for**: cat owners, specifically the ones whose cats already chase red dots.
 
@@ -132,10 +116,6 @@ The 160° lens is useful for cats because they climb and hide — a wider field 
 
 ## Wyze Cam Pan v3
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Wyze+Cam+Pan+v3&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Wyze on Amazon</a>
-</div>
-
 **Who it's for**: almost everyone who doesn't specifically need treats dispensed remotely.
 
 I went in expecting to write the Wyze off as the "budget option with obvious compromises." It has compromises, but they're smaller than the price gap suggests. The pan/tilt is smooth and genuinely controllable from the app. 1080p video is clear. Two-way audio is loud enough that my test dog actually reacted to it, which is more than I can say for one of the premium models.
@@ -149,10 +129,6 @@ For basic "what is my pet doing right now and can I talk to them," it's excellen
 [Check the Wyze Cam Pan v3 on Amazon](https://www.amazon.com/dp/B08R59YH7W?tag=petverdict-20)
 
 ## Skymee Owl Robot
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Skymee+Owl+Robot&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Skymee on Amazon</a>
-</div>
 
 **Who it's for**: honestly, I struggled to find someone.
 
@@ -168,10 +144,6 @@ The treat compartment is decent and the novelty factor is real — one of our do
 
 ## How to pick
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=How+to+pick&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy How on Amazon</a>
-</div>
-
 - **Single dog, want remote interaction**: Furbo 360°, and budget the subscription.
 - **Large or multi-dog household, want a treat cam without pan/tilt**: Petcube Bites 2.
 - **Cat-only household, your cat already likes lasers**: Petcube Play 2.
@@ -181,10 +153,6 @@ The treat compartment is decent and the novelty factor is real — one of our do
 A comprehensive setup can also include an automatic feeder and, depending on your pet, broader coverage. See our guides on [robot pet feeders](/best-robot-pet-feeders-2026-tested-for-reliability) and [pet insurance](/best-pet-insurance-2026-coverage-compared) for the rest of the stack.
 
 ## Total cost over a year
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Total+cost+over+a+year&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Total on Amazon</a>
-</div>
 
 Sticker price is not the full price on any of these except the Wyze and the Skymee. A realistic annual cost, counting the subscription tiers most owners actually use:
 
@@ -199,10 +167,6 @@ Sticker price is not the full price on any of these except the Wyze and the Skym
 The Furbo-Wyze gap is much wider once subscriptions are counted. That doesn't make Furbo a bad buy — the features are real — but "the treat cam costs $210" is not the whole story.
 
 ## Final take
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Final+take&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Final on Amazon</a>
-</div>
 
 The Furbo 360° is the best pet camera here in absolute terms, and if treat dispensing and pan/tilt tracking matter to you, it's worth what it costs. But it is not the right recommendation for "most pet owners." Most pet owners want to see their pet, talk to them, and get a notification if something is wrong, and the Wyze Cam Pan v3 does that for a fraction of the price with fewer ongoing costs.
 

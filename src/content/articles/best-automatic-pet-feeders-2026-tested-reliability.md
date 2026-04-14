@@ -50,10 +50,6 @@ One note before we get into specifics: we're not going to quote four-decimal acc
 
 ## How We Tested
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=How+We+Tested&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy How on Amazon</a>
-</div>
-
 Twelve feeders, six months, roughly forty-five pets across mixed households. Dogs ranged from an 8-pound Chihuahua to a 92-pound Bernese Mountain Dog mix. Cats spanned a 6-pound senior to a 15-pound Maine Coon. We rotated feeders through real feeding schedules — not staged demonstrations — and asked owners to log missed meals, jams, app failures, and any behavioral issues.
 
 For portion accuracy, we weighed dispensed kibble against programmed portions on a kitchen scale once a week. We didn't run lab-grade trials. We have no affiliation with any manufacturer, and we bought every unit at retail except two review samples which we disclosed in our tracker.
@@ -61,10 +57,6 @@ For portion accuracy, we weighed dispensed kibble against programmed portions on
 We also talked to two veterinarians — one general practice, one with a focus on feline medicine — about the edge cases: what happens when a feeder misfires for a diabetic, how much portion drift matters for a dog on a weight loss plan, whether kibble staleness in large hoppers is a real concern. Their input shaped what we chose to flag as dealbreakers versus nitpicks.
 
 ## Feeder Comparison
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Feeder+Comparison&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Feeder on Amazon</a>
-</div>
 
 | Model | Approx. price | Capacity | Smart features | Performance in our testing |
 |-------|---------------|----------|----------------|----------------------------|
@@ -78,10 +70,6 @@ Prices shift constantly on Amazon. Treat these as ballpark — click through and
 
 ## PetSafe Smart Feed Automatic Pet Feeder
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=PetSafe+Smart+Feed+Automatic+Pet+Feeder&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
-</div>
-
 **Best for**: households wanting reliable app-controlled feeding for a single dog or cat (or multiple pets sharing one diet).
 
 This is the feeder we'd buy with our own money. Across six months, the PetSafe Smart Feed handled most scheduled meals without intervention. We logged a handful of missed or delayed dispenses — mostly tied to Wi-Fi dropouts on a flaky router — and the manual button on the unit always worked as a fallback. The auger handled kibble sizes from small-breed adult formulas up to large-breed kibble without jamming.
@@ -93,10 +81,6 @@ The 24-cup hopper is genuinely useful for weekend trips, and the stainless-steel
 [Check current price on Amazon](https://www.amazon.com/dp/B072FJY4M2?tag=petverdict-20)
 
 ## SureFeed Microchip Pet Feeder
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=SureFeed+Microchip+Pet+Feeder&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy SureFeed on Amazon</a>
-</div>
 
 **Best for**: multi-cat homes where one pet is on a prescription or weight-management diet and another will absolutely steal it.
 
@@ -110,10 +94,6 @@ The sealed bowl is also the only feeder we tested that credibly handles wet food
 
 ## Petnet SmartFeeder Gen 2
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Petnet+SmartFeeder+Gen+2&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Petnet on Amazon</a>
-</div>
-
 **Best for**: owners who want consumption tracking tied to the hardware, and don't mind paying a subscription.
 
 The Petnet has nice hardware — metal construction, a built-in scale that tracks how much food actually gets eaten, a 7-pound hopper. The consumption tracking is the differentiator: in one of our test homes, a declining food weight over several days matched up with a dental issue the owner caught early. That's a legitimate use case.
@@ -123,10 +103,6 @@ The Petnet has nice hardware — metal construction, a built-in scale that track
 [Check current price on Amazon](https://www.amazon.com/dp/B01NAVM4GV?tag=petverdict-20)
 
 ## PETLIBRO Automatic Cat Feeder A36
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=PETLIBRO+Automatic+Cat+Feeder+A36&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PETLIBRO on Amazon</a>
-</div>
 
 **Best for**: single-cat or small-dog households on a budget.
 
@@ -140,10 +116,6 @@ The voice-recording feature is a gimmick, but a harmless one — some cats come 
 
 ## WOPET Smart Pet Feeder
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=WOPET+Smart+Pet+Feeder&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy WOPET on Amazon</a>
-</div>
-
 **Best for**: large-breed dogs needing substantial portions.
 
 The 7-liter hopper and larger dispensing openings are the WOPET's pitch, and it's a valid one. Most feeders are sized for cats and small dogs; try to run a 70-pound Lab on a 4-cup capacity hopper and you'll be refilling constantly. The WOPET dispenses meaningful portions, up to about 4 cups per feeding, which is a realistic single meal for a big dog.
@@ -154,17 +126,9 @@ The 7-liter hopper and larger dispensing openings are the WOPET's pitch, and it'
 
 ## Honorable Mention: Whiskers & Tails Smart Feeder
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Honorable+Mention&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Honorable on Amazon</a>
-</div>
-
 We tested this one too, and it's the weakest of the bunch. It jammed repeatedly with two different kibble brands, the app scheduling is limited to four daily feeds (tight if you're splitting meals for a diabetic or a young puppy), and there's no backup power. We don't recommend it. If your budget is under $100 and you want smart features, the PETLIBRO A36 is a better buy.
 
 ## Which Feeder for Your Situation
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Which+Feeder+for+Your+Situation&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Which on Amazon</a>
-</div>
 
 **Multi-pet households with diet conflicts**: SureFeed, one per pet. Expensive, but the alternative is constant vigilance or a pet on the wrong food.
 
@@ -193,10 +157,6 @@ A per-day cost calculation — "it's only 50 cents a day!" — is technically tr
 
 ## Setup and Maintenance: What Nobody Mentions Upfront
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Setup+and+Maintenance&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Setup on Amazon</a>
-</div>
-
 **Before you buy**, measure your counter or floor space. Some of these units are bigger than they look. Check that your Wi-Fi reaches wherever the feeder will live — mesh extenders are cheap if it doesn't. Find out whether your network supports 2.4 GHz as a separate band; several of these feeders refuse to pair on combined-band networks.
 
 **Initial setup** takes 15–30 minutes depending on app quality. The PetSafe was quickest for us; the Petnet took multiple tries to pair.
@@ -207,10 +167,6 @@ A per-day cost calculation — "it's only 50 cents a day!" — is technically tr
 
 ## Food Type and Kibble Compatibility
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Food+Type+and+Kibble+Compatibility&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Food on Amazon</a>
-</div>
-
 Most of these feeders handle kibble in the 3–15mm range reliably. Very small kibble (some cat formulas) can sift through the auger without dispensing a full portion. Very large kibble (certain large-breed formulas) can jam. If you're switching foods, test with a small hopper load first.
 
 On the wet vs dry question: only the SureFeed genuinely handles wet food. Every other feeder on this list is dry-food-only. If your pet's diet is mostly wet food — which many cats benefit from for urinary and kidney health — an automatic dispenser is the wrong category of product. You need a scheduled lid or a human.
@@ -219,10 +175,6 @@ If you're weighing the wet-versus-dry question more broadly, the dry matter basi
 
 ## Smart Home Integration: Useful or Gimmick?
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Smart+Home+Integration&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Smart on Amazon</a>
-</div>
-
 **Alexa and Google Home**: supported on some models for voice-triggered dispenses. Honestly, we rarely used this. Scheduled feeds cover 95% of real use.
 
 **IFTTT and automations**: technically possible, rarely useful in practice. "Feed pet when I leave home" sounds clever until your phone's location detection glitches and your pet gets double or zero dinner.
@@ -230,10 +182,6 @@ If you're weighing the wet-versus-dry question more broadly, the dry matter basi
 **Security**: smart feeders are another device on your home network. Use strong, unique passwords, keep firmware updated, and treat them like any other IoT device. None of these are high-value targets, but the principle holds.
 
 ## Common Problems and Fixes
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Common+Problems+and+Fixes&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Common on Amazon</a>
-</div>
 
 **Jammed auger**: usually kibble size or humidity. Switch to a standard-shaped kibble, store food in an airtight container, and don't leave partial hopper loads sitting for weeks in humid kitchens.
 
@@ -244,10 +192,6 @@ If you're weighing the wet-versus-dry question more broadly, the dry matter basi
 **Power outage recovery**: units with battery backup keep running. Units without will resume on the next scheduled feed once power returns — test this before you need it.
 
 ## Final Take
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Final+Take&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Final on Amazon</a>
-</div>
 
 The **PetSafe Smart Feed** is the feeder we'd buy for most single-pet or same-diet households. It's not perfect — the app has real flaws — but the dispensing hardware is the most reliable of anything we tested.
 

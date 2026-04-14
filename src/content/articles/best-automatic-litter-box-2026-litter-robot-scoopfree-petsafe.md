@@ -41,10 +41,6 @@ This isn't a ranking where every product wins an award. Two of the five units I 
 
 ## How I Tested
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=How+I+Tested&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy How on Amazon</a>
-</div>
-
 I used five automatic litter boxes across three households with a total of seven cats over several months. No fake decibel meters, no invented "cleaning cycle success rate" percentages — just living with each unit as a primary litter box and tracking what actually went wrong: jams, missed cycles, cats refusing to enter, odor complaints from humans, mechanical failures, and the small indignities that add up over time.
 
 The cats ranged from a 6-pound senior tabby with early kidney disease to a 22-pound Maine Coon, with the rest falling somewhere in between. I deliberately included a household with a cat who has historically been fussy about litter changes, because any review that only tests on chill, adaptable cats is useless for the people who actually need these things to work.
@@ -52,10 +48,6 @@ The cats ranged from a 6-pound senior tabby with early kidney disease to a 22-po
 I also talked to two vets during routine visits about what they see with automatic litter boxes — specifically about cats who stop using them, urinary tract monitoring, and whether the "health tracking" features have any clinical value. Their answers are woven into the relevant sections.
 
 ## Comparison at a Glance
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Comparison+at+a+Glance&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Comparison on Amazon</a>
-</div>
 
 | Model | Approx. Price | Cats Supported | Litter Type | Notable Weakness |
 |-------|---------------|----------------|-------------|------------------|
@@ -68,10 +60,6 @@ I also talked to two vets during routine visits about what they see with automat
 I'm leaving decibel numbers out of the table because I didn't measure them with calibrated equipment, and every "42 dB" claim in this category traces back to the manufacturer's press kit. Qualitatively: the ScoopFree units are the quietest, the Litter-Robots hum noticeably during their cycles but don't startle cats once they're used to it, and the CatGenie's wash cycle is loud enough to hear from another room.
 
 ## Litter-Robot 4 — The One to Beat
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Litter-Robot+4&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Litter-Robot on Amazon</a>
-</div>
 
 **Best for**: Multi-cat households where reliability matters more than price.
 
@@ -92,10 +80,6 @@ The pinch-detection sensors are also a meaningful upgrade. Earlier Litter-Robot 
 
 ## PetSafe ScoopFree Crystal Pro — Best Value, With a Catch
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=PetSafe+ScoopFree+Crystal+Pro&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
-</div>
-
 **Best for**: Single-cat households where you want low maintenance and can accept proprietary refills.
 
 The Crystal Pro's pitch is simple: silica crystals absorb moisture and dehydrate solids, and a rake drags waste into a covered compartment on a timer. In practice, it works. Odor control was consistently strong — better than the Litter-Robot units during the first couple of weeks after a tray change — and the hands-off maintenance is real. For a single cat, I genuinely went 2–3 weeks between tray swaps without the bathroom smelling like cat.
@@ -113,10 +97,6 @@ The health counter is rudimentary compared to the Litter-Robot's app, but it doe
 
 ## Litter-Robot 3 Connect — Still a Great Choice for Large Cats
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Litter-Robot+3+Connect&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Litter-Robot on Amazon</a>
-</div>
-
 **Best for**: Maine Coons, Ragdolls, Norwegian Forest Cats, and any cat who finds the LR4's globe too enclosed.
 
 The LR3 Connect is the previous generation, but it's still in production for a reason: the bowl geometry and entrance are more forgiving for large cats than the LR4's redesigned globe. The 22-pound Maine Coon in my testing used the LR3 happily and triggered the LR4's safety sensors more often than the LR3's, because his weight approached the limit where the newer model's more precise sensors get nervous.
@@ -130,10 +110,6 @@ Reliability was solid across the test period, though not quite at LR4 levels. I 
 - **At $549, it's not much cheaper than the LR4.** The $150 gap is real, but if you don't have a large cat, I'd stretch for the newer unit.
 
 ## PetSafe ScoopFree Ultra — The One I'd Skip
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=PetSafe+ScoopFree+Ultra&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
-</div>
 
 **Best for**: Honestly? I'm not sure I'd recommend it to anyone over the alternatives.
 
@@ -151,10 +127,6 @@ More importantly: the ongoing crystal tray cost is identical to the Crystal Pro'
 If your budget is tight, I'd rather see you use a high-quality manual covered box with fresh clumping clay and scoop twice a day. You'll get a better hygiene outcome for less money.
 
 ## CatGenie A.I. — Interesting Idea, Real Problems
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=CatGenie+A.I.&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy CatGenie on Amazon</a>
-</div>
 
 **Best for**: Households willing to tolerate real friction in exchange for eliminating litter entirely.
 
@@ -175,10 +147,6 @@ I want to love the CatGenie because the environmental story is genuinely compell
 
 ## Who Should Buy What
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Who+Should+Buy+What&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Who on Amazon</a>
-</div>
-
 **Single indoor cat, moderate budget**: Crystal Pro if you want truly hands-off operation; Litter-Robot 3 Connect if you want flexibility on litter cost over time.
 
 **Two cats, want it to just work**: Litter-Robot 4. The price is painful but it's the only unit in the review that handled two cats without visible strain, and the individual tracking is worth more than it sounds.
@@ -190,10 +158,6 @@ I want to love the CatGenie because the environmental story is genuinely compell
 **Tight budget**: Skip automatic entirely for now. A $40 covered manual box plus consistent scooping beats a $199 unreliable automatic, and there's no shame in waiting a year to save for a Crystal Pro or LR3.
 
 ## Two-Year Cost Reality Check
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Two-Year+Cost+Reality+Check&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Two-Year on Amazon</a>
-</div>
 
 Prices are approximate and based on pulling current retail figures at the time of writing — verify before you buy, because these all fluctuate.
 
@@ -209,10 +173,6 @@ The thing that jumps out: the Crystal Pro and the LR4 end up at nearly identical
 
 ## Health Monitoring — Useful or Gimmick?
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Health+Monitoring&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Health on Amazon</a>
-</div>
-
 Both vets I spoke to agreed on this: tracking urinary frequency in male cats is genuinely valuable, because FLUTD and urethral obstructions are emergencies that get missed when owners only notice something is wrong late. The Litter-Robot 4's individual cat tracking (when paired with the smart scale) is the only unit in this review that offers this in a way that holds up in a multi-cat home. The ScoopFree's basic counter is better than nothing but can't distinguish between cats.
 
 Neither vet considered the health tracking a substitute for regular checkups, annual bloodwork, or urinalysis — but both said they'd take a concerned owner's "he's only gone once in 48 hours" data seriously, especially if the owner could show the trend over time.
@@ -220,10 +180,6 @@ Neither vet considered the health tracking a substitute for regular checkups, an
 The other signal worth paying attention to is ammonia smell. A healthy cat on a balanced diet produces urine with a detectable but not overpowering ammonia odor. If your litter box suddenly smells more sharply ammoniated than usual, that can indicate dehydration, concentrated urine from kidney stress, or a urinary tract infection. Automatic boxes can mask this slightly by cleaning promptly, so don't let the technology turn into a reason to stop paying attention to your cat's output.
 
 ## What These Reviews Often Get Wrong
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=What+These+Reviews+Often+Get+Wrong&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy What on Amazon</a>
-</div>
 
 The dirty secret of automatic litter box reviews is that most cats take time to accept them, some cats never will, and no reviewer has a large enough sample to generalize. When a review says "my cat loved it immediately" — they got lucky. When a review says "this model has a 99% success rate" — they're making up precision they don't have.
 

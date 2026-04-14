@@ -49,10 +49,6 @@ We spent several weeks using five popular ThunderShirt alternatives with a mixed
 
 ## How We Tested
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=How+We+Tested&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy How on Amazon</a>
-</div>
-
 Five vests, five weeks, eleven dogs ranging from a 14-pound Cavalier to a 96-pound Rottweiler mix. Each dog tried at least two vests across real anxiety events: actual thunderstorms (April storm season helped), fireworks at a local festival, car trips to the vet, and scheduled alone-time for the two dogs with separation issues. Owners kept simple notes: did the dog settle faster than usual, about the same, or not at all? Did they tolerate wearing it, or try to get it off?
 
 We deliberately avoided inventing a precise scoring system. "Effectiveness percentages" in this category tend to be manufactured out of thin air—dogs aren't standardized test subjects, and what looks like a 70% improvement to one owner looks like coincidence to another. What we can report is directional: which vests seemed to help more dogs more often, which were easier to live with, and which had design flaws that mattered in practice.
@@ -91,10 +87,6 @@ In our testing, most of the dogs settled noticeably during storms and car rides 
 
 ## Comfort Zone Calming Vest
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Comfort+Zone+Calming+Vest&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Comfort on Amazon</a>
-</div>
-
 **Where it fits**: If your dog's only problem is storms or fireworks, start here and don't spend more.
 
 This is the cheap option, and for most owners it's the right first purchase. It's a lightweight mesh-panel wrap with velcro closures, noticeably less substantial than the AKC coat, and yet the storm-phobic dogs in our group responded about as well to it. That's consistent with the broader evidence base: the benefit from these vests, when it exists, comes from the constant-pressure sensation, not from premium materials.
@@ -119,10 +111,6 @@ For thunder and fireworks specifically, we think this vest is the honest best va
 
 ## Mellow Shirt Dog Anxiety Calming Wrap
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Mellow+Shirt+Dog+Anxiety+Calming+Wrap&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Mellow on Amazon</a>
-</div>
-
 **Where it fits**: Large and extra-large breeds. The only vest we'd trust on a 90+ pound dog.
 
 The problem with most anxiety vests and big dogs is simple mechanics: a Lab or a Rottweiler generates more force against the fabric, the stitching fatigues faster, and the vest gradually loses the constant pressure that made it work in the first place. Within a few weeks, you've got an expensive piece of fabric that no longer does anything.
@@ -145,10 +133,6 @@ The Mellow Shirt is the only vest in our test built like it knows this. Reinforc
 
 ## ZenPet ProCalm Vest
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=ZenPet+ProCalm+Vest&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy ZenPet on Amazon</a>
-</div>
-
 **Where it fits**: Honestly, we'd pass on this one.
 
 The ZenPet ProCalm is the vest we were most hopeful about and most disappointed by. The pitch is genuinely interesting: weighted panels to provide deeper pressure, plus fabric infused with lavender essential oil for aromatherapy, plus moisture-wicking construction. Sounds great on paper.
@@ -170,10 +154,6 @@ The weighted-panel concept might work on paper, but the execution adds complexit
 This is the rebalancing your search results don't usually show you: one of the more expensive and heavily marketed options in the category, and the one we'd recommend skipping.
 
 ## CPFK Calming Wrap
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=CPFK+Calming+Wrap&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy CPFK on Amazon</a>
-</div>
 
 **Where it fits**: Senior dogs, small dogs, or dogs introducing pressure therapy for the first time.
 
@@ -208,10 +188,6 @@ That said, we wouldn't buy it for a young, powerfully anxious dog. Mild compress
 
 ## Sizing Without Guessing
 
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=Sizing+Without+Guessing&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Sizing on Amazon</a>
-</div>
-
 Fit matters more than brand. A perfectly sized cheap vest will outperform a badly fitted expensive one. The two measurements that matter are chest girth (the widest point, just behind the front legs) and neck circumference. Snug is correct: you should be able to slide two fingers flat between the vest and the dog's ribs, but no more.
 
 Common fit mistakes we watched owners make:
@@ -221,10 +197,6 @@ Common fit mistakes we watched owners make:
 - Ignoring body shape. Deep-chested breeds (Greyhounds, Dobermans) need different geometry from barrel-chested breeds (Bulldogs, Pugs). Long-bodied breeds (Dachshunds, Corgis) need extended torso coverage so the vest doesn't bunch forward.
 
 ## What Anxiety Vests Cannot Do
-
-<div class="product-actions">
-  <a href="https://www.amazon.com/s?k=What+Anxiety+Vests+Cannot+Do&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy What on Amazon</a>
-</div>
 
 This is the section most review roundups skip, which is exactly why it matters. Anxiety vests are a tool, not a solution. They help some dogs some of the time. For the dogs in our test group whose anxiety was severe—the Cavalier with genuine panic during storms, the GSD with destructive separation distress—the vest was a useful part of a larger approach, not a replacement for one.
 
