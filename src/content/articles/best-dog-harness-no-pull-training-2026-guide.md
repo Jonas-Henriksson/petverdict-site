@@ -69,6 +69,10 @@ We paid attention to fit stability during movement, whether the harness stayed i
 
 ## 2 Hounds Design Freedom No-Pull Harness — Best for Active Training
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=2+Hounds+Design+Freedom+No-Pull+Harness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 2 on Amazon</a>
+</div>
+
 **Best for: Owners who are genuinely committed to training sessions, ideally working with a trainer or following a structured loose-leash program.**
 
 This is the harness the CPDT-KA trainer I worked with hands to every new client. Not because it's the cheapest or the most comfortable — it's neither — but because the dual-clip system gives the handler actual communication with the dog during training.
@@ -97,6 +101,10 @@ The Y-front design is a significant advantage. Unlike horizontal chest straps th
 
 ## Blue-9 Balance Harness — Best for Fit-Sensitive Dogs
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Blue-9+Balance+Harness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Blue-9 on Amazon</a>
+</div>
+
 **Best for: Dogs that fall between standard sizes, deep-chested breeds, dogs doing agility or active training where shoulder freedom is critical.**
 
 The Blue-9 Balance is the harness I'd recommend to someone whose dog has escaped from or been rubbed raw by every other harness they've tried. Six independently adjustable points mean you can tune the neck opening, chest circumference, and girth independently. For deep-chested breeds like greyhounds, whippets, and Dobermans — dogs whose chest-to-waist ratio makes standard harnesses either too tight up front or too loose around the belly — this is the only harness on this list that reliably fits right.
@@ -121,6 +129,10 @@ As a training tool, the Balance works differently from the 2 Hounds Freedom. The
 [Check the Blue-9 Balance on Amazon](https://www.amazon.com/dp/B07JBQC8V3?tag=petverdict-20)
 
 ## PetSafe Easy Walk — Budget Entry for Mild Pullers
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=PetSafe+Easy+Walk&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
+</div>
 
 **Best for: First-time dog owners, mild pullers under 50 pounds, a short-term training bridge before transitioning to a flat collar or back-clip harness.**
 
@@ -149,6 +161,10 @@ For mild pullers and short training sessions, though? It's fine. And at 20-35, i
 
 ## Halti No-Pull Harness — Sternal Pressure Approach
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Halti+No-Pull+Harness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Halti on Amazon</a>
+</div>
+
 **Best for: Moderate pullers where you want quick results, owners who find dual-leash systems too fiddly.**
 
 The Halti (made by the same company behind the Halti head collar) takes a different mechanical approach than most front-clip harnesses. Instead of just redirecting forward motion sideways, it applies gentle pressure to the dog's sternum when they pull. The padded control piece lifts slightly against the chest when the leash is taut, creating a sensation the dog notices without any pain or restriction. When the leash goes slack, the pressure disappears completely.
@@ -174,6 +190,10 @@ In practice, the sternal feedback is subtler than the 2 Hounds Freedom's marting
 
 ## Sporn No-Pull Mesh Harness — The One We Can't Recommend
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Sporn+No-Pull+Mesh+Harness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Sporn on Amazon</a>
+</div>
+
 **Best for: We're honestly struggling here. Emergency use for a dog that needs an immediate pulling solution while you order something better, maybe.**
 
 The Sporn harness uses a fundamentally different approach: thin cords run from the chest piece, behind the front legs, and up to the back attachment. When the dog pulls, these cords tighten and squeeze behind the front legs. This is, in practical terms, a pressure-based aversive — the dog stops pulling because pulling hurts.
@@ -197,6 +217,10 @@ Both trainers I spoke with during testing actively refuse to use the Sporn desig
 [Check the Sporn No-Pull Mesh Harness on Amazon](https://www.amazon.com/dp/B000BVXFTI?tag=petverdict-20)
 
 ## PetSafe 3-in-1 — Jack of All Trades
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=PetSafe+3-in-1&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
+</div>
 
 **Best for: Owners who want one harness for multiple scenarios — walking, car travel, and casual training.**
 

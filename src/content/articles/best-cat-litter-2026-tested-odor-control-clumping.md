@@ -80,6 +80,10 @@ One more caveat: cats who are used to fragranced clay sometimes don't love the s
 
 ## Dr. Elsey's Ultra Premium Clumping Clay
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Dr.+Elsey%27s+Ultra+Premium+Clumping+Clay&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Dr. on Amazon</a>
+</div>
+
 **Best for**: Cats with asthma, allergies, or post-surgical respiratory sensitivity. Also the right pick for owners who prioritize a clean scoop over aggressive odor masking.
 
 Dr. Elsey's is the clay litter veterinarians tend to reach for when a client calls about a cat with feline asthma — not because of any single clinical study, but because the dust profile is the lowest we've encountered in a standard clay litter, and the formula is unscented. For a cat with reactive airways, fragrance is often the bigger trigger than dust itself, and most "premium" litters load up on both.
@@ -93,6 +97,10 @@ It's also heavy. A 40-pound bag is genuinely hard to lug up a flight of stairs, 
 [Check Dr. Elsey's Ultra Premium on Amazon](https://www.amazon.com/dp/B0009X29WK?tag=petverdict-20)
 
 ## Tidy Cats 24/7 Performance
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Tidy+Cats+24%2F7+Performance&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Tidy on Amazon</a>
+</div>
 
 **Best for**: Single-cat households on a budget, where the owner is genuinely willing to scoop every day.
 
@@ -117,6 +125,10 @@ Dust is moderate — not as bad as basic Tidy Cats, but noticeably worse than Dr
 [Check Arm & Hammer Clump & Seal on Amazon](https://www.amazon.com/dp/B00Y2Z2FZA?tag=petverdict-20)
 
 ## Fresh Step Outstretch
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Fresh+Step+Outstretch&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Fresh on Amazon</a>
+</div>
 
 **Best for**: Honestly, we struggled to name a clear best-for here, which is the main signal.
 
@@ -193,6 +205,10 @@ For broader guidance on feline nutrition and how diet affects urinary health, ou
 For coverage of unexpected vet costs tied to urinary and litter box issues, our [Best Pet Insurance 2026: Coverage Compared](/best-pet-insurance-2026-coverage-compared) guide breaks down what's typically covered.
 
 ## Troubleshooting
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Troubleshooting&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Troubleshooting on Amazon</a>
+</div>
 
 **Sudden avoidance**: Vet visit first. Then check for recent changes — new litter, new box, moved location, new scent in the room.
 

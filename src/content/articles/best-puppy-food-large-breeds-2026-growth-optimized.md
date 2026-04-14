@@ -44,6 +44,10 @@ I have not personally fed all five of these foods to puppies in my household. I'
 
 ## Large Breed Puppy Foods Compared
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Large+Breed+Puppy+Foods+Compared&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Large on Amazon</a>
+</div>
+
 All values below are from manufacturer-published guaranteed analyses, converted to a dry matter basis where possible. Prices fluctuate; treat them as approximate as of spring 2026.
 
 | Food | Protein (DM) | Calcium (DM) | Ca:P Ratio | AAFCO Statement | Approx. Price (30 lb) |
@@ -57,6 +61,10 @@ All values below are from manufacturer-published guaranteed analyses, converted 
 The calcium number is the one to watch. AAFCO's ceiling for large breed growth is 1.8% DM, but most veterinary nutritionists I've seen comment on this prefer to stay well under that — closer to 1.0-1.2% DM — for breeds with giant adult weights.
 
 ## Hill's Science Diet Large Breed Puppy
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Hill%27s+Science+Diet+Large+Breed+Puppy&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Hill's on Amazon</a>
+</div>
 
 **Best for: Owners who want the boring, well-studied option**
 
@@ -72,6 +80,10 @@ The calcium and phosphorus profile sits in the conservative zone for large breed
 
 ## Royal Canin Giant Puppy
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Royal+Canin+Giant+Puppy&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Royal on Amazon</a>
+</div>
+
 **Best for: Dogs with a projected adult weight over 100 lb**
 
 Royal Canin's breed-specific and size-specific marketing can feel over-engineered, but Giant Puppy is one of the few places where it's genuinely defensible. Giant breeds grow for longer than large breeds — a Great Dane isn't skeletally mature until 18-24 months — and they benefit from a puppy food formulated for a longer feeding window. The kibble is also designed to be physically larger, which slows down inhalers.
@@ -83,6 +95,10 @@ The ingredient deck is a mixed bag. You'll see chicken by-product meal high on t
 [Check availability on Amazon](https://www.amazon.com/dp/B00JMKJCES?tag=petverdict-20).
 
 ## Purina Pro Plan Large Breed Puppy
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Purina+Pro+Plan+Large+Breed+Puppy&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Purina on Amazon</a>
+</div>
 
 **Best for: Anyone who wants research-backed nutrition without paying the vet-channel markup**
 
@@ -109,6 +125,10 @@ Blue Buffalo's AAFCO statement is "formulated to meet," not feeding trial.
 [Order from Amazon](https://www.amazon.com/dp/B000W5SLE4?tag=petverdict-20).
 
 ## Wellness CORE Large Breed Puppy
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Wellness+CORE+Large+Breed+Puppy&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Wellness on Amazon</a>
+</div>
 
 **Best for: Owners specifically looking for high-protein, grain-free — with real caveats**
 

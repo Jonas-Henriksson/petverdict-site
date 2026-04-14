@@ -74,6 +74,10 @@ Note that I've dropped the fake "pull reduction percentages" from the comparison
 
 ## Ruffwear Front Range — Best Overall
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Ruffwear+Front+Range&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Ruffwear on Amazon</a>
+</div>
+
 **Best for**: Daily walks, dogs who wear the harness for hours at a time, owners who want something that lasts.
 
 The Front Range is the one I keep reaching for. It's not the most aggressive pull-reducer on this list — if that's your only concern, the Blue-9 or 2 Hounds Freedom edges it out. What it does better than anything else is disappear on the dog. The padded chest and belly panels are thick enough that my lab mix, who tends to chew at anything remotely irritating, leaves it completely alone. After several months of heavy use, the webbing still looks new and the buckles haven't developed any sloppy play.
@@ -94,6 +98,10 @@ Sizing runs from XX-Small (13" chest) up to XX-Large (42-50" chest). I've tried 
 [Check the Ruffwear Front Range on Amazon](https://www.amazon.com/dp/B01G8WBQX4?tag=petverdict-20)
 
 ## PetSafe Easy Walk — Best Budget (With a Big Asterisk)
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=PetSafe+Easy+Walk&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
+</div>
 
 **Best for**: Mild to moderate pullers, short-term training tool, owners on a tight budget.
 
@@ -118,6 +126,10 @@ My honest take: buy this if you're training a puppy and the harness is a short-t
 
 ## Kurgo Tru-Fit Smart Harness — Best for Escape Artists
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Kurgo+Tru-Fit+Smart+Harness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Kurgo on Amazon</a>
+</div>
+
 **Best for**: Dogs that wriggle out of everything, car travel, dogs whose owners need belt-and-suspenders security.
 
 The Kurgo is the one I'd grab for a rescue dog who's flight risk. The five adjustment points mean you can genuinely dial in the fit, and unlike harnesses with two straps and some hope, this one doesn't let a determined dog reverse out of it. Kurgo also crash-tests the Tru-Fit to FMVSS 213 and 209 standards for use as a car restraint, which I verified on their website — this is one of the only harnesses on this list that's actually designed to do double duty as a seatbelt attachment.
@@ -137,6 +149,10 @@ The Kurgo is the one I'd grab for a rescue dog who's flight risk. The five adjus
 [Check the Kurgo Tru-Fit on Amazon](https://www.amazon.com/dp/B01NBQB6U4?tag=petverdict-20)
 
 ## 2 Hounds Freedom No-Pull — Trainer's Pick
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=2+Hounds+Freedom+No-Pull&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 2 on Amazon</a>
+</div>
 
 **Best for**: Active training, behavior modification, owners working with a professional trainer.
 
@@ -160,6 +176,10 @@ The velvet lining on the chest strap is the other thing that matters. It prevent
 
 ## Blue-9 Balance — Most Adjustable
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Blue-9+Balance&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Blue-9 on Amazon</a>
+</div>
+
 **Best for**: Oddly proportioned dogs, serious training, owners who want to nail the fit on a dog who falls between standard sizes.
 
 Blue-9's Balance is the harness for dogs that don't fit standard sizing charts. The six-point adjustment lets you independently tune the neck, chest, and girth, which matters a lot for deep-chested breeds (greyhounds, whippets, vizslas), barrel-chested breeds, and dogs that are just shaped weird. The Y-front design is biomechanically the friendliest on this list for dogs doing anything beyond walking.
@@ -179,6 +199,10 @@ Blue-9's Balance is the harness for dogs that don't fit standard sizing charts. 
 [Check the Blue-9 Balance on Amazon](https://www.amazon.com/dp/B07JBQC8V3?tag=petverdict-20)
 
 ## Rabbitgoo — The One I'd Skip
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Rabbitgoo&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Rabbitgoo on Amazon</a>
+</div>
 
 **Best for**: Honestly, I'm struggling to recommend this for anything beyond a small dog that barely pulls.
 
@@ -200,6 +224,10 @@ Save up for a PetSafe Easy Walk at minimum. If you truly can't, use this for a s
 [Check the Rabbitgoo Harness on Amazon](https://www.amazon.com/dp/B075ZYMD2R?tag=petverdict-20)
 
 ## ICEFANG Tactical — Niche Tool
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=ICEFANG+Tactical&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy ICEFANG on Amazon</a>
+</div>
 
 **Best for**: Large working dogs, handlers who need a grab handle, owners who actually have a use for MOLLE webbing.
 

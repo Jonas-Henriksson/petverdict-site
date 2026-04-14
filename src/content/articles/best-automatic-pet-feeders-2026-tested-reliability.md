@@ -70,6 +70,10 @@ Prices shift constantly on Amazon. Treat these as ballpark — click through and
 
 ## PetSafe Smart Feed Automatic Pet Feeder
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=PetSafe+Smart+Feed+Automatic+Pet+Feeder&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
+</div>
+
 **Best for**: households wanting reliable app-controlled feeding for a single dog or cat (or multiple pets sharing one diet).
 
 This is the feeder we'd buy with our own money. Across six months, the PetSafe Smart Feed handled most scheduled meals without intervention. We logged a handful of missed or delayed dispenses — mostly tied to Wi-Fi dropouts on a flaky router — and the manual button on the unit always worked as a fallback. The auger handled kibble sizes from small-breed adult formulas up to large-breed kibble without jamming.
@@ -81,6 +85,10 @@ The 24-cup hopper is genuinely useful for weekend trips, and the stainless-steel
 [Check current price on Amazon](https://www.amazon.com/dp/B072FJY4M2?tag=petverdict-20)
 
 ## SureFeed Microchip Pet Feeder
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=SureFeed+Microchip+Pet+Feeder&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy SureFeed on Amazon</a>
+</div>
 
 **Best for**: multi-cat homes where one pet is on a prescription or weight-management diet and another will absolutely steal it.
 
@@ -94,6 +102,10 @@ The sealed bowl is also the only feeder we tested that credibly handles wet food
 
 ## Petnet SmartFeeder Gen 2
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Petnet+SmartFeeder+Gen+2&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Petnet on Amazon</a>
+</div>
+
 **Best for**: owners who want consumption tracking tied to the hardware, and don't mind paying a subscription.
 
 The Petnet has nice hardware — metal construction, a built-in scale that tracks how much food actually gets eaten, a 7-pound hopper. The consumption tracking is the differentiator: in one of our test homes, a declining food weight over several days matched up with a dental issue the owner caught early. That's a legitimate use case.
@@ -103,6 +115,10 @@ The Petnet has nice hardware — metal construction, a built-in scale that track
 [Check current price on Amazon](https://www.amazon.com/dp/B01NAVM4GV?tag=petverdict-20)
 
 ## PETLIBRO Automatic Cat Feeder A36
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=PETLIBRO+Automatic+Cat+Feeder+A36&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PETLIBRO on Amazon</a>
+</div>
 
 **Best for**: single-cat or small-dog households on a budget.
 
@@ -115,6 +131,10 @@ The voice-recording feature is a gimmick, but a harmless one — some cats come 
 [Check current price on Amazon](https://www.amazon.com/dp/B0926PZTLX?tag=petverdict-20)
 
 ## WOPET Smart Pet Feeder
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=WOPET+Smart+Pet+Feeder&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy WOPET on Amazon</a>
+</div>
 
 **Best for**: large-breed dogs needing substantial portions.
 

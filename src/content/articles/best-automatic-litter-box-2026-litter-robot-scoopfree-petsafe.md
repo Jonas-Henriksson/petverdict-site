@@ -61,6 +61,10 @@ I'm leaving decibel numbers out of the table because I didn't measure them with 
 
 ## Litter-Robot 4 — The One to Beat
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Litter-Robot+4&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Litter-Robot on Amazon</a>
+</div>
+
 **Best for**: Multi-cat households where reliability matters more than price.
 
 The Litter-Robot 4 is the unit I'd buy for my own cats if I were starting over. Over months of daily use, it handled the vast majority of cycles without intervention, caught me up immediately when the waste drawer filled, and — crucially — my cats adopted it without fuss after a brief adjustment period.
@@ -80,6 +84,10 @@ The pinch-detection sensors are also a meaningful upgrade. Earlier Litter-Robot 
 
 ## PetSafe ScoopFree Crystal Pro — Best Value, With a Catch
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=PetSafe+ScoopFree+Crystal+Pro&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
+</div>
+
 **Best for**: Single-cat households where you want low maintenance and can accept proprietary refills.
 
 The Crystal Pro's pitch is simple: silica crystals absorb moisture and dehydrate solids, and a rake drags waste into a covered compartment on a timer. In practice, it works. Odor control was consistently strong — better than the Litter-Robot units during the first couple of weeks after a tray change — and the hands-off maintenance is real. For a single cat, I genuinely went 2–3 weeks between tray swaps without the bathroom smelling like cat.
@@ -97,6 +105,10 @@ The health counter is rudimentary compared to the Litter-Robot's app, but it doe
 
 ## Litter-Robot 3 Connect — Still a Great Choice for Large Cats
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Litter-Robot+3+Connect&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Litter-Robot on Amazon</a>
+</div>
+
 **Best for**: Maine Coons, Ragdolls, Norwegian Forest Cats, and any cat who finds the LR4's globe too enclosed.
 
 The LR3 Connect is the previous generation, but it's still in production for a reason: the bowl geometry and entrance are more forgiving for large cats than the LR4's redesigned globe. The 22-pound Maine Coon in my testing used the LR3 happily and triggered the LR4's safety sensors more often than the LR3's, because his weight approached the limit where the newer model's more precise sensors get nervous.
@@ -110,6 +122,10 @@ Reliability was solid across the test period, though not quite at LR4 levels. I 
 - **At $549, it's not much cheaper than the LR4.** The $150 gap is real, but if you don't have a large cat, I'd stretch for the newer unit.
 
 ## PetSafe ScoopFree Ultra — The One I'd Skip
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=PetSafe+ScoopFree+Ultra&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
+</div>
 
 **Best for**: Honestly? I'm not sure I'd recommend it to anyone over the alternatives.
 
@@ -127,6 +143,10 @@ More importantly: the ongoing crystal tray cost is identical to the Crystal Pro'
 If your budget is tight, I'd rather see you use a high-quality manual covered box with fresh clumping clay and scoop twice a day. You'll get a better hygiene outcome for less money.
 
 ## CatGenie A.I. — Interesting Idea, Real Problems
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=CatGenie+A.I.&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy CatGenie on Amazon</a>
+</div>
 
 **Best for**: Households willing to tolerate real friction in exchange for eliminating litter entirely.
 

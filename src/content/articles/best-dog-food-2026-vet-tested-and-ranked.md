@@ -51,6 +51,10 @@ Prices are estimates based on direct-to-consumer pricing in early 2026 and vary 
 
 ## 1. Ollie Fresh Dog Food — Best Ingredient Panel
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=1.+Ollie+Fresh+Dog+Food&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 1. on Amazon</a>
+</div>
+
 **Price:** Roughly $8/day for a 40-lb dog | **Protein (DMB):** ~40% | **Type:** Fresh, refrigerated | **AAFCO:** All Life Stages (formulation-based)
 
 Ollie has the cleanest ingredient panel we looked at in the fresh-food category. The first ingredient in each recipe is a named whole muscle meat (beef, chicken, turkey, or lamb), followed by organ meats, recognizable vegetables, and a targeted vitamin/mineral premix. No splitting tricks with peas or legumes, no "meat meal" of unspecified origin, no artificial colors or preservatives. The "human-grade" label is legally substantiated under AAFCO's definition here — the ingredients are produced in facilities licensed for human food, which is a meaningful claim when it can actually be verified.
@@ -83,6 +87,10 @@ A slow-feeder bowl like the [Outward Hound Fun Feeder](https://www.amazon.com/dp
 
 ## 2. The Farmer's Dog — Fresh Food Runner-Up
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=2.+The+Farmer%27s+Dog&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 2. on Amazon</a>
+</div>
+
 **Price:** Roughly $7/day for a 40-lb dog | **Protein (DMB):** ~38% | **Type:** Fresh, refrigerated | **AAFCO:** All Life Stages (formulation-based)
 
 The Farmer's Dog is very close to Ollie in ingredient quality and slightly cheaper. The recipes use named muscle meats, organ meats, vegetables, and a vitamin/mineral premix. The beef and turkey recipes are the strongest on the lineup — both read like something you'd cook yourself.
@@ -108,6 +116,10 @@ Like Ollie, The Farmer's Dog relies on formulation compliance rather than feedin
 [Check The Farmer's Dog](https://petpulse.net/go/farmersdog)
 
 ## 3. Purina Pro Plan — Best Budget Option and Most Vet-Respected
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=3.+Purina+Pro+Plan&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 3. on Amazon</a>
+</div>
 
 **Price:** Roughly $2/day for a 40-lb dog | **Protein (DMB):** ~30% | **Type:** Dry kibble | **AAFCO:** Feeding trial validated on most lines
 
@@ -136,6 +148,10 @@ The protein level on a dry matter basis is around 30%, which is solid for kibble
 
 ## 4. Royal Canin — Best for Specific Medical Needs
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=4.+Royal+Canin&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 4. on Amazon</a>
+</div>
+
 **Price:** Roughly $2.50/day for a 40-lb dog | **Protein (DMB):** ~28% | **Type:** Dry kibble | **AAFCO:** Feeding trial validated on most lines
 
 Royal Canin is the brand we most want to dismiss and can't. The marketing is ridiculous — the idea that a Yorkie needs a fundamentally different kibble shape than a Maltese is the kind of claim that belongs in a parody of pet food marketing. But Royal Canin's prescription and veterinary diets are genuinely useful, and for dogs with specific medical conditions (kidney disease, urinary crystals, severe allergies) their therapeutic lines are some of the only clinically-tested options available.
@@ -161,6 +177,10 @@ Where Royal Canin genuinely shines: if your vet prescribes a specific therapeuti
 [Check Royal Canin on Amazon](https://www.amazon.com/dp/B00JMKM3E0?tag=petverdict-20)
 
 ## 5. Open Farm — Best for Ingredient Transparency, With Caveats
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=5.+Open+Farm&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 5. on Amazon</a>
+</div>
 
 **Price:** Roughly $3/day for a 40-lb dog | **Protein (DMB):** ~32% | **Type:** Dry kibble | **AAFCO:** Formulation-based
 
@@ -199,6 +219,10 @@ Also: Open Farm has revised its recipes more than once in the past few years, wh
 **For picky eaters:** Fresh food wins here, but before you spend $250/month on Ollie, get bloodwork done. Sudden pickiness is often a health signal, not a food preference.
 
 ## Transitioning Between Foods
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Transitioning+Between+Foods&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Transitioning on Amazon</a>
+</div>
 
 Switch over 7–10 days. Start at 25% new food, work up gradually. Watch stool quality — if things loosen up, slow the transition down. Dogs with chronic GI sensitivity may need two weeks or a probiotic bridge. A [KONG Classic](https://www.amazon.com/dp/B0002AR0I8?tag=petverdict-20) stuffed with the new food can help with dogs who resist change by reframing the food as enrichment.
 

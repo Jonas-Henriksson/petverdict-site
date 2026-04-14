@@ -67,6 +67,10 @@ Dosing rule of thumb from the veterinary literature: roughly 50–75 mg combined
 
 ## Nordic Naturals Pet Omega-3
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Nordic+Naturals+Pet+Omega-3&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Nordic on Amazon</a>
+</div>
+
 **Best for**: Small-to-medium dogs where precise dosing matters and you're willing to pay for documentation.
 
 Nordic Naturals publishes their COAs, uses the triglyceride form, and has been a category reference point for over a decade. The pet line is, by their own disclosure, molecularly distilled from wild-caught anchovies and sardines — small, short-lived fish that accumulate less mercury and PCBs than larger species. The lemon flavoring is mild and most dogs don't object, though a minority clearly do.
@@ -91,6 +95,10 @@ This is the bottle I actually reach for most often at home. The pump is genuinel
 
 ## Grizzly Pollock Oil
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Grizzly+Pollock+Oil&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Grizzly on Amazon</a>
+</div>
+
 **Best for**: 60+ lb dogs, multi-dog households, owners who prioritize sustainability specifics.
 
 Pollock is a genuinely interesting choice. Alaska pollock is one of the more sustainably managed fisheries in the world (MSC certified, the real certification), and pollock as a species is short-lived and low on the food chain, which helps with heavy metal load. Grizzly is upfront about their source.
@@ -102,6 +110,10 @@ Pollock is a genuinely interesting choice. Alaska pollock is one of the more sus
 [Check Grizzly Pollock Oil price on Amazon](https://www.amazon.com/dp/B000634G20?tag=petverdict-20)
 
 ## PetHonesty Omega-3 Fish Oil Soft Chews
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=PetHonesty+Omega-3+Fish+Oil+Soft+Chews&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetHonesty on Amazon</a>
+</div>
 
 **Best for**: Dogs who spit out liquid oil no matter what you mix it with.
 
@@ -115,6 +127,10 @@ The soft chew format solves a real problem. If your dog refuses liquid fish oil 
 
 ## Nutramax Welactin
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Nutramax+Welactin&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Nutramax on Amazon</a>
+</div>
+
 **Best for**: Senior dogs or dogs where a vet is actively managing the supplement plan.
 
 Nutramax is the company behind Cosequin, and they've been in the veterinary supplement space long enough that most GP vets know the brand. Welactin is commonly stocked through veterinary clinics, and Nutramax publishes reasonable documentation on their manufacturing. The formula includes a small amount of vitamin E, which is functional (vitamin E protects the oil from oxidation and is co-consumed when you supplement high-dose PUFAs) rather than a marketing gimmick.
@@ -127,6 +143,10 @@ Nutramax is the company behind Cosequin, and they've been in the veterinary supp
 
 ## Amazing Nutritionals Pure Fish Oil — I Can't Recommend This
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Amazing+Nutritionals+Pure+Fish+Oil&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Amazing on Amazon</a>
+</div>
+
 I'm including this product in the lineup because it keeps showing up on recommendation lists and I want to explain directly why I wouldn't buy it.
 
 The issue isn't that it's bad on its face — the label EPA/DHA numbers are reasonable and the capsule format is convenient. The issue is that I can't find published third-party testing for this product. No COA, no peroxide values, no mercury/PCB panel that I can verify. In a category where oxidation is the single biggest reason a fish oil goes from beneficial to actively harmful, buying undocumented oil is a bet I'm not willing to take with my own dogs, and it's not a bet I'd ask anyone else to take.
@@ -136,6 +156,10 @@ If cost is the reason this product is attractive, the honest better answer is Gr
 This is the product in the lineup I would actively skip.
 
 ## Vetoquinol Triglyceride Omega
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Vetoquinol+Triglyceride+Omega&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Vetoquinol on Amazon</a>
+</div>
 
 **Best for**: Dogs with a diagnosed inflammatory or cardiac condition where a vet is titrating dose.
 

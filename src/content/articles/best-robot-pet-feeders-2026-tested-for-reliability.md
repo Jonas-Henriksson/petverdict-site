@@ -50,6 +50,10 @@ Each feeder was set up in a test home and used as the sole feeding method for 60
 
 ## 1. PetSafe Smart Feed — Best Overall (8.9/10)
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=1.+PetSafe+Smart+Feed&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 1. on Amazon</a>
+</div>
+
 **Best for: Dogs and cats on scheduled feeding with portion control**
 
 **Price:** 150 | **Capacity:** 24 cups (holds approximately 6 lbs of kibble) | **Meals/Day:** Up to 12 | **Portion Range:** 1/8 cup to 4 cups per meal | **WiFi:** Yes (2.4GHz) | **Power:** AC adapter + 4x D batteries (backup) | **Compatible Kibble:** Up to 12mm diameter | [Check price on Amazon](https://www.amazon.com/dp/B072FJY4M2?tag=petverdict-20)
@@ -89,6 +93,10 @@ For dogs who eat too fast from the automatic feeder, pair it with an [Outward Ho
 
 ## 2. PETLIBRO Granary — Best Value (8.6/10)
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=2.+PETLIBRO+Granary&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 2. on Amazon</a>
+</div>
+
 **Best for: Budget-conscious owners who still want WiFi and scheduling**
 
 **Price:** 70 | **Capacity:** 17 cups | **Meals/Day:** Up to 6 | **Portion Range:** 1-50 portions (each ~8g) | **WiFi:** Yes (2.4GHz) | **Power:** AC adapter + 3x D batteries (backup) | **Compatible Kibble:** Up to 12mm diameter
@@ -121,6 +129,10 @@ The PETLIBRO app is functional but less polished than PetSafe's. Setup took abou
 [Check PETLIBRO Granary on Amazon](https://www.amazon.com/dp/B0B5ZLP5P4?tag=petverdict-20)
 
 ## 3. SureFeed Microchip Pet Feeder — Best for Multi-Cat Homes (8.4/10)
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=3.+SureFeed+Microchip+Pet+Feeder&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 3. on Amazon</a>
+</div>
 
 **Best for: Households with multiple cats on different diets**
 
@@ -155,6 +167,10 @@ The bowl seals with a tight rubber gasket that keeps wet food fresh for signific
 
 ## 4. Whisker Feeder-Robot — Best Premium Option (8.3/10)
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=4.+Whisker+Feeder-Robot&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 4. on Amazon</a>
+</div>
+
 **Best for: Tech enthusiasts who want the most advanced feeder available**
 
 **Price:** 300 | **Capacity:** 22 cups | **Meals/Day:** Up to 8 | **WiFi:** Yes (2.4GHz + 5GHz) | **Power:** AC + battery backup
@@ -179,6 +195,10 @@ At 300, it's double the price of the PetSafe and 4x the PETLIBRO. The extra feat
 [Check Whisker Feeder-Robot on Amazon](https://www.amazon.com/dp/B0CLNTNX3P?tag=petverdict-20)
 
 ## 5. Cat Mate C500 — Best No-WiFi Option (8.0/10)
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=5.+Cat+Mate+C500&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 5. on Amazon</a>
+</div>
 
 **Best for: Owners who want simple, reliable feeding without technology**
 

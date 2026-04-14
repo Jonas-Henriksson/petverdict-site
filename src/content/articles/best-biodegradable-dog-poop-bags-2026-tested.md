@@ -80,6 +80,10 @@ I weighted criteria roughly as follows: **durability and puncture resistance** (
 
 ## Earth Rated PoopBags Extra Thick: Best Overall
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Earth+Rated+PoopBags+Extra+Thick&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Earth on Amazon</a>
+</div>
+
 **Best for: Most dog owners who want reliable daily bags and the option for legitimate eco credentials**
 
 This is the bag I reach for on every walk. Not because it has the most rigorous environmental certification — BioBag edges it there — but because it has the best combination of price, reliability, and availability, and the certified compostable version is a genuine product rather than a greenwashing exercise.
@@ -115,6 +119,10 @@ Over eight weeks with Biscuit (72 lbs) and Maple, I had two puncture failures wi
 
 ## BioBag Dog Waste Bags: Best Legitimately Compostable Option
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=BioBag+Dog+Waste+Bags&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy BioBag on Amazon</a>
+</div>
+
 **Best for: Dog owners in cities with organic waste programs that accept pet waste, or owners using dedicated pet-waste digesters**
 
 BioBag is the most credible environmental option in this roundup and the one I recommend when clients ask me to recommend something that actually does what it claims. It carries both **EN 13432** (European industrial composting standard) and **TÜV AUSTRIA OK compost HOME** certification — that second certification is the critical one, because it means the material is certified to break down in home composting conditions, not just industrial facilities running at 58°C.
@@ -148,6 +156,10 @@ I had one puncture failure with BioBag over four weeks with Maple. For Biscuit, 
 ---
 
 ## Pogi's Poop Bags: Best for Large Breeds
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Pogi%27s+Poop+Bags&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Pogi's on Amazon</a>
+</div>
 
 **Best for: Owners of large dogs (60+ lbs), especially dogs with frequent loose stools or digestive irregularity**
 
@@ -183,6 +195,10 @@ If you're buying Pogi's because they're thick, reliable bags at a low per-bag co
 
 ## Doggy Do Good Biodegradable: Best Budget with Legitimate Certification
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Doggy+Do+Good+Biodegradable&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Doggy on Amazon</a>
+</div>
+
 **Best for: Budget-conscious owners with small-to-medium dogs who want verified certification**
 
 Doggy Do Good earns its place in this roundup because it's **BPI certified** at the lowest per-bag cost among genuinely certified products (~$0.10/bag). BPI certification means a third party has verified the composting claim against ASTM D6400 — not just the manufacturer's marketing department.
@@ -215,6 +231,10 @@ The light lavender scent is actually my preference among the scented options —
 ---
 
 ## Flush Puppies Doodie Bags: Best for Urban Apartment Living
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Flush+Puppies+Doodie+Bags&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Flush on Amazon</a>
+</div>
 
 **Best for: Apartment dwellers without easy outdoor trash access, or urban walkers on long routes with no receptacles**
 
@@ -250,6 +270,10 @@ The thin 12-micron material requires care. For Maple's typical deposits, Flush P
 ---
 
 ## PoopBags.com Biodegradable: Most Confusing, Skip It
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=PoopBags.com+Biodegradable&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PoopBags.com on Amazon</a>
+</div>
 
 **Best for: No specific use case I can recommend**
 

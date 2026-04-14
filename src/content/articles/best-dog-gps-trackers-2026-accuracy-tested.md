@@ -58,6 +58,10 @@ Battery, accuracy, and alert timing all vary dog-to-dog. Treat this as a shape, 
 
 ## 1. Fi Series 3 — Best Overall
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=1.+Fi+Series+3&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 1. on Amazon</a>
+</div>
+
 **Best for:** active, escape-prone dogs in suburbs, rural areas, or anywhere cellular is decent.
 
 **Upfront:** ~$150 (collar included) • **Subscription:** $8/mo annual, ~$12/mo monthly • **Battery:** multi-week in normal use • **Connectivity:** LTE-M • **Waterproof:** IP68 • **Fit:** proprietary collar, sizes covering ~11.5"–34.5" necks • [Check price on Amazon](https://www.amazon.com/dp/B0BH6J6RQW?tag=petverdict-20)
@@ -89,6 +93,10 @@ The collar itself is well-made — woven nylon with a built-in LED strip that's 
 [Buy Fi Series 3 on Amazon](https://www.amazon.com/dp/B0BH6J6RQW?tag=petverdict-20)
 
 ## 2. Whistle GO Explore — Pick It for the Health Data, Not the GPS
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=2.+Whistle+GO+Explore&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 2. on Amazon</a>
+</div>
 
 **Best for:** owners of senior dogs, dogs with chronic conditions, or anyone who wants a behavioral baseline more than a bleeding-edge tracker.
 
@@ -124,6 +132,10 @@ Where Whistle earns its place is the behavioral baseline. One of our test dogs s
 
 ## 3. Tractive GPS — Cheap, Global, and Clearly the Weakest of the Dedicated Trackers
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=3.+Tractive+GPS&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 3. on Amazon</a>
+</div>
+
 **Best for:** international travelers and owners who prioritize low cost and global coverage over accuracy.
 
 **Upfront:** ~$50 • **Subscription:** from $5/mo on long annual plans, more monthly • **Battery:** days, not weeks • **Connectivity:** LTE with 2G fallback in many regions • **Waterproof:** IP67
@@ -153,6 +165,10 @@ Build quality is noticeably plasticky compared to Fi or Whistle. It's heavier, t
 
 ## 4. Apple AirTag — Useful, If You're Honest About What It Is
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=4.+Apple+AirTag&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 4. on Amazon</a>
+</div>
+
 **Best for:** urban dog owners who want a backup locator and zero monthly fees, with the clear understanding that this is not a safety device.
 
 **Upfront:** ~$29 • **Subscription:** free • **Battery:** ~1 year, user-replaceable • **Connectivity:** Bluetooth + UWB via the Apple Find My network
@@ -181,6 +197,10 @@ There is no geofencing. There are no escape alerts. You find out your dog is mis
 [Check Apple AirTag on Amazon](https://www.amazon.com/dp/B0D54JZTHY?tag=petverdict-20)
 
 ## GPS Tracker vs. AirTag: Stop Treating Them as the Same Category
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=GPS+Tracker+vs.+AirTag&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy GPS on Amazon</a>
+</div>
 
 They aren't the same category. One is a cellular-connected tracker that can actively tell you your dog has left the yard. The other is a Bluetooth tag that hopes a stranger's phone walks past it.
 

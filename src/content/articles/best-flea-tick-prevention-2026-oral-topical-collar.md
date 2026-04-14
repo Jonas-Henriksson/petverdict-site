@@ -65,6 +65,10 @@ We didn't run a lab. Anyone claiming they tested parasiticides with a 45-dog sam
 One thing worth noting before you go further: oral parasiticides are regulated by the FDA as drugs, while topicals and collars are regulated by the EPA as pesticides. This matters because the adverse event reporting and post-market surveillance systems work differently, and comparisons between categories aren't always apples-to-apples.
 
 ## Bravecto Chews: Best Overall for Most Dogs
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Bravecto+Chews&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Bravecto on Amazon</a>
+</div>
+
 **Best for:** Dogs in moderate-to-high tick pressure areas whose owners want quarterly dosing
 
 Bravecto's fluralaner is an isoxazoline, the newest class of parasiticides. Taken orally, it reaches therapeutic blood levels within about 12 hours and the label claims 12 weeks of protection against fleas and the major US tick species (including *Ixodes scapularis*, the Lyme vector, and *Amblyomma americanum*, the Lone Star tick). In our experience using it on two dogs over three tick seasons, we never pulled an attached tick that stayed alive long enough to transmit disease — though we did occasionally find dead or dying ticks on the coat, which is normal; these drugs kill after the tick bites, not on contact.
@@ -78,6 +82,10 @@ Also: Bravecto doesn't cover heartworm, so you still need a separate heartworm p
 [Check price on Amazon](https://www.amazon.com/dp/B01LYQL3Q4?tag=petverdict-20)
 
 ## Frontline Plus: Best Topical
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Frontline+Plus&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Frontline on Amazon</a>
+</div>
+
 **Best for:** Owners who want to avoid isoxazolines, multi-pet households, dogs who can't take oral meds
 
 Frontline Plus combines fipronil (adulticide) with S-methoprene (an insect growth regulator that prevents flea eggs and larvae from developing). The IGR matters more than most people realize — killing adult fleas without breaking the lifecycle means you'll fight a longer battle in an infested home. Frontline has been on the market for over 25 years, which is both its biggest strength (a massive real-world safety record) and a clue to its biggest weakness.
@@ -89,6 +97,10 @@ Price is reasonable — typically $45–65 for a 3-pack depending on dog size �
 [Check price on Amazon](https://www.amazon.com/dp/B0002J1FOO?tag=petverdict-20)
 
 ## Seresto Collar: Useful, But Read This First
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Seresto+Collar&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Seresto on Amazon</a>
+</div>
+
 **Best for:** Low-to-moderate parasite pressure regions, owners who genuinely cannot manage a monthly schedule
 
 The mechanism is clever: a polymer matrix slowly releases imidacloprid and flumethrin into the coat's oil layer, spreading across the body and delivering roughly 8 months of continuous flea and tick coverage from a single collar. It's quiet, waterproof after an initial adjustment period, and the math works out to around $7–9 per month, which is the cheapest per-month coverage in this comparison.
@@ -100,6 +112,10 @@ A practical note: the collar's efficacy depends on contact with the skin. If it'
 [Check price on Amazon](https://www.amazon.com/dp/B00B8CG7RY?tag=petverdict-20)
 
 ## NexGard: Monthly Oral Alternative
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=NexGard&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy NexGard on Amazon</a>
+</div>
+
 **Best for:** Dogs who need the oral route but whose owners prefer shorter dosing intervals
 
 NexGard's afoxolaner is in the same isoxazoline class as Bravecto, so the same FDA neurological warning applies. The trade-off versus Bravecto is dosing frequency — monthly instead of quarterly — which some owners prefer because they can stop the medication quickly if they see any adverse reaction, and it aligns with monthly heartworm prevention schedules. The beef-flavored soft chew is well-accepted by most dogs we've given it to.
@@ -109,6 +125,10 @@ NexGard's afoxolaner is in the same isoxazoline class as Bravecto, so the same F
 Pricing runs roughly $30–50 per monthly dose depending on weight.
 
 ## Capstar: Emergency Use Only
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Capstar&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Capstar on Amazon</a>
+</div>
+
 **Best for:** Newly adopted dogs with visible flea infestations; breakthrough cases while a long-term preventive kicks in
 
 Capstar's nitenpyram kills adult fleas fast — most dogs show results within a few hours — and then it's done. That's it. No residual. No tick coverage. No egg control. Twenty-four hours later you're back to square one if you don't have a preventive in place.
@@ -120,6 +140,10 @@ This isn't a flaw, it's the product's design: Capstar is a knockdown tool, not a
 [Check price on Amazon](https://www.amazon.com/dp/B00028ZMHO?tag=petverdict-20)
 
 ## Advantage II: The One We'd Skip
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Advantage+II&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Advantage on Amazon</a>
+</div>
+
 **Best for:** Honestly, not many situations
 
 Advantage II uses imidacloprid plus the IGR pyriproxyfen. It's a flea-only product — it does not kill ticks — and the chemistry is roughly 20 years old. In an era with better options at similar prices, we struggle to find a case for it. If you live in a tick-free indoor-only environment (which almost no one truly does) and want a non-prescription topical, Frontline Plus does everything Advantage II does plus actual tick control.
@@ -151,6 +175,10 @@ Rough per-year costs for a 40-pound dog at typical 2026 US prices:
 Context worth keeping in mind: one Lyme disease treatment course (diagnosis, doxycycline, possible follow-up testing) can run $400–800. A serious flea infestation with dermatitis can mean allergy workups, steroids, and environmental treatment that quickly hits four figures. Prevention is almost always cheaper than treatment.
 
 ## Safety and Adverse Reactions
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Safety+and+Adverse+Reactions&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Safety on Amazon</a>
+</div>
 
 **Isoxazolines (Bravecto, NexGard):** FDA class alert since 2018 for possible neurological adverse events including tremors, ataxia, and seizures. Most dogs tolerate these drugs fine, but avoid in dogs with seizure history unless your vet says otherwise. GI upset (vomiting, diarrhea) is the most commonly reported side effect and usually resolves without intervention.
 
