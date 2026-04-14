@@ -107,6 +107,11 @@ const badgeLabels: Record<string, string> = {
           </>
         )}
       </div>
+      {authorData?.bio && (
+        <p class="meta-author-bio">
+          {authorData.bio.match(/[^.!?]+[.!?]+/g)?.slice(0, 2).join(' ').trim()}
+        </p>
+      )}
     </header>
 
     <!-- ArticleNav — H2-only jump list, reader orients before the hard sell.
@@ -281,6 +286,12 @@ const badgeLabels: Record<string, string> = {
     flex-shrink: 0;
   }
   .meta-author-name { font-weight: 600; font-size: 0.85rem; }
+  .meta-author-bio {
+    font-size: 0.82rem;
+    line-height: 1.55;
+    color: var(--ink-500);
+    margin: 0.35rem 0 0;
+  }
   .meta-sep { color: var(--ink-300); }
   .meta-disclosure {
     color: var(--ink-500);
