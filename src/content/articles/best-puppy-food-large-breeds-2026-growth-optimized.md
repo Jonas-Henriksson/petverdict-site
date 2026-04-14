@@ -80,6 +80,12 @@ The calcium and phosphorus profile sits in the conservative zone for large breed
 
 ## Royal Canin Giant Puppy
 
+![Royal Canin Giant Puppy](/images/articles/best-puppy-food-large-breeds-2026-growth-optimized/products/royalcanin.jpg)
+
+<div class="product-actions">
+  <a href="/go/royalcanin" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Royal</a>
+</div>
+
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=Royal+Canin+Giant+Puppy&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Royal on Amazon</a>
 </div>
@@ -125,6 +131,12 @@ Blue Buffalo's AAFCO statement is "formulated to meet," not feeding trial.
 [Order from Amazon](https://www.amazon.com/dp/B000W5SLE4?tag=petverdict-20).
 
 ## Wellness CORE Large Breed Puppy
+
+![Wellness CORE Large Breed Puppy](/images/articles/best-puppy-food-large-breeds-2026-growth-optimized/products/wellnesscore.png)
+
+<div class="product-actions">
+  <a href="/go/wellnesscore" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Wellness</a>
+</div>
 
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=Wellness+CORE+Large+Breed+Puppy&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Wellness on Amazon</a>

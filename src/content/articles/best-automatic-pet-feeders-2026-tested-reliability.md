@@ -58,6 +58,10 @@ We also talked to two veterinarians — one general practice, one with a focus o
 
 ## Feeder Comparison
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=SureFlup+SureFeed+Microchip+Pet+Feeder&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy SureFlup on Amazon</a>
+</div>
+
 | Model | Approx. price | Capacity | Smart features | Performance in our testing |
 |-------|---------------|----------|----------------|----------------------------|
 | PetSafe Smart Feed | ~$180 | 24 cups | Wi-Fi app, scheduling, portion control | Most consistent; occasional app hiccups |
@@ -69,6 +73,12 @@ We also talked to two veterinarians — one general practice, one with a focus o
 Prices shift constantly on Amazon. Treat these as ballpark — click through and verify before buying.
 
 ## PetSafe Smart Feed Automatic Pet Feeder
+
+![PetSafe Smart Feed Automatic Pet Feeder](/images/articles/best-automatic-pet-feeders-2026-tested-reliability/products/amazon-b072fjy4m2.jpg)
+
+<div class="product-actions">
+  <a href="/go/amazon-b072fjy4m2" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at PetSafe</a>
+</div>
 
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=PetSafe+Smart+Feed+Automatic+Pet+Feeder&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
@@ -85,6 +95,12 @@ The 24-cup hopper is genuinely useful for weekend trips, and the stainless-steel
 [Check current price on Amazon](https://www.amazon.com/dp/B072FJY4M2?tag=petverdict-20)
 
 ## SureFeed Microchip Pet Feeder
+
+![SureFeed Microchip Pet Feeder](/images/articles/best-automatic-pet-feeders-2026-tested-reliability/products/surefeed.png)
+
+<div class="product-actions">
+  <a href="/go/surefeed" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at SureFeed</a>
+</div>
 
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=SureFeed+Microchip+Pet+Feeder&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy SureFeed on Amazon</a>
@@ -115,6 +131,12 @@ The Petnet has nice hardware — metal construction, a built-in scale that track
 [Check current price on Amazon](https://www.amazon.com/dp/B01NAVM4GV?tag=petverdict-20)
 
 ## PETLIBRO Automatic Cat Feeder A36
+
+![PETLIBRO Automatic Cat Feeder A36](/images/articles/best-automatic-pet-feeders-2026-tested-reliability/products/amazon-b0926pztlx.png)
+
+<div class="product-actions">
+  <a href="/go/amazon-b0926pztlx" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at PETLIBRO</a>
+</div>
 
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=PETLIBRO+Automatic+Cat+Feeder+A36&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PETLIBRO on Amazon</a>

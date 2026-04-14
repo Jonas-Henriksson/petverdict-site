@@ -84,6 +84,18 @@ The pinch-detection sensors are also a meaningful upgrade. Earlier Litter-Robot 
 
 ## PetSafe ScoopFree Crystal Pro — Best Value, With a Catch
 
+![PetSafe ScoopFree Crystal Pro](/images/articles/best-automatic-litter-box-2026-litter-robot-scoopfree-petsafe/products/petsafe.jpg)
+
+![PetSafe ScoopFree](/images/articles/best-automatic-litter-box-2026-litter-robot-scoopfree-petsafe/products/amazon-b000gf0x38.jpg)
+
+<div class="product-actions">
+  <a href="/go/amazon-b000gf0x38" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at PetSafe</a>
+</div>
+
+<div class="product-actions">
+  <a href="/go/petsafe" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at PetSafe</a>
+</div>
+
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=PetSafe+ScoopFree+Crystal+Pro&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
 </div>
@@ -123,6 +135,12 @@ Reliability was solid across the test period, though not quite at LR4 levels. I 
 
 ## PetSafe ScoopFree Ultra — The One I'd Skip
 
+![PetSafe ScoopFree Ultra](/images/articles/best-automatic-litter-box-2026-litter-robot-scoopfree-petsafe/products/petsafe.jpg)
+
+<div class="product-actions">
+  <a href="/go/petsafe" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at PetSafe</a>
+</div>
+
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=PetSafe+ScoopFree+Ultra&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
 </div>
@@ -143,6 +161,12 @@ More importantly: the ongoing crystal tray cost is identical to the Crystal Pro'
 If your budget is tight, I'd rather see you use a high-quality manual covered box with fresh clumping clay and scoop twice a day. You'll get a better hygiene outcome for less money.
 
 ## CatGenie A.I. — Interesting Idea, Real Problems
+
+![CatGenie A.I.](/images/articles/best-automatic-litter-box-2026-litter-robot-scoopfree-petsafe/products/catgenie.png)
+
+<div class="product-actions">
+  <a href="/go/catgenie" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at CatGenie</a>
+</div>
 
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=CatGenie+A.I.&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy CatGenie on Amazon</a>

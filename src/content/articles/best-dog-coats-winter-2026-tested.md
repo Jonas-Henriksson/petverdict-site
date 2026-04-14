@@ -268,6 +268,12 @@ For a second dog, a foster dog, or a mild-climate owner, the value is real. For 
 
 ## Head-to-Head: Waterproofing Performance in Real Conditions
 
+![Kuoser Reversible Waterproof Dog Coat](/images/articles/best-dog-coats-winter-2026-tested/products/amazon-b07g5wlrgc.png)
+
+<div class="product-actions">
+  <a href="/go/amazon-b07g5wlrgc" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Kuoser</a>
+</div>
+
 The single biggest performance differentiator between the coats we tested wasn't price — it was waterproofing specification. Here's what each coat actually does in precipitation:
 
 | Coat | Wet Snow | Rain | Time Before Saturation |

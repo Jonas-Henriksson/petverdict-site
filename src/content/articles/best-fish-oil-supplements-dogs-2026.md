@@ -67,6 +67,12 @@ Dosing rule of thumb from the veterinary literature: roughly 50–75 mg combined
 
 ## Nordic Naturals Pet Omega-3
 
+![Nordic Naturals Pet Omega-3](/images/articles/best-fish-oil-supplements-dogs-2026/products/amazon-b001dush18.jpg)
+
+<div class="product-actions">
+  <a href="/go/amazon-b001dush18" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Nordic</a>
+</div>
+
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=Nordic+Naturals+Pet+Omega-3&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Nordic on Amazon</a>
 </div>
@@ -83,6 +89,12 @@ Nordic Naturals publishes their COAs, uses the triglyceride form, and has been a
 
 ## Zesty Paws Pure Wild Alaskan Salmon Oil
 
+![Zesty Paws Pure Wild Alaskan Salmon Oil](/images/articles/best-fish-oil-supplements-dogs-2026/products/amazon-b07d3gp5qm.png)
+
+<div class="product-actions">
+  <a href="/go/amazon-b07d3gp5qm" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Zesty</a>
+</div>
+
 **Best for**: Medium dogs, multi-dog households, owners who want a reasonable product without paying premium prices.
 
 This is the bottle I actually reach for most often at home. The pump is genuinely convenient, the salmon source is specified, and Zesty Paws does publish testing documentation on request. EPA/DHA per pump is lower than Nordic Naturals, so you're dosing more volume to hit the same omega-3 target — but the per-mg math still comes out cheaper for medium dogs.
@@ -94,6 +106,12 @@ This is the bottle I actually reach for most often at home. The pump is genuinel
 [Check Zesty Paws price on Amazon](https://www.amazon.com/dp/B07D3GP5QM?tag=petverdict-20)
 
 ## Grizzly Pollock Oil
+
+![Grizzly Pollock Oil](/images/articles/best-fish-oil-supplements-dogs-2026/products/amazon-b000634g20.jpg)
+
+<div class="product-actions">
+  <a href="/go/amazon-b000634g20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Grizzly</a>
+</div>
 
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=Grizzly+Pollock+Oil&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Grizzly on Amazon</a>
@@ -110,6 +128,12 @@ Pollock is a genuinely interesting choice. Alaska pollock is one of the more sus
 [Check Grizzly Pollock Oil price on Amazon](https://www.amazon.com/dp/B000634G20?tag=petverdict-20)
 
 ## PetHonesty Omega-3 Fish Oil Soft Chews
+
+![PetHonesty Omega-3 Fish Oil Soft Chews](/images/articles/best-fish-oil-supplements-dogs-2026/products/amazon-b07qkjvp8j.png)
+
+<div class="product-actions">
+  <a href="/go/amazon-b07qkjvp8j" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at PetHonesty</a>
+</div>
 
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=PetHonesty+Omega-3+Fish+Oil+Soft+Chews&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetHonesty on Amazon</a>

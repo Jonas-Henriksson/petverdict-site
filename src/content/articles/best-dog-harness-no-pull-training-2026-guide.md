@@ -70,6 +70,10 @@ We paid attention to fit stability during movement, whether the harness stayed i
 ## 2 Hounds Design Freedom No-Pull Harness — Best for Active Training
 
 <div class="product-actions">
+  <a href="https://www.amazon.com/s?k=2+Hounds+Design+Freedom&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 2 on Amazon</a>
+</div>
+
+<div class="product-actions">
   <a href="https://www.amazon.com/s?k=2+Hounds+Design+Freedom+No-Pull+Harness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy 2 on Amazon</a>
 </div>
 
@@ -102,6 +106,10 @@ The Y-front design is a significant advantage. Unlike horizontal chest straps th
 ## Blue-9 Balance Harness — Best for Fit-Sensitive Dogs
 
 <div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Blue-9+Balance&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Blue-9 on Amazon</a>
+</div>
+
+<div class="product-actions">
   <a href="https://www.amazon.com/s?k=Blue-9+Balance+Harness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Blue-9 on Amazon</a>
 </div>
 
@@ -129,6 +137,12 @@ As a training tool, the Balance works differently from the 2 Hounds Freedom. The
 [Check the Blue-9 Balance on Amazon](https://www.amazon.com/dp/B07JBQC8V3?tag=petverdict-20)
 
 ## PetSafe Easy Walk — Budget Entry for Mild Pullers
+
+![PetSafe Easy Walk](/images/articles/best-dog-harness-no-pull-training-2026-guide/products/amazon-b0009zbkg4.jpg)
+
+<div class="product-actions">
+  <a href="/go/amazon-b0009zbkg4" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at PetSafe</a>
+</div>
 
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=PetSafe+Easy+Walk&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
@@ -217,6 +231,12 @@ Both trainers I spoke with during testing actively refuse to use the Sporn desig
 [Check the Sporn No-Pull Mesh Harness on Amazon](https://www.amazon.com/dp/B000BVXFTI?tag=petverdict-20)
 
 ## PetSafe 3-in-1 — Jack of All Trades
+
+![PetSafe 3-in-1](/images/articles/best-dog-harness-no-pull-training-2026-guide/products/amazon-b07bgxrklv.jpg)
+
+<div class="product-actions">
+  <a href="/go/amazon-b07bgxrklv" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at PetSafe</a>
+</div>
 
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=PetSafe+3-in-1&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>

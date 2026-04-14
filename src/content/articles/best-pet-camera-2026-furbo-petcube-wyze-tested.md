@@ -70,6 +70,12 @@ Prices bounce around. Furbo in particular goes on sale often enough that paying 
 
 ## Furbo Dog Camera 360°
 
+![Furbo Dog Camera 360°](/images/articles/best-pet-camera-2026-furbo-petcube-wyze-tested/products/amazon-b0884jn9gn.jpg)
+
+<div class="product-actions">
+  <a href="/go/amazon-b0884jn9gn" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Furbo</a>
+</div>
+
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=Furbo+Dog+Camera+360%C2%B0&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Furbo on Amazon</a>
 </div>
@@ -92,6 +98,12 @@ Also: it's physically big. The 360° version has a wide base that wants a stable
 
 ## Petcube Bites 2
 
+![Petcube Bites 2](/images/articles/best-pet-camera-2026-furbo-petcube-wyze-tested/products/amazon-b07jbh5qqw.jpg)
+
+<div class="product-actions">
+  <a href="/go/amazon-b07jbh5qqw" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Petcube</a>
+</div>
+
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=Petcube+Bites+2&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Petcube on Amazon</a>
 </div>
@@ -110,6 +122,12 @@ The throw distance is short. If your dog sits six feet from the camera, half the
 
 ## Petcube Play 2
 
+![Petcube Play 2](/images/articles/best-pet-camera-2026-furbo-petcube-wyze-tested/products/amazon-b07h9x6j8l.jpg)
+
+<div class="product-actions">
+  <a href="/go/amazon-b07h9x6j8l" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Petcube</a>
+</div>
+
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=Petcube+Play+2&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Petcube on Amazon</a>
 </div>
@@ -127,6 +145,12 @@ The 160° lens is useful for cats because they climb and hide — a wider field 
 [Check the Petcube Play 2 on Amazon](https://www.amazon.com/dp/B07H9X6J8L?tag=petverdict-20)
 
 ## Wyze Cam Pan v3
+
+![Wyze Cam Pan v3](/images/articles/best-pet-camera-2026-furbo-petcube-wyze-tested/products/amazon-b08r59yh7w.png)
+
+<div class="product-actions">
+  <a href="/go/amazon-b08r59yh7w" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Wyze</a>
+</div>
 
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=Wyze+Cam+Pan+v3&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Wyze on Amazon</a>

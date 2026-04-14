@@ -66,6 +66,20 @@ Prices bounce around with sales and bag size, so treat these as ballpark per-pou
 
 ## World's Best Cat Litter Multiple Cat Clumping Formula
 
+![Tidy Cats 24/7 Performance Clumping Litter](/images/articles/best-cat-litter-2026-tested-odor-control-clumping/products/amazon-b01mxgx7t1.jpg)
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Fresh+Step+Outstretch+Clumping+Litter&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Fresh on Amazon</a>
+</div>
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Arm+%26+Hammer+Clump+%26+Seal+Platinum&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Arm on Amazon</a>
+</div>
+
+<div class="product-actions">
+  <a href="/go/amazon-b01mxgx7t1" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Tidy</a>
+</div>
+
 **Best for**: Multi-cat households where odor is the main headache, and owners who want a plant-based litter that actually clumps.
 
 This is the litter we kept coming back to. The corn-based formula forms surprisingly tight clumps — tight enough that you can lift a 72-hour-old clump out of a busy box without it crumbling, which is more than we can say for several plant-based competitors that turned to mush. Ammonia odors stay under control longer than with standard clay, likely because corn absorbs moisture more uniformly rather than letting urine pool against the bottom of the pan.

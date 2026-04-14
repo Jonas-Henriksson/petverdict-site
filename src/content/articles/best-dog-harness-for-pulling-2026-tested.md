@@ -64,6 +64,18 @@ We were specifically watching for three things: does the harness reduce pulling 
 
 ## Ruffwear Front Range Harness — Best Overall
 
+![Ruffwear Front Range Harness](/images/articles/best-dog-harness-for-pulling-2026-tested/products/amazon-b01g8wlu8s.png)
+
+![Rabbitgoo No-Pull Dog Harness](/images/articles/best-dog-harness-for-pulling-2026-tested/products/amazon-b01lw9mfr3.webp)
+
+<div class="product-actions">
+  <a href="/go/amazon-b01lw9mfr3" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Rabbitgoo</a>
+</div>
+
+<div class="product-actions">
+  <a href="/go/amazon-b01g8wlu8s" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Ruffwear</a>
+</div>
+
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=Ruffwear+Front+Range+Harness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Ruffwear on Amazon</a>
 </div>
@@ -120,6 +132,12 @@ With that said, nothing in our test set came close to the IDC's construction. Th
 
 ## PetSafe Easy Walk Harness — Best Value
 
+![PetSafe Easy Walk Harness](/images/articles/best-dog-harness-for-pulling-2026-tested/products/amazon-b0009zbkg4.jpg)
+
+<div class="product-actions">
+  <a href="/go/amazon-b0009zbkg4" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at PetSafe</a>
+</div>
+
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=PetSafe+Easy+Walk+Harness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PetSafe on Amazon</a>
 </div>
@@ -174,6 +192,12 @@ As a pure walking harness for pullers, though, it's middle of the pack. The fron
 [Check price on Amazon](https://www.amazon.com/dp/B00CHZBLRQ?tag=petverdict-20)
 
 ## Rabbitgoo No-Pull Harness — The One We'd Skip
+
+![Rabbitgoo No-Pull Harness](/images/articles/best-dog-harness-for-pulling-2026-tested/products/rabbitgoo.jpg)
+
+<div class="product-actions">
+  <a href="/go/rabbitgoo" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Rabbitgoo</a>
+</div>
 
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=Rabbitgoo+No-Pull+Harness&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Rabbitgoo on Amazon</a>

@@ -65,6 +65,12 @@ We didn't run a lab. Anyone claiming they tested parasiticides with a 45-dog sam
 One thing worth noting before you go further: oral parasiticides are regulated by the FDA as drugs, while topicals and collars are regulated by the EPA as pesticides. This matters because the adverse event reporting and post-market surveillance systems work differently, and comparisons between categories aren't always apples-to-apples.
 
 ## Bravecto Chews: Best Overall for Most Dogs
+![Bravecto Chews](/images/articles/best-flea-tick-prevention-2026-oral-topical-collar/products/amazon-b01lyql3q4.webp)
+
+<div class="product-actions">
+  <a href="/go/amazon-b01lyql3q4" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Bravecto</a>
+</div>
+
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=Bravecto+Chews&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Bravecto on Amazon</a>
 </div>
@@ -82,6 +88,12 @@ Also: Bravecto doesn't cover heartworm, so you still need a separate heartworm p
 [Check price on Amazon](https://www.amazon.com/dp/B01LYQL3Q4?tag=petverdict-20)
 
 ## Frontline Plus: Best Topical
+![Frontline Plus](/images/articles/best-flea-tick-prevention-2026-oral-topical-collar/products/amazon-b0002j1foo.webp)
+
+<div class="product-actions">
+  <a href="/go/amazon-b0002j1foo" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Frontline</a>
+</div>
+
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=Frontline+Plus&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Frontline on Amazon</a>
 </div>
@@ -126,6 +138,10 @@ Pricing runs roughly $30–50 per monthly dose depending on weight.
 
 ## Capstar: Emergency Use Only
 <div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Capstar+Tablets&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Capstar on Amazon</a>
+</div>
+
+<div class="product-actions">
   <a href="https://www.amazon.com/s?k=Capstar&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Capstar on Amazon</a>
 </div>
 
@@ -140,6 +156,12 @@ This isn't a flaw, it's the product's design: Capstar is a knockdown tool, not a
 [Check price on Amazon](https://www.amazon.com/dp/B00028ZMHO?tag=petverdict-20)
 
 ## Advantage II: The One We'd Skip
+![Advantage II](/images/articles/best-flea-tick-prevention-2026-oral-topical-collar/products/advantage.png)
+
+<div class="product-actions">
+  <a href="/go/advantage" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Advantage</a>
+</div>
+
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=Advantage+II&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Advantage on Amazon</a>
 </div>

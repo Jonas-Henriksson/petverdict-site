@@ -81,6 +81,14 @@ I weighted criteria roughly as follows: **durability and puncture resistance** (
 ## Earth Rated PoopBags Extra Thick: Best Overall
 
 <div class="product-actions">
+  <a href="https://www.amazon.com/s?k=PoopBags.com+Biodegradable+Bags&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy PoopBags.com on Amazon</a>
+</div>
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Doggy+Do+Good+Biodegradable+Bags&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Doggy on Amazon</a>
+</div>
+
+<div class="product-actions">
   <a href="https://www.amazon.com/s?k=Earth+Rated+PoopBags+Extra+Thick&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Earth on Amazon</a>
 </div>
 
@@ -231,6 +239,12 @@ The light lavender scent is actually my preference among the scented options —
 ---
 
 ## Flush Puppies Doodie Bags: Best for Urban Apartment Living
+
+![Flush Puppies Doodie Bags](/images/articles/best-biodegradable-dog-poop-bags-2026-tested/products/amazon-b00by84hz0.jpg)
+
+<div class="product-actions">
+  <a href="/go/amazon-b00by84hz0" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Flush</a>
+</div>
 
 <div class="product-actions">
   <a href="https://www.amazon.com/s?k=Flush+Puppies+Doodie+Bags&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Flush on Amazon</a>

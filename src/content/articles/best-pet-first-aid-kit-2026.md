@@ -59,6 +59,10 @@ My evaluation criteria: **completeness of contents** (what's included vs. what y
 
 ## Comparison Table: 2026 Pet First Aid Kits Side-by-Side
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=RC+Pets+Pocket+First+Aid+Kit&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy RC on Amazon</a>
+</div>
+
 | Kit | Price | Pieces | Weight | Best For | Waterproof | Guide Quality |
 |---|---|---|---|---|---|---|
 | ARCA Pet First Aid Kit | ~$36 | 100 | Not listed | All-around home/car/trail | Yes (hard case) | Adequate |
@@ -69,6 +73,12 @@ My evaluation criteria: **completeness of contents** (what's included vs. what y
 | RC Pets Pet First Aid Kit | Not confirmed | 26 | Light | Compact/home | Durable case | Basic |
 
 ## ARCA Pet First Aid Kit — Best All-Around Home and Car Kit
+
+![ARCA Pet First Aid Kit](/images/articles/best-pet-first-aid-kit-2026/products/amazon-b097pldd92.jpg)
+
+<div class="product-actions">
+  <a href="/go/amazon-b097pldd92" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at ARCA</a>
+</div>
 
 **Best for: Pet owners who want one thorough kit that lives in the car or by the door**
 
@@ -100,6 +110,12 @@ Bruno's paw pad abrasion was the first real test. I used the povidone-iodine pad
 
 ## Adventure Medical Kits Trail Dog — Best Kit for Hiking and Backpacking
 
+![Adventure Medical Kits Trail Dog](/images/articles/best-pet-first-aid-kit-2026/products/adventure.png)
+
+<div class="product-actions">
+  <a href="/go/adventure" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy at Adventure</a>
+</div>
+
 **Best for: Trail runners and hikers who take dogs on technical terrain**
 
 At under 1 pound (12 oz) and measuring 7.5" x 5.3" x 1.5", the Trail Dog is the kit I reach for when Mochi and I head out on a real hike. It is purpose-built for the trail scenario: a dog that slices a paw on a rock 4 miles from the trailhead, or a leg caught on a fence wire. Contents are trail-specific — dressings, bandages, a splinter picker/tick remover, a triangular bandage that doubles as an emergency muzzle, and a large vet wrap roll.
@@ -125,6 +141,10 @@ Adventure Medical Kits has been producing wilderness medicine kits for humans fo
 **Score: 8.2/10**
 
 ## Kurgo First Aid Kit for Dogs and Cats — Best Budget All-Rounder
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Kurgo+First+Aid+Kit+for+Dogs+and+Cats&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Kurgo on Amazon</a>
+</div>
 
 **Best for: New pet owners wanting a starter kit that covers the basics without overspending**
 
@@ -155,6 +175,10 @@ The 600D Oxford fabric case with twill tape binding is solid for daily bag use. 
 
 ## KeepGoing Pet First Aid Kit (99 pcs) — Best Organization, Premium Price
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=KeepGoing+Pet+First+Aid+Kit+%2899+pcs%29&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy KeepGoing on Amazon</a>
+</div>
+
 **Best for: Pet owners who want the most organized kit available and don't mind paying for it**
 
 At $65.99, the KeepGoing kit is the most expensive option I tested — nearly double the Kurgo and $30 more than the ARCA. The question is whether that premium is justified. On organization alone, the answer is yes. The internal compartments are legitimately well-designed, and in a stressful moment when I needed styptic powder quickly (Olive had a small nail split), I found it in under five seconds. With the ARCA — which I also like — that same search took noticeably longer.
@@ -184,6 +208,10 @@ This is a newer brand. The Amazon listing launched in late 2024, which means it 
 
 ## Rayco Pet First Aid Disaster Kit — Best for Natural Disaster Preparedness
 
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=Rayco+Pet+First+Aid+Disaster+Kit&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy Rayco on Amazon</a>
+</div>
+
 **Best for: Pet owners in disaster-prone areas who prioritize evacuation readiness**
 
 The Rayco kit carves a distinct niche: it's designed for emergencies spanning daily incidents through natural disasters. The standout inclusion is an LED flashing collar with three settings and a writeable ID tag — something no other kit on this list includes. If you're evacuating during a wildfire or flood scenario, keeping your pet identified and visible in low-light conditions is a real problem that most first aid kits completely ignore. Rayco thought about this.
@@ -210,6 +238,10 @@ At $36.29 from Walmart, the price is competitive. The 45-piece count is lower th
 **Score: 7.4/10**
 
 ## RC Pets Pet First Aid Kit — Compact But Lacking
+
+<div class="product-actions">
+  <a href="https://www.amazon.com/s?k=RC+Pets+Pet+First+Aid+Kit&tag=petverdict-20" class="product-action-btn product-action-btn--primary" rel="nofollow sponsored" target="_blank">Buy RC on Amazon</a>
+</div>
 
 **Best for: Truly minimal preparedness when storage space is the only constraint**
 
