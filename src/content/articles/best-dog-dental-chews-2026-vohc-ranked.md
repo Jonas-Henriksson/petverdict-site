@@ -1,6 +1,7 @@
 ---
 title: "Best Dog Dental Chews 2026: VOHC-Sealed Picks Ranked by a Vet"
 description: "Ranked 6 VOHC-approved dog dental chews by plaque reduction, palatability, and value. Greenies leads — here's why, and when to choose differently."
+image: "/images/articles/best-dog-dental-chews-2026-vohc-ranked/hero.png"
 date: 2026-04-15
 updated: 2026-04-15
 category: pet-health
@@ -46,6 +47,8 @@ This guide covers only VOHC-accepted dental chews. I evaluated six products agai
 
 ## Quick Verdict: Top Picks
 
+![Quick Verdict: Top Picks](/images/articles/best-dog-dental-chews-2026-vohc-ranked/section-1.png)
+
 | Rank | Product | VOHC Scope | Score | Best For |
 |------|---------|-----------|-------|----------|
 | 1 | Greenies Original | Plaque + Tartar | 8.7/10 | Most dogs — best all-rounder |
@@ -59,6 +62,8 @@ This guide covers only VOHC-accepted dental chews. I evaluated six products agai
 ---
 
 ## Why the VOHC Seal Is the Only Dental Claim Worth Reading
+
+![Why the VOHC Seal Is the Only Dental Claim Worth Reading](/images/articles/best-dog-dental-chews-2026-vohc-ranked/section-2.png)
 
 The VOHC was established in 1997, modeled after the American Dental Association's seal program for human products. When a company submits a product for evaluation, the VOHC requires a blinded, controlled clinical trial in live animals, a minimum 10% reduction in plaque or 20% reduction in tartar (calculus) accumulation versus control, and appropriate statistical significance (typically p < 0.05). Products that fail the threshold do not receive the seal.
 
