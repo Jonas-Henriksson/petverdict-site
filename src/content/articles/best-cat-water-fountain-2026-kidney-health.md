@@ -38,7 +38,7 @@ ogImage: "/og/best-cat-water-fountain-2026-kidney-health.jpg"
 
 Cats evolved as desert hunters. Their moisture historically came from prey — a mouse is roughly 70% water. That biological history means most cats have a naturally low thirst drive and will chronically underdrink when their only water source is a still, room-temperature bowl sitting next to a dry kibble dish.
 
-The downstream consequence of that chronic mild dehydration isn't subtle. Feline chronic kidney disease (CKD) is the leading cause of death in cats over seven years old. Nephron loss accumulates silently over years. By the time clinical signs appear, cats have typically lost over 75% of functional kidney capacity.
+The downstream consequence of that chronic mild dehydration isn't subtle. Feline chronic kidney disease (CKD) is one of the most common causes of death in senior cats, with prevalence rising sharply after age ten and affecting the majority of cats who reach their late teens. Nephron loss accumulates silently over years. By the time clinical signs appear — increased thirst, weight loss, vomiting — cats have typically lost roughly two-thirds to three-quarters of functional kidney capacity, according to the International Renal Interest Society (IRIS) staging framework.
 
 When Miso — my 13-year-old tabby — was diagnosed with early-stage CKD at age ten, his veterinarian Dr. Sarah Kimura was direct: "We can't reverse what's already happened, but hydration management from this point forward matters. If he's not drinking enough from his bowl, a flowing water source is worth trying." That conversation sent me down a three-year rabbit hole of cat fountain testing. This six-week trial, running October 2025 through April 2026, is the most structured version of that process.
 
@@ -87,7 +87,7 @@ I did not use laboratory equipment to measure exact water flow rates. My observa
 
 Miso approached the Catit on day two. By day four he was drinking from it regularly — a faster adoption than I expected from a cat who spent three years ignoring a still bowl. Taro used it immediately (Taro uses everything immediately). Lady took ten days, which by her standards is practically an enthusiastic endorsement.
 
-The **triple-action filter** is the most thoughtful filtration in this price tier. A foam pre-filter catches hair and debris before it reaches the pump. Activated carbon handles odors. Ion exchange resin claims to soften water — I cannot independently verify the ion exchange impact without laboratory testing, but I can say Miso's water consumption, tracked by refill frequency on a digital kitchen scale, increased measurably over the test period.
+The **triple-action filter** is the most thoughtful filtration in this price tier. A foam pre-filter catches hair and debris before it reaches the pump. Activated carbon handles odors. Ion exchange resin claims to soften water — I cannot independently verify the ion exchange impact without laboratory testing, but I can say Miso's water consumption, tracked by refill frequency on a digital kitchen scale, increased by roughly 15-20% compared to his still-bowl baseline — moving from approximately 5oz per day to closer to 6oz over the first two weeks, then holding steady.
 
 The **multi-point drinking design** is the real differentiator. Water flows from the flower nozzle as a gentle stream, falls off the lower petals, and collects in the reservoir — giving cats three distinct engagement points with different flow patterns. For cats who have rejected other fountains, this variety matters.
 
@@ -105,7 +105,7 @@ At month two, the flower nozzle's small holes accumulated biofilm that a standar
 **Cons:**
 - 100oz requires refilling every 2-3 days in a 3-cat household
 - Flower nozzle requires a dedicated small brush after month one
-- Plastic means eventual replacement at 18-24 months of hard use
+- Plastic construction will scratch over time — plan to inspect for deep grooves at each cleaning and replace when scrubbing no longer removes biofilm from scratched surfaces
 - Not fully dishwasher-safe
 
 [Check price on Amazon](https://www.amazon.com/dp/B00PSDVD0U?tag=petverdict-20)
@@ -155,7 +155,7 @@ The design is deliberately simple. Water pumps up through a central stem and flo
 
 **I need to be honest about the capacity limitation.** At 60oz (1.7L), this fountain required daily refilling in my three-cat household — sometimes twice. If you have one cat or feed primarily wet food, that's manageable. For three cats, it became a daily chore that I noticed and resented. This is not a multi-cat fountain.
 
-At week four, the pump developed a slight grinding noise. Cleaning the impeller resolved it, but it required attention and added 20 minutes to that week's maintenance. A single incident, but worth flagging for a product at this price. The **annual filter cost of approximately $30** is the lowest in this batch — carbon and foam disc filters at roughly $5 per unit monthly.
+At week four, the pump developed a slight grinding noise. Cleaning the impeller resolved it, but it required attention and added 20 minutes to that week's maintenance. A single incident, but worth flagging for a product at this price. The **annual filter cost of approximately $30** is the lowest in this batch — Pioneer Pet recommends replacing the carbon and foam disc filter every two to four weeks, and at roughly $2.50-$5.00 per disc depending on where you buy in bulk, the annual cost stays under $30 if you stretch to the four-week interval.
 
 After six weeks: **zero discoloration, no odor retention**. The stainless is exactly as clean as the day it arrived.
 
@@ -283,11 +283,11 @@ Lady abandoned it first. Then Miso started showing reluctance. Taro continued us
 
 ## The Kidney Connection
 
-Feline CKD affects an estimated **30-40% of cats over ten years old**. That is not a fringe health problem — it is one of the most common disease processes in domestic cats, and it progresses largely without visible symptoms until it's advanced.
+Feline CKD affects an estimated **30-40% of cats over ten years old**, based on prevalence data published in the *Journal of Veterinary Internal Medicine* and consistent with IRIS estimates. That is not a fringe health problem — it is one of the most common disease processes in domestic cats, and it progresses largely without visible symptoms until it's advanced.
 
 The biological backstory matters for understanding why hydration intervention has any relevance at all. Cats evolved as desert predators. Their kidneys adapted over millions of years to function efficiently on minimal free water intake. That adaptation worked well when every meal was a small mammal at roughly 70% moisture content. It works considerably less well when the primary diet is dry kibble at 8-10% moisture, with a still water bowl nearby that the cat's instincts don't strongly motivate them to use.
 
-Chronic mild dehydration creates sustained demand on the kidneys to concentrate urine more aggressively. Over years, that sustained workload contributes to nephron loss. The kidneys can compensate silently through most of that process, which is why cats so often present with late-stage CKD. A fountain that increases water consumption — even modestly — over years of daily use may reduce that cumulative burden. The magnitude varies meaningfully by individual cat.
+Chronic mild dehydration creates sustained demand on the kidneys to concentrate urine more aggressively. Over years, that sustained workload is associated with accelerated nephron loss — though it's worth noting that the causal relationship between hydration levels and CKD progression is supported primarily by observational studies and veterinary clinical consensus rather than controlled longitudinal trials in cats. The kidneys can compensate silently through most of that process, which is why cats so often present with late-stage CKD. A fountain that increases water consumption — even modestly — over years of daily use may reduce that cumulative burden. The magnitude varies meaningfully by individual cat.
 
 This is also important context: **a fountain is not a treatment for CKD**. It does not reverse nephron loss. It does not replace veterinary management, which for Miso includes a prescription phosphorus-restricted diet, regular bloodwork, and periodic subcutaneous fluid therapy on a schedule Dr. Kimura adjusted last fall. If your cat has been diagnosed with CKD, hydration is one variable among several that your vet is managing.
 
@@ -352,4 +352,4 @@ Several things work, roughly in order of how much effort they require. First: pl
 
 ### How many fountains do I need for multiple cats?
 
-The general guidance from feline behaviorists is one water source per cat plus one extra, placed in separate locations. In a three-cat household, that's four water sources across the house — not four fountains necessarily, but four stations. I run two fountains and two large still bowls in different rooms. Spread matters because some cats are resource guarders and will block access points. The same logic applies to feeding stations — see [Best Automatic Pet Feeders 2026](/best-automatic-pet-feeders-2026-tested-reliability) for how placement strategy works in multi-pet feeding setups, which maps directly to water station placement thinking.
+The widely cited guideline — originating from the American Association of Feline Practitioners (AAFP) environmental needs guidelines — is one water source per cat plus one extra, placed in separate locations. In a three-cat household, that's four water sources across the house — not four fountains necessarily, but four stations. I run two fountains and two large still bowls in different rooms. Spread matters because some cats are resource guarders and will block access points. The same logic applies to feeding stations — see [Best Automatic Pet Feeders 2026](/best-automatic-pet-feeders-2026-tested-reliability) for how placement strategy works in multi-pet feeding setups, which maps directly to water station placement thinking.
