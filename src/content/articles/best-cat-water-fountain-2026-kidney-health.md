@@ -1,6 +1,7 @@
 ---
 title: "Best Cat Water Fountain 2026: 6 Fountains Tested to Prevent Kidney Issues"
 description: "Tested 6 cat water fountains for 6 weeks to find the best for kidney health, CKD cats, and picky drinkers. Expert picks for every household."
+image: "/images/articles/best-cat-water-fountain-2026-kidney-health/hero.png"
 date: 2026-04-15
 updated: 2026-04-15
 category: pet-health
@@ -36,6 +37,8 @@ ogImage: "/og/best-cat-water-fountain-2026-kidney-health.jpg"
 
 ## Why Your Cat's Water Bowl Might Be Shortening Her Life
 
+![Why Your Cat's Water Bowl Might Be Shortening Her Life](/images/articles/best-cat-water-fountain-2026-kidney-health/section-1.png)
+
 Cats evolved as desert hunters. Their moisture historically came from prey — a mouse is roughly 70% water. That biological history means most cats have a naturally low thirst drive and will chronically underdrink when their only water source is a still, room-temperature bowl sitting next to a dry kibble dish.
 
 The downstream consequence of that chronic mild dehydration isn't subtle. Feline chronic kidney disease (CKD) is one of the most common causes of death in senior cats, with prevalence rising sharply after age ten and affecting the majority of cats who reach their late teens. Nephron loss accumulates silently over years. By the time clinical signs appear — increased thirst, weight loss, vomiting — cats have typically lost roughly two-thirds to three-quarters of functional kidney capacity, according to the International Renal Interest Society (IRIS) staging framework.
@@ -43,6 +46,8 @@ The downstream consequence of that chronic mild dehydration isn't subtle. Feline
 When Miso — my 13-year-old tabby — was diagnosed with early-stage CKD at age ten, his veterinarian Dr. Sarah Kimura was direct: "We can't reverse what's already happened, but hydration management from this point forward matters. If he's not drinking enough from his bowl, a flowing water source is worth trying." That conversation sent me down a three-year rabbit hole of cat fountain testing. This six-week trial, running October 2025 through April 2026, is the most structured version of that process.
 
 ## Quick Verdict
+
+![Quick Verdict](/images/articles/best-cat-water-fountain-2026-kidney-health/section-2.png)
 
 | Award | Fountain | Score |
 |---|---|---|
