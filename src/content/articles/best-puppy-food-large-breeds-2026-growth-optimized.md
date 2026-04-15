@@ -22,6 +22,7 @@ affiliateLinks:
 ogImage: "/og/best-puppy-food-large-breeds-2026-growth-optimized.jpg"
 ---
 
+
 Large breed puppies grow differently than small dogs, and the food that works beautifully for a Yorkie can wreck a Great Dane's skeleton. The issue isn't calories — it's calcium. Give a fast-growing giant breed too much calcium (or the wrong calcium-to-phosphorus ratio) and you dramatically raise the risk of developmental orthopedic disease: hip dysplasia, elbow dysplasia, osteochondrosis. The good news is that the AAFCO nutrient profile for "growth of large size dogs (70+ lb adult weight)" now caps calcium at 1.8% on a dry matter basis and requires a maximum total calcium intake that rules out the worst offenders. The bad news is that plenty of bags on the shelf labeled "puppy" don't meet that large-breed-specific profile, and the fine print is easy to miss.
 
 I spent several weeks comparing large breed puppy formulas the way I compare any dog food I'm considering: reading guaranteed analyses, cross-checking ingredient decks, running dry matter basis conversions, and pulling AAFCO statements off manufacturer sites. I also talked to my own vet, who feeds Hill's to her Bernese, and a veterinary nutritionist friend who mostly rolls her eyes at boutique brands. What follows reflects that — not a stopwatch-and-clipboard lab study.
@@ -219,3 +220,11 @@ Medium-large breeds (55-80 lb adults): around 12-15 months, when growth plates c
 ### My puppy is growing really fast — should I worry?
 
 Probably yes. Rapid growth in a large breed puppy is a risk factor for hip and elbow dysplasia even when the food is correct. The fix isn't a different food; it's portion control with the current appropriate food. Aim to keep your puppy lean enough that you can feel ribs easily. If growth still looks aggressive, talk to your vet — don't try to solve it by switching formulas every few weeks.
+
+## Recommended Tools & Resources
+
+If you're exploring this topic further, these are the tools and products we regularly come back to:
+
+- [Shop on Amazon](/go/amazon)
+
+*Some of these links may earn us a commission if you sign up or make a purchase. This doesn't affect our reviews or recommendations — see our [disclosure](/disclosure) for details.*
