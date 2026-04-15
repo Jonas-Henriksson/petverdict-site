@@ -354,6 +354,8 @@ For safety context: having a [Best Pet First Aid Kit 2026](/best-pet-first-aid-k
 
 **Professional cleaning context:** A professional dental cleaning under anesthesia typically costs $400–$900 depending on practice and required extractions. Consistent home dental care — daily VOHC chew plus brushing where tolerated — can meaningfully extend the interval between professional cleanings. If professional dental costs concern you, the [Best Pet Insurance 2026: Coverage Compared](/best-pet-insurance-2026-coverage-compared) guide covers which policies include dental cleaning benefits, as this varies significantly across providers.
 
+**Broader preventive care note:** Dental health is one pillar of a complete preventive routine. Parasite prevention is another — our [Best Flea and Tick Prevention 2026](/best-flea-tick-prevention-2026-oral-topical-collar) guide compares oral, topical, and collar options so you can build a protocol that covers both fronts without doubling up on products unnecessarily.
+
 ---
 
 ## What We Rejected and Why
