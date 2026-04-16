@@ -1,7 +1,7 @@
 ---
 title: "6 Dog Winter Coats Tested 2026: Warmth Scores by Breed Size"
 description: "A vet tech tested 6 dog coats on two goldens in real winter conditions. Ruffwear and Hurtta led on warmth — but one coat failed waterproofing after 3 washes."
-image: "/images/articles/best-dog-coats-winter-2026-tested/hero.png"
+image: "https://images.petverdict.net/best-dog-coats-winter-2026-tested/hero.png"
 date: 2026-04-13
 updated: 2026-04-13
 category: "buyer-guides"

@@ -5,7 +5,7 @@ interface Props {
   niche: string;
 }
 const { siteId, siteName, niche } = Astro.props;
-const API_URL = '/api/subscribe';
+const API_URL = 'https://newsletter.toolsradar.net/subscribe';
 
 const nicheLeadMagnets: Record<string, { title: string; desc: string; btnText: string }> = {
   'ai-tools': {

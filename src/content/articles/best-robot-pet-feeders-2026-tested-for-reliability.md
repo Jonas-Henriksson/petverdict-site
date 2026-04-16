@@ -1,7 +1,7 @@
 ---
 title: "8 Robot Pet Feeders Tested 2026: 3 Jammed Within 60 Days"
 description: "Portion accuracy and jam rate tested over 60 days — 3 feeders failed within the first month. The most reliable options ranked by app stability and real-world consistency."
-image: "/images/articles/best-robot-pet-feeders-2026-tested-for-reliability/hero.png"
+image: "https://images.petverdict.net/best-robot-pet-feeders-2026-tested-for-reliability/hero.png"
 date: 2026-04-06
 updated: 2026-04-06
 category: "Pet Tech"
