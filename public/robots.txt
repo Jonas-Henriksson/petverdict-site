@@ -2,5 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /admin
 Disallow: /go/
+Disallow: /cdn-cgi/
 
 Sitemap: https://petverdict.net/sitemap-index.xml
