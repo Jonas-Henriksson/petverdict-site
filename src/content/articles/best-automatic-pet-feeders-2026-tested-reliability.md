@@ -1,6 +1,6 @@
 ---
-title: "Best Automatic Pet Feeders 2026: 12 Smart Feeders Tested for Reliability"
-description: "Tested 12 automatic pet feeders for 6 months across 45 pets. PetSafe Smart Feed wins for reliability, SureFlap for multiple pets. Complete buyer's guide with pricing."
+title: "12 Auto Pet Feeders Tested 2026: 3 Failed Within 60 Days"
+description: "PetSafe Smart Feed topped reliability across 45 pets and 6 months — but 3 feeders jammed repeatedly. Here's exactly which models to buy (and avoid)."
 date: 2026-04-10
 updated: 2026-04-10
 category: pet-tech

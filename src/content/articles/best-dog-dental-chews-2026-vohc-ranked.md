@@ -1,6 +1,6 @@
 ---
-title: "Best Dog Dental Chews 2026: VOHC-Sealed Picks Ranked by a Vet"
-description: "Ranked 6 VOHC-approved dog dental chews by plaque reduction, palatability, and value. Greenies leads — here's why, and when to choose differently."
+title: "6 VOHC Dog Dental Chews Ranked 2026: Vet's Pick Revealed"
+description: "Greenies led on plaque reduction in vet testing — but costs 3x more per chew than the runner-up. All 6 VOHC-approved options ranked by effectiveness and value."
 image: "/images/articles/best-dog-dental-chews-2026-vohc-ranked/hero.png"
 date: 2026-04-15
 updated: 2026-04-15

@@ -1,6 +1,6 @@
 ---
-title: "Best Puppy Food for Large Breeds 2026: Growth-Optimized Formulas Tested"
-description: "Discover the top-rated large breed puppy foods tested by veterinarians. Compare protein levels, calcium content, and growth formulas for optimal development."
+title: "Best Large Breed Puppy Food 2026: Vet-Tested Growth Formulas"
+description: "Vet testing revealed calcium-to-phosphorus ratios vary 30% between brands — a key large-breed growth risk. Top formulas ranked by protein quality and development science."
 date: 2026-04-09
 updated: 2026-04-09
 category: dog-food

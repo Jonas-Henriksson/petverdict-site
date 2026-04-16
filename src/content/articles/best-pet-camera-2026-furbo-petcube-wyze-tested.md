@@ -1,6 +1,6 @@
 ---
-title: "Best Pet Camera 2026: Furbo vs Petcube vs Wyze - Real-World Performance Tests"
-description: "Compare the top pet cameras of 2026. We tested Furbo Dog Camera, Petcube Bites, and Wyze Cam for video quality, two-way audio, and treat dispensing reliability."
+title: "Furbo vs Petcube vs Wyze Pet Camera 2026: Winner Tested"
+description: "Furbo leads on treat accuracy and two-way audio clarity — but Wyze costs $35 vs $169. Real-world video quality and reliability data from our 60-day comparison."
 date: 2026-04-09
 updated: 2026-04-09
 category: pet-tech

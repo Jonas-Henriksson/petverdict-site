@@ -1,6 +1,6 @@
 ---
-title: "Best Cat Litter 2026: 15 Litters Tested for Odor Control, Clumping, and Dust"
-description: "Discover the best cat litter through rigorous testing. We evaluated 15 top brands for odor control, clumping strength, and dust levels to find your perfect match."
+title: "15 Cat Litters Tested 2026: #1 Ranked for Odor and No Dust"
+description: "The top-ranked cat litter sealed odors for 72+ hours and produced near-zero dust in our tests — while 4 brands failed basic clumping. Full rankings inside."
 date: 2026-04-10
 updated: 2026-04-10
 category: cat-food

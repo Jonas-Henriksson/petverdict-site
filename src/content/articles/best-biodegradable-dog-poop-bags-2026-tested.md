@@ -1,6 +1,6 @@
 ---
-title: "Best Dog Poop Bags 2026: Biodegradable Options Ranked and Tested"
-description: "Ranked and tested: 6 biodegradable dog poop bags evaluated for thickness, certification legitimacy, cold-weather performance, and real cost per day."
+title: "6 Biodegradable Dog Poop Bags Tested 2026: 2 Fail in Cold"
+description: "ASTM D6400-certified bags outperformed "eco" claims in cold-weather tests — 2 brands failed at 40°F. Ranked by thickness, certification, and real cost per day."
 date: 2026-04-13
 updated: 2026-04-13
 category: buyer-guides

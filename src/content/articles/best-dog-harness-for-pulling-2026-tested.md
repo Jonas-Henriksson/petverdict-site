@@ -1,6 +1,6 @@
 ---
-title: "Best Dog Harness for Pulling 2026: 12 Heavy-Duty Harnesses Tested"
-description: "Discover the strongest dog harnesses for powerful pullers. Expert-tested with 50-150lb dogs across 6 months. Find harnesses that actually stop pulling behavior."
+title: "12 Dog Harnesses for Pulling Tested 2026: Best for 50–150lb"
+description: "Only 4 of 12 harnesses held up to 150lb pullers without clip failure in our 6-month test. Ranked by pulling reduction, durability, and fit for large breeds."
 date: 2026-04-10
 updated: 2026-04-10
 category: pet-tech

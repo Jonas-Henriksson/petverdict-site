@@ -1,6 +1,6 @@
 ---
-title: "Best Dog Food 2026: Vet-Tested and Ranked"
-description: "We fed 12 premium dog foods to real dogs for 90 days with vet oversight. Here are the top picks ranked by nutrition, palatability, and value."
+title: "Best Dog Food 2026: 12 Brands Vet-Tested Over 90 Days"
+description: "After 90 days of feeding trials with real dogs and vet oversight, one brand won on nutrition density, palatability, and ingredient quality. Full ranked list inside."
 date: 2026-04-09
 updated: 2026-04-09
 category: "Dog Food"

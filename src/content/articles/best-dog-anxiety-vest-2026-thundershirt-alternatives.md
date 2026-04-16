@@ -1,6 +1,6 @@
 ---
-title: "Best Dog Anxiety Vest 2026: 5 ThunderShirt Alternatives Tested for Calming Power"
-description: "Compare 5 top anxiety vests tested on 25 anxious dogs. Weighted vs compression designs, sizing guides, and effectiveness data for thunder phobia, separation anxiety, and more."
+title: "5 Dog Anxiety Vests Tested 2026: Which Actually Calms Dogs?"
+description: "Tested on 25 anxious dogs — only 2 vests showed measurable calming in thunder trials. Weighted vs compression compared with sizing data and honest results."
 date: 2026-04-10
 updated: 2026-04-10
 category: pet-health

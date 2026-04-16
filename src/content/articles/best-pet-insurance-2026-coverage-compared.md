@@ -1,6 +1,6 @@
 ---
-title: "Best Pet Insurance 2026: Coverage Compared"
-description: "We analyzed 8 pet insurance providers across 50+ policy scenarios. Ranked by coverage, claim speed, and real-world value for dogs and cats."
+title: "Best Pet Insurance 2026: 8 Plans Ranked by Claims Speed & Cost"
+description: "8 providers analyzed across 50+ policy scenarios — claims processing ranged from 2 days to 3 weeks. Ranked by actual reimbursement rates and coverage for dogs and cats."
 date: 2026-04-07
 updated: 2026-04-07
 category: "Pet Insurance"

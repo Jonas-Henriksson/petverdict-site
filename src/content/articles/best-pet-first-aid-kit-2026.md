@@ -1,6 +1,6 @@
 ---
-title: "Best Pet First Aid Kit 2026: Six Kits Tested for the Emergencies That Actually Happen"
-description: "Find the best pet first aid kit in 2026: six kits tested across a real multi-species household. ARCA wins, plus trail, disaster, and budget picks ranked."
+title: "6 Pet First Aid Kits Tested 2026: ARCA Wins, Budget Pick Revealed"
+description: "ARCA topped our multi-species emergency tests — but most kits lacked key wound supplies. Tested for real emergencies with trail, disaster, and budget picks ranked."
 image: "/images/articles/best-pet-first-aid-kit-2026/hero.png"
 date: 2026-04-14
 updated: 2026-04-14

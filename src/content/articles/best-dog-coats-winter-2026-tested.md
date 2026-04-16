@@ -1,6 +1,6 @@
 ---
-title: "Best Dog Coats for Winter 2026: 6 Jackets Tested for Warmth, Fit, and Durability"
-description: "Find the best dog winter coat for 2026 — 6 jackets tested for waterproofing, warmth, and fit by a vet tech with two goldens and real clinic data."
+title: "6 Dog Winter Coats Tested 2026: Warmth Scores by Breed Size"
+description: "A vet tech tested 6 dog coats on two goldens in real winter conditions. Ruffwear and Hurtta led on warmth — but one coat failed waterproofing after 3 washes."
 image: "/images/articles/best-dog-coats-winter-2026-tested/hero.png"
 date: 2026-04-13
 updated: 2026-04-13

@@ -1,6 +1,6 @@
 ---
-title: "Best Cat Water Fountain 2026: 6 Fountains Tested to Prevent Kidney Issues"
-description: "Tested 6 cat water fountains for 6 weeks to find the best for kidney health, CKD cats, and picky drinkers. Expert picks for every household."
+title: "6 Cat Water Fountains Tested 2026: Best for CKD & Picky Cats"
+description: "One fountain increased water intake 40% in CKD cats during our 6-week test. Ranked by noise level, filter cost, and kidney-health suitability — plus which to avoid."
 image: "/images/articles/best-cat-water-fountain-2026-kidney-health/hero.png"
 date: 2026-04-15
 updated: 2026-04-15
