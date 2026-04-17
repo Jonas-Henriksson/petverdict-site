@@ -3,7 +3,7 @@ title: "12 Auto Pet Feeders Tested 2026: 3 Failed Within 60 Days"
 description: "PetSafe Smart Feed topped reliability across 45 pets and 6 months — but 3 feeders jammed repeatedly. Here's exactly which models to buy (and avoid)."
 date: 2026-04-10
 updated: 2026-04-10
-category: pet-tech
+category: Pet Tech
 author: PetVerdict Team
 keywords: ["automatic pet feeder", "smart pet feeder", "automatic dog feeder", "pet feeder reviews", "best pet feeder 2026"]
 score: 9.2

@@ -3,7 +3,7 @@ title: "8 No-Pull Dog Harnesses Tested 2026: Expert-Ranked Results"
 description: "Front-clip and dual-clip harnesses tested with real dogs — the top-ranked model cut leash pulling by 70%. Compare control, comfort, and sizing for every breed."
 date: 2026-04-09
 updated: 2026-04-09
-category: pet-tech
+category: Pet Tech
 author: PetPulse Team
 keywords: ["no-pull dog harness", "best dog harness 2026", "anti-pull harness", "dog training harness", "front clip harness"]
 score: 9.2

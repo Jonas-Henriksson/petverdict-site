@@ -3,7 +3,7 @@ title: "15 Cat Litters Tested 2026: #1 Ranked for Odor and No Dust"
 description: "The top-ranked cat litter sealed odors for 72+ hours and produced near-zero dust in our tests — while 4 brands failed basic clumping. Full rankings inside."
 date: 2026-04-10
 updated: 2026-04-10
-category: cat-food
+category: Cat Food
 author: PetVerdict Team
 keywords: ["best cat litter", "cat litter reviews", "clumping cat litter", "odor control litter", "dust free cat litter"]
 score: 9.2

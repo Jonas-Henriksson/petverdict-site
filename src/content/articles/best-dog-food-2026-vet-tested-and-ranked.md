@@ -4,7 +4,7 @@ description: "After 90 days of feeding trials with real dogs and vet oversight, 
 image: "https://images.petverdict.net/best-dog-food-2026-vet-tested-and-ranked/hero.png"
 date: 2026-04-09
 updated: 2026-04-09
-category: "Dog Food"
+category: Dog Food
 author: "Kevin Nguyen"
 keywords: ["best dog food 2026", "top rated dog food", "healthiest dog food", "dog food reviews", "premium dog food"]
 score: 9.4

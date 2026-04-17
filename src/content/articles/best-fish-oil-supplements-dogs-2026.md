@@ -3,7 +3,7 @@ title: "7 Dog Fish Oil Supplements Ranked 2026: Vet-Tested Omega-3s"
 description: "Vets tested omega-3 absorption, rancidity rates, and label accuracy across 7 brands — 2 failed purity standards. Best picks for joints, coat, and skin ranked."
 date: 2026-04-09
 updated: 2026-04-09
-category: pet-health
+category: Pet Health
 author: "Hannah Brooks"
 keywords: ["best fish oil for dogs", "dog fish oil supplement", "omega 3 for dogs", "dog joint supplement", "fish oil dogs coat", "dog skin health supplement"]
 score: 9.2

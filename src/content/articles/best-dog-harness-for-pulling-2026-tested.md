@@ -3,7 +3,7 @@ title: "12 Dog Harnesses for Pulling Tested 2026: Best for 50–150lb"
 description: "Only 4 of 12 harnesses held up to 150lb pullers without clip failure in our 6-month test. Ranked by pulling reduction, durability, and fit for large breeds."
 date: 2026-04-10
 updated: 2026-04-10
-category: pet-tech
+category: Pet Tech
 author: PetVerdict Team
 keywords: ["best dog harness for pulling", "no pull dog harness", "heavy duty dog harness", "strong dog harness", "dog pulling harness"]
 score: 9.2

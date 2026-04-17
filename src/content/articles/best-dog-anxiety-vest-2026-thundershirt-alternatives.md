@@ -4,7 +4,7 @@ description: "Tested on 25 anxious dogs — only 2 vests showed measurable calmi
 image: "https://images.petverdict.net/best-dog-anxiety-vest-2026-thundershirt-alternatives/hero.png"
 date: 2026-04-10
 updated: 2026-04-10
-category: pet-health
+category: Pet Health
 author: PetVerdict Team
 keywords: ["dog anxiety vest", "thundershirt alternatives", "calming vest dogs", "anxiety wrap", "thunder phobia dogs"]
 score: 8.7

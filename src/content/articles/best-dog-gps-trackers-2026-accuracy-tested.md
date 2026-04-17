@@ -3,7 +3,7 @@ title: "7 Dog GPS Trackers Tested 2026: Accuracy Winner Revealed"
 description: "Fi and Whistle tested head-to-head over 30 days — one had 9-second escape detection vs 47 seconds for the other. Battery life and accuracy data for all 7 trackers."
 date: 2026-04-05
 updated: 2026-04-05
-category: "Pet Tech"
+category: Pet Tech
 author: "Dr. Lisa Ward"
 keywords: ["best dog GPS tracker 2026", "dog tracker reviews", "Fi GPS tracker", "Whistle GPS", "pet GPS comparison"]
 score: 9.1

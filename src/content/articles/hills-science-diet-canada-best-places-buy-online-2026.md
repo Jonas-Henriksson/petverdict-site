@@ -4,7 +4,7 @@ description: "Compare 5 Canadian retailers selling Hill's Science Diet in 2026. 
 image: "https://images.petverdict.net/hills-science-diet-canada-best-places-buy-online-2026/hero.png"
 date: 2026-04-16
 updated: 2026-04-16
-category: "Buyer Guides"
+category: Buyer Guides
 author: "Kevin Nguyen"
 keywords: ["hills science diet canada", "where to buy hills science diet canada 2026", "hills science diet price canada", "hill's science diet online canada", "pet food price comparison canada 2026"]
 score: 8.2

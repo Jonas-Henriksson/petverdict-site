@@ -4,7 +4,7 @@ description: "ARCA topped our multi-species emergency tests — but most kits la
 image: "https://images.petverdict.net/best-pet-first-aid-kit-2026/hero.png"
 date: 2026-04-14
 updated: 2026-04-14
-category: pet-health
+category: Pet Health
 author: "Kevin Nguyen"
 keywords: ["best pet first aid kit 2026", "pet first aid kit", "dog first aid kit", "cat first aid kit", "pet emergency kit"]
 score: 8.7

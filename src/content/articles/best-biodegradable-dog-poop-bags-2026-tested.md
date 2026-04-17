@@ -4,7 +4,7 @@ description: "ASTM D6400-certified bags outperformed "eco" claims in cold-weathe
 image: "https://images.petverdict.net/best-biodegradable-dog-poop-bags-2026-tested/hero.png"
 date: 2026-04-13
 updated: 2026-04-13
-category: buyer-guides
+category: Buyer Guides
 author: Emma Lindqvist
 keywords: ["best dog poop bags 2026", "biodegradable dog poop bags", "compostable dog waste bags", "ASTM D6400 poop bags", "eco-friendly poop bags ranked"]
 score: 8.6

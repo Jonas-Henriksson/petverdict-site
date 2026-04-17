@@ -4,7 +4,7 @@ description: "Greenies led on plaque reduction in vet testing — but costs 3x m
 image: "https://images.petverdict.net/best-dog-dental-chews-2026-vohc-ranked/hero.png"
 date: 2026-04-15
 updated: 2026-04-15
-category: pet-health
+category: Pet Health
 author: "Dr. Lisa Ward"
 keywords: ["best dog dental chews", "VOHC seal dog chews", "dog dental chews 2026", "Greenies vs OraVet", "dog plaque chews vet ranked"]
 score: 8.7

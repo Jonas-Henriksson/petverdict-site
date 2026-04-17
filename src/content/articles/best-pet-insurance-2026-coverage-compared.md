@@ -4,7 +4,7 @@ description: "8 providers analyzed across 50+ policy scenarios — claims proces
 image: "https://images.petverdict.net/best-pet-insurance-2026-coverage-compared/hero.png"
 date: 2026-04-07
 updated: 2026-04-07
-category: "Pet Insurance"
+category: Pet Insurance
 author: "Kevin Nguyen"
 keywords: ["best pet insurance 2026", "pet insurance comparison", "dog insurance reviews", "cat insurance reviews", "pet insurance cost"]
 score: 9.0

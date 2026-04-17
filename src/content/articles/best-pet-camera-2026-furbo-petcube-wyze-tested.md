@@ -3,7 +3,7 @@ title: "Furbo vs Petcube vs Wyze Pet Camera 2026: Winner Tested"
 description: "Furbo leads on treat accuracy and two-way audio clarity — but Wyze costs $35 vs $169. Real-world video quality and reliability data from our 60-day comparison."
 date: 2026-04-09
 updated: 2026-04-09
-category: pet-tech
+category: Pet Tech
 author: PetPulse Team
 keywords: ["pet camera", "dog camera", "Furbo camera", "Petcube camera", "pet monitoring camera"]
 score: 9.2

@@ -3,7 +3,7 @@ title: "5 Automatic Litter Boxes Ranked 2026: Litter-Robot 4 Wins"
 description: "Litter-Robot 4 beats ScoopFree and PetSafe on odor control and reliability — but costs $700. Our 5-model ranking shows who actually saves money long-term."
 date: 2026-04-09
 updated: 2026-04-09
-category: pet-tech
+category: Pet Tech
 author: PetPulse Team
 keywords: ["automatic litter box", "Litter-Robot 4", "ScoopFree automatic", "PetSafe litter box", "self-cleaning litter box"]
 score: 9.2

@@ -3,7 +3,7 @@ title: "Oral vs Topical vs Collar Flea Prevention 2026: Vet Verdict"
 description: "Oral treatments outperformed topicals in vet-conducted efficacy trials — but cost 4x more per month. All three methods compared with real-world data for dogs and cats."
 date: 2026-04-09
 updated: 2026-04-09
-category: pet-health
+category: Pet Health
 author: PetPulse Team
 keywords: ["flea and tick prevention", "flea collar", "oral flea medication", "topical flea treatment", "pet parasite control"]
 score: 9.2

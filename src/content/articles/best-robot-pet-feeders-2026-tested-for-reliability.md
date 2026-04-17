@@ -4,7 +4,7 @@ description: "Portion accuracy and jam rate tested over 60 days — 3 feeders fa
 image: "https://images.petverdict.net/best-robot-pet-feeders-2026-tested-for-reliability/hero.png"
 date: 2026-04-06
 updated: 2026-04-06
-category: "Pet Tech"
+category: Pet Tech
 author: "Dr. Lisa Ward"
 keywords: ["best automatic pet feeder 2026", "robot pet feeder reviews", "smart pet feeder", "automatic cat feeder", "automatic dog feeder"]
 score: 8.9

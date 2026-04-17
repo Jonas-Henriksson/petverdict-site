@@ -4,7 +4,7 @@ description: "One brand scored top marks on protein quality, palatability, and v
 image: "https://images.petverdict.net/best-cat-food-2026-complete-buying-guide/hero.png"
 date: 2026-04-08
 updated: 2026-04-08
-category: "Cat Food"
+category: Cat Food
 author: "Hannah Brooks"
 keywords: ["best cat food 2026", "top rated cat food", "healthiest cat food", "cat food reviews", "premium cat food brands"]
 score: 9.2

@@ -4,7 +4,7 @@ description: "A vet tech tested 6 dog coats on two goldens in real winter condit
 image: "https://images.petverdict.net/best-dog-coats-winter-2026-tested/hero.png"
 date: 2026-04-13
 updated: 2026-04-13
-category: "buyer-guides"
+category: Buyer Guides
 author: "Emma Lindqvist"
 keywords: ["best dog coat winter 2026", "waterproof dog jacket", "Ruffwear Vert jacket", "Hurtta Expedition Parka", "dog winter coat review"]
 score: 9.2

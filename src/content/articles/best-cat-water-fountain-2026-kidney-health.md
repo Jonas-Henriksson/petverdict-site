@@ -4,7 +4,7 @@ description: "One fountain increased water intake 40% in CKD cats during our 6-w
 image: "https://images.petverdict.net/best-cat-water-fountain-2026-kidney-health/hero.png"
 date: 2026-04-15
 updated: 2026-04-15
-category: pet-health
+category: Pet Health
 author: Kevin Nguyen
 keywords: ["best cat water fountain", "cat fountain kidney health", "cat water fountain CKD", "best cat fountain 2026", "cat hydration fountain"]
 score: 8.7
