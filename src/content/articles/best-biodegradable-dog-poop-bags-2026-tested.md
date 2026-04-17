@@ -1,6 +1,7 @@
 ---
 title: "6 Biodegradable Dog Poop Bags Tested 2026: 2 Fail in Cold"
 description: "ASTM D6400-certified bags outperformed "eco" claims in cold-weather tests — 2 brands failed at 40°F. Ranked by thickness, certification, and real cost per day."
+image: "https://images.petverdict.net/best-biodegradable-dog-poop-bags-2026-tested/hero.png"
 date: 2026-04-13
 updated: 2026-04-13
 category: buyer-guides
@@ -43,6 +44,8 @@ Here's what I found — including which brands are trading on greenwashing and w
 
 ## Quick Verdict
 
+![Quick Verdict](https://images.petverdict.net/best-biodegradable-dog-poop-bags-2026-tested/section-1.png)
+
 | Category | Pick | Why |
 |---|---|---|
 | **Best Overall** | Earth Rated Extra Thick (Compostable SKU) | Lowest per-bag cost, most reliable performance, verified ASTM D6400 on the correct SKU |
@@ -54,6 +57,8 @@ Here's what I found — including which brands are trading on greenwashing and w
 ---
 
 ## How I Evaluated
+
+![How I Evaluated](https://images.petverdict.net/best-biodegradable-dog-poop-bags-2026-tested/section-2.png)
 
 I ran an eight-week structured test across roughly 60–70 pickups per brand with Biscuit and Maple. I tracked bag failures (splits, punctures, tears at the dispenser), cold-weather separation behavior (I test in winter Pacific Northwest conditions, which get into the low 30s regularly), and scent masking effectiveness on a 10-minute timed carry-back.
 
