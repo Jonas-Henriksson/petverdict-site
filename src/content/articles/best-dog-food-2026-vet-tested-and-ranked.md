@@ -1,6 +1,7 @@
 ---
 title: "Best Dog Food 2026: 12 Brands Vet-Tested Over 90 Days"
 description: "After 90 days of feeding trials with real dogs and vet oversight, one brand won on nutrition density, palatability, and ingredient quality. Full ranked list inside."
+image: "https://images.petverdict.net/best-dog-food-2026-vet-tested-and-ranked/hero.png"
 date: 2026-04-09
 updated: 2026-04-09
 category: "Dog Food"
@@ -24,11 +25,15 @@ ogImage: "/og/best-dog-food-2026-vet-tested-and-ranked.jpg"
 
 ## The Best Dog Foods of 2026, Ranked
 
+![The Best Dog Foods of 2026, Ranked](https://images.petverdict.net/best-dog-food-2026-vet-tested-and-ranked/section-1.png)
+
 Picking a dog food in 2026 is harder than it should be. The category is flooded with boutique brands making claims that don't hold up to ingredient-panel scrutiny, while the foods with the deepest nutritional research budgets get dismissed as "old school." We spent several weeks reading labels obsessively, cross-referencing AAFCO statements, pulling up guaranteed analyses, and talking to our family vet about what actually matters for long-term dog health. What follows is an honest ranking based on ingredient sourcing, AAFCO compliance, observable outcomes in our own dogs, and published research — not a fabricated 90-day lab study.
 
 Fair warning: we didn't love everything on this list. One of these foods made our shortlist mostly because it's hard to recommend against, not because it's exciting. We'll tell you which.
 
 ## Quick Verdict
+
+![Quick Verdict](https://images.petverdict.net/best-dog-food-2026-vet-tested-and-ranked/section-2.png)
 
 > **Top Pick:** Ollie Fresh — the cleanest ingredient panel of any subscription fresh food we looked at, though the price is genuinely hard to stomach for large breeds. **Runner-Up:** The Farmer's Dog — nearly identical quality at a slightly lower price, with one recipe we'd avoid. **Budget Pick:** Purina Pro Plan — the food your vet probably feeds her own dog, and the one brand on this list that has actually run AAFCO feeding trials rather than relying on formulation-only compliance.
 
