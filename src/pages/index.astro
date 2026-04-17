@@ -1,352 +1,682 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
-import NewsletterSignup from '../components/NewsletterSignup.astro';
-import LeadCapture from '../components/LeadCapture.astro';
 import { getCollection } from 'astro:content';
 import siteConfig from '../../site.config';
+
 const allArticles = await getCollection('articles', ({ data }) => !data.draft);
-const sortedArticles = allArticles.sort((a, b) => {
+const sortedArticles = [...allArticles].sort((a, b) => {
   const scoreA = a.data.score || 0;
   const scoreB = b.data.score || 0;
   if (scoreB !== scoreA) return scoreB - scoreA;
   return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
 });
-const categories = [...new Set(allArticles.map((a) => a.data.category).filter(Boolean))];
+const latestArticles = [...allArticles]
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 8);
+
+const TOP_PICKS = [
+  { name: 'Shop Amazon Pet', price: null, category: 'All Pet Supplies', slug: 'amazon', tag: 'Top retailer' },
+  { name: 'Chewy', price: null, category: 'Food & Treats', slug: 'chewy', tag: 'Best prices' },
+  { name: 'Petco', price: null, category: 'Gear & Accessories', slug: 'petco', tag: 'In-store pickup' },
+  { name: 'Canada Pet Care', price: null, category: 'Medications & Health', slug: 'canada-pet-care', tag: 'Best value Rx' },
+  { name: 'Pet Care Supplies', price: null, category: 'Supplements & Wellness', slug: 'pet-care-supplies', tag: 'Editor tested' },
+];
+
 const featuredArticle = sortedArticles[0];
 const rankedArticles = sortedArticles.slice(1, 7);
 const remainingArticles = sortedArticles.slice(7);
+const API_URL = 'https://newsletter.petverdict.net/subscribe';
+const SITE_ID = 'petverdict';
+const fGradient = 'linear-gradient(135deg, #7c2d12, #ea580c)';
 ---
 
 <BaseLayout title={`${siteConfig.siteName} — ${siteConfig.tagline}`}>
-  <!-- Hero -->
-  <section class="hero">
-    <div class="hero-inner">
-      <div class="hero-label">
-        <span class="hero-dot"></span>
-        Independent Reviews
-      </div>
-      <h1 class="hero-title">
-        The pet product testing lab.<br/>
-        <em>Tested. Scored. Tail-approved.</em>
-      </h1>
-      <p class="hero-description">
-        Rigorous, hands-on testing of the best dog food, cat food, pet insurance, pet tech, and grooming tools. Real scores, honest verdicts, clear winners. No hype.
-      </p>
-      <div class="hero-stats">
-        <div class="stat">
-          <span class="stat-number">{allArticles.length}+</span>
-          <span class="stat-label">Reviews</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-number">{categories.length}</span>
-          <span class="stat-label">Categories</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-number">100%</span>
-          <span class="stat-label">Independent</span>
-        </div>
-      </div>
-    </div>
-  </section>
+  <div class="page-layout">
 
-  <!-- Featured / #1 -->
-  {featuredArticle && (
-    <section class="featured">
-      <div class="section-header">
-        <span class="section-label">Top Rated</span>
-        <div class="section-line"></div>
+    <!-- LEFT COLUMN: Latest Reviews -->
+    <aside class="col-left">
+      <div class="panel-header">
+        <span class="panel-label">Latest Reviews</span>
       </div>
-      <a href={`/${featuredArticle.slug}`} class="featured-card">
-        <div class="featured-rank">#1</div>
-        <div class="featured-content">
-          <div class="featured-top">
-            {featuredArticle.data.category && (
-              <span class="featured-category">{featuredArticle.data.category}</span>
+      <ul class="latest-list">
+        {latestArticles.map((article) => (
+          <li class="latest-item">
+            <a href={`/${article.slug}`} class="latest-link">
+              <span class="latest-title">{article.data.title}</span>
+              <time
+                class="latest-date"
+                datetime={new Date(article.data.date).toISOString()}
+              >
+                {new Date(article.data.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+              </time>
+            </a>
+            {article.data.category && (
+              <span class="latest-cat">{article.data.category}</span>
             )}
-            {featuredArticle.data.badge && (
-              <span class:list={['featured-badge', `featured-badge--${featuredArticle.data.badge}`]}>
-                {featuredArticle.data.badge === 'editors-pick' && '★ '}
-                {featuredArticle.data.badge === 'editors-pick' ? "Editor's Pick" :
-                 featuredArticle.data.badge === 'top-rated' ? 'Top Rated' :
-                 featuredArticle.data.badge === 'best-value' ? 'Best Value' : 'Tested'}
-              </span>
+          </li>
+        ))}
+      </ul>
+      {allArticles.length > 8 && (
+        <a href="/reviews" class="see-all-link">All reviews &rarr;</a>
+      )}
+
+      <!-- Methodology note -->
+      <div class="methodology-box">
+        <p class="methodology-text">Every product is tested with real pets. Not influencer unboxings.</p>
+        <a href="/disclosure" class="methodology-cta-link">Our methodology &rarr;</a>
+      </div>
+    </aside>
+
+    <!-- CENTER COLUMN: Featured hero + ranked grid + subscribe -->
+    <main class="col-center">
+
+      <!-- Featured hero -->
+      {featuredArticle && (
+        <section class="featured-hero">
+          <div class="hero-eyebrow">
+            <span class="hero-badge">Top Rated</span>
+            {featuredArticle.data.category && (
+              <span class="hero-category">{featuredArticle.data.category}</span>
             )}
           </div>
-          <h2 class="featured-title">{featuredArticle.data.title}</h2>
-          <p class="featured-description">{featuredArticle.data.description}</p>
-          <div class="featured-meta">
-            <time datetime={new Date(featuredArticle.data.date).toISOString()}>
+          <a href={`/${featuredArticle.slug}`} class="hero-link">
+            <h1 class="hero-title">{featuredArticle.data.title}</h1>
+          </a>
+          {featuredArticle.data.description && (
+            <p class="hero-description">{featuredArticle.data.description}</p>
+          )}
+          <div class="hero-footer">
+            <time
+              class="hero-date"
+              datetime={new Date(featuredArticle.data.date).toISOString()}
+            >
               {new Date(featuredArticle.data.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
             </time>
             {featuredArticle.data.winner && (
-              <span class="featured-winner">Winner: <strong>{featuredArticle.data.winner}</strong></span>
+              <span class="hero-winner">Winner: <strong>{featuredArticle.data.winner}</strong></span>
             )}
-            <span class="read-indicator">Read review &rarr;</span>
+            {featuredArticle.data.score && (
+              <span class="hero-score">
+                <span class="hero-score-value">{featuredArticle.data.score.toFixed(1)}</span>
+                <span class="hero-score-denom">/10</span>
+              </span>
+            )}
+            <a href={`/${featuredArticle.slug}`} class="hero-read-more">Read full review &rarr;</a>
           </div>
+        </section>
+      )}
+
+      <!-- Subscribe strip -->
+      <section class="subscribe-strip">
+        <div class="subscribe-copy">
+          <strong>Pet gear that actually holds up, tested with real animals.</strong>
+          <span class="subscribe-sub">Weekly picks. No fluff. Unsubscribe anytime.</span>
         </div>
-        {featuredArticle.data.score && (
-          <div class="featured-score">
-            <span class="featured-score-value">{featuredArticle.data.score.toFixed(1)}</span>
-            <span class="featured-score-max">/10</span>
-          </div>
-        )}
-        <div class="featured-accent"></div>
-      </a>
-    </section>
-  )}
-
-  <!-- Categories -->
-  {categories.length > 0 && (
-    <section class="categories" id="categories">
-      <div class="section-header">
-        <span class="section-label">Categories</span>
-        <div class="section-line"></div>
-      </div>
-      <div class="category-strip">
-        {categories.map((cat) => {
-          const count = allArticles.filter((a) => a.data.category === cat).length;
-          return (
-            <a href={`/category/${cat.toLowerCase().replace(/\s+/g, '-')}`} class="category-chip">
-              <span class="category-chip-name">{cat}</span>
-              <span class="category-chip-count">{count}</span>
-            </a>
-          );
-        })}
-      </div>
-    </section>
-  )}
-
-  <!-- Ranked Reviews -->
-  <section class="rankings" id="latest">
-    <div class="section-header">
-      <span class="section-label">Rankings</span>
-      <div class="section-line"></div>
-    </div>
-    <div class="rankings-grid">
-      {rankedArticles.map((article, i) => (
-        <div class="article-animate" style={`animation-delay: ${i * 60}ms`}>
-          <ArticleCard
-            title={article.data.title}
-            description={article.data.description}
-            date={article.data.date}
-            author={article.data.author}
-            image={article.data.image}
-            category={article.data.category}
-            slug={article.slug}
-            score={article.data.score}
-            badge={article.data.badge}
-            rank={i + 2}
+        <form class="subscribe-form" data-api={API_URL} data-site={SITE_ID}>
+          <input
+            type="email"
+            name="email"
+            placeholder="your@email.com"
+            required
+            class="subscribe-input"
+            aria-label="Email address"
           />
-        </div>
-      ))}
-    </div>
-  </section>
+          <button type="submit" class="subscribe-btn">Subscribe</button>
+        </form>
+        <p class="subscribe-status" aria-live="polite"></p>
+      </section>
 
-  <!-- Lead Capture -->
-  <LeadCapture />
-
-  <!-- More Reviews -->
-  {remainingArticles.length > 0 && (
-    <section class="more-reviews">
-      <div class="section-header">
-        <span class="section-label">More Reviews</span>
-        <div class="section-line"></div>
-      </div>
-      <div class="more-grid">
-        {remainingArticles.map((article, i) => (
-          <div class="article-animate" style={`animation-delay: ${i * 60}ms`}>
-            <ArticleCard
-              title={article.data.title}
-              description={article.data.description}
-              date={article.data.date}
-              author={article.data.author}
-              image={article.data.image}
-              category={article.data.category}
-              slug={article.slug}
-              score={article.data.score}
-              badge={article.data.badge}
-            />
+      <!-- Ranked reviews grid -->
+      {rankedArticles.length > 0 && (
+        <section class="rankings-section">
+          <div class="section-header">
+            <span class="section-label">Top Rankings</span>
+            <div class="section-line"></div>
           </div>
-        ))}
+          <div class="rankings-grid">
+            {rankedArticles.map((article, i) => (
+              <div class="article-animate" style={`animation-delay: ${i * 60}ms`}>
+                <ArticleCard
+                  title={article.data.title}
+                  description={article.data.description}
+                  date={article.data.date}
+                  author={article.data.author}
+                  image={article.data.image}
+                  category={article.data.category}
+                  slug={article.slug}
+                  score={article.data.score}
+                  badge={article.data.badge}
+                  rank={i + 2}
+                />
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- More reviews -->
+      {remainingArticles.length > 0 && (
+        <section class="more-section">
+          <div class="section-header">
+            <span class="section-label">More Reviews</span>
+            <div class="section-line"></div>
+          </div>
+          <div class="more-grid">
+            {remainingArticles.map((article, i) => (
+              <div class="article-animate" style={`animation-delay: ${i * 60}ms`}>
+                <ArticleCard
+                  title={article.data.title}
+                  description={article.data.description}
+                  date={article.data.date}
+                  author={article.data.author}
+                  image={article.data.image}
+                  category={article.data.category}
+                  slug={article.slug}
+                  score={article.data.score}
+                  badge={article.data.badge}
+                />
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+    </main>
+
+    <!-- RIGHT COLUMN: Sticky affiliate picks -->
+    <aside class="col-right">
+      <div class="panel-header">
+        <span class="panel-label">Top pet picks</span>
       </div>
-    </section>
-  )}
-
-  <!-- Newsletter -->
-  <NewsletterSignup variant="inline" />
-
-  <!-- Methodology CTA -->
-  <section class="methodology-cta">
-    <div class="methodology-inner">
-      <span class="methodology-label">Our Promise</span>
-      <h2>Every score is earned,<br/><em>never paid for.</em></h2>
-      <p>
-        We test every pet product hands-on before publishing a score. Affiliate commissions fund our testing
-        but never influence rankings. Brands cannot pay for placement.
+      <ul class="picks-list">
+        {TOP_PICKS.map((pick) => (
+          <li class="pick-item">
+            <a href={`/go/${pick.slug}`} class="pick-link" target="_blank" rel="noopener sponsored">
+              <span class="pick-name">{pick.name}</span>
+              {pick.tag && <span class="pick-tag">{pick.tag}</span>}
+              <span class="pick-category">{pick.category}</span>
+              <span class="pick-arrow">Shop &rarr;</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <p class="affiliate-disclosure">
+        Affiliate links. We earn a commission at no extra cost to you. Rankings are never influenced by sponsorship.
       </p>
-      <a href="/disclosure" class="methodology-link">Read our full methodology &rarr;</a>
-    </div>
-  </section>
+    </aside>
+
+  </div>
 </BaseLayout>
 
+<script>
+  document.querySelectorAll<HTMLFormElement>('.subscribe-form').forEach((form) => {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const status = form.nextElementSibling as HTMLParagraphElement | null;
+      const emailInput = form.querySelector<HTMLInputElement>('input[name="email"]');
+      const btn = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+      if (!emailInput || !btn) return;
+
+      const email = emailInput.value.trim();
+      const apiUrl = form.dataset.api ?? '';
+      const siteId = form.dataset.site ?? '';
+
+      btn.textContent = 'Subscribing…';
+      btn.disabled = true;
+
+      try {
+        const res = await fetch(apiUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, site: siteId }),
+        });
+        if (res.ok) {
+          if (status) status.textContent = 'You\'re in! Check your inbox.';
+          form.reset();
+        } else {
+          if (status) status.textContent = 'Something went wrong. Please try again.';
+        }
+      } catch {
+        if (status) status.textContent = 'Network error. Please try again.';
+      } finally {
+        btn.textContent = 'Subscribe';
+        btn.disabled = false;
+      }
+    });
+  });
+</script>
+
 <style>
-  .hero {
-    padding: var(--space-4xl) 0 var(--space-3xl);
+  /* ── Page shell ─────────────────────────────────────────────────── */
+  .page-layout {
+    display: grid;
+    grid-template-columns: 240px 1fr 220px;
+    grid-template-areas: "left center right";
+    gap: var(--space-2xl);
+    max-width: var(--max-width, 1280px);
+    margin: 0 auto;
+    padding: var(--space-2xl) 0 var(--space-3xl);
+    align-items: start;
+  }
+
+  .col-left  { grid-area: left;   }
+  .col-center { grid-area: center; }
+  .col-right { grid-area: right;  position: sticky; top: var(--space-xl); }
+
+  /* ── Shared panel header ────────────────────────────────────────── */
+  .panel-header {
+    border-bottom: 2px solid var(--electric);
+    padding-bottom: var(--space-sm);
+    margin-bottom: var(--space-md);
+  }
+
+  .panel-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--electric);
+  }
+
+  /* ── Left: Latest reviews ───────────────────────────────────────── */
+  .latest-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 var(--space-md);
+  }
+
+  .latest-item {
+    padding: var(--space-sm) 0;
     border-bottom: 1px solid var(--ink-100);
-    margin-bottom: var(--space-3xl);
   }
 
-  .hero-inner { max-width: var(--max-width); margin: 0 auto; }
-
-  .hero-label {
-    display: inline-flex; align-items: center; gap: 0.5rem;
-    font-size: 0.8rem; font-weight: 600; text-transform: uppercase;
-    letter-spacing: 0.08em; color: var(--ink-500); margin-bottom: var(--space-lg);
-    animation: fadeInUp var(--duration-slow) var(--ease-out) both;
+  .latest-link {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-decoration: none;
+    color: inherit;
   }
 
-  .hero-dot {
-    width: 6px; height: 6px; border-radius: 50%;
-    background: var(--electric);
-    animation: pulse 2s var(--ease-in-out) infinite;
+  .latest-link:hover .latest-title { color: var(--electric); }
+
+  .latest-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--ink-900, #111);
+    transition: color 0.15s ease;
   }
 
-  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
-
-  .hero-title {
-    font-size: clamp(2.75rem, 6vw, 4rem); line-height: 1.05;
-    letter-spacing: -0.035em; margin-bottom: var(--space-lg);
-    animation: fadeInUp var(--duration-slow) var(--ease-out) 80ms both;
+  .latest-date {
+    font-size: 0.7rem;
+    color: var(--ink-400);
   }
 
-  .hero-title em { font-style: italic; color: var(--electric); }
-
-  .hero-description {
-    font-size: 1.125rem; line-height: 1.65; color: var(--ink-500);
-    max-width: 520px; margin-bottom: var(--space-2xl);
-    animation: fadeInUp var(--duration-slow) var(--ease-out) 160ms both;
+  .latest-cat {
+    display: inline-block;
+    margin-top: 3px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-400);
+    background: var(--ink-100);
+    padding: 1px 6px;
+    border-radius: 3px;
   }
 
-  .hero-stats {
-    display: flex; align-items: center; gap: var(--space-xl);
-    animation: fadeInUp var(--duration-slow) var(--ease-out) 240ms both;
+  .see-all-link {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--electric);
+    text-decoration: none;
+    margin-bottom: var(--space-xl);
   }
 
-  .stat { display: flex; flex-direction: column; }
-  .stat-number { font-family: var(--font-display); font-size: 1.75rem; letter-spacing: -0.02em; color: var(--ink-950); }
-  .stat-label { font-size: 0.75rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-400); margin-top: 2px; }
-  .stat-divider { width: 1px; height: 32px; background: var(--ink-200); }
+  .see-all-link:hover { text-decoration: underline; }
 
-  .section-header { display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-xl); }
-  .section-label { font-family: var(--font-body); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-400); white-space: nowrap; }
-  .section-line { flex: 1; height: 1px; background: var(--ink-100); }
-
-  .featured { margin-bottom: var(--space-3xl); }
-
-  .featured-card {
-    display: flex; align-items: stretch; position: relative;
-    background: var(--surface-inverse); border-radius: var(--border-radius-lg);
-    text-decoration: none; color: white; overflow: hidden;
-    transition: transform var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out);
+  .methodology-box {
+    margin-top: var(--space-xl);
+    padding: var(--space-md);
+    border-left: 3px solid var(--electric);
+    background: var(--surface, #f8f7f5);
+    border-radius: 0 4px 4px 0;
   }
 
-  .featured-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-xl); color: white; }
-
-  .featured-rank {
-    display: flex; align-items: center; justify-content: center;
-    min-width: 72px; font-family: var(--font-display); font-size: 2rem;
-    color: var(--ink-700); border-right: 1px solid var(--ink-800); flex-shrink: 0;
+  .methodology-text {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: var(--ink-600, #444);
+    margin: 0 0 var(--space-sm);
   }
 
-  .featured-card:hover .featured-rank { color: var(--electric); }
+  .methodology-cta-link {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--ink-800, #222);
+    text-decoration: none;
+    border-bottom: 1px solid var(--ink-300);
+    padding-bottom: 1px;
+  }
 
-  .featured-accent {
-    position: absolute; top: 0; right: 0; width: 30%; height: 100%;
-    background: linear-gradient(135deg, transparent 0%, rgba(249, 115, 22, 0.06) 50%, rgba(249, 115, 22, 0.12) 100%);
+  .methodology-cta-link:hover { color: var(--electric); border-color: var(--electric); }
+
+  /* ── Center: Featured hero ──────────────────────────────────────── */
+  .featured-hero {
+    background: var(--surface-inverse, #0f0f0f);
+    border-radius: var(--border-radius-lg, 10px);
+    padding: var(--space-2xl);
+    margin-bottom: var(--space-2xl);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .featured-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: v-bind(fGradient);
+    opacity: 0.12;
     pointer-events: none;
   }
 
-  .featured-content { position: relative; z-index: 1; padding: var(--space-xl) var(--space-2xl); flex: 1; min-width: 0; }
-  .featured-top { display: flex; align-items: center; gap: 0.5rem; margin-bottom: var(--space-sm); }
-  .featured-category { font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-400); }
-
-  .featured-badge { font-size: 0.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 0.15rem 0.5rem; border-radius: 3px; }
-  .featured-badge--editors-pick { background: rgba(217, 119, 6, 0.2); color: #fbbf24; }
-  .featured-badge--top-rated { background: rgba(249, 115, 22, 0.2); color: #fb923c; }
-  .featured-badge--best-value { background: rgba(5, 150, 105, 0.2); color: #6ee7b7; }
-  .featured-badge--tested { background: rgba(255, 255, 255, 0.08); color: var(--ink-400); }
-
-  .featured-title { font-size: clamp(1.5rem, 3vw, 2rem); color: white; margin-top: 0; margin-bottom: var(--space-sm); line-height: 1.2; }
-  .featured-description { font-size: 0.925rem; line-height: 1.55; color: var(--ink-400); margin-bottom: var(--space-md); max-width: 540px; }
-
-  .featured-meta { display: flex; align-items: center; gap: var(--space-md); font-size: 0.8rem; color: var(--ink-500); flex-wrap: wrap; }
-  .featured-winner { color: var(--ink-400); }
-  .featured-winner strong { color: white; font-weight: 600; }
-  .read-indicator { color: var(--electric); font-weight: 500; margin-left: auto; }
-
-  .featured-score { display: flex; align-items: center; gap: 3px; padding: 0 var(--space-2xl); position: relative; z-index: 1; flex-shrink: 0; }
-  .featured-score-value { font-family: var(--font-display); font-size: 3.5rem; line-height: 1; letter-spacing: -0.03em; color: white; }
-  .featured-score-max { font-size: 1rem; color: var(--ink-500); align-self: flex-end; margin-bottom: 0.5rem; }
-
-  .categories { margin-bottom: var(--space-3xl); }
-  .category-strip { display: flex; flex-wrap: wrap; gap: 0.625rem; }
-
-  .category-chip {
-    display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem;
-    border: 1px solid var(--ink-200); border-radius: 999px; font-size: 0.85rem;
-    font-weight: 500; color: var(--ink-700); text-decoration: none;
-    transition: all var(--duration-fast) var(--ease-out); background: var(--surface);
+  .hero-eyebrow {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-md);
   }
 
-  .category-chip:hover { border-color: var(--electric); color: var(--electric); background: var(--electric-light); }
-
-  .category-chip-count {
-    font-size: 0.7rem; font-weight: 600; color: var(--ink-400);
-    background: var(--ink-100); padding: 0.125rem 0.5rem; border-radius: 999px; min-width: 1.5rem; text-align: center;
+  .hero-badge {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: var(--electric);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
   }
 
-  .rankings { margin-bottom: var(--space-3xl); }
-  .rankings-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: var(--space-lg); }
-  .article-animate { animation: fadeInUp var(--duration-slow) var(--ease-out) both; }
-
-  .more-reviews { margin-bottom: var(--space-3xl); }
-  .more-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: var(--space-lg); }
-
-  .methodology-cta { margin: var(--space-3xl) 0; }
-  .methodology-inner { max-width: var(--max-width); margin: 0 auto; padding: var(--space-3xl) 0; border-top: 2px solid var(--electric); }
-  .methodology-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-400); }
-  .methodology-inner h2 { margin-top: var(--space-md); margin-bottom: var(--space-md); }
-  .methodology-inner h2 em { font-style: italic; color: var(--electric); }
-  .methodology-inner p { color: var(--ink-500); max-width: 540px; line-height: 1.7; }
-
-  .methodology-link {
-    display: inline-block; font-size: 0.9rem; font-weight: 600; color: var(--ink-950);
-    text-decoration: none; border-bottom: 1.5px solid var(--ink-950); padding-bottom: 2px;
-    transition: opacity var(--duration-fast) var(--ease-out);
+  .hero-category {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-400);
   }
 
-  .methodology-link:hover { opacity: 0.7; color: var(--ink-950); }
+  .hero-link { text-decoration: none; }
 
-  @media (max-width: 768px) {
-    .hero { padding: var(--space-2xl) 0 var(--space-xl); }
-    .hero-title { font-size: clamp(2rem, 8vw, 3rem); }
-    .hero-stats { gap: var(--space-md); }
-    .featured-card { flex-direction: column; }
-    .featured-rank { min-width: unset; min-height: 48px; border-right: none; border-bottom: 1px solid var(--ink-800); }
-    .featured-content { padding: var(--space-lg); }
-    .featured-score { padding: 0 var(--space-lg) var(--space-lg); }
-    .featured-accent { display: none; }
+  .hero-title {
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+    color: white;
+    margin: 0 0 var(--space-md);
+  }
+
+  .hero-link:hover .hero-title { color: var(--electric); }
+
+  .hero-description {
+    font-size: 1rem;
+    line-height: 1.65;
+    color: var(--ink-400);
+    margin: 0 0 var(--space-lg);
+    max-width: 600px;
+  }
+
+  .hero-footer {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    flex-wrap: wrap;
+  }
+
+  .hero-date { font-size: 0.8rem; color: var(--ink-500); }
+
+  .hero-winner { font-size: 0.85rem; color: var(--ink-400); }
+  .hero-winner strong { color: white; font-weight: 600; }
+
+  .hero-score {
+    display: flex;
+    align-items: baseline;
+    gap: 2px;
+    margin-left: auto;
+  }
+
+  .hero-score-value {
+    font-family: var(--font-display, serif);
+    font-size: 2.5rem;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: white;
+  }
+
+  .hero-score-denom { font-size: 0.9rem; color: var(--ink-500); }
+
+  .hero-read-more {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--electric);
+    text-decoration: none;
+  }
+
+  .hero-read-more:hover { text-decoration: underline; }
+
+  /* ── Subscribe strip ────────────────────────────────────────────── */
+  .subscribe-strip {
+    background: var(--ink-50, #f5f4f2);
+    border: 1px solid var(--ink-200);
+    border-radius: var(--border-radius-lg, 10px);
+    padding: var(--space-lg) var(--space-xl);
+    margin-bottom: var(--space-2xl);
+    display: flex;
+    align-items: center;
+    gap: var(--space-xl);
+    flex-wrap: wrap;
+  }
+
+  .subscribe-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .subscribe-copy strong {
+    font-size: 0.95rem;
+    color: var(--ink-900, #111);
+  }
+
+  .subscribe-sub {
+    font-size: 0.8rem;
+    color: var(--ink-500);
+  }
+
+  .subscribe-form {
+    display: flex;
+    gap: var(--space-sm);
+    flex-shrink: 0;
+  }
+
+  .subscribe-input {
+    padding: 0.5rem 0.875rem;
+    font-size: 0.875rem;
+    border: 1px solid var(--ink-300);
+    border-radius: 6px;
+    background: white;
+    color: var(--ink-900, #111);
+    width: 200px;
+    outline: none;
+    transition: border-color 0.15s ease;
+  }
+
+  .subscribe-input:focus { border-color: var(--electric); }
+
+  .subscribe-btn {
+    padding: 0.5rem 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    background: var(--electric);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: opacity 0.15s ease;
+    white-space: nowrap;
+  }
+
+  .subscribe-btn:hover:not(:disabled) { opacity: 0.88; }
+  .subscribe-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+  .subscribe-status {
+    font-size: 0.8rem;
+    color: var(--electric);
+    margin: 0;
+    width: 100%;
+    min-height: 1.2em;
+  }
+
+  /* ── Section headers ────────────────────────────────────────────── */
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-xl);
+  }
+
+  .section-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-400);
+    white-space: nowrap;
+  }
+
+  .section-line { flex: 1; height: 1px; background: var(--ink-100); }
+
+  /* ── Rankings + more grids ──────────────────────────────────────── */
+  .rankings-section,
+  .more-section { margin-bottom: var(--space-3xl); }
+
+  .rankings-grid,
+  .more-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--space-lg);
+  }
+
+  .article-animate { animation: fadeInUp var(--duration-slow, 0.35s) var(--ease-out, ease-out) both; }
+
+  /* ── Right: Affiliate picks ─────────────────────────────────────── */
+  .picks-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 var(--space-md);
+  }
+
+  .pick-item {
+    border-bottom: 1px solid var(--ink-100);
+  }
+
+  .pick-link {
+    display: grid;
+    grid-template-areas:
+      "name arrow"
+      "tag  arrow"
+      "cat  arrow";
+    grid-template-columns: 1fr auto;
+    column-gap: var(--space-sm);
+    padding: var(--space-sm) 0;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .pick-link:hover .pick-name { color: var(--electric); }
+  .pick-link:hover .pick-arrow { color: var(--electric); }
+
+  .pick-name {
+    grid-area: name;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--ink-900, #111);
+    transition: color 0.15s ease;
+    line-height: 1.3;
+  }
+
+  .pick-tag {
+    grid-area: tag;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--electric);
+  }
+
+  .pick-category {
+    grid-area: cat;
+    font-size: 0.7rem;
+    color: var(--ink-400);
+  }
+
+  .pick-arrow {
+    grid-area: arrow;
+    align-self: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--ink-400);
+    transition: color 0.15s ease;
+    white-space: nowrap;
+  }
+
+  .affiliate-disclosure {
+    font-size: 0.65rem;
+    line-height: 1.5;
+    color: var(--ink-400);
+    margin-top: var(--space-md);
+  }
+
+  /* ── Responsive ─────────────────────────────────────────────────── */
+  @media (max-width: 1100px) {
+    .page-layout {
+      grid-template-columns: 200px 1fr 200px;
+      gap: var(--space-xl);
+    }
+  }
+
+  @media (max-width: 900px) {
+    .page-layout {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "center"
+        "right"
+        "left";
+    }
+
+    .col-right { position: static; }
+
+    .picks-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 0 var(--space-md);
+    }
+
+    .pick-item { border-bottom: none; border-top: 1px solid var(--ink-100); }
+
+    .subscribe-strip { flex-direction: column; align-items: flex-start; gap: var(--space-md); }
+    .subscribe-form { width: 100%; }
+    .subscribe-input { flex: 1; width: auto; min-width: 0; }
+  }
+
+  @media (max-width: 600px) {
+    .hero-title { font-size: clamp(1.4rem, 5vw, 1.8rem); }
     .rankings-grid, .more-grid { grid-template-columns: 1fr; }
-    .category-strip { overflow-x: auto; flex-wrap: nowrap; padding-bottom: var(--space-sm); -webkit-overflow-scrolling: touch; }
-    .category-chip { white-space: nowrap; }
-  }
-
-  @media (max-width: 480px) {
-    .stat-number { font-size: 1.5rem; }
-    .hero-description { font-size: 1rem; }
-    .featured-score-value { font-size: 2.5rem; }
+    .hero-footer { gap: var(--space-md); }
+    .hero-score { margin-left: 0; }
   }
 </style>
