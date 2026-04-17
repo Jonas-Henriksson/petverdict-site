@@ -194,7 +194,7 @@ The treat compartment is decent and the novelty factor is real — one of our do
 - **You just want to see and talk to your pet reliably, and save money**: Wyze Cam Pan v3.
 - **You specifically want a mobile robot**: probably reconsider, or at least try it with a return window.
 
-A comprehensive setup can also include an automatic feeder and, depending on your pet, broader coverage. See our guides on [robot pet feeders](/best-robot-pet-feeders-2026-tested-for-reliability) and [pet insurance](/best-pet-insurance-2026-coverage-compared) for the rest of the stack.
+A comprehensive setup can also include an automatic feeder and, depending on your pet, broader coverage. See our guides on [robot pet feeders](/best-robot-pet-feeders-2026-tested-for-reliability) and [pet insurance](/best-pet-insurance-2026-coverage-compared) for the rest of the stack. For dogs that are escape-prone rather than just anxious, a [GPS tracker](/best-dog-gps-trackers-2026-accuracy-tested/) provides the real-time location data that cameras can't. If your pet shows stress behaviors on camera, our [dog anxiety vest guide](/best-dog-anxiety-vest-2026-thundershirt-alternatives/) covers tools that can reduce baseline anxiety between sessions.
 
 ## Total cost over a year
 

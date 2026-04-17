@@ -179,7 +179,7 @@ Also watch for ingredient splitting. When you see "peas, pea protein, pea fiber"
 
 *Rough estimate for a ~70 lb growing puppy eating about 4 cups/day. Actual consumption varies a lot with breed, activity, and kibble caloric density.
 
-The spread between the cheapest and most expensive option is about $500 a year. That's real money, but it's small compared to what a single hip dysplasia surgery costs. Pick a food that gets the calcium right; don't pick based on brand prestige alone.
+The spread between the cheapest and most expensive option is about $500 a year. That's real money, but it's small compared to what a single hip dysplasia surgery costs. Pick a food that gets the calcium right; don't pick based on brand prestige alone. Once your puppy transitions to adult food, our [best dog food guide](/best-dog-food-2026-vet-tested-and-ranked/) covers the full field for adult dogs. Adding an [omega-3 fish oil supplement](/best-fish-oil-supplements-dogs-2026/) during the growth phase can support joint and coat development — check dosing with your vet since puppies and adults differ. [VOHC-approved dental chews](/best-dog-dental-chews-2026-vohc-ranked/) are worth starting early to build the habit, and enrolling in [pet insurance](/best-pet-insurance-2026-coverage-compared/) while your puppy is young and healthy locks in the lowest premiums before any conditions develop.
 
 ## Feeding a Large Breed Puppy Without Wrecking Them
 

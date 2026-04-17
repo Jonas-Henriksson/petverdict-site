@@ -235,7 +235,7 @@ If your dog is small, doesn't pull hard, and you're buying a harness primarily f
 
 **Car-first households**: Kurgo Tru-Fit Smart, accepting that it's a compromise on pure pull control.
 
-**Very powerful dogs with genuine control issues**: Consider pairing a front-clip harness with a head halter under the guidance of a trainer. No harness alone solves serious pulling in a 120-pound dog.
+**Very powerful dogs with genuine control issues**: Consider pairing a front-clip harness with a head halter under the guidance of a trainer. No harness alone solves serious pulling in a 120-pound dog. For dogs who need ongoing management on walks, our [no-pull training harness guide](/best-no-pull-dog-harness-2026-training/) covers lighter-duty options focused on training rather than sheer force control.
 
 ## What Actually Reduces Pulling
 
@@ -263,7 +263,7 @@ Two fingers should slide between the straps and your dog's body. The chest strap
 
 ### Does diet affect pulling behavior or trainability?
 
-Indirectly, yes — a dog running on inconsistent nutrition is harder to train regardless of your harness. A couple of points worth knowing: look for a food that meets AAFCO standards via feeding trials rather than formulation-only, since feeding trials are the more rigorous of the two compliance routes. The FDA's investigation into grain-free diets and dilated cardiomyopathy (DCM) — particularly with legume-heavy formulations where peas, lentils, and pea protein appear high in the ingredient list — remains unresolved, and we wouldn't recommend grain-free without a specific medical reason. Watch for ingredient splitting, too: seeing "pea protein," "pea fiber," and "whole peas" listed separately can disguise just how much of the formula is actually legume. None of this directly reduces pulling, but consistent, well-absorbed nutrition supports the focus and stamina that training requires.
+Indirectly, yes — a dog running on inconsistent nutrition is harder to train regardless of your harness. A couple of points worth knowing: look for a food that meets AAFCO standards via feeding trials rather than formulation-only, since feeding trials are the more rigorous of the two compliance routes. The FDA's investigation into grain-free diets and dilated cardiomyopathy (DCM) — particularly with legume-heavy formulations where peas, lentils, and pea protein appear high in the ingredient list — remains unresolved, and we wouldn't recommend grain-free without a specific medical reason. Watch for ingredient splitting, too: seeing "pea protein," "pea fiber," and "whole peas" listed separately can disguise just how much of the formula is actually legume. None of this directly reduces pulling, but consistent, well-absorbed nutrition supports the focus and stamina that training requires. See our [best dog food rankings](/best-dog-food-2026-vet-tested-and-ranked/) for a vet-vetted breakdown of what to look for. If your dog pulls because of anxiety or reactivity rather than simple excitement, our [dog anxiety vest guide](/best-dog-anxiety-vest-2026-thundershirt-alternatives/) covers calming tools that address the behavioral root. And for dogs that bolt despite good gear, [GPS trackers](/best-dog-gps-trackers-2026-accuracy-tested/) are worth pairing with any high-pull setup as a safety net, alongside [pet insurance](/best-pet-insurance-2026-coverage-compared/) for the injuries that sometimes result.
 
 ### How long should a harness last?
 

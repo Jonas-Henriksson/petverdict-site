@@ -209,7 +209,7 @@ Also: Open Farm has revised its recipes more than once in the past few years, wh
 
 ## Use Case Recommendations
 
-**For puppies:** Whatever food you pick needs an AAFCO statement for "Growth" or "All Life Stages," and for large-breed puppies it specifically needs to meet large-breed growth requirements (calcium levels are tightly regulated to prevent developmental orthopedic disease). Purina Pro Plan Large Breed Puppy is the cheapest food we'd trust here.
+**For puppies:** Whatever food you pick needs an AAFCO statement for "Growth" or "All Life Stages," and for large-breed puppies it specifically needs to meet large-breed growth requirements (calcium levels are tightly regulated to prevent developmental orthopedic disease). Purina Pro Plan Large Breed Puppy is the cheapest food we'd trust here — for a deeper look at this category, see our [best large breed puppy food guide](/best-puppy-food-large-breeds-2026-growth-optimized/).
 
 **For senior dogs:** Protein restriction for healthy seniors is outdated advice. Unless your vet has diagnosed kidney disease, don't cut protein. The Farmer's Dog turkey recipe worked well for our senior terrier. Pro Plan Bright Mind is a reasonable kibble option.
 
@@ -217,7 +217,7 @@ Also: Open Farm has revised its recipes more than once in the past few years, wh
 
 **For allergies:** Skip all of the above and ask your vet about a hydrolyzed protein diet for proper elimination. Boutique "limited ingredient" foods don't go far enough if you're truly diagnosing an allergy.
 
-**For picky eaters:** Fresh food wins here, but before you spend $250/month on Ollie, get bloodwork done. Sudden pickiness is often a health signal, not a food preference.
+**For picky eaters:** Fresh food wins here, but before you spend $250/month on Ollie, get bloodwork done. Sudden pickiness is often a health signal, not a food preference. For dogs whose stress or [anxiety](/best-dog-anxiety-vest-2026-thundershirt-alternatives/) drives eating irregularities, address the behavioral component first.
 
 ## Transitioning Between Foods
 
@@ -235,7 +235,7 @@ None of our top picks are grain-free, and that's deliberate. Unless your dog has
 
 **Purina Pro Plan** is the food we'd actually recommend to most people. Feeding trial validation, decades of published research, wide availability, and bloodwork outcomes that hold up in veterinary literature. The fact that it's cheap and unsexy is a feature, not a bug.
 
-**Open Farm** is the ranking we expect to get pushback on. It's a perfectly good food. It's also one where you're paying a premium for a story rather than nutrition, and if you're on a budget, redirecting that money to Pro Plan and a good omega-3 supplement will serve your dog better.
+**Open Farm** is the ranking we expect to get pushback on. It's a perfectly good food. It's also one where you're paying a premium for a story rather than nutrition, and if you're on a budget, redirecting that money to Pro Plan and a good [omega-3 fish oil supplement](/best-fish-oil-supplements-dogs-2026/) will serve your dog better. For long-term health protection, [pet insurance](/best-pet-insurance-2026-coverage-compared/) enrolled while your dog is young and healthy is the single most financially impactful decision you can make — and [dental chews](/best-dog-dental-chews-2026-vohc-ranked/) are a low-cost addition to any feeding routine that vets consistently recommend.
 
 ## Frequently Asked Questions
 

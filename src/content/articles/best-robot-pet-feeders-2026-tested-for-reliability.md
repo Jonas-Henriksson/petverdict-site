@@ -253,11 +253,11 @@ The Cat Mate C500 is the anti-smart-feeder. No WiFi, no app, no Bluetooth. You l
 
 **WiFi reliability vs. simplicity** is a real tradeoff. WiFi feeders offer remote monitoring and control, but they add failure points. If your internet goes down, can the feeder still dispense on schedule? (Both PetSafe and PETLIBRO continue local scheduling without WiFi — they just lose remote access.)
 
-If you also want to monitor your pet while you're away, combine a smart feeder with a [Furbo Dog Camera](https://www.amazon.com/dp/B0884JN9GN?tag=petverdict-20) for both feeding oversight and treat dispensing between meals.
+If you also want to monitor your pet while you're away, combine a smart feeder with a [Furbo Dog Camera](https://www.amazon.com/dp/B0884JN9GN?tag=petverdict-20) for both feeding oversight and treat dispensing between meals. Our full [pet camera comparison](/best-pet-camera-2026-furbo-petcube-wyze-tested/) covers all the leading models side by side. For older feeder models and a broader comparison that includes budget options, see our [automatic pet feeders guide](/best-automatic-pet-feeders-2026-tested-reliability/).
 
 ## Final Verdict
 
-**The PetSafe Smart Feed is our top pick** for its flawless reliability, precise portioning, and solid WiFi connectivity. At 150, it hits the sweet spot between the budget options and the premium Whisker Feeder-Robot.
+**The PetSafe Smart Feed is our top pick** for its flawless reliability, precise portioning, and solid WiFi connectivity. At 150, it hits the sweet spot between the budget options and the premium Whisker Feeder-Robot. Whatever you feed, the food itself matters as much as the delivery system — our [best dog food guide](/best-dog-food-2026-vet-tested-and-ranked/) and [best cat food guide](/best-cat-food-2026-complete-buying-guide/) cover what to put in the hopper.
 
 **The PETLIBRO Granary** is the smart choice for budget-conscious buyers. At 70, it delivers 90% of the PetSafe experience at less than half the price. Just secure the hopper lid if you have a determined cat.
 

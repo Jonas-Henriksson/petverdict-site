@@ -211,7 +211,7 @@ Vetoquinol's triglyceride-form omega is stocked through veterinary clinics and m
 
 The omega-3 literature in dogs supports modest, real benefits in a few areas: reduced inflammation (useful adjunct in osteoarthritis management), improved skin barrier function in dogs with atopic dermatitis, and support for the omega-3:omega-6 ratio, which matters because most commercial kibble is substantially weighted toward omega-6s from corn, poultry fat, and similar ingredients. A ratio in the roughly 1:5 to 1:10 range is a reasonable target, and most dogs on kibble-only diets are well below that without supplementation.
 
-What fish oil does not do: it is not a substitute for joint medication in dogs with significant arthritis, it does not "cure" allergies, and it will not make up for a food that is fundamentally wrong for your dog. Expect subtle improvement in coat quality over 6–8 weeks, potential reduction in itch scores in dogs with skin issues, and gradual mobility improvement in older dogs over 8–12 weeks as an adjunct to everything else their care plan includes.
+What fish oil does not do: it is not a substitute for joint medication in dogs with significant arthritis, it does not "cure" allergies, and it will not make up for a food that is fundamentally wrong for your dog. The food foundation matters first — see our [best dog food guide](/best-dog-food-2026-vet-tested-and-ranked/) for ranked options with AAFCO feeding-trial validation. For complete oral health alongside omega-3 supplementation, [VOHC-approved dental chews](/best-dog-dental-chews-2026-vohc-ranked/) address the inflammation pathway from a different angle. Expect subtle improvement in coat quality over 6–8 weeks, potential reduction in itch scores in dogs with skin issues, and gradual mobility improvement in older dogs over 8–12 weeks as an adjunct to everything else their care plan includes.
 
 Skip it entirely if your dog is already on a high-omega-3 diet (some prescription dermatology and cardiac formulas already contain therapeutic levels — double-dosing is a waste of money and potentially problematic for platelet function). Always read the food label first.
 
@@ -236,7 +236,7 @@ Practical rules I follow:
 
 **Watch calories.** A teaspoon of fish oil is roughly 40 kcal. For a 10-pound dog on a 250 kcal/day maintenance budget, that's 15% of the day's calories. Reduce food accordingly or you're just adding weight.
 
-**Puppies**: talk to your vet. Growing dogs have specific DHA requirements that are usually met by a good puppy food, and the dosing math is different from adult dogs. This isn't a default supplement for an 8-week-old.
+**Puppies**: talk to your vet. Growing dogs have specific DHA requirements that are usually met by a good puppy food — our [large breed puppy food guide](/best-puppy-food-large-breeds-2026-growth-optimized/) covers the DHA and calcium requirements that matter most in that growth stage — and the dosing math is different from adult dogs. This isn't a default supplement for an 8-week-old. For unexpected health costs that arise from supplement interactions or skin conditions, [pet insurance](/best-pet-insurance-2026-coverage-compared/) enrolled early covers the dermatology and specialist visits that add up.
 
 ## FAQ
 

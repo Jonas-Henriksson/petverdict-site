@@ -192,7 +192,7 @@ Forget the marketing buckets. Four things matter:
 
 **Fragrance tolerance.** Cats have a much stronger sense of smell than we do. A fragrance that seems pleasant to you may be the reason your cat is urinating on the bathmat. If you've changed litters recently and see any avoidance behavior, switch back — don't tough it out.
 
-For broader guidance on feline nutrition and how diet affects urinary health, our [Best Cat Food 2026: Complete Buying Guide](/best-cat-food-2026-complete-buying-guide) covers protein quality, dry-matter-basis comparisons between wet and dry food, and how diet affects urine concentration (which directly affects how hard your litter has to work).
+For broader guidance on feline nutrition and how diet affects urinary health, our [Best Cat Food 2026: Complete Buying Guide](/best-cat-food-2026-complete-buying-guide) covers protein quality, dry-matter-basis comparisons between wet and dry food, and how diet affects urine concentration (which directly affects how hard your litter has to work). A [cat water fountain](/best-cat-water-fountain-2026-kidney-health/) is one of the most effective ways to reduce urinary crystal risk by keeping cats hydrated — a direct upgrade to any litter routine focused on kidney health. And if you're building out a full hands-off system, our [automatic pet feeders guide](/best-automatic-pet-feeders-2026-tested-reliability/) covers scheduled feeding that pairs with an automatic litter box.
 
 ## Setup Basics
 

@@ -298,7 +298,7 @@ This is also important context: **a fountain is not a treatment for CKD**. It do
 
 For diet management context alongside hydration, see the [Best Cat Food 2026: Complete Buying Guide](/best-cat-food-2026-complete-buying-guide) — phosphorus restriction and moisture content in food are the two dietary levers that matter most for CKD cats.
 
-One monitoring note: stool consistency and urination frequency are often the first observable indicators of dietary or hydration shifts in cats. A [Best Automatic Litter Box 2026](/best-automatic-litter-box-2026-litter-robot-scoopfree-petsafe) makes tracking those frequency changes much easier than counting visits to a traditional box.
+One monitoring note: stool consistency and urination frequency are often the first observable indicators of dietary or hydration shifts in cats. A [Best Automatic Litter Box 2026](/best-automatic-litter-box-2026-litter-robot-scoopfree-petsafe) makes tracking those frequency changes much easier than counting visits to a traditional box. For the litter itself, our [best cat litter guide](/best-cat-litter-2026-tested-odor-control-clumping/) covers low-dust and plant-based options recommended for cats with kidney or respiratory concerns.
 
 And if your cat is currently healthy: CKD management costs — specialist visits, prescription diets, bloodwork every three to six months, subcutaneous fluid supplies — accumulate quickly. Evaluating [Best Pet Insurance 2026: Coverage Compared](/best-pet-insurance-2026-coverage-compared) before a diagnosis is worth doing while coverage for pre-existing conditions is still on the table.
 

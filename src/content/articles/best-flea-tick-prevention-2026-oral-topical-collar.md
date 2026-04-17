@@ -231,7 +231,7 @@ Prevention is one leg of a three-legged stool. The other two:
 
 **Tick checks:** Even on the best preventive, physically check your dog after any time in brushy or wooded areas. Isoxazolines kill ticks fast, but an attached tick is worth noticing, and tick-borne disease transmission windows vary by pathogen.
 
-Our broader approach to pet health is covered in the [2026 dog food guide](/best-dog-food-2026-vet-tested-and-ranked), and if you're budgeting for prevention costs alongside possible treatment scenarios, the [pet insurance comparison](/best-pet-insurance-2026-coverage-compared) is worth a look.
+Our broader approach to pet health is covered in the [2026 dog food guide](/best-dog-food-2026-vet-tested-and-ranked), and if you're budgeting for prevention costs alongside possible treatment scenarios, the [pet insurance comparison](/best-pet-insurance-2026-coverage-compared) is worth a look. Parasite prevention also pairs well with a [pet first aid kit](/best-pet-first-aid-kit-2026/) for tick removal and wound care after outdoor excursions. For dogs on long-term parasite medication, [fish oil supplements](/best-fish-oil-supplements-dogs-2026/) can help maintain the skin barrier that fleas and environmental allergens compromise, and [VOHC-approved dental chews](/best-dog-dental-chews-2026-vohc-ranked/) round out a complete preventive health routine.
 
 ## Verdict
 

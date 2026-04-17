@@ -223,6 +223,8 @@ The things that actually move the needle on serious canine anxiety, based on cur
 - **Medication**, when clinically warranted. Fluoxetine, trazodone, and situational options like Sileo (dexmedetomidine) have real evidence bases for specific cases. A conversation with your vet is worth more than any vest purchase.
 - **Ruling out medical contributors**—sudden-onset anxiety in an adult dog can have underlying causes that no vest will address.
 
+For dogs with anxiety rooted in leash reactivity or frustration on walks, pairing a vest with a [no-pull harness](/best-no-pull-dog-harness-2026-training/) that gives you better physical control can reduce trigger exposure. Nutrition also plays a role in overall stress response — dogs on high-quality food with balanced omega-3s (see our [fish oil supplement guide](/best-fish-oil-supplements-dogs-2026/)) sometimes show improved baseline calm. If your dog's anxiety leads to vet visits for stress-related health issues, a [pet insurance plan](/best-pet-insurance-2026-coverage-compared/) that covers behavioral treatment is worth considering, and our [dog food guide](/best-dog-food-2026-vet-tested-and-ranked/) covers foods that support long-term health.
+
 Vests combine usefully with these things. They don't replace them. If you've tried a well-fitted vest across several anxiety events and your dog still shows severe distress, the vest isn't the problem—it's telling you that you need a bigger intervention.
 
 ## Frequently Asked Questions

@@ -358,7 +358,7 @@ For the majority of dog owners who drop bags into household trash that goes to l
 
 **Budget is the primary constraint**: Doggy Do Good at $0.10/bag is the lowest-cost option with a verifiable certification. Fine for small-to-medium dogs.
 
-If you're thinking about the rest of your dog's gear alongside responsible waste management, our [Best Dog GPS Trackers 2026](/best-dog-gps-trackers-2026-accuracy-tested) review is worth reading for safety on trails and off-leash areas.
+If you're thinking about the rest of your dog's gear alongside responsible waste management, our [Best Dog GPS Trackers 2026](/best-dog-gps-trackers-2026-accuracy-tested) review is worth reading for safety on trails and off-leash areas. For walks with strong pullers, a [no-pull dog harness](/best-dog-harness-for-pulling-2026-tested/) makes managing the leash and the cleanup bag at the same time far more practical. The food your dog eats directly affects stool consistency and volume — our [best dog food guide](/best-dog-food-2026-vet-tested-and-ranked/) covers which formulas produce the cleanest digestion. And for the bigger picture of pet ownership costs, [pet insurance](/best-pet-insurance-2026-coverage-compared/) is worth reviewing before your dog's next walk becomes an unexpected vet visit.
 
 ---
 
