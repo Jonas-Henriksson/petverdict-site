@@ -1,6 +1,7 @@
 ---
 title: "5 Dog Anxiety Vests Tested 2026: Which Actually Calms Dogs?"
 description: "Tested on 25 anxious dogs — only 2 vests showed measurable calming in thunder trials. Weighted vs compression compared with sizing data and honest results."
+image: "https://images.petverdict.net/best-dog-anxiety-vest-2026-thundershirt-alternatives/hero.png"
 date: 2026-04-10
 updated: 2026-04-10
 category: pet-health
@@ -39,6 +40,8 @@ We spent several weeks using five popular ThunderShirt alternatives with a mixed
 
 ## Quick Verdict
 
+![Quick Verdict](https://images.petverdict.net/best-dog-anxiety-vest-2026-thundershirt-alternatives/section-1.png)
+
 **Most consistent results across triggers**: AKC Anti Anxiety and Stress Relief Calming Coat. A well-constructed wrap that fit a range of body shapes reliably and seemed to help more dogs than it didn't.
 
 **Best value if noise phobia is your only concern**: Comfort Zone Calming Vest. Cheap, light, easy to put on, and it did as much as the pricier options for the storm-anxious dogs in our group.
@@ -48,6 +51,8 @@ We spent several weeks using five popular ThunderShirt alternatives with a mixed
 **The one we'd skip**: ZenPet ProCalm Vest. The "weighted panels plus lavender aromatherapy" pitch sounds compelling but created more problems than it solved in our testing.
 
 ## How We Tested
+
+![How We Tested](https://images.petverdict.net/best-dog-anxiety-vest-2026-thundershirt-alternatives/section-2.png)
 
 Five vests, five weeks, eleven dogs ranging from a 14-pound Cavalier to a 96-pound Rottweiler mix. Each dog tried at least two vests across real anxiety events: actual thunderstorms (April storm season helped), fireworks at a local festival, car trips to the vet, and scheduled alone-time for the two dogs with separation issues. Owners kept simple notes: did the dog settle faster than usual, about the same, or not at all? Did they tolerate wearing it, or try to get it off?
 
