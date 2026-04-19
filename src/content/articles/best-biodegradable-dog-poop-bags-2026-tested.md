@@ -1,6 +1,6 @@
 ---
 title: "6 Biodegradable Dog Poop Bags Tested 2026: 2 Fail in Cold"
-description: "ASTM D6400-certified bags outperformed "eco" claims in cold-weather tests — 2 brands failed at 40°F. Ranked by thickness, certification, and real cost per day."
+description: "ASTM D6400-certified bags outperformed 'eco' claims in cold-weather tests — 2 brands failed at 40°F. Ranked by thickness, certification, and real cost per day."
 image: "https://images.petverdict.net/best-biodegradable-dog-poop-bags-2026-tested/hero.png"
 date: 2026-04-13
 updated: 2026-04-13
