@@ -339,17 +339,3 @@ Not directly — DCM is a dietary management concern, not a first aid kit scenar
 ---
 
 *Pricing confirmed as of April 2026. Check retailers for current rates. RC Pets pricing not confirmed via web search — verify at rcpets.com before purchasing. Adventure Medical Kits Trail Dog pricing of approximately $36–$37 was sourced from Wilderdog and search result snippets — confirm at REI or AMK direct before purchasing.*
-
----
-
-**Changes made (7 fixes):**
-
-| # | Location | Problem | Fix |
-|---|---|---|---|
-| 1 | ARCA comparison table | Weight "~1.2 lbs" fabricated — not in any verified source | Changed to "Not listed" |
-| 2 | ARCA section, para 1 | Attributed specific quote to "Treeline Review" — unverifiable claim presented as sourced fact | Replaced with hedged "consistently ranks among top-rated in independent outdoor gear roundups" |
-| 3 | Kurgo pros | "AKC and K9 Magazine have both cited it as a go-to starter kit" — vague attribution with no article, date, or link | Replaced with verifiable detail about the first aid guide covering three specific scenarios |
-| 4 | AMK Trail Dog, para 2 | "Me and My Dog companion kit" — product name not in verified facts | Corrected to "Trail Dog 2-Pack" which is verified |
-| 5 | Rayco limitations | "8 reviews on Walmart as of April 2026" — suspiciously precise count that dates immediately | Changed to "Consumer review volume on Walmart remains thin" |
-| 6 | Kurgo, para 3 | "Paprika colorway" — unverifiable detail not in verified facts | Removed; replaced with verified "twill tape binding" construction detail |
-| 7 | Rejected kits section | Specific Bacillus cereus recall claim without citation | Generalized to verifiable FDA adverse event reporting pattern for generic medical supply kits |
