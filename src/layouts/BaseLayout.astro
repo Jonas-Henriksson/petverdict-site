@@ -2,8 +2,8 @@
 import { SEO } from 'astro-seo';
 import siteConfig from '../../site.config';
 import '../styles/global.css';
-export interface Props { title: string; description?: string; image?: string; canonical?: string; ogType?: string; schemaType?: string; schema?: any; }
-const { title, description = siteConfig.description, image = `${siteConfig.domain}/og-default.jpg`, canonical = Astro.url.href, ogType = 'website', schemaType = 'Organization', schema = {} } = Astro.props as Props;
+export interface Props { title: string; description?: string; image?: string; canonical?: string; ogType?: string; schemaType?: string; schema?: any; noindex?: boolean; }
+const { title, description = siteConfig.description, image = `${siteConfig.domain}/og-default.jpg`, canonical = Astro.url.href, ogType = 'website', schemaType = 'Organization', schema = {}, noindex = false } = Astro.props as Props;
 const defaultSchema = { '@context': 'https://schema.org', '@type': schemaType, name: siteConfig.siteName, url: siteConfig.domain, description: siteConfig.description };
 const finalSchema = Object.keys(schema).length > 0 ? schema : defaultSchema;
 const currentPath = Astro.url.pathname;
@@ -31,27 +31,15 @@ const navLinks = [
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,600,700&display=swap" rel="stylesheet" />
 
     <SEO title={title} description={description} canonical={canonical}
+      noindex={noindex} nofollow={noindex}
       openGraph={{ basic: { title, type: ogType, image, url: canonical }, image: { url: image, width: 1200, height: 630, type: 'image/jpeg' } }}
       twitter={{ creator: '@petverdictnet', card: 'summary_large_image' }} />
     <script type="application/ld+json" set:html={JSON.stringify(finalSchema)} />
     <!-- Plausible Analytics -->
     <script defer data-domain="petverdict.net" src="https://analytics.toolsradar.net/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
     <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
-  
-    <!-- Ezoic Ad Runtime -->
-    <script>
-      var defined_ez = false;
-      if (typeof window.__ezoic_enabled === 'undefined' || window.__ezoic_enabled) {
-        var ez_ad_units = [];
-        var defined_ez = true;
-      }
-    </script>
-    <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-    <script>
-      window.ezstandalone = window.ezstandalone || {};
-      ezstandalone.cmd = ezstandalone.cmd || [];
-    </script>
-    <!-- Google AdSense -->
+
+    <!-- Google AdSense (Ezoic removed: dual mediator was a likely cause of AdSense rejection 2026-04-19) -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8237291568873305" crossorigin="anonymous"></script>
   </head>
   <body>
