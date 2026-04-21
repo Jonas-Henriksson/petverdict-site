@@ -186,9 +186,30 @@ declare module 'astro:content' {
   collection: "articles";
   data: InferEntrySchema<"articles">
 } & { render(): Render[".md"] };
+"best-cat-water-fountain-2026-kidney-health.md": {
+	id: "best-cat-water-fountain-2026-kidney-health.md";
+  slug: "best-cat-water-fountain-2026-kidney-health";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
 "best-dog-anxiety-vest-2026-thundershirt-alternatives.md": {
 	id: "best-dog-anxiety-vest-2026-thundershirt-alternatives.md";
   slug: "best-dog-anxiety-vest-2026-thundershirt-alternatives";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
+"best-dog-coats-winter-2026-tested.md": {
+	id: "best-dog-coats-winter-2026-tested.md";
+  slug: "best-dog-coats-winter-2026-tested";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
+"best-dog-dental-chews-2026-vohc-ranked.md": {
+	id: "best-dog-dental-chews-2026-vohc-ranked.md";
+  slug: "best-dog-dental-chews-2026-vohc-ranked";
   body: string;
   collection: "articles";
   data: InferEntrySchema<"articles">
@@ -210,6 +231,13 @@ declare module 'astro:content' {
 "best-dog-harness-for-pulling-2026-tested.md": {
 	id: "best-dog-harness-for-pulling-2026-tested.md";
   slug: "best-dog-harness-for-pulling-2026-tested";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
+"best-dog-harness-no-pull-training-2026-guide.md": {
+	id: "best-dog-harness-no-pull-training-2026-guide.md";
+  slug: "best-dog-harness-no-pull-training-2026-guide";
   body: string;
   collection: "articles";
   data: InferEntrySchema<"articles">
@@ -242,6 +270,13 @@ declare module 'astro:content' {
   collection: "articles";
   data: InferEntrySchema<"articles">
 } & { render(): Render[".md"] };
+"best-pet-first-aid-kit-2026.md": {
+	id: "best-pet-first-aid-kit-2026.md";
+  slug: "best-pet-first-aid-kit-2026";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
 "best-pet-insurance-2026-coverage-compared.md": {
 	id: "best-pet-insurance-2026-coverage-compared.md";
   slug: "best-pet-insurance-2026-coverage-compared";
@@ -259,6 +294,13 @@ declare module 'astro:content' {
 "best-robot-pet-feeders-2026-tested-for-reliability.md": {
 	id: "best-robot-pet-feeders-2026-tested-for-reliability.md";
   slug: "best-robot-pet-feeders-2026-tested-for-reliability";
+  body: string;
+  collection: "articles";
+  data: InferEntrySchema<"articles">
+} & { render(): Render[".md"] };
+"hills-science-diet-canada-best-places-buy-online-2026.md": {
+	id: "hills-science-diet-canada-best-places-buy-online-2026.md";
+  slug: "hills-science-diet-canada-best-places-buy-online-2026";
   body: string;
   collection: "articles";
   data: InferEntrySchema<"articles">

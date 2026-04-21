@@ -2,6 +2,14 @@ https://www.petverdict.net/* https://petverdict.net/:splat 301!
 
 /sitemap.xml /sitemap-index.xml 301
 
+# 301 redirects for deleted/renamed articles
+/best-dog-harness-for-pulling-2026-tested /best-dog-harness-no-pull-training-2026-guide/ 301
+/best-dog-harness-for-pulling-2026-tested/ /best-dog-harness-no-pull-training-2026-guide/ 301
+/best-no-pull-dog-harness-2026-training /best-dog-harness-no-pull-training-2026-guide/ 301
+/best-no-pull-dog-harness-2026-training/ /best-dog-harness-no-pull-training-2026-guide/ 301
+/best-robot-pet-feeders-2026-tested-for-reliability /best-automatic-pet-feeders-2026-tested-reliability/ 301
+/best-robot-pet-feeders-2026-tested-for-reliability/ /best-automatic-pet-feeders-2026-tested-reliability/ 301
+
 /go/amazon https://www.amazon.com/?tag=petverdict-20 301
 /go/chewy https://chewy.com 301
 /go/petco https://petco.com 301
