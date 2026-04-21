@@ -36,6 +36,8 @@ Flea and tick prevention isn't optional in most of North America. The diseases t
 
 There are three delivery formats worth considering: oral medications (almost all prescription, mostly in the isoxazoline class), topicals (spot-ons applied between the shoulder blades), and collars. Each has real trade-offs, and anyone telling you one is universally best is oversimplifying.
 
+> **Cost note:** Prescription flea and tick medications like NexGard, Bravecto, and Heartgard are often available at significantly lower prices through [Canada Pet Care](/go/canada-pet) compared to US retail and vet office pricing. They ship to the US and most products are the same formulations sold domestically.
+
 ## Quick Verdict
 
 **Best overall for most dogs:** Bravecto chews — 12 weeks of coverage per dose, strong label efficacy, and the convenience factor is real. Caveat: it's an isoxazoline, and the FDA has had a warning on this drug class since 2018.
@@ -270,5 +272,6 @@ Weekly at minimum during tick season, regardless of which preventive you use. Th
 If you're exploring this topic further, these are the tools and products we regularly come back to:
 
 - [Shop Pet Care Supplies](/go/pet-care-supplies)
+- [Canada Pet Care — Save on Prescription Flea & Tick Meds](/go/canada-pet)
 
 *Some of these links may earn us a commission if you sign up or make a purchase. This doesn't affect our reviews or recommendations — see our [disclosure](/disclosure) for details.*
