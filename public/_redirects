@@ -1,3 +1,5 @@
+https://www.petverdict.net/* https://petverdict.net/:splat 301!
+
 /sitemap.xml /sitemap-index.xml 301
 
 /go/amazon https://www.amazon.com/?tag=petverdict-20 301
