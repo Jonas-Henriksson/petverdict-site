@@ -133,6 +133,14 @@ const badgeLabels: Record<string, string> = {
     <div class="article-content">
       <slot />
     </div>
+    <script>
+      document.querySelectorAll('.article-content img').forEach(img => {
+        img.addEventListener('error', () => { (img as HTMLElement).style.display = 'none'; });
+        if ((img as HTMLImageElement).complete && !(img as HTMLImageElement).naturalWidth) {
+          (img as HTMLElement).style.display = 'none';
+        }
+      });
+    </script>
 
     <!-- Lead Capture (only on flagged articles) -->
     {leadCapture && (
