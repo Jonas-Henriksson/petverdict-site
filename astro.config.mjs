@@ -5,6 +5,7 @@ import { rehypeAffiliateLinks } from './src/plugins/rehype-affiliate-links.mjs';
 
 export default defineConfig({
   site: 'https://petverdict.net',
+  trailingSlash: 'always',
   markdown: {
     rehypePlugins: [rehypeAffiliateLinks],
   },
