@@ -158,7 +158,7 @@ const badgeLabels: Record<string, string> = {
 
 <style>
   .article {
-    max-width: 680px;
+    max-width: 720px;
     margin: 0 auto;
     padding: 0 1rem;
   }
@@ -379,6 +379,32 @@ const badgeLabels: Record<string, string> = {
     color: var(--ink-950);
     font-weight: 600;
   }
+  /* ── Breakout — tables + images + explicit .breakout escape the prose column ── */
+  .article-content :global(table),
+  .article-content :global(img),
+  .article-content :global(.breakout) {
+    width: calc(100% + 240px);
+    margin-left: -120px;
+    max-width: calc(100vw - 2rem);
+  }
+
+  /* Tables need scroll container on top of breakout */
+  .article-content :global(table) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Collapse breakout on viewports where it would add no value */
+  @media (max-width: 960px) {
+    .article-content :global(table),
+    .article-content :global(img),
+    .article-content :global(.breakout) {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
   .article-content :global(table) {
     width: 100%;
     border-collapse: collapse;
