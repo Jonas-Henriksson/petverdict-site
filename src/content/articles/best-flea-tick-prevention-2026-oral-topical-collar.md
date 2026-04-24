@@ -1,6 +1,7 @@
 ---
 title: "Oral vs Topical vs Collar Flea Prevention 2026: Vet Verdict"
 description: "Oral treatments outperformed topicals in vet-conducted efficacy trials — but cost 4x more per month. All three methods compared with real-world data for dogs and cats."
+image: "https://images.petverdict.net/best-flea-tick-prevention-2026-oral-topical-collar/hero.png"
 date: 2026-04-09
 updated: 2026-04-09
 category: Pet Health
@@ -40,6 +41,8 @@ There are three delivery formats worth considering: oral medications (almost all
 
 ## Quick Verdict
 
+![Quick Verdict](https://images.petverdict.net/best-flea-tick-prevention-2026-oral-topical-collar/section-1.png)
+
 **Best overall for most dogs:** Bravecto chews — 12 weeks of coverage per dose, strong label efficacy, and the convenience factor is real. Caveat: it's an isoxazoline, and the FDA has had a warning on this drug class since 2018.
 
 **Best topical (and our pick if you want to avoid isoxazolines):** Frontline Plus — widely available, decades of safety data, but fipronil resistance is real in some regions.
@@ -51,6 +54,8 @@ There are three delivery formats worth considering: oral medications (almost all
 **Skip unless you have a very specific reason:** Advantage II — it's older chemistry, flea-only, and there are better options at similar price points.
 
 ## How We Approached This
+
+![How We Approached This](https://images.petverdict.net/best-flea-tick-prevention-2026-oral-topical-collar/section-2.png)
 
 We didn't run a lab. Anyone claiming they tested parasiticides with a 45-dog sample across multiple climates is either a pharmaceutical company with IACUC approval or making it up. What we did: spent six years collectively using these products on our own dogs across three different tick-pressure regions (Northeast, Mid-Atlantic, Pacific Northwest), read the FDA approval packages and EPA incident data, checked resistance literature from parasitology journals, and talked through the trade-offs with two small-animal vets we use regularly. The efficacy numbers you'll see below come from manufacturer label data submitted to regulators — which is legitimate data, but worth understanding as "what happened in the controlled registration study," not "what will happen at your house."
 
