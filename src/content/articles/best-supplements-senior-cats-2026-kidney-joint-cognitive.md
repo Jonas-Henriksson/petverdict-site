@@ -1,6 +1,7 @@
 ---
 title: "Best Supplements for Senior Cats 2026: Kidney, Joint, and Cognitive Support"
 description: "Compare 7 vet-evaluated supplements for aging cats covering kidney disease, joint pain, and cognitive decline — with dosing, 2026 pricing, and top picks."
+image: "https://images.petverdict.net/best-supplements-senior-cats-2026-kidney-joint-cognitive/hero.png"
 date: 2026-04-25
 updated: 2026-04-25
 category: Pet Health
@@ -45,6 +46,8 @@ A note on scope: these are not prescription drugs, and I'm not pretending they'r
 
 ## Quick Verdict
 
+![Quick Verdict](https://images.petverdict.net/best-supplements-senior-cats-2026-kidney-joint-cognitive/section-1.png)
+
 **Overall Pick — CKD Cats:** Rx Vitamins Renal Essentials for Cats. The most complete nutritional support formula for renal patients, designed specifically for cats who already have reduced appetite.
 
 **Best Joint Support:** Cosequin for Cats Soft Chews. The only OTC cat joint supplement with published randomized controlled trial data in cats.
@@ -54,6 +57,8 @@ A note on scope: these are not prescription drugs, and I'm not pretending they'r
 **Budget Preventive Pick:** Zesty Paws Senior Advanced Multivitamin for Cats. Broad-spectrum coverage at the lowest price point on this list — appropriate for healthy aging cats, not diagnosed conditions.
 
 ## How I Evaluated These Supplements
+
+![How I Evaluated These Supplements](https://images.petverdict.net/best-supplements-senior-cats-2026-kidney-joint-cognitive/section-2.png)
 
 I reviewed each formulation against current published literature on feline CKD, osteoarthritis, and cognitive dysfunction. Where clinical trial data existed in cats — and I'll be transparent that it's genuinely thin for most products in this category — I cited it directly. Where it didn't, I evaluated ingredient quality, bioavailability form, and dose relative to what research has used in cats or closely related species.
 
