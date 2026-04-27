@@ -1,6 +1,7 @@
 ---
 title: "Best Muzzles for Greyhounds 2026: Narrow Snout Sizing Guide"
 description: "6 greyhound muzzles tested for narrow snout fit in 2026. Find the right sighthound basket muzzle by snout length, circumference, and head size."
+image: "https://images.petverdict.net/best-muzzle-greyhound-2026-narrow-snout-sizing-guide/hero.png"
 date: 2026-04-27
 updated: 2026-04-27
 category: buyer-guides
@@ -35,6 +36,8 @@ For this guide, I tested six muzzles over eight weeks with two recently adopted 
 
 ## Quick Verdict
 
+![Quick Verdict](https://images.petverdict.net/best-muzzle-greyhound-2026-narrow-snout-sizing-guide/section-1.png)
+
 **Top Pick: Jafco Clear Vinyl Muzzle** — The elongated basket design was purpose-engineered for sighthound anatomy. Clear vinyl lets you monitor your dog's stress signals at all times, and the treat gap makes desensitization training far easier than rigid basket alternatives. At $38–$46 for the standard version, it fits.
 
 **Runner-Up: Baskerville Ultra Muzzle (Size 5 or 6)** — The thermoplastic rubber basket can be heat-molded with warm water to conform to an individual greyhound's snout shape. Widely available at Petco, PetSmart, and Chewy. Sizing requires careful individual measurement and heat-molding steps most buyers don't anticipate.
@@ -44,6 +47,8 @@ For this guide, I tested six muzzles over eight weeks with two recently adopted 
 ---
 
 ## Testing Methodology
+
+![Testing Methodology](https://images.petverdict.net/best-muzzle-greyhound-2026-narrow-snout-sizing-guide/section-2.png)
 
 I evaluated six muzzles across eight weeks of daily walks, reactive trigger exposure, and structured muzzle conditioning sessions with Delphi and Rocket. Each muzzle was worn for a minimum of four full-length walks before assessment. I scored each product on five criteria: anatomical fit for a dolichocephalic snout, escape resistance, panting capacity at rest and during exertion, treat-taking access for positive reinforcement, and hardware durability. Sizing guidance was cross-checked with two greyhound adoption coordinators who collectively fit muzzles on hundreds of ex-racing dogs per year.
 
