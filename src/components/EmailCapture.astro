@@ -1,0 +1,273 @@
+---
+// EmailCapture — Beehiiv email signup, two variants:
+//   inline      : mid-article bar (dark navy, gold CTA)
+//   exit_intent : bottom-sheet slides up on cursor-leave-viewport (once per session)
+interface Props {
+  variant?: 'inline' | 'exit_intent';
+}
+const { variant = 'inline' } = Astro.props;
+const SITE     = 'petverdict';
+const API_URL  = 'https://api.toolsradar.net/subscribe';
+const HEADLINE = 'Pet Care Tips & Deals Weekly';
+---
+
+{variant === 'inline' ? (
+<div class="ec-inline" id="ec-inline">
+  <div class="ec-inner">
+    <div class="ec-text">
+      <p class="ec-headline">{HEADLINE}</p>
+      <p class="ec-sub">No spam. Unsubscribe anytime.</p>
+    </div>
+    <form class="ec-form" id="ec-inline-form" novalidate>
+      <input
+        type="email"
+        name="email"
+        placeholder="you@email.com"
+        required
+        autocomplete="email"
+        class="ec-input"
+        id="ec-inline-email"
+        aria-label="Email address"
+      />
+      <button type="submit" class="ec-btn" id="ec-inline-btn">Subscribe Free</button>
+    </form>
+    <p class="ec-status" id="ec-inline-status" aria-live="polite"></p>
+  </div>
+</div>
+) : (
+<div class="ec-exit" id="ec-exit" aria-hidden="true" role="dialog" aria-label="Newsletter signup">
+  <div class="ec-exit-inner">
+    <button class="ec-exit-close" id="ec-exit-close" aria-label="Close">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <div class="ec-exit-content">
+      <p class="ec-exit-eyebrow">Wait — before you go</p>
+      <p class="ec-exit-headline">{HEADLINE}</p>
+      <form class="ec-form ec-exit-form" id="ec-exit-form" novalidate>
+        <input
+          type="email"
+          name="email"
+          placeholder="you@email.com"
+          required
+          autocomplete="email"
+          class="ec-input"
+          id="ec-exit-email"
+          aria-label="Email address"
+        />
+        <button type="submit" class="ec-btn" id="ec-exit-btn">Subscribe Free</button>
+      </form>
+      <p class="ec-status" id="ec-exit-status" aria-live="polite"></p>
+      <p class="ec-sub">No spam. Unsubscribe anytime.</p>
+    </div>
+  </div>
+</div>
+)}
+
+<script define:vars={{ API_URL, SITE }}>
+  // Shared submit helper
+  function ecBind(formId, emailId, btnId, statusId, source) {
+    const form   = document.getElementById(formId);
+    const input  = document.getElementById(emailId);
+    const btn    = document.getElementById(btnId);
+    const status = document.getElementById(statusId);
+    if (!form || !input || !btn || !status) return;
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = input.value.trim();
+      if (!email) return;
+      btn.disabled = true;
+      btn.textContent = 'Subscribing…';
+      status.textContent = '';
+      status.className = 'ec-status';
+      try {
+        const resp = await fetch(API_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, site: SITE, source }),
+        });
+        const data = await resp.json();
+        if (resp.ok && data.success) {
+          status.textContent = "You’re in! Check your inbox.";
+          status.className = 'ec-status ec-status--ok';
+          input.value = '';
+          if (source === 'exit_intent') {
+            const exitEl = document.getElementById('ec-exit');
+            if (exitEl) setTimeout(() => {
+              exitEl.classList.remove('ec-exit--visible');
+              exitEl.setAttribute('aria-hidden', 'true');
+            }, 1500);
+          }
+        } else {
+          status.textContent = data.error || 'Something went wrong.';
+          status.className = 'ec-status ec-status--err';
+        }
+      } catch (_) {
+        status.textContent = 'Connection error. Please try again.';
+        status.className = 'ec-status ec-status--err';
+      }
+      btn.disabled = false;
+      btn.textContent = 'Subscribe Free';
+    });
+  }
+
+  // Wire inline form
+  ecBind('ec-inline-form', 'ec-inline-email', 'ec-inline-btn', 'ec-inline-status', 'inline');
+
+  // Exit-intent logic
+  (function () {
+    const KEY = 'ec_shown_petverdict';
+    const el  = document.getElementById('ec-exit');
+    if (!el || sessionStorage.getItem(KEY)) return;
+
+    let shown = false;
+    function show() {
+      if (shown) return;
+      shown = true;
+      sessionStorage.setItem(KEY, '1');
+      el.classList.add('ec-exit--visible');
+      el.setAttribute('aria-hidden', 'false');
+    }
+
+    // Desktop: mouse leaves viewport at top
+    document.addEventListener('mouseleave', (e) => { if (e.clientY <= 0) show(); });
+
+    // Mobile: show 30s after user scrolls past 600px and stops
+    let t;
+    window.addEventListener('scroll', () => {
+      clearTimeout(t);
+      t = setTimeout(() => { if (window.scrollY > 600) show(); }, 30000);
+    }, { passive: true });
+
+    const closeBtn = document.getElementById('ec-exit-close');
+    if (closeBtn) closeBtn.addEventListener('click', () => {
+      el.classList.remove('ec-exit--visible');
+      el.setAttribute('aria-hidden', 'true');
+    });
+
+    ecBind('ec-exit-form', 'ec-exit-email', 'ec-exit-btn', 'ec-exit-status', 'exit_intent');
+  })();
+</script>
+
+<style>
+  /* ---- Shared ----------------------------------------------------------- */
+  .ec-form {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .ec-input {
+    flex: 1 1 200px;
+    min-width: 0;
+    padding: 0.6rem 0.9rem;
+    border-radius: 6px;
+    border: 1.5px solid #2e2e3a;
+    background: #0e0e14;
+    color: #e8e8f0;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  .ec-input:focus  { border-color: #c9a84c; }
+  .ec-input::placeholder { color: #5a5a6a; }
+  .ec-btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    border: none;
+    background: #c9a84c;
+    color: #0a0a10;
+    font-size: 0.875rem;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s, transform 0.1s;
+  }
+  .ec-btn:hover   { background: #e0be60; }
+  .ec-btn:active  { transform: scale(0.97); }
+  .ec-btn:disabled { opacity: 0.6; cursor: default; }
+  .ec-status {
+    font-size: 0.8rem;
+    margin-top: 0.35rem;
+    min-height: 1em;
+  }
+  .ec-status--ok  { color: #4ade80; }
+  .ec-status--err { color: #f87171; }
+  .ec-sub { font-size: 0.75rem; color: #6b7280; margin: 0; }
+
+  /* ---- Inline ----------------------------------------------------------- */
+  .ec-inline {
+    background: #0d1117;
+    border: 1px solid #2e2e3a;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 2.5rem 0;
+  }
+  .ec-inner { display: flex; flex-direction: column; gap: 0.85rem; }
+  .ec-text  { display: flex; flex-direction: column; gap: 0.2rem; }
+  .ec-headline {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #e8e8f0;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+
+  /* ---- Exit intent ------------------------------------------------------ */
+  .ec-exit {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9000;
+    transform: translateY(100%);
+    transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    pointer-events: none;
+  }
+  .ec-exit--visible {
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  .ec-exit-inner {
+    background: #0d1117;
+    border-top: 1px solid #2e2e3a;
+    padding: 1.25rem 1.5rem 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 -8px 32px rgba(0,0,0,0.5);
+  }
+  .ec-exit-close {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: #6b7280;
+    cursor: pointer;
+    padding: 0.25rem;
+    line-height: 1;
+  }
+  .ec-exit-close:hover { color: #e8e8f0; }
+  .ec-exit-eyebrow {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #c9a84c;
+    margin: 0 0 0.3rem;
+  }
+  .ec-exit-headline {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #e8e8f0;
+    margin: 0 0 0.85rem;
+  }
+  .ec-exit-form { margin-bottom: 0.5rem; }
+
+  @media (max-width: 600px) {
+    .ec-btn { width: 100%; }
+    .ec-exit-inner { padding: 1rem 1rem 1.25rem; }
+  }
+</style>

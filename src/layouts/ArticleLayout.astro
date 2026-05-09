@@ -22,6 +22,7 @@ import InlineOurPick from '../components/InlineOurPick.astro';
 import StickyBottomBuyBar from '../components/StickyBottomBuyBar.astro';
 import BottomRelatedGrid from '../components/BottomRelatedGrid.astro';
 import NewsletterSignup from '../components/NewsletterSignup.astro';
+import EmailCapture from '../components/EmailCapture.astro';
 import LeadCapture from '../components/LeadCapture.astro';
 import siteConfig from '../../site.config';
 import { authors, getAuthorByName, defaultAuthor } from '../authors';
@@ -133,6 +134,9 @@ const badgeLabels: Record<string, string> = {
     <div class="article-content">
       <slot />
     </div>
+
+    <!-- Email capture — mid-article Beehiiv signup -->
+    <EmailCapture variant="inline" />
     <script>
       document.querySelectorAll('.article-content img').forEach(img => {
         img.addEventListener('error', () => { (img as HTMLElement).style.display = 'none'; });
@@ -162,6 +166,8 @@ const badgeLabels: Record<string, string> = {
        InlineOurPick. Hides near the footer. Dismissable for the session.
        This is the conversion safety net; not a primary surface. -->
   <StickyBottomBuyBar />
+  <!-- Exit-intent email capture -->
+  <EmailCapture variant="exit_intent" />
 </BaseLayout>
 
 <style>
