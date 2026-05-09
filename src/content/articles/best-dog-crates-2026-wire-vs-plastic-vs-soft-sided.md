@@ -1,6 +1,7 @@
 ---
 title: "Best Dog Crates 2026: Wire vs Plastic vs Soft-Sided"
 description: "Comparing the best dog crates of 2026 — wire, plastic, and soft-sided — to help you choose the safest option for your dog."
+image: "https://images.petverdict.net/best-dog-crates-2026-wire-vs-plastic-vs-soft-sided/hero.png"
 date: 2026-05-09
 updated: 2026-05-09
 category: dog-accessories
@@ -46,6 +47,8 @@ The MidWest iCrate Fold & Carry Double Door is the best dog crate for most owner
 
 ## MidWest iCrate Fold & Carry Double Door
 
+![MidWest iCrate Fold & Carry Double Door](https://images.petverdict.net/best-dog-crates-2026-wire-vs-plastic-vs-soft-sided/section-1.png)
+
 **Best for:** Puppy training, everyday home use, owners who move the crate between rooms.
 
 The 36-inch model runs $69.99 and the 42-inch model is $79.99. You can find current pricing and availability through [Chewy](https://petverdict.com/go/chewy). The price-to-durability ratio here is genuinely difficult to beat.
@@ -76,6 +79,8 @@ The tray that lines the floor is removable and dishwasher-safe, which matters af
 [Check price on Amazon](https://www.amazon.com/dp/B002QX2Y4W?tag=petverdict-20)
 
 ## Petmate Sky Kennel
+
+![Petmate Sky Kennel](https://images.petverdict.net/best-dog-crates-2026-wire-vs-plastic-vs-soft-sided/section-2.png)
 
 **Best for:** Airline travel, dogs who prefer visual enclosure, multi-dog households where a sturdier structure matters.
 
