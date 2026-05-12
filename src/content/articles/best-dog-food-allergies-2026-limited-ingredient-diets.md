@@ -1,6 +1,7 @@
 ---
 title: "Best Dog Food for Allergies 2026: Limited Ingredient Diets Ranked by a Vet"
 description: "Vet-ranked limited ingredient and hydrolyzed protein diets for allergic dogs in 2026. Prescription vs OTC compared with real ingredient analysis and DMB data."
+image: "https://images.petverdict.net/best-dog-food-allergies-2026-limited-ingredient-diets/hero.png"
 date: 2026-05-12
 updated: 2026-05-12
 category: Dog Food
@@ -36,6 +37,8 @@ New FDA labeling rules that took effect February 6, 2026 require cleaner ingredi
 
 ## Quick Verdict
 
+![Quick Verdict](https://images.petverdict.net/best-dog-food-allergies-2026-limited-ingredient-diets/section-1.png)
+
 **Overall Best (Prescription):** Royal Canin Hydrolyzed Protein HP — Protein fragments small enough to avoid immune recognition in most dogs; the closest thing to a clinical standard for elimination trials, backed by AAFCO feeding trial compliance.
 
 **Best Prescription Alternative:** Hill's Prescription Diet z/d — Hydrolyzed chicken option for dogs whose owners need a non-soy hydrolysate; better palatability than Royal Canin HP in my clinical experience.
@@ -49,6 +52,8 @@ New FDA labeling rules that took effect February 6, 2026 require cleaner ingredi
 ---
 
 ## How I Evaluated These Products
+
+![How I Evaluated These Products](https://images.petverdict.net/best-dog-food-allergies-2026-limited-ingredient-diets/section-2.png)
 
 I assessed each diet against WSAVA Global Nutrition Committee recommendations, reviewed guaranteed analysis panels against peer-reviewed literature on canine food hypersensitivity, and verified whether each brand employs a board-certified veterinary nutritionist (DACVN). I also checked whether AAFCO adequacy was established via feeding trials or nutrient profile formulation — a distinction I consider clinically meaningful and that I'll explain in detail below. My clinical observations draw on anonymized patient records from my practice over the past 18 months, tracking outcomes in dogs placed on elimination diets using these specific products. I also consulted with my DACVN colleague on protein hydrolysis and antigenicity questions. I want to be transparent: my clinical experience is observational, not a controlled study, and where I cite manufacturer data, I'll say so.
 
