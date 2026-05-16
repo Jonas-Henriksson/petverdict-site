@@ -1,6 +1,7 @@
 ---
 title: "Spot & Tango Review 2026: Fresh vs. UnKibble — Which Is Better Value?"
 description: "Compare Spot & Tango Fresh vs UnKibble 2026 on price, ingredients & AAFCO compliance. Vet-tested across 6 dogs. Which format wins?"
+image: "https://images.petverdict.net/spot-and-tango-review-2026-fresh-vs-unkibble/hero.png"
 date: 2026-05-16
 updated: 2026-05-16
 category: dog-food
@@ -37,6 +38,8 @@ One ground rule: I will not describe this food as "vet-recommended" without spec
 
 ## Quick Verdict
 
+![Quick Verdict](https://images.petverdict.net/spot-and-tango-review-2026-fresh-vs-unkibble/section-1.png)
+
 > **Best for small breeds and GI sensitivity:** Spot & Tango Fresh (Turkey & Red Quinoa) — higher moisture, superior digestibility, cost manageable under 20 lbs
 
 > **Best for most households (value + convenience):** Spot & Tango UnKibble (Beef + Barley) — shelf-stable, ~40% cheaper, same AAFCO compliance and manufacturing
@@ -46,6 +49,8 @@ One ground rule: I will not describe this food as "vet-recommended" without spec
 > **Skip both if:** Your dog weighs over 120 lbs or cost is a primary driver — Purina Pro Plan large breed at $60–90/month has the strongest independent vet-recommendation data in the segment
 
 ## Testing Methodology
+
+![Testing Methodology](https://images.petverdict.net/spot-and-tango-review-2026-fresh-vs-unkibble/section-2.png)
 
 I evaluated both Spot & Tango formats against WSAVA Global Nutrition Committee criteria and my own clinical observation protocol over 8–16 weeks per patient. Six patient-owned dogs participated: two small breeds (Shih Tzu, 10 lbs; Toy Poodle, 9 lbs), two medium breeds (Border Collie, 38 lbs; French Bulldog, 26 lbs), and two large breeds (Labrador Retriever, 72 lbs; Golden Retriever, 68 lbs). I tracked stool quality, coat condition, bodyweight, and owner-reported palatability at two-week intervals. I also reviewed published ingredient panels and consulted with board-certified veterinary nutritionist colleague Dr. M. Chen (DACVN) specifically on DCM risk for the grain-free Cod + Salmon recipe and on dry matter basis interpretation of the guaranteed analysis.
 
